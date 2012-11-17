@@ -15,8 +15,10 @@ public class GisSystemController {
 		
 		while( true ) {
 			String rawCommand = this.dataAccessController.getNextCommandLine();
-			ICommand command = commandParser.parseCommand( rawCommand );
-			command.execute( this.dataAccessController );
+			if( rawCommand.charAt( 0 ) != ';' ) {				
+				ICommand command = commandParser.parseCommand( rawCommand );
+				command.execute( this.dataAccessController );
+			}
 		}
 	}
 }

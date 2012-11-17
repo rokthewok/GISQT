@@ -9,11 +9,11 @@ import gissystem.interfaces.ILogger;
 import gissystem.models.GeographicCoordinate;
 
 public class DataAccessController {
-	private RandomAccessFile databaseFile;
+	private ILogger databaseFile;
 	private RandomAccessFile commandFile;
 	private ILogger logFile;
 	
-	public DataAccessController( RandomAccessFile databaseFile, RandomAccessFile commandFile, ILogger logFile ) {
+	public DataAccessController( ILogger databaseFile, RandomAccessFile commandFile, ILogger logFile ) {
 		this.databaseFile = databaseFile;
 		this.commandFile = commandFile;
 		this.logFile = logFile;

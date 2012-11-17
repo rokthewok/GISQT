@@ -1,5 +1,7 @@
 package gissystem.datastructures;
 
+import java.util.Vector;
+
 public class HashTable<T> {
 	private Object [] elements;
 	private int tableSize;
@@ -17,44 +19,63 @@ public class HashTable<T> {
 		this.elements = new Object[this.tableSize];
 	}
 	
+	@SuppressWarnings("unchecked")
 	public void insert( String key, T element ) {
-		Pair<T> pair = new Pair<T>( key, element );
 		int hashValue = elfHash( key ) % this.tableSize;
 		
+		boolean inserted = false;
 		int i = 1;
 		int index = hashValue;
+		
 		while( this.elements[index] != null ) {
+			// if the keys are equal, then add the value to the list of values (one-to-many relationship)
+			if( ( (Pair<T>) this.elements[index] ).getKey().equals( key ) ) {
+				( (Pair<T>) this.elements[index] ).getValues().add( element );
+				
+				inserted = true;
+				break;
+			}
 			index = ( hashValue + ( i * i + i ) / 2 ) % this.tableSize;
 			i++;
 		}
 		
-		this.elements[index] = pair;
+		// if inserted is false, then we need to make a new entry
+		if( !inserted ) {
+			Pair<T> pair = new Pair<T>( key, element );
+			this.elements[index] = pair;
 		
-		this.currentPopulation++;
-		if( this.currentPopulation >= ( this.tableSize * 0.70 ) 
-				&& this.tableSize != TABLE_SIZES[TABLE_SIZES.length - 1] ) {
-			this.grow();
+			// since we added a new key entry, then we need to increment the population of the table 
+			this.currentPopulation++;
+			if( this.currentPopulation >= ( this.tableSize * 0.70 ) 
+					&& this.tableSize != TABLE_SIZES[TABLE_SIZES.length - 1] ) {
+				this.grow();
+			}
 		}
 	}
 	
 	@SuppressWarnings("unchecked")
-	public T remove( String key ) {
+	public Vector<T> remove( String key ) {
 		int index = elfHash( key ) % this.tableSize;
 		Pair<T> temp = (Pair<T>) this.elements[index];
 		this.elements[index] = null;
 		this.currentPopulation--;
 		
-		return temp.getValue();
+		return temp.getValues();
 	}
 	
 	@SuppressWarnings("unchecked")
-	public T get( String key ) {
+	public Vector<T> get( String key ) {
 		int index = elfHash( key ) % this.tableSize;
-		if( this.elements[index] != null ) {
-			return ((Pair<T>) this.elements[index] ).getValue();
-		} else {
-			return null;
+		int i = 1;
+		while( this.elements[index] != null ) {
+			if( key.equals( ( (Pair<T>) this.elements[index] ).getKey() ) ) {
+				return ((Pair<T>) this.elements[index] ).getValues();
+			}
+			
+			index = ( index + ( i * i + i ) / 2 ) % this.tableSize;
 		}
+		
+		return null;
 	}
 	
 	public int getCapacity() {
@@ -106,15 +127,15 @@ public class HashTable<T> {
 	@Override
 	public String toString() {
 		StringBuilder sb = new StringBuilder();
-		sb.append( "[" );
 		for( int i = 0; i < this.tableSize; i++ ) {
-			sb.append( "{" );
 			if( this.elements[i] != null ) {
+				sb.append( i );
+				sb.append( ":\t" );
+				sb.append( "{" );
 				sb.append( this.elements[i].toString() );
+				sb.append( "}\n" );
 			}
-			sb.append( "} " );
 		}
-		sb.append("]");
 		
 		return sb.toString();
 	}
@@ -122,22 +143,23 @@ public class HashTable<T> {
 	@SuppressWarnings("hiding")
 	private class Pair<T> {
 		private String key;
-		private T value;
+		private Vector<T> values;
 		private Pair( String key, T value ) {
 			this.key = key;
-			this.value = value;
+			this.values = new Vector<T>();
+			this.values.add( value );
 		}
 		
 		private String getKey() {
 			return this.key;
 		}
 		
-		private T getValue() {
-			return this.value;
+		private Vector<T> getValues() {
+			return this.values;
 		}
 		
 		public String toString() {
-			return this.key + ", " + this.value.toString();
+			return this.key + ", " + this.values.toString();
 		}
 	}
 }

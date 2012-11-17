@@ -4,6 +4,7 @@ import static org.junit.Assert.*;
 import gissystem.datastructures.HashTable;
 
 import java.util.Random;
+import java.util.Vector;
 
 import org.junit.Before;
 import org.junit.Test;
@@ -16,18 +17,21 @@ public class HashTableTests {
 
 	@Test
 	public void insertTest() {
-		Integer [] array = new Integer[700];
+		Vector<Integer> array = new Vector<Integer>(700);
 		HashTable<Integer> table = new HashTable<Integer>();
 		Random generator = new Random();
 		
 		for( int i = 0; i < 700; i++ ) {
 			Integer value = generator.nextInt( 1000 );
-			array[i] = value;
+			if( array.contains( value ) ) {
+				continue;
+			}
+			array.add( value );
 			String key = "hey! " + value.toString();
 			table.insert( key, value );
 		}
 
-		assertEquals( table.size(), array.length );
+		assertEquals( array.size(), table.size() );
 	}
 
 	@Test
@@ -35,7 +39,9 @@ public class HashTableTests {
 		HashTable<Integer> table = new HashTable<Integer>();
 		table.insert( "hello there", new Integer( 25 ) );
 		
-		assertEquals( new Integer( 25 ), table.remove( "hello there" ) );
+		Vector<Integer> values = new Vector<Integer>();
+		values.add( new Integer( 25 ) );
+		assertEquals( values, table.remove( "hello there" ) );
 	}
 	
 	@Test
@@ -52,7 +58,13 @@ public class HashTableTests {
 		HashTable<Integer> table = new HashTable<Integer>();
 		table.insert( "hello there", new Integer( 25 ) );
 		
-		assertEquals( new Integer( 25 ), table.get( "hello there" ) );
+		Vector<Integer> values = new Vector<Integer>();
+		values.add( new Integer( 25 ) );
+		assertEquals( values, table.get( "hello there" ) );
+		
+		table.insert( "hello there", new Integer( 30 ) );
+		values.add( new Integer( 30 ) );
+		assertEquals( values, table.get( "hello there" ) );
 	}
 	
 	@Test
