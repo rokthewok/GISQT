@@ -33,7 +33,7 @@ public class DataAccessControllerStub implements IDataAccessController {
 	}
 
 	@Override
-	public String findInDatabase(Integer offset) {
+	public String findInDatabase(Long offset) {
 		return null;
 	}
 

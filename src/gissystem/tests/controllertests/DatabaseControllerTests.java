@@ -3,8 +3,6 @@ package gissystem.tests.controllertests;
 import static org.junit.Assert.*;
 
 import java.io.File;
-import java.io.FileNotFoundException;
-
 import gissystem.controllers.DatabaseController;
 
 import org.junit.Before;
@@ -16,14 +14,11 @@ public class DatabaseControllerTests {
 	@Before
 	public void setUp() throws Exception {
 		controller = null;
-		try {
-			File db = new File( "database.txt" );
-			db.delete();
-			controller = new DatabaseController();
-		} catch (FileNotFoundException e) {
-			// TODO Auto-generated catch block
-			e.printStackTrace();
-		}
+		
+		File db = new File( "database.txt" );
+		db.delete();
+		controller = new DatabaseController();
+			
 		controller.add( "this is a feature" );
 		controller.add( "this is also a feature" );
 		controller.add( "this is not a feature" );

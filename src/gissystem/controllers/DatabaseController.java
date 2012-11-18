@@ -11,13 +11,17 @@ public class DatabaseController {
 	private BufferPool<Long, String> bufferPool;
 	private RandomAccessFile database;
 	
-	public DatabaseController() throws FileNotFoundException {
+	public DatabaseController() {
 		this( new File( "database.txt" ) );
 	}
 	
-	public DatabaseController( File databaseFile ) throws FileNotFoundException {
+	public DatabaseController( File databaseFile ) {
 		this.bufferPool = new BufferPool<Long, String>( 20 );
-		this.database = new RandomAccessFile( databaseFile, "rw" );
+		try {
+			this.database = new RandomAccessFile( databaseFile, "rw" );
+		} catch( FileNotFoundException e ) {
+			e.printStackTrace();
+		}
 	}
 	
 	public String get( Long offset ) {
