@@ -5,15 +5,16 @@ import java.util.List;
 
 import gissystem.datastructures.HashTable;
 import gissystem.datastructures.PrQuadtree;
+import gissystem.interfaces.IDataAccessController;
 import gissystem.interfaces.ILogger;
 import gissystem.models.GeographicCoordinate;
 
-public class DataAccessController {
+public class DataAccessController implements IDataAccessController {
 	private ILogger databaseFile;
 	private RandomAccessFile commandFile;
 	private ILogger logFile;
 	
-	private PrQuadtree quadTree;
+	private QuadTreeController quadTreeController;
 	private HashTableController hashTableController;
 	
 	public DataAccessController( ILogger databaseFile, RandomAccessFile commandFile, ILogger logFile ) {
@@ -30,23 +31,15 @@ public class DataAccessController {
 		return null;
 	}
 	
-	public PrQuadtree getQuadTree() {
-		return null;
+	public QuadTreeController getQuadTreeController() {
+		return this.quadTreeController;
 	}
 	
-	public List<Integer> findByCoordinates( GeographicCoordinate latitude, GeographicCoordinate longitude ) {
-		return null;
+	public HashTableController getHashTableController() {
+		return this.hashTableController;
 	}
 	
-	public List<Integer> findByRegion( GeographicCoordinate centerLatitude, GeographicCoordinate centerLongitude, int height, int width ) {
-		return null;
-	}
-	
-	public Integer findByNameAndState( String featureName, String state ) {
-		return null;
-	}
-	
-	public HashTable<Long> getHashTable() {
-		return null;
+	public ILogger getLogger() {
+		return this.logFile;
 	}
 }
