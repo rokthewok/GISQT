@@ -40,7 +40,7 @@ public class GeographicCoordinate {
 	
 	public int toSeconds() {
 		int totalSeconds = this.degrees * 3600 + this.minutes * 60 + this.seconds;
-		if( this.cardinalDirection == "S" || this.cardinalDirection == "W" ) {
+		if( this.cardinalDirection == "South" || this.cardinalDirection == "West" ) {
 			totalSeconds = -totalSeconds;
 		}
 		
@@ -66,6 +66,10 @@ public class GeographicCoordinate {
 	
 	@Override
 	public boolean equals( Object aThat ) {
+		if( aThat == null ) {
+			return false;
+		}
+		
 		if( this == aThat ) {
 			return true;
 		}

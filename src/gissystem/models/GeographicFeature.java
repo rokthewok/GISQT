@@ -194,6 +194,10 @@ public class GeographicFeature {
 	
 	@Override
 	public boolean equals( Object aThat ) {
+		if( aThat == null ) {
+			return false;
+		}
+		
 		if( this == aThat ) {
 			return true;
 		}
@@ -203,22 +207,29 @@ public class GeographicFeature {
 		}
 		
 		GeographicFeature that = (GeographicFeature) aThat;
-		return this.alphabeticStateCode.equals( that.alphabeticStateCode ) &&
-			   this.classification.equals( that.classification ) &&
-			   this.countyName.equals( that.countyName ) &&
-			   this.dateCreated.equals( that.dateCreated ) &&
-			   this.dateEdited.equals( that.dateEdited ) &&
-			   this.elevationInFeet.equals( that.elevationInFeet ) &&
-			   this.elevationInMeters.equals( that.elevationInMeters ) &&
-			   this.id.equals( that.id ) &&
-			   this.numericCountyCode.equals( that.numericCountyCode ) &&
-			   this.numericStateCode.equals( that.numericStateCode ) &&
-			   this.name.equals( that.name ) &&
-			   this.mapName.equals( that.mapName ) &&
-			   this.primaryLatitude.equals( that.primaryLatitude ) &&
-			   this.primaryLongitude.equals( that.primaryLongitude ) &&
-			   this.sourceLatitude.equals( that.sourceLatitude ) &&
-			   this.sourceLongitude.equals( that.sourceLongitude );
+		return this.equalsHelper( that );
+	}
+	
+	private boolean equalsHelper( GeographicFeature that ) {
+		boolean equal = true;
+		if( this.alphabeticStateCode != null ) equal = equal && this.alphabeticStateCode.equals( that.alphabeticStateCode );
+		if( this.classification != null ) equal = equal && this.classification.equals( that.classification );
+		if( this.countyName != null ) equal = equal && this.countyName.equals( that.countyName );
+		if( this.dateCreated != null ) equal = equal && this.dateCreated.equals( that.dateCreated );
+		if( this.dateEdited != null ) equal = equal && this.dateEdited.equals( that.dateEdited );
+		if( this.elevationInFeet != null ) equal = equal && this.elevationInFeet.equals( that.elevationInFeet );
+		if( this.elevationInMeters != null ) equal = equal && this.elevationInMeters.equals( that.elevationInMeters );
+		if( this.id != null ) equal = equal && this.id.equals( that.id );
+		if( this.numericCountyCode != null ) equal = equal && this.numericCountyCode.equals( that.numericCountyCode );
+		if( this.numericStateCode != null ) equal = equal && this.numericStateCode.equals( that.numericStateCode );
+		if( this.name != null ) equal = equal && this.name.equals( that.name );
+		if( this.mapName != null ) equal = equal && this.mapName.equals( that.mapName );
+		if( this.primaryLatitude != null ) equal = equal && this.primaryLatitude.equals( that.primaryLatitude );
+		if( this.primaryLongitude != null ) equal = equal && this.primaryLongitude.equals( that.primaryLongitude );
+		if( this.sourceLatitude != null ) equal = equal && this.sourceLatitude.equals( that.sourceLatitude );
+		if( this.sourceLongitude != null ) equal = equal && this.sourceLongitude.equals( that.sourceLongitude );
+		
+		return equal;
 	}
 }
 

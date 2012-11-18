@@ -1,4 +1,4 @@
-package gissystem.tests;
+package gissystem.tests.datastructuretests;
 
 import static org.junit.Assert.*;
 

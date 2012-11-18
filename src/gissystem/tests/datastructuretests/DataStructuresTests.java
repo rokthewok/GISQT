@@ -1,4 +1,4 @@
-package gissystem.tests;
+package gissystem.tests.datastructuretests;
 
 import org.junit.runner.RunWith;
 import org.junit.runners.Suite;
