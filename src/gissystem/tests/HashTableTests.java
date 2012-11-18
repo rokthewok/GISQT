@@ -33,6 +33,15 @@ public class HashTableTests {
 
 		assertEquals( array.size(), table.size() );
 	}
+	
+	@Test
+	public void insertProbingTest() {
+		HashTable<Integer> table = new HashTable<Integer>();
+		assertEquals( 0, table.insert( "hey!", new Integer( 25 ) ) );
+		// dunno how to choose a key that will hash to the same value...
+		//assertEquals( 1, table.insert( "hey!", new Integer( 15 ) ) );
+		assertEquals( -1, table.insert( "hey!", new Integer( 25 ) ) );
+	}
 
 	@Test
 	public void removeTest() {

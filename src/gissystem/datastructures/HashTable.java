@@ -19,8 +19,14 @@ public class HashTable<T> {
 		this.elements = new Object[this.tableSize];
 	}
 	
+	/**
+	 * Inserts an item in the table. Returns the number of probe steps it took to insert the value, or -1 if the item is already in the table.
+	 * @param key
+	 * @param element
+	 * @return
+	 */
 	@SuppressWarnings("unchecked")
-	public void insert( String key, T element ) {
+	public int insert( String key, T element ) {
 		int hashValue = elfHash( key ) % this.tableSize;
 		
 		boolean inserted = false;
@@ -30,6 +36,11 @@ public class HashTable<T> {
 		while( this.elements[index] != null ) {
 			// if the keys are equal, then add the value to the list of values (one-to-many relationship)
 			if( ( (Pair<T>) this.elements[index] ).getKey().equals( key ) ) {
+				// check if the item is already in the table
+				if( ( (Pair<T>) this.elements[index] ).getValues().contains( element ) ) {
+					return -1;
+				}
+				
 				( (Pair<T>) this.elements[index] ).getValues().add( element );
 				
 				inserted = true;
@@ -51,6 +62,9 @@ public class HashTable<T> {
 				this.grow();
 			}
 		}
+		
+		// return the number of probes needed to insert
+		return i - 1;
 	}
 	
 	@SuppressWarnings("unchecked")

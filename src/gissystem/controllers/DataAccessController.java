@@ -45,6 +45,7 @@ public class DataAccessController {
 	public Integer findByNameAndState( String featureName, String state ) {
 		return null;
 	}
+	
 	public HashTable<Long> getHashTable() {
 		return null;
 	}
