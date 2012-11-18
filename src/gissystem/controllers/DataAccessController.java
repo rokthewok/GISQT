@@ -14,7 +14,7 @@ public class DataAccessController {
 	private ILogger logFile;
 	
 	private PrQuadtree quadTree;
-	private HashTable<Long> hashTable;
+	private HashTableController hashTableController;
 	
 	public DataAccessController( ILogger databaseFile, RandomAccessFile commandFile, ILogger logFile ) {
 		this.databaseFile = databaseFile;
