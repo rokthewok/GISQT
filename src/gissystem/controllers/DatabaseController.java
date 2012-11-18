@@ -12,12 +12,12 @@ public class DatabaseController {
 	private RandomAccessFile database;
 	
 	public DatabaseController() throws FileNotFoundException {
-		this( "database.txt" );
+		this( new File( "database.txt" ) );
 	}
 	
-	public DatabaseController( String databaseFilename ) throws FileNotFoundException {
+	public DatabaseController( File databaseFile ) throws FileNotFoundException {
 		this.bufferPool = new BufferPool<Long, String>( 20 );
-		this.database = new RandomAccessFile( new File( databaseFilename ), "rw" );
+		this.database = new RandomAccessFile( databaseFile, "rw" );
 	}
 	
 	public String get( Long offset ) {
@@ -40,11 +40,16 @@ public class DatabaseController {
 	public void add( String rawFeature ) {
 		try {
 			// the new offset of the feature being added will be the length - 1 of the database file
-			this.bufferPool.add( this.database.length() - 1, rawFeature );
-			this.database.seek( this.database.length() - 1 );
-			this.database.writeChars( rawFeature );
+			this.bufferPool.add( this.database.length(), rawFeature );
+			this.database.seek( this.database.length() );
+			this.database.writeBytes( rawFeature );
+			this.database.writeBytes( "\n" );
 		} catch( IOException e ) {
 			e.printStackTrace();
 		}
+	}
+	
+	public String bufferPoolToString() {
+		return this.bufferPool.toString();
 	}
 }
