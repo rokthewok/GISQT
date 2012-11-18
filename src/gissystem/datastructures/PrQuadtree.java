@@ -214,7 +214,6 @@ public class PrQuadtree {
 	// Post: If elem lies in the tree's region, and a matching element occurs 
 	//       in the tree, then that element has been removed. 
 	// Returns true iff a matching element has been removed from the tree. 
-	@SuppressWarnings("unchecked")
 	public boolean delete(IPoint Elem) {
 		if( Elem == null ) {
 			return false;
@@ -256,7 +255,6 @@ public class PrQuadtree {
 		}
 	}
 	
-	@SuppressWarnings("unchecked")
 	private boolean delete( prQuadInternal parent, prQuadNode child, Direction directionFrom,
 							IPoint point, long xMin, long xMax, long yMin, long yMax ) {
 		if( point == null ) {
@@ -453,6 +451,9 @@ public class PrQuadtree {
 	}
 
 	@Override
+	/**
+	 * Creates a String depiction of the tree. Nodes are written out in NW, NE, SE, SW order.
+	 */
 	public String toString() {
 		StringBuilder sb = new StringBuilder();
 		

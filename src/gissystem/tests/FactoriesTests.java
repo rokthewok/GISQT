@@ -5,7 +5,7 @@ import org.junit.runners.Suite;
 import org.junit.runners.Suite.SuiteClasses;
 
 @RunWith(Suite.class)
-@SuiteClasses({ HashTableTests.class, PrQuadtreeTests.class, BufferPoolTests.class })
-public class DataStructuresTests {
+@SuiteClasses({ GeographicCoordinateFactoryTests.class })
+public class FactoriesTests {
 
 }

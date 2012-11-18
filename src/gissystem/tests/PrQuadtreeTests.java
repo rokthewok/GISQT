@@ -33,16 +33,16 @@ public class PrQuadtreeTests {
 	@Test
 	public void insertTest() {
 		tree = new PrQuadtree( -100, 100, -100, 100, 2 );
-		tree.insert( new Point( 10, 10 ), 1L );
-		tree.insert( new Point( -10, -10 ), 2L );
-		tree.insert( new Point( -10, 10 ), 3L );
-		tree.insert( new Point( 15, 15 ), 4L );
+		assertTrue( tree.insert( new Point( 10, 10 ), 1L ) );
+		assertTrue( tree.insert( new Point( -10, -10 ), 2L ) );
+		assertTrue( tree.insert( new Point( -10, 10 ), 3L ) );
+		assertTrue( tree.insert( new Point( 15, 15 ), 4L ) );
 		
-		tree.insert( new Point( 10, 10 ), 5L );
-		tree.insert( new Point( 55, 60 ) , 6L );
+		// check splitting
+		assertTrue( tree.insert( new Point( 10, 10 ), 5L ) );
+		assertTrue( tree.insert( new Point( 55, 60 ) , 6L ) );
 		
 		//System.out.println( tree.toString() );
-		fail("Not yet implemented");
 	}
 
 	@Test
@@ -65,11 +65,11 @@ public class PrQuadtreeTests {
 	public void deleteTest() {
 		System.out.println( tree.toString() );
 		System.out.println( "\n\n" );
-		tree.delete( new Point( 10, 10 ) );
+		assertTrue( tree.delete( new Point( 10, 10 ) ) );
 		System.out.println( tree.toString() );
 		System.out.println( "\n\n" );
-		tree.delete( new Point( 15, 15 ) );
+		assertTrue( tree.delete( new Point( 15, 15 ) ) );
 		System.out.println( tree.toString() );
-		fail( "Not yet implemented" );
+		
 	}
 }
