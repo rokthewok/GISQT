@@ -5,7 +5,7 @@ import org.junit.runners.Suite;
 import org.junit.runners.Suite.SuiteClasses;
 
 @RunWith(Suite.class)
-@SuiteClasses({ ImportCommandTests.class, WorldCommandTests.class, WhatIsAtCommandTests.class })
+@SuiteClasses({ ImportCommandTests.class, WorldCommandTests.class, WhatIsAtCommandTests.class, WhatIsCommandTests.class })
 public class CommandTests {
 
 }

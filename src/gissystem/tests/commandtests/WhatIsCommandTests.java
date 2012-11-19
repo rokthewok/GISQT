@@ -2,10 +2,10 @@ package gissystem.tests.commandtests;
 
 import static org.junit.Assert.*;
 
-import gissystem.commands.CountWhatIsAtCommand;
+import gissystem.commands.CountWhatIsCommand;
 import gissystem.commands.ImportCommand;
-import gissystem.commands.LongWhatIsAtCommand;
-import gissystem.commands.WhatIsAtCommand;
+import gissystem.commands.LongWhatIsCommand;
+import gissystem.commands.WhatIsCommand;
 import gissystem.commands.WorldCommand;
 import gissystem.helpers.io.ConsoleLogger;
 import gissystem.tests.helpers.DataAccessControllerStub;
@@ -13,7 +13,7 @@ import gissystem.tests.helpers.DataAccessControllerStub;
 import org.junit.Before;
 import org.junit.Test;
 
-public class WhatIsAtCommandTests {
+public class WhatIsCommandTests {
 	private DataAccessControllerStub controller;
 	
 	@Before
@@ -34,19 +34,18 @@ public class WhatIsAtCommandTests {
 
 	@Test
 	public void test() {
-		String rawLatitude = "382607N";
-		String rawLongitude = "0793312W";
-		WhatIsAtCommand command = new WhatIsAtCommand( rawLatitude, rawLongitude );
+		String featureName = "Hupman Valley";
+		String stateAbbreviation = "VA";
+		WhatIsCommand command = new WhatIsCommand( featureName, stateAbbreviation );
 		command.execute( controller );
 		
-		LongWhatIsAtCommand longCommand = new LongWhatIsAtCommand( rawLatitude, rawLongitude );
+		LongWhatIsCommand longCommand = new LongWhatIsCommand( featureName, stateAbbreviation );
 		longCommand.execute( controller );
 		
-		CountWhatIsAtCommand countCommand = new CountWhatIsAtCommand( rawLatitude, rawLongitude );
+		CountWhatIsCommand countCommand = new CountWhatIsCommand( featureName, stateAbbreviation );
 		countCommand.execute( controller );
 		
-		System.out.println( "\n" );
-		// once again, by inspection
+		// Once again... by inspection. >_> <_<
 		assertTrue( true );
 	}
 

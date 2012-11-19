@@ -1,6 +1,9 @@
 package gissystem.tests.commandtests;
 
 import static org.junit.Assert.*;
+
+import java.io.File;
+
 import gissystem.commands.ImportCommand;
 import gissystem.commands.WorldCommand;
 import gissystem.helpers.io.ConsoleLogger;
@@ -17,6 +20,9 @@ public class ImportCommandTests {
 
 	@Test
 	public void test() {
+		File databaseFile = new File( "database.txt" );
+		databaseFile.delete();
+		
 		DataAccessControllerStub controller = new DataAccessControllerStub( new ConsoleLogger() );
 		
 		// set up quadtree with command that was tested previously

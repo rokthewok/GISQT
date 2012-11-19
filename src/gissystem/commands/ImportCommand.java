@@ -19,7 +19,6 @@ public class ImportCommand implements ICommand {
 	
 	@Override
 	public void execute( IDataAccessController controller ) {
-		// TODO Auto-generated method stub
 		try {
 			RandomAccessFile recordsFile = new RandomAccessFile( new File( this.filename ), "r" );
 			
@@ -49,7 +48,6 @@ public class ImportCommand implements ICommand {
 			controller.getLogger().writeToLog( formatLogMessage( count, maxProbe ) );
 			recordsFile.close();
 		} catch (IOException e) {
-			// TODO Auto-generated catch block
 			e.printStackTrace();
 		}
 	}

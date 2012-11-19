@@ -16,7 +16,6 @@ public class CountWhatIsAtCommand implements ICommand {
 	
 	@Override
 	public void execute(IDataAccessController controller) {
-		// TODO Auto-generated method stub
 		GeographicPoint point = new GeographicPoint( GeographicCoordinateFactory.createCoordinate( this.rawLatitude, "0.0" ),
 				GeographicCoordinateFactory.createCoordinate( this.rawLongitude, "0.0" ) );
 		

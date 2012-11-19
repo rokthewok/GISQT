@@ -34,14 +34,30 @@ public class WorldCommand implements ICommand {
 	
 	private String writeFormattedWorldLog() {
 		StringBuilder sb = new StringBuilder();
-		sb.append( "Map boundaries:\n\t\t" );
+		sb.append( "Map boundaries:\n" );
+		
+		for( int i = 0; i < 30 - ( new Long( this.yMax ) ).toString().length(); i++ ) {
+			sb.append( " " );
+		}
 		sb.append( this.yMax );
-		sb.append( "\n\t" );
+		sb.append( "\n" );
+		
+		for( int i = 0; i < 15 - ( new Long( this.xMin ) ).toString().length(); i++ ) {
+			sb.append( " " );
+		}
 		sb.append( this.xMin );
-		sb.append( "\t\t" );
+		
+		for( int i = 0; i < 30 - ( new Long( this.xMax ) ).toString().length(); i++ ) {
+			sb.append( " " );
+		}
 		sb.append( this.xMax );
-		sb.append( "\n\t\t" );
+		sb.append( "\n" );
+		
+		for( int i = 0; i < 30 - ( new Long( this.yMin ) ).toString().length(); i++ ) {
+			sb.append( " " );
+		}
 		sb.append( this.yMin );
+		
 		sb.append( "\n" );
 		
 		return sb.toString();
