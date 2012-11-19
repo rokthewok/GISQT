@@ -38,8 +38,8 @@ public class GeographicCoordinate {
 		return this.decimal;
 	}
 	
-	public int toSeconds() {
-		int totalSeconds = this.degrees * 3600 + this.minutes * 60 + this.seconds;
+	public long toSeconds() {
+		long totalSeconds = this.degrees * 3600 + this.minutes * 60 + this.seconds;
 		if( this.cardinalDirection == "South" || this.cardinalDirection == "West" ) {
 			totalSeconds = -totalSeconds;
 		}

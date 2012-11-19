@@ -1,5 +1,8 @@
 package gissystem.factories;
 
+import gissystem.commands.CountWhatIsCommand;
+import gissystem.commands.LongWhatIsCommand;
+import gissystem.commands.WhatIsCommand;
 import gissystem.interfaces.ICommand;
 import gissystem.interfaces.ICommandFactory;
 
@@ -11,9 +14,18 @@ import gissystem.interfaces.ICommandFactory;
 public class WhatIsCommandFactory implements ICommandFactory {
 
 	@Override
-	public ICommand build(String rawCommand) {
-		// TODO Auto-generated method stub
-		return null;
+	public ICommand build( String rawCommand ) {
+		String [] parts = rawCommand.split( "\t" );
+		
+		if( parts[1].equals( "-l" ) ) {
+			// the verbose option is specified
+			return new LongWhatIsCommand( parts[2], parts[3] );
+		} else if( parts[1].equals( "-c" ) ) {
+			// the count option is specified
+			return new CountWhatIsCommand( parts[2], parts[3] );
+		} else {
+			// the basic WhatIsCommand
+			return new WhatIsCommand( parts[1], parts[2] );
+		}
 	}
-
 }

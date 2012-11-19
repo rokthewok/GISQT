@@ -12,6 +12,15 @@ import gissystem.models.GeographicCoordinate;
 public class GeographicCoordinateFactory {
 	
 	/**
+	 * A wrapper for the two parameter method.
+	 * @param coordinateToParse The String representation of the coordinate, in DMS format.
+	 * @return A GeographicCoordinate.
+	 */
+	public static GeographicCoordinate createCoordinate( String coordinateToParse ) {
+		return createCoordinate( coordinateToParse, "0.0" );
+	}
+	
+	/**
 	 * Creates a coordinate.
 	 * @param coordinateToParse The String representation of the coordinate.
 	 * @param decimalValueString The String representation of the decimal coordinate value.

@@ -20,8 +20,8 @@ public class WhatIsAtCommand implements ICommand {
 
 	@Override
 	public void execute( IDataAccessController controller ) {
-		GeographicPoint point = new GeographicPoint( GeographicCoordinateFactory.createCoordinate( rawLatitude, "0.0" ),
-				GeographicCoordinateFactory.createCoordinate( this.rawLongitude, "0.0" ) );
+		GeographicPoint point = new GeographicPoint( GeographicCoordinateFactory.createCoordinate( rawLatitude ),
+				GeographicCoordinateFactory.createCoordinate( this.rawLongitude ) );
 		
 		List<Long> offsets = controller.getQuadTreeController().findInQuadTree( point );
 		

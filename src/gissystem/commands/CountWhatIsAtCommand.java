@@ -16,8 +16,8 @@ public class CountWhatIsAtCommand implements ICommand {
 	
 	@Override
 	public void execute(IDataAccessController controller) {
-		GeographicPoint point = new GeographicPoint( GeographicCoordinateFactory.createCoordinate( this.rawLatitude, "0.0" ),
-				GeographicCoordinateFactory.createCoordinate( this.rawLongitude, "0.0" ) );
+		GeographicPoint point = new GeographicPoint( GeographicCoordinateFactory.createCoordinate( this.rawLatitude ),
+				GeographicCoordinateFactory.createCoordinate( this.rawLongitude ) );
 		
 		controller.getLogger().writeToLog( "The number of offsets found at " + this.rawLongitude + ", " + this.rawLatitude + " is: " );
 		// find the offests in the quadtree corresponding to the given point, print the size of the list of offsets

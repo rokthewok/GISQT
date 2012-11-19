@@ -1,5 +1,10 @@
 package gissystem.helpers;
 
+import gissystem.factories.DebugCommandFactory;
+import gissystem.factories.ImportCommandFactory;
+import gissystem.factories.WhatIsAtCommandFactory;
+import gissystem.factories.WhatIsCommandFactory;
+import gissystem.factories.WhatIsInCommandFactory;
 import gissystem.factories.WorldCommandFactory;
 import gissystem.interfaces.ICommand;
 import gissystem.interfaces.ICommandFactory;
@@ -11,7 +16,12 @@ public class RawCommandParser {
 	
 	public RawCommandParser() {
 		factories = new HashMap<String, ICommandFactory>();
-		factories.put( "what_is_at", new WorldCommandFactory() );
+		factories.put( "world", new WorldCommandFactory() );
+		factories.put( "import", new ImportCommandFactory() );
+		factories.put( "what_is_at", new WhatIsAtCommandFactory() );
+		factories.put( "what_is", new WhatIsCommandFactory() );
+		factories.put( "what_is_in", new WhatIsInCommandFactory() );
+		factories.put( "debug", new DebugCommandFactory() );
 		// etc
 	}
 	

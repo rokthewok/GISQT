@@ -23,6 +23,10 @@ public class GisSystemController {
 				ICommand command = commandParser.parseCommand( rawCommand );
 				command.execute( this.dataAccessController );
 			}
+			
+			this.dataAccessController.getLogger().writeToLog( "\n\n-----------------------------------------------------------------\n\n" );
 		}
+		
+		this.dataAccessController.getLogger().writeToLog( "Command sequence quit. Exiting now." );
 	}
 }
