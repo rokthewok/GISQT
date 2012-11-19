@@ -16,7 +16,10 @@ public class GisSystemController {
 		
 		while( true ) {
 			String rawCommand = this.dataAccessController.getNextCommandLine();
-			if( rawCommand.charAt( 0 ) != ';' ) {				
+			
+			if( rawCommand.equals( "quit\t" ) ) {
+				break;
+			} else if( rawCommand.charAt( 0 ) != ';' ) {				
 				ICommand command = commandParser.parseCommand( rawCommand );
 				command.execute( this.dataAccessController );
 			}

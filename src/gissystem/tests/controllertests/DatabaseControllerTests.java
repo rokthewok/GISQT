@@ -32,7 +32,7 @@ public class DatabaseControllerTests {
 		
 		String expectedBufferToString = "MRU\n  41:\tthis is not a feature\n  18:\tthis is also a feature\n  0:\tthis is a feature\nLRU";
 		
-		assertEquals( expectedBufferToString, controller.bufferPoolToString() );
+		assertEquals( expectedBufferToString, controller.getBufferPoolToString() );
 	}
 
 	@Test
@@ -69,12 +69,12 @@ public class DatabaseControllerTests {
 		controller.add( "kab" );
 		controller.add( "wad" );
 		
-		String expectedBuffer = controller.bufferPoolToString();
+		String expectedBuffer = controller.getBufferPoolToString();
 		
 		String expectedResult = "this is a feature";
 		String actualResult = controller.get( 0L );
 		
-		String actualBuffer = controller.bufferPoolToString();
+		String actualBuffer = controller.getBufferPoolToString();
 		
 		assertEquals( expectedBuffer, actualBuffer );
 		assertEquals( expectedResult, actualResult );

@@ -70,7 +70,7 @@ public class DatabaseController {
 		return length;
 	}
 	
-	public String bufferPoolToString() {
+	public String getBufferPoolToString() {
 		return this.bufferPool.toString();
 	}
 }
