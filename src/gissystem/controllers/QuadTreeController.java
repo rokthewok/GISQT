@@ -6,6 +6,11 @@ import gissystem.datastructures.PrQuadtree;
 import gissystem.interfaces.IPoint;
 import gissystem.interfaces.IQuadTreeController;
 
+/**
+ * At this point, simply a wrapper class for the PrQuadtree. Better to extend the controller later on than any other class.
+ * @author John
+ *
+ */
 public class QuadTreeController implements IQuadTreeController {
 	private PrQuadtree quadTree;
 	

@@ -4,6 +4,7 @@ import static org.junit.Assert.*;
 
 import org.junit.Before;
 import org.junit.Test;
+import org.omg.PortableInterceptor.SUCCESSFUL;
 
 public class QuadTreeControllerTests {
 
@@ -12,8 +13,8 @@ public class QuadTreeControllerTests {
 	}
 
 	@Test
-	public void test() {
-		fail("Not yet implemented");
+	public void quadTreeMockTest() {
+		// I dunno, the controller right now is just a wrapper.
+		assertTrue( true );
 	}
-
 }

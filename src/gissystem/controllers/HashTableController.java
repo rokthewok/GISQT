@@ -39,7 +39,7 @@ public class HashTableController {
 		return this.table.get( key );
 	}
 	
-	public String prettyHashTableString() {
+	public String getHashTableToString() {
 		return this.table.toString();
 	}
 }

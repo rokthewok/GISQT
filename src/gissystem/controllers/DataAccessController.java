@@ -48,6 +48,11 @@ public class DataAccessController implements IDataAccessController {
 	}
 	
 	@Override
+	public DatabaseController getDatabaseController() {
+		return this.databaseController;
+	}
+	
+	@Override
 	public ILogger getLogger() {
 		return this.logFile;
 	}

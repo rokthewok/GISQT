@@ -53,6 +53,21 @@ public class DatabaseController {
 		}
 	}
 	
+	/**
+	 * Get the length of the database. Good for choosing longest offset of the db.
+	 * @return The length of the database file or -1 if the check is unsuccessful.
+	 */
+	public long getDatabaseLength() {
+		long length = -1L;
+		try {
+			length = this.database.length();
+		} catch (IOException e) {
+			e.printStackTrace();
+		}
+		
+		return length;
+	}
+	
 	public String bufferPoolToString() {
 		return this.bufferPool.toString();
 	}
