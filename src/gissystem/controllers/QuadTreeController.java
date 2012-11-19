@@ -22,19 +22,28 @@ public class QuadTreeController implements IQuadTreeController {
 		this.quadTree = quadTree;
 	}
 	
+	@Override
 	public boolean insertToQuadTree( IPoint point, Long offset ) {
 		return this.quadTree.insert( point, offset ); 
 	}
 	
+	@Override
 	public List<Long> findInQuadTree( IPoint point ) {
 		return this.quadTree.find( point );
 	}
 	
+	@Override
 	public List<Long> findInQuadTree( long xLow, long xHigh, long yLow, long yHigh ) {
 		return this.quadTree.find( xLow, xHigh, yLow, yHigh );
 	}
 	
+	@Override
 	public void setQuadTree( PrQuadtree quadTree ) {
 		this.quadTree = quadTree;
+	}
+	
+	@Override
+	public String getQuadTreeToString() {
+		return this.quadTree.toString();
 	}
 }

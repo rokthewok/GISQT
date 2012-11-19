@@ -8,7 +8,8 @@ public class GeographicPoint implements IPoint {
 	private GeographicCoordinate longitude;
 	
 	public GeographicPoint( GeographicCoordinate latitude, GeographicCoordinate longitude ) {
-		
+		this.latitude = latitude;
+		this.longitude = longitude;
 	}
 
 	@Override

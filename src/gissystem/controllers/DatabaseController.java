@@ -17,6 +17,8 @@ public class DatabaseController {
 	
 	public DatabaseController( File databaseFile ) {
 		this.bufferPool = new BufferPool<Long, String>( 20 );
+		// be sure to truncate the file
+		databaseFile.delete();
 		try {
 			this.database = new RandomAccessFile( databaseFile, "rw" );
 		} catch( FileNotFoundException e ) {

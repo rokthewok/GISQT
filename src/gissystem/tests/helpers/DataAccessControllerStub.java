@@ -1,5 +1,6 @@
 package gissystem.tests.helpers;
 
+import gissystem.controllers.DatabaseController;
 import gissystem.controllers.HashTableController;
 import gissystem.controllers.QuadTreeController;
 import gissystem.helpers.io.ConsoleLogger;
@@ -11,6 +12,7 @@ public class DataAccessControllerStub implements IDataAccessController {
 	private String nextCommand;
 	private QuadTreeController qtController;
 	private HashTableController htController;
+	private DatabaseController dbController;
 	
 	public DataAccessControllerStub() {
 		this( new ConsoleLogger() );
@@ -25,6 +27,7 @@ public class DataAccessControllerStub implements IDataAccessController {
 		this.nextCommand = nextCommand;
 		this.qtController = new QuadTreeController();
 		this.htController = new HashTableController();
+		this.dbController = new DatabaseController();
 	}
 	
 	@Override
@@ -50,6 +53,12 @@ public class DataAccessControllerStub implements IDataAccessController {
 	@Override
 	public ILogger getLogger() {
 		return this.logger;
+	}
+
+	@Override
+	public DatabaseController getDatabaseController() {
+		// TODO Auto-generated method stub
+		return this.dbController;
 	}
 
 }

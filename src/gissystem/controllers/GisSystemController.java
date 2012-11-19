@@ -2,11 +2,12 @@ package gissystem.controllers;
 
 import gissystem.helpers.RawCommandParser;
 import gissystem.interfaces.ICommand;
+import gissystem.interfaces.IDataAccessController;
 
 public class GisSystemController {
-	private DataAccessController dataAccessController;
+	private IDataAccessController dataAccessController;
 	
-	public GisSystemController( DataAccessController dataAccessController ) {
+	public GisSystemController( IDataAccessController dataAccessController ) {
 		this.dataAccessController = dataAccessController;
 	}
 	

@@ -9,4 +9,5 @@ public interface IQuadTreeController {
 	public List<Long> findInQuadTree( IPoint point );
 	public List<Long> findInQuadTree( long xLow, long xHigh, long yLow, long yHigh );
 	public void setQuadTree( PrQuadtree quadTree );
+	public String getQuadTreeToString();
 }

@@ -4,7 +4,7 @@ import java.io.File;
 import java.io.IOException;
 import java.io.RandomAccessFile;
 
-import gissystem.controllers.DataAccessController;
+import gissystem.interfaces.IDataAccessController;
 import gissystem.factories.GeographicFeatureFactory;
 import gissystem.interfaces.ICommand;
 import gissystem.models.GeographicFeature;
@@ -18,7 +18,7 @@ public class ImportCommand implements ICommand {
 	}
 	
 	@Override
-	public void execute( DataAccessController controller ) {
+	public void execute( IDataAccessController controller ) {
 		// TODO Auto-generated method stub
 		try {
 			RandomAccessFile recordsFile = new RandomAccessFile( new File( this.filename ), "r" );

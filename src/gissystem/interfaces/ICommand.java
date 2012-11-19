@@ -1,7 +1,7 @@
 package gissystem.interfaces;
 
-import gissystem.controllers.DataAccessController;
+import gissystem.interfaces.IDataAccessController;
 
 public interface ICommand {
-	public void execute( DataAccessController controller );
+	public void execute( IDataAccessController controller );
 }

@@ -1,6 +1,6 @@
 package gissystem.commands;
 
-import gissystem.controllers.DataAccessController;
+import gissystem.interfaces.IDataAccessController;
 import gissystem.datastructures.PrQuadtree;
 import gissystem.interfaces.ICommand;
 
@@ -23,7 +23,7 @@ public class WorldCommand implements ICommand {
 	}
 	
 	@Override
-	public void execute( DataAccessController controller ) {
+	public void execute( IDataAccessController controller ) {
 		PrQuadtree quadTree = new PrQuadtree( this.xMin, this.xMax, this.yMin, this.yMax );
 		controller.getQuadTreeController().setQuadTree( quadTree );
 		
@@ -34,14 +34,15 @@ public class WorldCommand implements ICommand {
 	
 	private String writeFormattedWorldLog() {
 		StringBuilder sb = new StringBuilder();
-		sb.append( "Map boundaries:\n\t\t\t" );
+		sb.append( "Map boundaries:\n\t\t" );
 		sb.append( this.yMax );
 		sb.append( "\n\t" );
 		sb.append( this.xMin );
-		sb.append( "\t\t\t" );
+		sb.append( "\t\t" );
 		sb.append( this.xMax );
-		sb.append( "\n\t\t\t" );
+		sb.append( "\n\t\t" );
 		sb.append( this.yMin );
+		sb.append( "\n" );
 		
 		return sb.toString();
 	}
