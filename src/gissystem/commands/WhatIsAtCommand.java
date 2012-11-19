@@ -42,7 +42,7 @@ public class WhatIsAtCommand implements ICommand {
 		}
 	}
 
-	private String formatFeatureOutput( GeographicFeature feature ) {
+	protected String formatFeatureOutput( GeographicFeature feature ) {
 		StringBuilder sb = new StringBuilder();
 		sb.append( "\tfeature name: " );
 		sb.append( feature.getName() );

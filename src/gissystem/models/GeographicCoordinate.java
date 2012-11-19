@@ -57,8 +57,6 @@ public class GeographicCoordinate {
 		Formatter formatter = new Formatter( sb );
 		formatter.format( "%03d%02d%02d", this.degrees, this.minutes, this.seconds );
 		sb.append( this.cardinalDirection );
-		sb.append( " " );
-		sb.append( this.decimal );
 		formatter.close();
 		
 		return sb.toString();
