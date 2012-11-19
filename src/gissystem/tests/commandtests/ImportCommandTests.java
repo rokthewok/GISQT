@@ -1,4 +1,4 @@
-package gissystem.tests.commands;
+package gissystem.tests.commandtests;
 
 import static org.junit.Assert.*;
 import gissystem.commands.ImportCommand;
