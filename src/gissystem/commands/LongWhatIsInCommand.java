@@ -2,10 +2,10 @@ package gissystem.commands;
 
 import gissystem.models.GeographicFeature;
 
-public class LongWhatIsCommand extends WhatIsCommand {
+public class LongWhatIsInCommand extends WhatIsInCommand {
 
-	public LongWhatIsCommand( String featureName, String stateAbbreviation ) {
-		super(featureName, stateAbbreviation);
+	public LongWhatIsInCommand( long xMin, long xMax, long yMin, long yMax ) {
+		super(xMin, xMax, yMin, yMax);
 	}
 
 	@Override

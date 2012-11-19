@@ -1,11 +1,10 @@
 package gissystem.tests.commandtests;
 
 import static org.junit.Assert.*;
-
-import gissystem.commands.CountWhatIsCommand;
+import gissystem.commands.CountWhatIsInCommand;
 import gissystem.commands.ImportCommand;
-import gissystem.commands.LongWhatIsCommand;
-import gissystem.commands.WhatIsCommand;
+import gissystem.commands.LongWhatIsInCommand;
+import gissystem.commands.WhatIsInCommand;
 import gissystem.commands.WorldCommand;
 import gissystem.helpers.io.ConsoleLogger;
 import gissystem.tests.helpers.DataAccessControllerStub;
@@ -13,7 +12,7 @@ import gissystem.tests.helpers.DataAccessControllerStub;
 import org.junit.Before;
 import org.junit.Test;
 
-public class WhatIsCommandTests {
+public class WhatIsInCommandTests {
 	private DataAccessControllerStub controller;
 	
 	@Before
@@ -33,19 +32,24 @@ public class WhatIsCommandTests {
 	}
 
 	@Test
-	public void whatIsCommandTest() {
-		String featureName = "Hupman Valley";
-		String stateAbbreviation = "VA";
-		WhatIsCommand command = new WhatIsCommand( featureName, stateAbbreviation );
+	public void whatIsInCommandTest() {
+		long xMin = -290000L;
+		long xMax = 0L;
+		long yMin = 0L;
+		long yMax = 137800L;
+		
+		//System.out.println( controller.getQuadTreeController().getQuadTreeToString() );
+		
+		WhatIsInCommand command = new WhatIsInCommand( xMin, xMax, yMin, yMax );
 		command.execute( controller );
 		
-		LongWhatIsCommand longCommand = new LongWhatIsCommand( featureName, stateAbbreviation );
+		LongWhatIsInCommand longCommand = new LongWhatIsInCommand( xMin, xMax, yMin, yMax );
 		longCommand.execute( controller );
 		
-		CountWhatIsCommand countCommand = new CountWhatIsCommand( featureName, stateAbbreviation );
+		CountWhatIsInCommand countCommand = new CountWhatIsInCommand( xMin, xMax, yMin, yMax );
 		countCommand.execute( controller );
 		
-		// Once again... by inspection. >_> <_<
+		// acceptable by inspection.
 		assertTrue( true );
 	}
 
