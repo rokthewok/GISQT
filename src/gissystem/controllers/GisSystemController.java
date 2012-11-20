@@ -3,7 +3,6 @@ package gissystem.controllers;
 import java.io.File;
 import java.io.FileNotFoundException;
 import java.io.RandomAccessFile;
-
 import gissystem.helpers.RawCommandParser;
 import gissystem.helpers.io.FileLogger;
 import gissystem.interfaces.ICommand;
@@ -33,6 +32,8 @@ public class GisSystemController {
 		}
 		
 		RawCommandParser commandParser = new RawCommandParser();
+		
+		writeHeader();
 		
 		int count = 1;
 		while( true ) {
@@ -99,5 +100,19 @@ public class GisSystemController {
 		this.databaseFilename = args[0];
 		this.commandFilename = args[1];
 		this.logFilename = args[2];
+	}
+	
+	/*
+	 * Writes a header out to the log file.
+	 */
+	private void writeHeader() {
+		this.dataAccessController.getLogger().writeToLog( "GIS System\n" );
+		this.dataAccessController.getLogger().writeToLog( "database: " );
+		this.dataAccessController.getLogger().writeToLog( this.databaseFilename );
+		this.dataAccessController.getLogger().writeToLog( "\ncommands: " );
+		this.dataAccessController.getLogger().writeToLog( this.commandFilename );
+		this.dataAccessController.getLogger().writeToLog( "\ncaptain's log: " );
+		this.dataAccessController.getLogger().writeToLog( this.logFilename );
+		this.dataAccessController.getLogger().writeToLog( "\nstar date:\n\n\n" ); //TODO add current datetime
 	}
 }

@@ -1,3 +1,10 @@
+GIS System
+database: database.txt
+commands: Script01.txt
+captain's log: log.txt
+star date:
+
+
 Executing command 1: world	0794130W	0792630W	381500N	383000N
 
 Map boundaries:
