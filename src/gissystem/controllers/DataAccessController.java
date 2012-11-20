@@ -6,6 +6,12 @@ import java.io.RandomAccessFile;
 import gissystem.interfaces.IDataAccessController;
 import gissystem.interfaces.ILogger;
 
+/**
+ * Provides access to various data models in the GIS System.
+ * Contains HashTableController, QuadTreeController, DatabaseController, Logger, and CommandFile.
+ * @author John Ruffer
+ *
+ */
 public class DataAccessController implements IDataAccessController {
 	private RandomAccessFile commandFile;
 	private ILogger logFile;
@@ -14,6 +20,12 @@ public class DataAccessController implements IDataAccessController {
 	private QuadTreeController quadTreeController;
 	private HashTableController hashTableController;
 	
+	/**
+	 * ctor.
+	 * @param databaseFile The File where records will be written and accessed.
+	 * @param commandFile The RandomAccessFile from which commands will be retrieved.
+	 * @param logFile The Logger where result logging will take place.
+	 */
 	public DataAccessController( File databaseFile, RandomAccessFile commandFile, ILogger logFile ) {
 		this.commandFile = commandFile;
 		this.logFile = logFile;
@@ -22,6 +34,10 @@ public class DataAccessController implements IDataAccessController {
 		this.hashTableController = new HashTableController();
 	}
 	
+	/**
+	 * Gets the next line from the commands file.
+	 * @return The next line in the command file, or null if the file has reached an end.
+	 */
 	@Override
 	public String getNextCommandLine() {
 		String line = null;
@@ -34,26 +50,37 @@ public class DataAccessController implements IDataAccessController {
 		return line;
 	}
 	
-	@Override
-	public String findInDatabase( Long offset ) {
-		return this.databaseController.get( offset );
-	}
-	
+	/**
+	 * Getter for QuadTreeController.
+	 * @return The QuadTreeController.
+	 */
 	@Override
 	public QuadTreeController getQuadTreeController() {
 		return this.quadTreeController;
 	}
 	
+	/**
+	 * Getter for HashTableController.
+	 * @return The HashTableController.
+	 */
 	@Override
 	public HashTableController getHashTableController() {
 		return this.hashTableController;
 	}
 	
+	/**
+	 * Getter for the DatabaseController.
+	 * @return The DatabaseController.
+	 */
 	@Override
 	public DatabaseController getDatabaseController() {
 		return this.databaseController;
 	}
 	
+	/**
+	 * Getter for the ILogger.
+	 * @return The ILogger.
+	 */
 	@Override
 	public ILogger getLogger() {
 		return this.logFile;

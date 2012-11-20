@@ -82,11 +82,25 @@ public class PrQuadtree {
 	int bucketSize;
 	private String leafClassName = "gissystem.datastructures.PrQuadtree$prQuadLeaf";
 	
-	// Initialize quadtree to empty state, representing the specified region. 
+	/**
+	 * ctor.
+	 * @param xMin
+	 * @param xMax
+	 * @param yMin
+	 * @param yMax
+	 */
 	public PrQuadtree(long xMin, long xMax, long yMin, long yMax) { 
 		this( xMin, xMax, yMin, yMax, 10 );
 	}
 	
+	/**
+	 * ctor.
+	 * @param xMin
+	 * @param xMax
+	 * @param yMin
+	 * @param yMax
+	 * @param bucketSize
+	 */
 	public PrQuadtree( long xMin, long xMax, long yMin, long yMax, int bucketSize ) {
 		this.xMin = xMin;
 		this.xMax = xMax;

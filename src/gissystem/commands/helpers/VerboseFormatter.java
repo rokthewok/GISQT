@@ -3,7 +3,18 @@ package gissystem.commands.helpers;
 import gissystem.interfaces.IFormatter;
 import gissystem.models.GeographicFeature;
 
+/**
+ * Used to format Strings for verbose log output in the commands.
+ * @see IFormatter
+ * @author Captain John
+ *
+ */
 public class VerboseFormatter implements IFormatter {
+	
+	/**
+	 * Implementation of IFormatter method.
+	 * @see IFormatter
+	 */
 	@Override
 	public String formatFeatureOutput( Long offset, GeographicFeature feature ) {
 		StringBuilder sb = new StringBuilder();
@@ -27,6 +38,9 @@ public class VerboseFormatter implements IFormatter {
 		return sb.toString();
 	}
 	
+	/*
+	 * Helper functions to check for null fields. If the field is not null, add it to the StringBuilder.
+	 */
 	private void appendItem( String label, String item, StringBuilder sb ) {
 		if( item != null ) {
 			sb.append( label + ":" );

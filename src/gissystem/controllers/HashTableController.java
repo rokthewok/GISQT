@@ -6,7 +6,7 @@ import java.util.List;
 
 /**
  * A wrapper for function calls to the HashTable.
- * @author John
+ * @author John "All work and no play" Ruffer
  *
  */
 public class HashTableController {
@@ -39,6 +39,10 @@ public class HashTableController {
 		return this.table.get( key );
 	}
 	
+	/**
+	 * Wrapper for the hashtable toString() method.
+	 * @return The hashtable String representation.
+	 */
 	public String getHashTableToString() {
 		return this.table.toString();
 	}

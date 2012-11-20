@@ -1,7 +1,10 @@
 package gissystem.exceptions;
 
+import gissystem.models.helpers.BeanFacade;
+
 /**
  * Thrown when setting a property in a Bean is not successful.
+ * @see BeanFacade
  * @author John Ruffer
  *
  */

@@ -9,17 +9,24 @@ import gissystem.helpers.io.FileLogger;
 import gissystem.interfaces.ICommand;
 import gissystem.interfaces.IDataAccessController;
 
+/**
+ * Main controller for the GIS System. Runs the main loop and sets up resources.
+ * @author John Ruffer
+ *
+ */
 public class GisSystemController {
 	private String logFilename;
 	private String commandFilename;
 	private String databaseFilename;
-	
 	private IDataAccessController dataAccessController;
 	
 	public GisSystemController() {
 		this.dataAccessController = null;
 	}
 	
+	/**
+	 * Main loop for the GIS System. doSetup() MUST be called before this method.
+	 */
 	public void doWork() {
 		if( this.dataAccessController == null ) {
 			return;
@@ -51,18 +58,24 @@ public class GisSystemController {
 		this.dataAccessController.getLogger().writeToLog( "Command sequence quit. Exiting now." );
 	}
 	
+	/**
+	 * Sets up the GIS System to do the appropriate work. Parses command line arguments and creates necessary controller objects.
+	 * @param args The command line arguments. Must contain 
+	 */
 	public void doSetup( String [] args ) {
 		parseArguments( args );
 		
 		RandomAccessFile commandFile = null;
 		RandomAccessFile logFile = null;
 		try {
+			// create RAF's for the command and log files.
 			commandFile = new RandomAccessFile( this.commandFilename, "r" );
 			logFile = new RandomAccessFile( this.logFilename, "rw" );
 		} catch (FileNotFoundException e) {
 			e.printStackTrace();
 		}
 		
+		// create an object representation of the database file.
 		File databaseFile = new File( this.databaseFilename );
 
 		if( commandFile == null || logFile == null ) {
@@ -70,9 +83,13 @@ public class GisSystemController {
 			System.exit( -1 );
 		}
 		
+		// create the data access controller using the three files.
 		this.dataAccessController = new DataAccessController( databaseFile, commandFile, new FileLogger( logFile ) );
 	}
 	
+	/*
+	 * Parses out the command line arguments into the appropriate filenames.
+	 */
 	private void parseArguments( String [] args ) {
 		if( args.length < 3 ) {
 			System.out.println( "Sorry, please provide the necessary number of arguments. Exiting now." );

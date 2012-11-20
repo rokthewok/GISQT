@@ -3,7 +3,17 @@ package gissystem.commands.helpers;
 import gissystem.interfaces.IFormatter;
 import gissystem.models.GeographicFeature;
 
+/**
+ * Formats information relevant to "what_is" command into a String for logging.
+ * @author Juan Q. Ruffero
+ *
+ */
 public class WhatIsFormatter implements IFormatter {
+	
+	/**
+	 * Implementation of IFormatter method.
+	 * @see IFormatter
+	 */
 	@Override
 	public String formatFeatureOutput( Long offset, GeographicFeature feature ) {
 		StringBuilder sb = new StringBuilder();

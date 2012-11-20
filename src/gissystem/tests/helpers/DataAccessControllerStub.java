@@ -36,11 +36,6 @@ public class DataAccessControllerStub implements IDataAccessController {
 	}
 
 	@Override
-	public String findInDatabase(Long offset) {
-		return null;
-	}
-
-	@Override
 	public QuadTreeController getQuadTreeController() {
 		return this.qtController;
 	}
