@@ -5,8 +5,8 @@ import gissystem.datastructures.PrQuadtree;
 import gissystem.interfaces.ICommand;
 
 /**
- * Creates a new PrQuadtree with the given coordinate boundaries
- * @author John
+ * Creates a new PrQuadtree with the given world coordinate boundaries.
+ * @author John "not Quincy" Quentin Ruffer
  *
  */
 public class WorldCommand implements ICommand {
@@ -15,6 +15,13 @@ public class WorldCommand implements ICommand {
 	private long yMin;
 	private long yMax;
 	
+	/**
+	 * ctor.
+	 * @param xMin The farthest West boundary of the world map. Expressed in seconds.  
+	 * @param xMax The farthest East boundary of the world map. Expressed in seconds.
+	 * @param yMin The farthest South boundary of the world map. Expressed in seconds.
+	 * @param yMax The farthest North boundary of the world map. Expressed in seconds.
+	 */
 	public WorldCommand( long xMin, long xMax, long yMin, long yMax ) {
 		this.xMin = xMin;
 		this.xMax = xMax;
@@ -22,6 +29,14 @@ public class WorldCommand implements ICommand {
 		this.yMax = yMax;
 	}
 	
+	/**
+	 * Executes the "world" command.
+	 */
+	/*
+	 * 1. create a new PrQuadtree using the supplied boundary coordinates.
+	 * 2. set the quadtree in the QuadTreeController (in the DataAccessController) to this quadtree.
+	 * 3. log things.
+	 */
 	@Override
 	public void execute( IDataAccessController controller ) {
 		PrQuadtree quadTree = new PrQuadtree( this.xMin, this.xMax, this.yMin, this.yMax, 4 ); // bucket size 4

@@ -10,13 +10,36 @@ import gissystem.interfaces.ICommand;
 import gissystem.models.GeographicFeature;
 import gissystem.models.GeographicPoint;
 
+/**
+ * Object representation of the "import" command. Imports a record file into the database file.
+ * @author John Quentin Ruffer
+ *
+ */
 public class ImportCommand implements ICommand {
 	private String filename;
 	
+	/**
+	 * ctor
+	 * @param filename The name of the records file to import.
+	 */
 	public ImportCommand( String filename ) {
 		this.filename = filename;
 	}
 	
+	/**
+	 * Executes the "import" command.
+	 */
+	/*
+	 * 1. read the first line to get rid of heading
+	 * 2. for each line in records:
+	 * 		3. store the offset of the line
+	 * 		4. create GeographicFeature from line
+	 * 		5. insert feature offset in Quadtree
+	 * 		6. insert feature offset in hashtable
+	 * 		7. add line to the db
+	 * 8. endfor
+	 * 9. log the # of entries and longest hashtable probe sequence
+	 */ 
 	@Override
 	public void execute( IDataAccessController controller ) {
 		try {

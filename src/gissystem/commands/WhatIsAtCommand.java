@@ -11,21 +11,50 @@ import gissystem.interfaces.IFormatter;
 import gissystem.models.GeographicFeature;
 import gissystem.models.GeographicPoint;
 
+/**
+ * Object representation of the "what_is_at" command. Accepts an IFormatter which prints the results with the
+ * appropriate level of verbosity.
+ * @author John "John" Ruffer
+ *
+ */
 public class WhatIsAtCommand implements ICommand {
 	private String rawLatitude;
 	private String rawLongitude;
 	private IFormatter formatter;
 	
+	/**
+	 * ctor.
+	 * @param rawLatitude The String representation of a latitude coordinate, in DMS format.
+	 * @param rawLongitude The String representation of a longitude coordinate, in DMS format.
+	 */
 	public WhatIsAtCommand( String rawLatitude, String rawLongitude ) {
 		this( rawLatitude, rawLongitude, new WhatIsAtFormatter() );
 	}
 	
+	/**
+	 * ctor.
+	 * @param rawLatitude The String representation of a latitude coordinate, in DMS format.
+	 * @param rawLongitude The String representation of a longitude coordinate, in DMS format.
+	 * @param formatter The formatter for logfile output.
+	 */
 	public WhatIsAtCommand( String rawLatitude, String rawLongitude, IFormatter formatter ) {
 		this.rawLatitude = rawLatitude;
 		this.rawLongitude = rawLongitude;
 		this.formatter = formatter;
 	}
 
+	/**
+	 * Executes the "what_is_at", with possible options for "-l".
+	 */
+	/*
+	 * 1. create GeographicPoint (IPoint) object from two GeographicCoordinate objects
+	 * 2. git a list of offests from the quadtree using the point object
+	 * 3. for each offset in offsets:
+	 * 		4. get record from db
+	 * 		5. build feature from record
+	 * 		6. log using the formatter member
+	 * 7. endfor
+	 */
 	@Override
 	public void execute( IDataAccessController controller ) {
 		GeographicPoint point = new GeographicPoint( GeographicCoordinateFactory.createCoordinate( rawLatitude ),
@@ -49,19 +78,4 @@ public class WhatIsAtCommand implements ICommand {
 			}
 		}
 	}
-
-//	protected String formatFeatureOutput( Long offset, GeographicFeature feature ) {
-//		StringBuilder sb = new StringBuilder();
-//		sb.append( "\toffset: " );
-//		sb.append( offset );
-//		sb.append( "\n\tfeature name: " );
-//		sb.append( feature.getName() );
-//		sb.append( "\n\tfeature county: " );
-//		sb.append( feature.getCountyName() );
-//		sb.append( "\n\tfeature state: " );
-//		sb.append( feature.getAlphabeticStateCode() );
-//		sb.append( "\n" );
-//		
-//		return sb.toString();
-//	}
 }

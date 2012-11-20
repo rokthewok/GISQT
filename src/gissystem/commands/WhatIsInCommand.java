@@ -9,6 +9,11 @@ import gissystem.interfaces.IDataAccessController;
 import gissystem.interfaces.IFormatter;
 import gissystem.models.GeographicFeature;
 
+/**
+ * Object representation of the "what_is_in" command. Accepts an object implementing the IFormatter interface, which writes logs of varying verbosity.
+ * @author John Ruffer
+ *
+ */
 public class WhatIsInCommand implements ICommand {
 	private long xMin;
 	private long xMax;
@@ -16,10 +21,25 @@ public class WhatIsInCommand implements ICommand {
 	private long yMax;
 	private IFormatter formatter;
 	
+	/**
+	 * ctor.
+	 * @param xMin The lower x-bound of the rectangular region to be searched.
+	 * @param xMax The upper x-bound of the rectangular region to be searched.
+	 * @param yMin The lower y-bound of the rectangular region to be searched.
+	 * @param yMax The upper y-bound of the rectangular region to be searched.
+	 */
 	public WhatIsInCommand( long xMin, long xMax, long yMin, long yMax ) {
 		this( xMin, xMax, yMin, yMax, new WhatIsInFormatter() );
 	}
 	
+	/**
+	 * ctor.
+	 * @param xMin The lower x-bound of the rectangular region to be searched.
+	 * @param xMax The upper x-bound of the rectangular region to be searched.
+	 * @param yMin The lower y-bound of the rectangular region to be searched.
+	 * @param yMax The upper y-bound of the rectangular region to be searched.
+	 * @param formatter The formatter for GeographicCoordinate Strings to be written to the log.
+	 */
 	public WhatIsInCommand( long xMin, long xMax, long yMin, long yMax, IFormatter formatter ) {
 		this.xMin = xMin;
 		this.xMax = xMax;
@@ -28,9 +48,19 @@ public class WhatIsInCommand implements ICommand {
 		this.formatter = formatter;
 	}
 	
+	/**
+	 * Executes the "what_is_in" command, either normal or with the "-l" flag.
+	 */
+	/*
+	 * 1. get list of offsets in specified region from the quadtree
+	 * 2. for each offset in offsets:
+	 * 		3. get the record from the database
+	 * 		4. create a GeographicFeature object from the record
+	 * 		5. write the feature information to the log
+	 * 6. end for
+	 */
 	@Override
 	public void execute( IDataAccessController controller ) {
-		// TODO Auto-generated method stub
 		List<Long> offsets = controller.getQuadTreeController().findInQuadTree( this.xMin, this.xMax, this.yMin, this.yMax );
 		
 		controller.getLogger().writeToLog( "The features found in the rectangle (" + this.xMin + ", " + this.yMin + "), (" + this.xMax + ", " + this.yMax + ") are:\n" );
@@ -45,21 +75,4 @@ public class WhatIsInCommand implements ICommand {
 			}
 		}
 	}
-	
-//	protected String formatFeatureOutput( Long offset, GeographicFeature feature ) {
-//		StringBuilder sb = new StringBuilder();
-//		sb.append( "\n\toffset:\t\t" );
-//		sb.append( offset );
-//		sb.append( "\n\tname:\t\t" );
-//		sb.append( feature.getName() );
-//		sb.append( "\n\tstate:\t\t" );
-//		sb.append( feature.getAlphabeticStateCode() );
-//		sb.append( "\n\tlatitude:\t" );
-//		sb.append( feature.getPrimaryLatitude().toString() );
-//		sb.append( "\n\tlongitude:\t" );
-//		sb.append( feature.getPrimaryLongitude().toString() );
-//		sb.append( "\n" );
-//		
-//		return sb.toString();
-//	}
 }

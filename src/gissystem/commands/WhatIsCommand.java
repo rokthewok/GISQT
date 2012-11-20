@@ -9,21 +9,48 @@ import gissystem.interfaces.IDataAccessController;
 import gissystem.interfaces.IFormatter;
 import gissystem.models.GeographicFeature;
 
+/**
+ * Object representation of the "what_is" command.
+ * @author John
+ *
+ */
 public class WhatIsCommand implements ICommand {
 	private String featureName;
 	private String stateAbbreviation;
 	private IFormatter formatter;
 	
+	/**
+	 * ctor.
+	 * @param featureName The name of the feature to be found.
+	 * @param stateAbbreviation The abbreviation of the state in which the feature is located.
+	 */
 	public WhatIsCommand( String featureName, String stateAbbreviation ) {
 		this( featureName, stateAbbreviation, new WhatIsFormatter() );
 	}
 	
+	/**
+	 * ctor.
+	 * @param featureName The name of the feature to be found.
+	 * @param stateAbbreviation The abbreviation of the state in which the feature is located.
+	 * @param formatter The IFormatter implementation which writes Strings to be logged in varying verbosity.
+	 */
 	public WhatIsCommand( String featureName, String stateAbbreviation, IFormatter formatter ) {
 		this.featureName = featureName;
 		this.stateAbbreviation = stateAbbreviation;
 		this.formatter = formatter;
 	}
 	
+	/**
+	 * Executes the "what_is" commaned, possibly with the "-l" option.
+	 */
+	/*
+	 * 1. get a list of offsets using the feature name and state abbreviation from the hashtable.
+	 * 2. for each offset in offsets:
+	 * 		3. get the record from the db.
+	 * 		4. create a GeographicFeature from the record.
+	 * 		5. log using the formatter object.
+	 *  6. endfor
+	 */
 	@Override
 	public void execute( IDataAccessController controller ) {
 		List<Long> offsets = controller.getHashTableController().findFeature( this.featureName, this.stateAbbreviation );
@@ -32,7 +59,6 @@ public class WhatIsCommand implements ICommand {
 		if( offsets.isEmpty() ) {
 			controller.getLogger().writeToLog( "\tno results." );
 		} else {
-			// for each offset found in the hashtable, log the offset, county, latitude, and longitude of the feature
 			for( Long offset : offsets ) {
 				String record = controller.getDatabaseController().get( offset );
 				GeographicFeature feature = GeographicFeatureFactory.createGeographicFeature( record );
@@ -41,19 +67,4 @@ public class WhatIsCommand implements ICommand {
 			}
 		}
 	}
-	
-//	protected String formatFeatureOutput( Long offset, GeographicFeature feature ) {
-//		StringBuilder sb = new StringBuilder();
-//		sb.append( "\toffset:\t\t" );
-//		sb.append( offset );
-//		sb.append( "\n\tcounty:\t\t" );
-//		sb.append( feature.getCountyName() );
-//		sb.append( "\n\tlatitude:\t" );
-//		sb.append( feature.getPrimaryLatitude().toString() );
-//		sb.append( "\n\tlongitude:\t" );
-//		sb.append( feature.getPrimaryLongitude().toString() );
-//		sb.append( "\n" );
-//		
-//		return sb.toString();
-//	}
 }
