@@ -1,8 +1,8 @@
 package gissystem.factories;
 
 import gissystem.commands.CountWhatIsAtCommand;
-import gissystem.commands.LongWhatIsAtCommand;
 import gissystem.commands.WhatIsAtCommand;
+import gissystem.commands.helpers.VerboseFormatter;
 import gissystem.interfaces.ICommand;
 import gissystem.interfaces.ICommandFactory;
 
@@ -19,16 +19,13 @@ public class WhatIsAtCommandFactory implements ICommandFactory {
 		
 		if( parts[1].equals( "-l" ) ) {
 			// the verbose option is specified
-			String [] latAndLong = parts[2].split( " " );
-			return new LongWhatIsAtCommand( latAndLong[0], latAndLong[1] );
+			return new WhatIsAtCommand( parts[2], parts[3], new VerboseFormatter() );
 		} else if( parts[1].equals( "-c" ) ) {
 			// the count option is specified
-			String [] latAndLong = parts[2].split( " " );
-			return new CountWhatIsAtCommand( latAndLong[0], latAndLong[1] );
+			return new CountWhatIsAtCommand( parts[2], parts[3] );
 		} else {
 			// the basic WhatIsAtCommand
-			String [] latAndLong = parts[1].split( " " );
-			return new WhatIsAtCommand( latAndLong[0], latAndLong[1] );
+			return new WhatIsAtCommand( parts[1], parts[2] );
 		}
 	}
 }

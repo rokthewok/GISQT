@@ -5,6 +5,10 @@ import gissystem.interfaces.ICommand;
 import gissystem.interfaces.IDataAccessController;
 
 public class GisSystemController {
+	private String logFilename;
+	private String commandFilename;
+	private String databaseFilename;
+	
 	private IDataAccessController dataAccessController;
 	
 	public GisSystemController( IDataAccessController dataAccessController ) {
@@ -14,6 +18,7 @@ public class GisSystemController {
 	public void doWork() {
 		RawCommandParser commandParser = new RawCommandParser();
 		
+		int count = 1;
 		while( true ) {
 			String rawCommand = this.dataAccessController.getNextCommandLine();
 			
@@ -21,12 +26,30 @@ public class GisSystemController {
 				break;
 			} else if( rawCommand.charAt( 0 ) != ';' ) {				
 				ICommand command = commandParser.parseCommand( rawCommand );
-				command.execute( this.dataAccessController );
+				if( command != null ) {
+					this.dataAccessController.getLogger().writeToLog( "Executing command " + count + ": " + rawCommand + "\n\n" );
+					command.execute( this.dataAccessController );
+					this.dataAccessController.getLogger().writeToLog( "\n\n-----------------------------------------------------------------\n\n" );
+				} else {
+					this.dataAccessController.getLogger().writeToLog( "Bad command in file: " + rawCommand );
+					this.dataAccessController.getLogger().writeToLog( "\n\n-----------------------------------------------------------------\n\n" );
+				}
+				
+				count++;
 			}
-			
-			this.dataAccessController.getLogger().writeToLog( "\n\n-----------------------------------------------------------------\n\n" );
 		}
 		
 		this.dataAccessController.getLogger().writeToLog( "Command sequence quit. Exiting now." );
+	}
+	
+	public void doSetup( String [] args ) {
+		
+	}
+	
+	private void parseArguments( String [] args ) {
+		if( args.length < 3 ) {
+			System.out.println( "Sorry, please provide the necessary number of arguments." );
+			System.exit( -1 );
+		}
 	}
 }

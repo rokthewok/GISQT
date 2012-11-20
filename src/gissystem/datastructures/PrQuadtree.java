@@ -452,7 +452,7 @@ public class PrQuadtree {
 
 	@Override
 	/**
-	 * Creates a String depiction of the tree. Nodes are written out in NW, NE, SE, SW order.
+	 * Creates a String depiction of the tree. Nodes are written out in NE, NW, SE, SW order. UPDATE: now prints in SW, SE, NE, NW order
 	 */
 	public String toString() {
 		StringBuilder sb = new StringBuilder();
@@ -476,15 +476,15 @@ public class PrQuadtree {
 			}
 		} else {
 			prQuadInternal node = (prQuadInternal) root;
-			appendSubtree( node.NE, sb, padding + extraPadding );
-			sb.append( "\n" );
-			appendSubtree( node.NW, sb, padding + extraPadding );
-			sb.append( "\n" );
-			sb.append( padding + "[]" );
-			sb.append( "\n" );
 			appendSubtree( node.SW, sb, padding + extraPadding );
 			sb.append( "\n" );
 			appendSubtree( node.SE, sb, padding + extraPadding );
+			sb.append( "\n" );
+			sb.append( padding + "[]" );
+			sb.append( "\n" );
+			appendSubtree( node.NE, sb, padding + extraPadding );
+			sb.append( "\n" );
+			appendSubtree( node.NW, sb, padding + extraPadding );
 		}
 	}
 }

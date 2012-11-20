@@ -18,6 +18,8 @@ public class DataAccessController implements IDataAccessController {
 		this.commandFile = commandFile;
 		this.logFile = logFile;
 		this.databaseController = new DatabaseController( databaseFile );
+		this.quadTreeController = new QuadTreeController();
+		this.hashTableController = new HashTableController();
 	}
 	
 	@Override

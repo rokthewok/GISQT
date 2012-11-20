@@ -24,7 +24,7 @@ public class WorldCommand implements ICommand {
 	
 	@Override
 	public void execute( IDataAccessController controller ) {
-		PrQuadtree quadTree = new PrQuadtree( this.xMin, this.xMax, this.yMin, this.yMax );
+		PrQuadtree quadTree = new PrQuadtree( this.xMin, this.xMax, this.yMin, this.yMax, 4 ); // bucket size 4
 		controller.getQuadTreeController().setQuadTree( quadTree );
 		
 		String message = writeFormattedWorldLog();

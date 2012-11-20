@@ -3,7 +3,6 @@ package gissystem.tests.commandtests;
 import static org.junit.Assert.*;
 import gissystem.commands.CountWhatIsInCommand;
 import gissystem.commands.ImportCommand;
-import gissystem.commands.LongWhatIsInCommand;
 import gissystem.commands.WhatIsInCommand;
 import gissystem.commands.WorldCommand;
 import gissystem.helpers.io.ConsoleLogger;
@@ -42,9 +41,6 @@ public class WhatIsInCommandTests {
 		
 		WhatIsInCommand command = new WhatIsInCommand( xMin, xMax, yMin, yMax );
 		command.execute( controller );
-		
-		LongWhatIsInCommand longCommand = new LongWhatIsInCommand( xMin, xMax, yMin, yMax );
-		longCommand.execute( controller );
 		
 		CountWhatIsInCommand countCommand = new CountWhatIsInCommand( xMin, xMax, yMin, yMax );
 		countCommand.execute( controller );

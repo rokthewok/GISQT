@@ -141,6 +141,12 @@ public class HashTable<T> {
 	@Override
 	public String toString() {
 		StringBuilder sb = new StringBuilder();
+		sb.append( "Table size: " );
+		sb.append( this.tableSize );
+		sb.append( "\nCurrent population: " );
+		sb.append( this.currentPopulation );
+		sb.append( "\n\n" );
+		
 		for( int i = 0; i < this.tableSize; i++ ) {
 			if( this.elements[i] != null ) {
 				sb.append( i );

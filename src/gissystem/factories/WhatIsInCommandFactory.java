@@ -1,8 +1,8 @@
 package gissystem.factories;
 
 import gissystem.commands.CountWhatIsInCommand;
-import gissystem.commands.LongWhatIsInCommand;
 import gissystem.commands.WhatIsInCommand;
+import gissystem.commands.helpers.VerboseFormatter;
 import gissystem.interfaces.ICommand;
 import gissystem.interfaces.ICommandFactory;
 import gissystem.models.GeographicPoint;
@@ -24,7 +24,7 @@ public class WhatIsInCommandFactory implements ICommandFactory {
 			GeographicPoint point = new GeographicPoint( GeographicCoordinateFactory.createCoordinate( latAndLong[0] ), GeographicCoordinateFactory.createCoordinate( latAndLong[1] ) );
 			Long halfHeight = new Long( parts[3] );
 			Long halfWidth = new Long( parts[4] );
-			return new LongWhatIsInCommand( point.getX() - halfWidth, point.getX() + halfWidth, point.getY() - halfHeight, point.getY() + halfHeight );
+			return new WhatIsInCommand( point.getX() - halfWidth, point.getX() + halfWidth, point.getY() - halfHeight, point.getY() + halfHeight, new VerboseFormatter() );
 		} else if( parts[1].equals( "-c" ) ) {
 			// the count option is specified
 			String [] latAndLong = parts[2].split( " " );

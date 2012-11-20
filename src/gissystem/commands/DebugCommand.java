@@ -18,6 +18,7 @@ public class DebugCommand implements ICommand {
 			controller.getLogger().writeToLog( controller.getQuadTreeController().getQuadTreeToString() );
 			break;
 		case HASHTABLE:
+			controller.getLogger().writeToLog( "Display format is: <table slot #>: {<record key>, <record offsets>}\n" );
 			controller.getLogger().writeToLog( controller.getHashTableController().getHashTableToString() );
 			break;
 		case BUFFERPOOL:

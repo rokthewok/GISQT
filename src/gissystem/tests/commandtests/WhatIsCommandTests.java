@@ -4,7 +4,6 @@ import static org.junit.Assert.*;
 
 import gissystem.commands.CountWhatIsCommand;
 import gissystem.commands.ImportCommand;
-import gissystem.commands.LongWhatIsCommand;
 import gissystem.commands.WhatIsCommand;
 import gissystem.commands.WorldCommand;
 import gissystem.helpers.io.ConsoleLogger;
@@ -38,9 +37,6 @@ public class WhatIsCommandTests {
 		String stateAbbreviation = "VA";
 		WhatIsCommand command = new WhatIsCommand( featureName, stateAbbreviation );
 		command.execute( controller );
-		
-		LongWhatIsCommand longCommand = new LongWhatIsCommand( featureName, stateAbbreviation );
-		longCommand.execute( controller );
 		
 		CountWhatIsCommand countCommand = new CountWhatIsCommand( featureName, stateAbbreviation );
 		countCommand.execute( controller );

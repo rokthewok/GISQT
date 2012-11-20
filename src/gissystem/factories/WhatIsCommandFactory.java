@@ -1,8 +1,8 @@
 package gissystem.factories;
 
 import gissystem.commands.CountWhatIsCommand;
-import gissystem.commands.LongWhatIsCommand;
 import gissystem.commands.WhatIsCommand;
+import gissystem.commands.helpers.VerboseFormatter;
 import gissystem.interfaces.ICommand;
 import gissystem.interfaces.ICommandFactory;
 
@@ -19,7 +19,7 @@ public class WhatIsCommandFactory implements ICommandFactory {
 		
 		if( parts[1].equals( "-l" ) ) {
 			// the verbose option is specified
-			return new LongWhatIsCommand( parts[2], parts[3] );
+			return new WhatIsCommand( parts[2], parts[3], new VerboseFormatter() );
 		} else if( parts[1].equals( "-c" ) ) {
 			// the count option is specified
 			return new CountWhatIsCommand( parts[2], parts[3] );

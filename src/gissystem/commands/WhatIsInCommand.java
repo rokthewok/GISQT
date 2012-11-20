@@ -2,9 +2,11 @@ package gissystem.commands;
 
 import java.util.List;
 
+import gissystem.commands.helpers.WhatIsInFormatter;
 import gissystem.factories.GeographicFeatureFactory;
 import gissystem.interfaces.ICommand;
 import gissystem.interfaces.IDataAccessController;
+import gissystem.interfaces.IFormatter;
 import gissystem.models.GeographicFeature;
 
 public class WhatIsInCommand implements ICommand {
@@ -12,12 +14,18 @@ public class WhatIsInCommand implements ICommand {
 	private long xMax;
 	private long yMin;
 	private long yMax;
+	private IFormatter formatter;
 	
 	public WhatIsInCommand( long xMin, long xMax, long yMin, long yMax ) {
+		this( xMin, xMax, yMin, yMax, new WhatIsInFormatter() );
+	}
+	
+	public WhatIsInCommand( long xMin, long xMax, long yMin, long yMax, IFormatter formatter ) {
 		this.xMin = xMin;
 		this.xMax = xMax;
 		this.yMin = yMin;
 		this.yMax = yMax;
+		this.formatter = formatter;
 	}
 	
 	@Override
@@ -33,25 +41,25 @@ public class WhatIsInCommand implements ICommand {
 				String record = controller.getDatabaseController().get( offset );
 				GeographicFeature feature = GeographicFeatureFactory.createGeographicFeature( record );
 				
-				controller.getLogger().writeToLog( formatFeatureOutput( offset, feature ) );
+				controller.getLogger().writeToLog( this.formatter.formatFeatureOutput( offset, feature ) );
 			}
 		}
 	}
 	
-	protected String formatFeatureOutput( Long offset, GeographicFeature feature ) {
-		StringBuilder sb = new StringBuilder();
-		sb.append( "\n\toffset:\t\t" );
-		sb.append( offset );
-		sb.append( "\n\tname:\t\t" );
-		sb.append( feature.getName() );
-		sb.append( "\n\tstate:\t\t" );
-		sb.append( feature.getAlphabeticStateCode() );
-		sb.append( "\n\tlatitude:\t" );
-		sb.append( feature.getPrimaryLatitude().toString() );
-		sb.append( "\n\tlongitude:\t" );
-		sb.append( feature.getPrimaryLongitude().toString() );
-		sb.append( "\n" );
-		
-		return sb.toString();
-	}
+//	protected String formatFeatureOutput( Long offset, GeographicFeature feature ) {
+//		StringBuilder sb = new StringBuilder();
+//		sb.append( "\n\toffset:\t\t" );
+//		sb.append( offset );
+//		sb.append( "\n\tname:\t\t" );
+//		sb.append( feature.getName() );
+//		sb.append( "\n\tstate:\t\t" );
+//		sb.append( feature.getAlphabeticStateCode() );
+//		sb.append( "\n\tlatitude:\t" );
+//		sb.append( feature.getPrimaryLatitude().toString() );
+//		sb.append( "\n\tlongitude:\t" );
+//		sb.append( feature.getPrimaryLongitude().toString() );
+//		sb.append( "\n" );
+//		
+//		return sb.toString();
+//	}
 }

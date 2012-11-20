@@ -36,6 +36,7 @@ public class DatabaseController {
 		try {
 			this.database.seek( offset );
 			searchResult = this.database.readLine();
+			this.bufferPool.add( offset, searchResult );
 		} catch ( IOException e ) {
 			e.printStackTrace();
 		}

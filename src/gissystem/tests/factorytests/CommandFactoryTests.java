@@ -6,9 +6,6 @@ import gissystem.commands.CountWhatIsCommand;
 import gissystem.commands.CountWhatIsInCommand;
 import gissystem.commands.DebugCommand;
 import gissystem.commands.ImportCommand;
-import gissystem.commands.LongWhatIsAtCommand;
-import gissystem.commands.LongWhatIsCommand;
-import gissystem.commands.LongWhatIsInCommand;
 import gissystem.commands.WhatIsAtCommand;
 import gissystem.commands.WhatIsCommand;
 import gissystem.commands.WhatIsInCommand;
@@ -55,20 +52,20 @@ public class CommandFactoryTests {
 		ICommandFactory factory = new WhatIsCommandFactory();
 		
 		assertTrue( factory.build( command ) instanceof WhatIsCommand );
-		assertTrue( factory.build( longCommand ) instanceof LongWhatIsCommand );
+		assertTrue( factory.build( longCommand ) instanceof WhatIsCommand );
 		assertTrue( factory.build( countCommand ) instanceof CountWhatIsCommand );
 	}
 	
 	@Test
 	public void whatIsAtCommandFactoryTest() {
-		String command = "what_is_at\t382710N 0794207W";
-		String longCommand = "what_is_at\t-l\t382710N 0794207W";
-		String countCommand = "what_is_at\t-c\t382710N 0794207W";
+		String command = "what_is_at\t382710N\t0794207W";
+		String longCommand = "what_is_at\t-l\t382710N\t0794207W";
+		String countCommand = "what_is_at\t-c\t382710N\t0794207W";
 		
 		ICommandFactory factory = new WhatIsAtCommandFactory();
 		
 		assertTrue( factory.build( command ) instanceof WhatIsAtCommand );
-		assertTrue( factory.build( longCommand ) instanceof LongWhatIsAtCommand );
+		assertTrue( factory.build( longCommand ) instanceof WhatIsAtCommand );
 		assertTrue( factory.build( countCommand ) instanceof CountWhatIsAtCommand );
 	}
 	
@@ -81,7 +78,7 @@ public class CommandFactoryTests {
 		ICommandFactory factory = new WhatIsInCommandFactory();
 		
 		assertTrue( factory.build( command ) instanceof WhatIsInCommand );
-		assertTrue( factory.build( longCommand ) instanceof LongWhatIsInCommand );
+		assertTrue( factory.build( longCommand ) instanceof WhatIsInCommand );
 		assertTrue( factory.build( countCommand ) instanceof CountWhatIsInCommand );
 	}
 	

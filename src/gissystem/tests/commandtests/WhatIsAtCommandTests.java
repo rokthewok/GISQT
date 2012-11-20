@@ -4,7 +4,6 @@ import static org.junit.Assert.*;
 
 import gissystem.commands.CountWhatIsAtCommand;
 import gissystem.commands.ImportCommand;
-import gissystem.commands.LongWhatIsAtCommand;
 import gissystem.commands.WhatIsAtCommand;
 import gissystem.commands.WorldCommand;
 import gissystem.helpers.io.ConsoleLogger;
@@ -38,9 +37,6 @@ public class WhatIsAtCommandTests {
 		String rawLongitude = "0793312W";
 		WhatIsAtCommand command = new WhatIsAtCommand( rawLatitude, rawLongitude );
 		command.execute( controller );
-		
-		LongWhatIsAtCommand longCommand = new LongWhatIsAtCommand( rawLatitude, rawLongitude );
-		longCommand.execute( controller );
 		
 		CountWhatIsAtCommand countCommand = new CountWhatIsAtCommand( rawLatitude, rawLongitude );
 		countCommand.execute( controller );
