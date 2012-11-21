@@ -46,7 +46,7 @@ public class HashTable<T> {
 				inserted = true;
 				break;
 			}
-			index = ( hashValue + ( i * i + i ) / 2 ) % this.tableSize;
+			index = nextProbe( i, hashValue );
 			i++;
 		}
 		
@@ -74,11 +74,12 @@ public class HashTable<T> {
 	 */
 	@SuppressWarnings("unchecked")
 	public Vector<T> remove( String key ) {
-		int index = elfHash( key ) % this.tableSize;
+		int hashValue = elfHash( key ) % this.tableSize;
 		
 		Pair<T> temp = null;
-		
 		int i = 1;
+		int index = hashValue;
+		
 		while( this.elements[index] != null ) {
 			temp = (Pair<T>) this.elements[index];
 			if( temp.key.equals( key ) ) {
@@ -88,7 +89,8 @@ public class HashTable<T> {
 				return temp.values;
 			} else {
 				// increment through the hashtable
-				index = nextProbe( i, index );
+				index = nextProbe( i, hashValue );
+				i++;
 			}
 		}
 		
@@ -96,30 +98,48 @@ public class HashTable<T> {
 		return null;
 	}
 	
+	/**
+	 * Gets the item(s) associated with the String key.
+	 * @param key The key corresponding to the desired value.
+	 * @return The item(s) or null if it is not in the table.
+	 */
 	@SuppressWarnings("unchecked")
 	public Vector<T> get( String key ) {
-		int index = elfHash( key ) % this.tableSize;
+		int hashValue = elfHash( key ) % this.tableSize;
 		int i = 1;
+		int index = hashValue;
+		
 		while( this.elements[index] != null ) {
 			if( key.equals( ( (Pair<T>) this.elements[index] ).key ) ) {
 				return ((Pair<T>) this.elements[index] ).values;
 			}
 			
-			index = nextProbe( i, index );
+			index = nextProbe( i, hashValue );
+			i++;
 		}
 		
 		return null;
 	}
 	
+	/**
+	 * Gets the current table size.
+	 * @return The table size.
+	 */
 	public int getCapacity() {
 		return this.tableSize;
 	}
 	
+	/**
+	 * Gets the current number of items in the table.
+	 * @return The current population.
+	 */
 	public int size() {
 		return this.currentPopulation;
 	}
 
-	
+	/*
+	 * Helper function to increase the size of the table. Rehashes any existing items in the table.
+	 */
 	@SuppressWarnings("unchecked")
 	private void grow() {
 		for( int i = 0; i < TABLE_SIZES.length - 1; i++ ) {
@@ -129,22 +149,23 @@ public class HashTable<T> {
 			}
 		}
 		
-		Object [] newTable = new Object[this.tableSize];
-		for( int i = 0; i < this.elements.length; i++ ) {
-			if( this.elements[i] != null ) {
-				int index = elfHash( ( (Pair<T>) this.elements[i] ).key ) % this.tableSize;
-				newTable[index] = this.elements[i];
+		Object [] tempTable = this.elements;
+		this.elements = new Object[this.tableSize];
+		for( int i = 0; i < tempTable.length; i++ ) {
+			if( tempTable[i] != null ) {
+				Pair<T> pair = (Pair<T>) tempTable[i];
+				for( T value : pair.values ) {
+					insert( pair.key, value );
+				}
 			}
 		}
-		
-		this.elements = newTable;
 	}
 	
 	/*
 	 * Get the next value of in the probe sequence
 	 */
-	private int nextProbe( int sequenceNumber, int index ) {
-		return ( index + ( sequenceNumber * sequenceNumber + sequenceNumber ) / 2 ) % this.tableSize;
+	private int nextProbe( int sequenceNumber, int hashValue ) {
+		return ( hashValue + ( sequenceNumber * sequenceNumber + sequenceNumber ) / 2 ) % this.tableSize;
 	}
 	
 	private int elfHash( String key ) {
@@ -186,6 +207,9 @@ public class HashTable<T> {
 		return sb.toString();
 	}
 	
+	/*
+	 * Nested class to contain a key and set of values.
+	 */
 	@SuppressWarnings("hiding")
 	private class Pair<T> {
 		private String key;

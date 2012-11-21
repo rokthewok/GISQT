@@ -7,7 +7,9 @@ import gissystem.interfaces.ICommand;
 import gissystem.interfaces.ICommandFactory;
 
 /**
- * Factory method which handles creating the three types of what-is commands
+ * Factory method which handles creating the three types of what-is commands.
+ * @see WhatIsCommand
+ * @see CountWhatIsCommand
  * @author John
  *
  */

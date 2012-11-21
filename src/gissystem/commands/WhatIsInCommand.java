@@ -72,6 +72,7 @@ public class WhatIsInCommand implements ICommand {
 				GeographicFeature feature = GeographicFeatureFactory.createGeographicFeature( record );
 				
 				controller.getLogger().writeToLog( this.formatter.formatFeatureOutput( offset, feature ) );
+				controller.getLogger().writeToLog( "\n" );
 			}
 		}
 	}

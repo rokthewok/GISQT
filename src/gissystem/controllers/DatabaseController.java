@@ -1,7 +1,6 @@
 package gissystem.controllers;
 
 import java.io.File;
-import java.io.FileNotFoundException;
 import java.io.IOException;
 import java.io.RandomAccessFile;
 
@@ -30,7 +29,9 @@ public class DatabaseController {
 		databaseFile.delete();
 		try {
 			this.database = new RandomAccessFile( databaseFile, "rw" );
-		} catch( FileNotFoundException e ) {
+			this.database.writeBytes( "FEATURE_ID|FEATURE_NAME|FEATURE_CLASS|STATE_ALPHA|STATE_NUMERIC|COUNTY_NAME|COUNTY_NUMERIC|PRIMARY_LAT_DMS|PRIM_LONG_DMS|PRIM_LAT_DEC|PRIM_LONG_DEC" +
+										"|SOURCE_LAT_DMS|SOURCE_LONG_DMS|SOURCE_LAT_DEC|SOURCE_LONG_DEC|ELEV_IN_M|ELEV_IN_FT|MAP_NAME|DATE_CREATED|DATE_EDITED\n" );
+		} catch( IOException e ) {
 			e.printStackTrace();
 		}
 	}

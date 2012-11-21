@@ -1,0 +1,5626 @@
+GIS System
+database: databases/database05.txt
+commands: commands/Script05.txt
+captain's log: logs/log05.txt
+star date:
+
+
+Executing command 1: world	0804500W	0800000W	370000N	374500N
+
+Map boundaries:
+                        135900
+        -290700                       -288000
+                        133200
+
+
+-----------------------------------------------------------------
+
+Executing command 2: import	VA_Montgomery.txt
+
+	number of entries added: 752
+	longest hashtable probe sequence: 17
+
+
+-----------------------------------------------------------------
+
+Executing command 3: what_is_in	371347N	0802514W	10	600
+
+The features found in the rectangle (-290114, 134017), (-288914, 134037) are:
+
+	offset:		24684
+	name:		Lick Run
+	state:		VA
+	latitude:	0371339 North
+	longitude:	0803152 West
+
+	offset:		32643
+	name:		Sunnyside Church
+	state:		VA
+	latitude:	0371338 North
+	longitude:	0803159 West
+
+	offset:		27804
+	name:		New Mount Zion Church
+	state:		VA
+	latitude:	0371346 North
+	longitude:	0803120 West
+
+	offset:		84950
+	name:		Sunnyside School (historical)
+	state:		VA
+	latitude:	0371346 North
+	longitude:	0803120 West
+
+	offset:		29818
+	name:		Poverty Creek
+	state:		VA
+	latitude:	0371354 North
+	longitude:	0803128 West
+
+	offset:		22421
+	name:		Fox Hollow
+	state:		VA
+	latitude:	0371353 North
+	longitude:	0803042 West
+
+	offset:		27122
+	name:		Mount Zion Cemetery
+	state:		VA
+	latitude:	0371339 North
+	longitude:	0803050 West
+
+	offset:		21838
+	name:		Fairview Church
+	state:		VA
+	latitude:	0371349 North
+	longitude:	0802943 West
+
+	offset:		58290
+	name:		Fairview School (historical)
+	state:		VA
+	latitude:	0371349 North
+	longitude:	0802943 West
+
+	offset:		29656
+	name:		Poff Hollow
+	state:		VA
+	latitude:	0371349 North
+	longitude:	0803003 West
+
+	offset:		30939
+	name:		Shaffer Hollow
+	state:		VA
+	latitude:	0371345 North
+	longitude:	0802957 West
+
+	offset:		41769
+	name:		WKEX-AM (Blacksburg)
+	state:		VA
+	latitude:	0371357 North
+	longitude:	0802639 West
+
+	offset:		42161
+	name:		WKEX-AM (Blacksburg)
+	state:		VA
+	latitude:	0371357 North
+	longitude:	0802639 West
+
+	offset:		55501
+	name:		Davidson Hall
+	state:		VA
+	latitude:	0371337 North
+	longitude:	0802531 West
+
+	offset:		60341
+	name:		Hahn Hall
+	state:		VA
+	latitude:	0371340 North
+	longitude:	0802531 West
+
+	offset:		78948
+	name:		Robeson Hall
+	state:		VA
+	latitude:	0371341 North
+	longitude:	0802530 West
+
+	offset:		89324
+	name:		Williams Hall
+	state:		VA
+	latitude:	0371340 North
+	longitude:	0802528 West
+
+	offset:		93055
+	name:		Roy Holden Hall
+	state:		VA
+	latitude:	0371340 North
+	longitude:	0802521 West
+
+	offset:		87832
+	name:		Virginia Tech Golf Course
+	state:		VA
+	latitude:	0371344 North
+	longitude:	0802554 West
+
+	offset:		55891
+	name:		Derring Hall
+	state:		VA
+	latitude:	0371344 North
+	longitude:	0802532 West
+
+	offset:		92227
+	name:		Paul Derring Hall
+	state:		VA
+	latitude:	0371344 North
+	longitude:	0802533 West
+
+	offset:		100672
+	name:		Town of Blacksburg
+	state:		VA
+	latitude:	0371348 North
+	longitude:	0802540 West
+
+	offset:		49777
+	name:		Burke Johnson Student Center
+	state:		VA
+	latitude:	0371344 North
+	longitude:	0802529 West
+
+	offset:		96802
+	name:		G Burke Johnston Student Center
+	state:		VA
+	latitude:	0371344 North
+	longitude:	0802529 West
+
+	offset:		92888
+	name:		Robert Pamplin Senior and Robert Pamplin Junior Hall
+	state:		VA
+	latitude:	0371343 North
+	longitude:	0802529 West
+
+	offset:		49919
+	name:		Burruss Administration Building
+	state:		VA
+	latitude:	0371343 North
+	longitude:	0802526 West
+
+	offset:		73873
+	name:		Pamplin Hall
+	state:		VA
+	latitude:	0371343 North
+	longitude:	0802528 West
+
+	offset:		55241
+	name:		Cowgil Hall
+	state:		VA
+	latitude:	0371347 North
+	longitude:	0802529 West
+
+	offset:		95010
+	name:		Burchard Hall
+	state:		VA
+	latitude:	0371346 North
+	longitude:	0802529 West
+
+	offset:		95680
+	name:		Clinton Cowgill Hall
+	state:		VA
+	latitude:	0371347 North
+	longitude:	0802530 West
+
+	offset:		33387
+	name:		Virginia Polytechnic Institute and State University
+	state:		VA
+	latitude:	0371345 North
+	longitude:	0802526 West
+
+	offset:		98439
+	name:		Julian Burruss Hall
+	state:		VA
+	latitude:	0371344 North
+	longitude:	0802526 West
+
+	offset:		74430
+	name:		Patton Hall
+	state:		VA
+	latitude:	0371345 North
+	longitude:	0802520 West
+
+	offset:		94051
+	name:		William Patton Hall
+	state:		VA
+	latitude:	0371345 North
+	longitude:	0802521 West
+
+	offset:		60723
+	name:		Hancock Hall
+	state:		VA
+	latitude:	0371349 North
+	longitude:	0802526 West
+
+	offset:		89195
+	name:		Whittemore Hall
+	state:		VA
+	latitude:	0371351 North
+	longitude:	0802527 West
+
+	offset:		97886
+	name:		J W Whittemore Hall
+	state:		VA
+	latitude:	0371351 North
+	longitude:	0802529 West
+
+	offset:		60465
+	name:		Holden Hall
+	state:		VA
+	latitude:	0371347 North
+	longitude:	0802524 West
+
+	offset:		72224
+	name:		Norris Hall
+	state:		VA
+	latitude:	0371348 North
+	longitude:	0802521 West
+
+	offset:		77895
+	name:		Randolph Hall
+	state:		VA
+	latitude:	0371351 North
+	longitude:	0802524 West
+
+	offset:		98716
+	name:		Lingan Randolph Hall
+	state:		VA
+	latitude:	0371350 North
+	longitude:	0802524 West
+
+	offset:		92498
+	name:		Price House
+	state:		VA
+	latitude:	0371352 North
+	longitude:	0802521 West
+
+	offset:		96671
+	name:		Fred Durham Hall
+	state:		VA
+	latitude:	0371353 North
+	longitude:	0802526 West
+
+	offset:		57525
+	name:		Eggleston Hall
+	state:		VA
+	latitude:	0371338 North
+	longitude:	0802513 West
+
+	offset:		56411
+	name:		Donaldson Brown Continuing Education Center
+	state:		VA
+	latitude:	0371342 North
+	longitude:	0802504 West
+
+	offset:		94437
+	name:		Alumni Hall-Virginia Tech
+	state:		VA
+	latitude:	0371342 North
+	longitude:	0802505 West
+
+	offset:		95266
+	name:		Charles Vawter Senior Hall
+	state:		VA
+	latitude:	0371337 North
+	longitude:	0802504 West
+
+	offset:		95955
+	name:		Donaldson Brown Hotel and Conference Center
+	state:		VA
+	latitude:	0371341 North
+	longitude:	0802504 West
+
+	offset:		93626
+	name:		War Memorial Chapel
+	state:		VA
+	latitude:	0371343 North
+	longitude:	0802515 West
+
+	offset:		71827
+	name:		Newman Library
+	state:		VA
+	latitude:	0371344 North
+	longitude:	0802510 West
+
+	offset:		58561
+	name:		Femoyer Hall
+	state:		VA
+	latitude:	0371352 North
+	longitude:	0802517 West
+
+	offset:		92754
+	name:		Robert Femoyer Hall
+	state:		VA
+	latitude:	0371352 North
+	longitude:	0802517 West
+
+	offset:		66868
+	name:		Major Williams Dormitory
+	state:		VA
+	latitude:	0371351 North
+	longitude:	0802515 West
+
+	offset:		67006
+	name:		McBryde Hall
+	state:		VA
+	latitude:	0371349 North
+	longitude:	0802519 West
+
+	offset:		98990
+	name:		Major Lloyd W Williams Hall
+	state:		VA
+	latitude:	0371352 North
+	longitude:	0802516 West
+
+	offset:		93317
+	name:		Torgersen Hall
+	state:		VA
+	latitude:	0371347 North
+	longitude:	0802514 West
+
+	offset:		49514
+	name:		Brodie Hall
+	state:		VA
+	latitude:	0371348 North
+	longitude:	0802512 West
+
+	offset:		94855
+	name:		Arts and Science Administration Building
+	state:		VA
+	latitude:	0371352 North
+	longitude:	0802513 West
+
+	offset:		98020
+	name:		James H Lane Hall
+	state:		VA
+	latitude:	0371351 North
+	longitude:	0802512 West
+
+	offset:		64863
+	name:		Lane Hall
+	state:		VA
+	latitude:	0371351 North
+	longitude:	0802511 West
+
+	offset:		84421
+	name:		Squires Hall
+	state:		VA
+	latitude:	0371346 North
+	longitude:	0802506 West
+
+	offset:		98289
+	name:		John Houston Squires Student Center
+	state:		VA
+	latitude:	0371346 North
+	longitude:	0802506 West
+
+	offset:		94577
+	name:		Architecture Annex
+	state:		VA
+	latitude:	0371343 North
+	longitude:	0802459 West
+
+	offset:		99387
+	name:		Media Building
+	state:		VA
+	latitude:	0371343 North
+	longitude:	0802458 West
+
+	offset:		78022
+	name:		Rasche Hall
+	state:		VA
+	latitude:	0371351 North
+	longitude:	0802509 West
+
+	offset:		93907
+	name:		William H "Bosco" Rasche Hall
+	state:		VA
+	latitude:	0371350 North
+	longitude:	0802509 West
+
+	offset:		60985
+	name:		Henderson Student Health Service Building
+	state:		VA
+	latitude:	0371349 North
+	longitude:	0802501 West
+
+	offset:		86337
+	name:		Thomas Hall
+	state:		VA
+	latitude:	0371354 North
+	longitude:	0802515 West
+
+	offset:		94710
+	name:		Art and Design Learning Center
+	state:		VA
+	latitude:	0371354 North
+	longitude:	0802515 West
+
+	offset:		99657
+	name:		Military Building
+	state:		VA
+	latitude:	0371354 North
+	longitude:	0802518 West
+
+	offset:		100074
+	name:		Old Security Building
+	state:		VA
+	latitude:	0371353 North
+	longitude:	0802518 West
+
+	offset:		68615
+	name:		Monteith Hall
+	state:		VA
+	latitude:	0371355 North
+	longitude:	0802513 West
+
+	offset:		81044
+	name:		Shanks Hall
+	state:		VA
+	latitude:	0371354 North
+	longitude:	0802512 West
+
+	offset:		97229
+	name:		Herbert J Thomas Hall
+	state:		VA
+	latitude:	0371356 North
+	longitude:	0802513 West
+
+	offset:		98147
+	name:		Jimmie Monteith Junior Hall
+	state:		VA
+	latitude:	0371354 North
+	longitude:	0802511 West
+
+	offset:		48012
+	name:		Blacksburg Historic District
+	state:		VA
+	latitude:	0371355 North
+	longitude:	0802459 West
+
+	offset:		82119
+	name:		Shultz Hall
+	state:		VA
+	latitude:	0371354 North
+	longitude:	0802507 West
+
+	offset:		97627
+	name:		J H Shultz Hall
+	state:		VA
+	latitude:	0371354 North
+	longitude:	0802507 West
+
+	offset:		41209
+	name:		Blacksburg
+	state:		VA
+	latitude:	0371346 North
+	longitude:	0802450 West
+
+	offset:		47878
+	name:		Blacksburg City Hall
+	state:		VA
+	latitude:	0371350 North
+	longitude:	0802451 West
+
+	offset:		48298
+	name:		Blacksburg Post Office
+	state:		VA
+	latitude:	0371348 North
+	longitude:	0802452 West
+
+	offset:		52067
+	name:		Christ Episcopal Church
+	state:		VA
+	latitude:	0371350 North
+	longitude:	0802449 West
+
+	offset:		77347
+	name:		Progress Street Fire Station
+	state:		VA
+	latitude:	0371352 North
+	longitude:	0802449 West
+
+	offset:		49103
+	name:		Blacksburg United Methodist Church
+	state:		VA
+	latitude:	0371347 North
+	longitude:	0802445 West
+
+	offset:		79788
+	name:		Saint Paul African Methodist Episcopal Church
+	state:		VA
+	latitude:	0371351 North
+	longitude:	0802446 West
+
+	offset:		79642
+	name:		Saint Marys Roman Catholic Church
+	state:		VA
+	latitude:	0371356 North
+	longitude:	0802453 West
+
+	offset:		47070
+	name:		Berryfield
+	state:		VA
+	latitude:	0371346 North
+	longitude:	0802434 West
+
+	offset:		58688
+	name:		First Baptist Church
+	state:		VA
+	latitude:	0371343 North
+	longitude:	0802435 West
+
+	offset:		102279
+	name:		Dayspring Christian Academy
+	state:		VA
+	latitude:	0371350 North
+	longitude:	0802425 West
+
+	offset:		64333
+	name:		Knob Hill
+	state:		VA
+	latitude:	0371348 North
+	longitude:	0802355 West
+
+	offset:		40577
+	name:		Reesedale
+	state:		VA
+	latitude:	0371345 North
+	longitude:	0801756 West
+
+	offset:		78419
+	name:		Reesedale Church
+	state:		VA
+	latitude:	0371345 North
+	longitude:	0801744 West
+
+
+-----------------------------------------------------------------
+
+Executing command 4: what_is_in	371347N	0802514W	600	10
+
+The features found in the rectangle (-289524, 133427), (-289504, 134627) are:
+
+	offset:		15968
+	name:		Union Valley
+	state:		VA
+	latitude:	0370348 North
+	longitude:	0802505 West
+
+	offset:		63014
+	name:		Interchange 114
+	state:		VA
+	latitude:	0370658 North
+	longitude:	0802521 West
+
+	offset:		83894
+	name:		South Hill Park
+	state:		VA
+	latitude:	0370706 North
+	longitude:	0802511 West
+
+	offset:		65126
+	name:		Lee-Hi Court
+	state:		VA
+	latitude:	0370737 North
+	longitude:	0802505 West
+
+	offset:		31101
+	name:		Shaffer Memorial Cemetery
+	state:		VA
+	latitude:	0370747 North
+	longitude:	0802515 West
+
+	offset:		87695
+	name:		Victory Heights
+	state:		VA
+	latitude:	0370747 North
+	longitude:	0802509 West
+
+	offset:		87970
+	name:		Vista Via
+	state:		VA
+	latitude:	0370840 North
+	longitude:	0802524 West
+
+	offset:		18030
+	name:		Alleghany Church
+	state:		VA
+	latitude:	0370930 North
+	longitude:	0802506 West
+
+	offset:		45985
+	name:		Apple Acres
+	state:		VA
+	latitude:	0370923 North
+	longitude:	0802507 West
+
+	offset:		36239
+	name:		Virginia Polytechnic Institute and State University Horticultural Research Area
+	state:		VA
+	latitude:	0370958 North
+	longitude:	0802505 West
+
+	offset:		67673
+	name:		Midway Heights
+	state:		VA
+	latitude:	0371020 North
+	longitude:	0802506 West
+
+	offset:		85928
+	name:		The Marketplace Shopping Center
+	state:		VA
+	latitude:	0371002 North
+	longitude:	0802517 West
+
+	offset:		57653
+	name:		English Field
+	state:		VA
+	latitude:	0371303 North
+	longitude:	0802522 West
+
+	offset:		99265
+	name:		McComas Hall
+	state:		VA
+	latitude:	0371312 North
+	longitude:	0802522 West
+
+	offset:		54282
+	name:		Cochrane Hall
+	state:		VA
+	latitude:	0371322 North
+	longitude:	0802520 West
+
+	offset:		51525
+	name:		Cheatham Hall
+	state:		VA
+	latitude:	0371326 North
+	longitude:	0802521 West
+
+	offset:		83217
+	name:		Smyth Hall
+	state:		VA
+	latitude:	0371330 North
+	longitude:	0802523 West
+
+	offset:		95407
+	name:		Clarice Slusher Pritchard Hall
+	state:		VA
+	latitude:	0371330 North
+	longitude:	0802520 West
+
+	offset:		62619
+	name:		Hutcheson Hall
+	state:		VA
+	latitude:	0371332 North
+	longitude:	0802523 West
+
+	offset:		93055
+	name:		Roy Holden Hall
+	state:		VA
+	latitude:	0371340 North
+	longitude:	0802521 West
+
+	offset:		74430
+	name:		Patton Hall
+	state:		VA
+	latitude:	0371345 North
+	longitude:	0802520 West
+
+	offset:		94051
+	name:		William Patton Hall
+	state:		VA
+	latitude:	0371345 North
+	longitude:	0802521 West
+
+	offset:		60465
+	name:		Holden Hall
+	state:		VA
+	latitude:	0371347 North
+	longitude:	0802524 West
+
+	offset:		72224
+	name:		Norris Hall
+	state:		VA
+	latitude:	0371348 North
+	longitude:	0802521 West
+
+	offset:		77895
+	name:		Randolph Hall
+	state:		VA
+	latitude:	0371351 North
+	longitude:	0802524 West
+
+	offset:		98716
+	name:		Lingan Randolph Hall
+	state:		VA
+	latitude:	0371350 North
+	longitude:	0802524 West
+
+	offset:		92498
+	name:		Price House
+	state:		VA
+	latitude:	0371352 North
+	longitude:	0802521 West
+
+	offset:		78281
+	name:		Rector Tennis Pavillion
+	state:		VA
+	latitude:	0371253 North
+	longitude:	0802509 West
+
+	offset:		78148
+	name:		Rector Field House
+	state:		VA
+	latitude:	0371308 North
+	longitude:	0802519 West
+
+	offset:		92621
+	name:		Rechor Field House
+	state:		VA
+	latitude:	0371308 North
+	longitude:	0802519 West
+
+	offset:		99789
+	name:		Miller-Johnson Track/Soccer Complex
+	state:		VA
+	latitude:	0371303 North
+	longitude:	0802518 West
+
+	offset:		50988
+	name:		Cassel Coliseum
+	state:		VA
+	latitude:	0371321 North
+	longitude:	0802509 West
+
+	offset:		95138
+	name:		Cassell Coliseum
+	state:		VA
+	latitude:	0371321 North
+	longitude:	0802509 West
+
+	offset:		69754
+	name:		Mosely Practice Field
+	state:		VA
+	latitude:	0371312 North
+	longitude:	0802519 West
+
+	offset:		37626
+	name:		Lane Stadium
+	state:		VA
+	latitude:	0371312 North
+	longitude:	0802505 West
+
+	offset:		63393
+	name:		Jamerson Athletic Center
+	state:		VA
+	latitude:	0371318 North
+	longitude:	0802507 West
+
+	offset:		45715
+	name:		Ambler Johnston Hall
+	state:		VA
+	latitude:	0371323 North
+	longitude:	0802516 West
+
+	offset:		97490
+	name:		J Ambler Johnston Hall
+	state:		VA
+	latitude:	0371323 North
+	longitude:	0802516 West
+
+	offset:		56283
+	name:		Dietrick Hall
+	state:		VA
+	latitude:	0371328 North
+	longitude:	0802516 West
+
+	offset:		82956
+	name:		Slusher Hall
+	state:		VA
+	latitude:	0371331 North
+	longitude:	0802518 West
+
+	offset:		98573
+	name:		Leander Dietrick Dining Hall
+	state:		VA
+	latitude:	0371327 North
+	longitude:	0802517 West
+
+	offset:		77218
+	name:		Pritchard Hall
+	state:		VA
+	latitude:	0371327 North
+	longitude:	0802511 West
+
+	offset:		92359
+	name:		Peddrew-Yates Residence Hall
+	state:		VA
+	latitude:	0371330 North
+	longitude:	0802513 West
+
+	offset:		65656
+	name:		Lee Hall
+	state:		VA
+	latitude:	0371328 North
+	longitude:	0802507 West
+
+	offset:		95548
+	name:		Claudius Lee Hall
+	state:		VA
+	latitude:	0371328 North
+	longitude:	0802507 West
+
+	offset:		50465
+	name:		Campbell Hall
+	state:		VA
+	latitude:	0371334 North
+	longitude:	0802519 West
+
+	offset:		93182
+	name:		Thomas Campbell Hall
+	state:		VA
+	latitude:	0371334 North
+	longitude:	0802519 West
+
+	offset:		67401
+	name:		Memorial Gymnasium
+	state:		VA
+	latitude:	0371334 North
+	longitude:	0802515 West
+
+	offset:		94309
+	name:		Al Payne Hall
+	state:		VA
+	latitude:	0371333 North
+	longitude:	0802513 West
+
+	offset:		99934
+	name:		New Residence Hall - East
+	state:		VA
+	latitude:	0371332 North
+	longitude:	0802509 West
+
+	offset:		57525
+	name:		Eggleston Hall
+	state:		VA
+	latitude:	0371338 North
+	longitude:	0802513 West
+
+	offset:		71704
+	name:		Newman Hall
+	state:		VA
+	latitude:	0371334 North
+	longitude:	0802505 West
+
+	offset:		72927
+	name:		O'Shaughnessy Hall
+	state:		VA
+	latitude:	0371331 North
+	longitude:	0802506 West
+
+	offset:		97757
+	name:		J J Owens Hall
+	state:		VA
+	latitude:	0371335 North
+	longitude:	0802508 West
+
+	offset:		98851
+	name:		Louis O'Shaughnessy Hall
+	state:		VA
+	latitude:	0371331 North
+	longitude:	0802507 West
+
+	offset:		63532
+	name:		Johnson Hall
+	state:		VA
+	latitude:	0371332 North
+	longitude:	0802504 West
+
+	offset:		56411
+	name:		Donaldson Brown Continuing Education Center
+	state:		VA
+	latitude:	0371342 North
+	longitude:	0802504 West
+
+	offset:		94437
+	name:		Alumni Hall-Virginia Tech
+	state:		VA
+	latitude:	0371342 North
+	longitude:	0802505 West
+
+	offset:		95266
+	name:		Charles Vawter Senior Hall
+	state:		VA
+	latitude:	0371337 North
+	longitude:	0802504 West
+
+	offset:		95955
+	name:		Donaldson Brown Hotel and Conference Center
+	state:		VA
+	latitude:	0371341 North
+	longitude:	0802504 West
+
+	offset:		93626
+	name:		War Memorial Chapel
+	state:		VA
+	latitude:	0371343 North
+	longitude:	0802515 West
+
+	offset:		71827
+	name:		Newman Library
+	state:		VA
+	latitude:	0371344 North
+	longitude:	0802510 West
+
+	offset:		58561
+	name:		Femoyer Hall
+	state:		VA
+	latitude:	0371352 North
+	longitude:	0802517 West
+
+	offset:		92754
+	name:		Robert Femoyer Hall
+	state:		VA
+	latitude:	0371352 North
+	longitude:	0802517 West
+
+	offset:		66868
+	name:		Major Williams Dormitory
+	state:		VA
+	latitude:	0371351 North
+	longitude:	0802515 West
+
+	offset:		67006
+	name:		McBryde Hall
+	state:		VA
+	latitude:	0371349 North
+	longitude:	0802519 West
+
+	offset:		98990
+	name:		Major Lloyd W Williams Hall
+	state:		VA
+	latitude:	0371352 North
+	longitude:	0802516 West
+
+	offset:		93317
+	name:		Torgersen Hall
+	state:		VA
+	latitude:	0371347 North
+	longitude:	0802514 West
+
+	offset:		49514
+	name:		Brodie Hall
+	state:		VA
+	latitude:	0371348 North
+	longitude:	0802512 West
+
+	offset:		94855
+	name:		Arts and Science Administration Building
+	state:		VA
+	latitude:	0371352 North
+	longitude:	0802513 West
+
+	offset:		98020
+	name:		James H Lane Hall
+	state:		VA
+	latitude:	0371351 North
+	longitude:	0802512 West
+
+	offset:		64863
+	name:		Lane Hall
+	state:		VA
+	latitude:	0371351 North
+	longitude:	0802511 West
+
+	offset:		84421
+	name:		Squires Hall
+	state:		VA
+	latitude:	0371346 North
+	longitude:	0802506 West
+
+	offset:		98289
+	name:		John Houston Squires Student Center
+	state:		VA
+	latitude:	0371346 North
+	longitude:	0802506 West
+
+	offset:		78022
+	name:		Rasche Hall
+	state:		VA
+	latitude:	0371351 North
+	longitude:	0802509 West
+
+	offset:		93907
+	name:		William H "Bosco" Rasche Hall
+	state:		VA
+	latitude:	0371350 North
+	longitude:	0802509 West
+
+	offset:		86337
+	name:		Thomas Hall
+	state:		VA
+	latitude:	0371354 North
+	longitude:	0802515 West
+
+	offset:		94710
+	name:		Art and Design Learning Center
+	state:		VA
+	latitude:	0371354 North
+	longitude:	0802515 West
+
+	offset:		99657
+	name:		Military Building
+	state:		VA
+	latitude:	0371354 North
+	longitude:	0802518 West
+
+	offset:		100074
+	name:		Old Security Building
+	state:		VA
+	latitude:	0371353 North
+	longitude:	0802518 West
+
+	offset:		68615
+	name:		Monteith Hall
+	state:		VA
+	latitude:	0371355 North
+	longitude:	0802513 West
+
+	offset:		81044
+	name:		Shanks Hall
+	state:		VA
+	latitude:	0371354 North
+	longitude:	0802512 West
+
+	offset:		97229
+	name:		Herbert J Thomas Hall
+	state:		VA
+	latitude:	0371356 North
+	longitude:	0802513 West
+
+	offset:		98147
+	name:		Jimmie Monteith Junior Hall
+	state:		VA
+	latitude:	0371354 North
+	longitude:	0802511 West
+
+	offset:		66051
+	name:		Luther Memorial Church
+	state:		VA
+	latitude:	0371358 North
+	longitude:	0802507 West
+
+	offset:		82119
+	name:		Shultz Hall
+	state:		VA
+	latitude:	0371354 North
+	longitude:	0802507 West
+
+	offset:		97627
+	name:		J H Shultz Hall
+	state:		VA
+	latitude:	0371354 North
+	longitude:	0802507 West
+
+	offset:		83609
+	name:		Snidow Heights
+	state:		VA
+	latitude:	0371423 North
+	longitude:	0802517 West
+
+	offset:		87556
+	name:		University Terrace
+	state:		VA
+	latitude:	0371438 North
+	longitude:	0802515 West
+
+	offset:		75278
+	name:		Pheasant Run
+	state:		VA
+	latitude:	0371454 North
+	longitude:	0802505 West
+
+	offset:		21107
+	name:		Coal Bank Hollow
+	state:		VA
+	latitude:	0371632 North
+	longitude:	0802510 West
+
+	offset:		35213
+	name:		Blacksburg Ranger Station
+	state:		VA
+	latitude:	0371634 North
+	longitude:	0802516 West
+
+
+-----------------------------------------------------------------
+
+Executing command 5: what_is_in	371347N	0802514W	600	600
+
+The features found in the rectangle (-290114, 133427), (-288914, 134627) are:
+
+	offset:		17697
+	name:		Little River
+	state:		VA
+	latitude:	0370453 North
+	longitude:	0803437 West
+
+	offset:		37239
+	name:		Little River Dam
+	state:		VA
+	latitude:	0370442 North
+	longitude:	0803417 West
+
+	offset:		37368
+	name:		Little River Reservoir
+	state:		VA
+	latitude:	0370442 North
+	longitude:	0803417 West
+
+	offset:		44323
+	name:		Strouds Creek
+	state:		VA
+	latitude:	0370523 North
+	longitude:	0803444 West
+
+	offset:		62748
+	name:		Interchange 105
+	state:		VA
+	latitude:	0370529 North
+	longitude:	0803433 West
+
+	offset:		13823
+	name:		Zion Hill Baptist Church
+	state:		VA
+	latitude:	0370646 North
+	longitude:	0803408 West
+
+	offset:		9440
+	name:		Laurel Hill Church
+	state:		VA
+	latitude:	0370354 North
+	longitude:	0803227 West
+
+	offset:		51253
+	name:		Center Mills (historical)
+	state:		VA
+	latitude:	0370350 North
+	longitude:	0803226 West
+
+	offset:		941
+	name:		Bain Chapel
+	state:		VA
+	latitude:	0370536 North
+	longitude:	0803149 West
+
+	offset:		56569
+	name:		Dry School (historical)
+	state:		VA
+	latitude:	0370537 North
+	longitude:	0803147 West
+
+	offset:		10264
+	name:		Mill Creek
+	state:		VA
+	latitude:	0370415 North
+	longitude:	0803030 West
+
+	offset:		43614
+	name:		Carilion Saint Albans Hospital of Christiansburg
+	state:		VA
+	latitude:	0370528 North
+	longitude:	0803018 West
+
+	offset:		100933
+	name:		Carilion New River Valley Medical Center
+	state:		VA
+	latitude:	0370521 North
+	longitude:	0803020 West
+
+	offset:		90547
+	name:		District D-01
+	state:		VA
+	latitude:	0370411 North
+	longitude:	0802710 West
+
+	offset:		78682
+	name:		Auburn Middle School
+	state:		VA
+	latitude:	0370347 North
+	longitude:	0802632 West
+
+	offset:		78819
+	name:		Riner Historic District
+	state:		VA
+	latitude:	0370350 North
+	longitude:	0802625 West
+
+	offset:		12722
+	name:		Riner
+	state:		VA
+	latitude:	0370359 North
+	longitude:	0802626 West
+
+	offset:		37509
+	name:		Bennetts Dam
+	state:		VA
+	latitude:	0370500 North
+	longitude:	0802559 West
+
+	offset:		15968
+	name:		Union Valley
+	state:		VA
+	latitude:	0370348 North
+	longitude:	0802505 West
+
+	offset:		16214
+	name:		Union Valley Church
+	state:		VA
+	latitude:	0370400 North
+	longitude:	0802337 West
+
+	offset:		87134
+	name:		Union Valley School (historical)
+	state:		VA
+	latitude:	0370401 North
+	longitude:	0802338 West
+
+	offset:		13270
+	name:		Rogers
+	state:		VA
+	latitude:	0370530 North
+	longitude:	0802324 West
+
+	offset:		14413
+	name:		Smith Creek
+	state:		VA
+	latitude:	0370525 North
+	longitude:	0802316 West
+
+	offset:		12978
+	name:		Rock Road Cemetery
+	state:		VA
+	latitude:	0370652 North
+	longitude:	0803340 West
+
+	offset:		43097
+	name:		Ingles Mountain
+	state:		VA
+	latitude:	0370618 North
+	longitude:	0803343 West
+
+	offset:		74556
+	name:		Pentecost Church (historical)
+	state:		VA
+	latitude:	0370557 North
+	longitude:	0803211 West
+
+	offset:		11191
+	name:		Old Brick Church
+	state:		VA
+	latitude:	0370707 North
+	longitude:	0803224 West
+
+	offset:		37102
+	name:		East Radford
+	state:		VA
+	latitude:	0370813 North
+	longitude:	0803311 West
+
+	offset:		29494
+	name:		Plum Creek
+	state:		VA
+	latitude:	0370759 North
+	longitude:	0803145 West
+
+	offset:		1190
+	name:		Bethel Elementary School
+	state:		VA
+	latitude:	0370605 North
+	longitude:	0803054 West
+
+	offset:		47202
+	name:		Bethel Church (historical)
+	state:		VA
+	latitude:	0370601 North
+	longitude:	0803044 West
+
+	offset:		62881
+	name:		Interchange 109
+	state:		VA
+	latitude:	0370546 North
+	longitude:	0803027 West
+
+	offset:		82519
+	name:		Simpkins School (historical)
+	state:		VA
+	latitude:	0370603 North
+	longitude:	0803019 West
+
+	offset:		5872
+	name:		Edgemont Church
+	state:		VA
+	latitude:	0370627 North
+	longitude:	0802842 West
+
+	offset:		104058
+	name:		Plum Creek Census Designated Place
+	state:		VA
+	latitude:	0370719 North
+	longitude:	0803014 West
+
+	offset:		104509
+	name:		Plum Creek
+	state:		VA
+	latitude:	0370747 North
+	longitude:	0803002 West
+
+	offset:		18623
+	name:		Barringer Mountain
+	state:		VA
+	latitude:	0370817 North
+	longitude:	0802808 West
+
+	offset:		26726
+	name:		Mount Taber Church
+	state:		VA
+	latitude:	0370824 North
+	longitude:	0802930 West
+
+	offset:		79075
+	name:		Rock Road School (historical)
+	state:		VA
+	latitude:	0370800 North
+	longitude:	0802926 West
+
+	offset:		28801
+	name:		Pepper
+	state:		VA
+	latitude:	0370949 North
+	longitude:	0803255 West
+
+	offset:		75135
+	name:		Peppers Ferry (historical)
+	state:		VA
+	latitude:	0370942 North
+	longitude:	0803308 West
+
+	offset:		21268
+	name:		Crab Creek
+	state:		VA
+	latitude:	0370913 North
+	longitude:	0803143 West
+
+	offset:		103460
+	name:		Radford Army Ammunition Plant
+	state:		VA
+	latitude:	0371102 North
+	longitude:	0803241 West
+
+	offset:		27941
+	name:		New River Church
+	state:		VA
+	latitude:	0371015 North
+	longitude:	0803126 West
+
+	offset:		41632
+	name:		Radford AAP Heliport
+	state:		VA
+	latitude:	0371105 North
+	longitude:	0803133 West
+
+	offset:		42825
+	name:		Centerville
+	state:		VA
+	latitude:	0371011 North
+	longitude:	0803218 West
+
+	offset:		43926
+	name:		Walton
+	state:		VA
+	latitude:	0370912 North
+	longitude:	0803049 West
+
+	offset:		88229
+	name:		Walton School Number 1 (historical)
+	state:		VA
+	latitude:	0370942 North
+	longitude:	0803055 West
+
+	offset:		38727
+	name:		Vicker
+	state:		VA
+	latitude:	0370949 North
+	longitude:	0802916 West
+
+	offset:		19165
+	name:		Belview Elementary School
+	state:		VA
+	latitude:	0371013 North
+	longitude:	0803040 West
+
+	offset:		103607
+	name:		Belview Census Designated Place
+	state:		VA
+	latitude:	0371000 North
+	longitude:	0803035 West
+
+	offset:		26596
+	name:		Mount Hope Church
+	state:		VA
+	latitude:	0371020 North
+	longitude:	0802939 West
+
+	offset:		29095
+	name:		Pine View Church
+	state:		VA
+	latitude:	0371012 North
+	longitude:	0803000 West
+
+	offset:		105052
+	name:		Willow Springs Tree Farms
+	state:		VA
+	latitude:	0371017 North
+	longitude:	0803009 West
+
+	offset:		31406
+	name:		Slate Branch
+	state:		VA
+	latitude:	0371049 North
+	longitude:	0803015 West
+
+	offset:		68216
+	name:		Milletts Tunnel
+	state:		VA
+	latitude:	0371113 North
+	longitude:	0803053 West
+
+	offset:		38855
+	name:		Vicker Heights
+	state:		VA
+	latitude:	0370954 North
+	longitude:	0802839 West
+
+	offset:		9130
+	name:		Kingston Hollow
+	state:		VA
+	latitude:	0370546 North
+	longitude:	0802529 West
+
+	offset:		63014
+	name:		Interchange 114
+	state:		VA
+	latitude:	0370658 North
+	longitude:	0802521 West
+
+	offset:		72091
+	name:		Nixon School (historical)
+	state:		VA
+	latitude:	0370538 North
+	longitude:	0802535 West
+
+	offset:		20803
+	name:		Christian Fellowship Evangelistic Tabernacle
+	state:		VA
+	latitude:	0370748 North
+	longitude:	0802712 West
+
+	offset:		52952
+	name:		Christiansburg Middle School
+	state:		VA
+	latitude:	0370722 North
+	longitude:	0802531 West
+
+	offset:		60850
+	name:		Harmon Forest
+	state:		VA
+	latitude:	0370731 North
+	longitude:	0802609 West
+
+	offset:		82245
+	name:		Silver Lake Heights
+	state:		VA
+	latitude:	0370735 North
+	longitude:	0802558 West
+
+	offset:		12131
+	name:		Poorhouse Knob
+	state:		VA
+	latitude:	0370630 North
+	longitude:	0802501 West
+
+	offset:		43497
+	name:		Rose Hill
+	state:		VA
+	latitude:	0370620 North
+	longitude:	0802420 West
+
+	offset:		50593
+	name:		Canterbury
+	state:		VA
+	latitude:	0370648 North
+	longitude:	0802415 West
+
+	offset:		88100
+	name:		Walnut Grove
+	state:		VA
+	latitude:	0370652 North
+	longitude:	0802400 West
+
+	offset:		60216
+	name:		Edgewood
+	state:		VA
+	latitude:	0370653 North
+	longitude:	0802327 West
+
+	offset:		79367
+	name:		Rosehill Addition
+	state:		VA
+	latitude:	0370700 North
+	longitude:	0802355 West
+
+	offset:		83894
+	name:		South Hill Park
+	state:		VA
+	latitude:	0370706 North
+	longitude:	0802511 West
+
+	offset:		61684
+	name:		Highland Park
+	state:		VA
+	latitude:	0370716 North
+	longitude:	0802452 West
+
+	offset:		68482
+	name:		Mockingbird Hill
+	state:		VA
+	latitude:	0370707 North
+	longitude:	0802457 West
+
+	offset:		80909
+	name:		Shadeland Addition
+	state:		VA
+	latitude:	0370719 North
+	longitude:	0802456 West
+
+	offset:		65126
+	name:		Lee-Hi Court
+	state:		VA
+	latitude:	0370737 North
+	longitude:	0802505 West
+
+	offset:		53721
+	name:		Christiansburg Presbyterian Church
+	state:		VA
+	latitude:	0370742 North
+	longitude:	0802439 West
+
+	offset:		61948
+	name:		Highview Terrace
+	state:		VA
+	latitude:	0370724 North
+	longitude:	0802448 West
+
+	offset:		71271
+	name:		New Altamont Hospital
+	state:		VA
+	latitude:	0370736 North
+	longitude:	0802455 West
+
+	offset:		101101
+	name:		Independence Secondary School
+	state:		VA
+	latitude:	0370743 North
+	longitude:	0802451 West
+
+	offset:		46254
+	name:		Atkinson Acres
+	state:		VA
+	latitude:	0370712 North
+	longitude:	0802435 West
+
+	offset:		86716
+	name:		Town and Country Estates
+	state:		VA
+	latitude:	0370707 North
+	longitude:	0802418 West
+
+	offset:		59108
+	name:		Franklin Park
+	state:		VA
+	latitude:	0370714 North
+	longitude:	0802402 West
+
+	offset:		64202
+	name:		Kingston Court
+	state:		VA
+	latitude:	0370705 North
+	longitude:	0802359 West
+
+	offset:		66186
+	name:		Lynwood Terrace
+	state:		VA
+	latitude:	0370727 North
+	longitude:	0802429 West
+
+	offset:		66457
+	name:		Main Street Baptist Church
+	state:		VA
+	latitude:	0370741 North
+	longitude:	0802436 West
+
+	offset:		74840
+	name:		Pentecostal Holiness Church (historical)
+	state:		VA
+	latitude:	0370735 North
+	longitude:	0802436 West
+
+	offset:		80094
+	name:		Saint Peters Anglican Catholic Church
+	state:		VA
+	latitude:	0370735 North
+	longitude:	0802436 West
+
+	offset:		52203
+	name:		Christiansburg Church of the Brethren
+	state:		VA
+	latitude:	0370738 North
+	longitude:	0802418 West
+
+	offset:		83745
+	name:		South Franklin Street Historic District
+	state:		VA
+	latitude:	0370740 North
+	longitude:	0802422 West
+
+	offset:		32775
+	name:		Sunset Cemetery
+	state:		VA
+	latitude:	0370726 North
+	longitude:	0802414 West
+
+	offset:		47344
+	name:		Beverly Hills
+	state:		VA
+	latitude:	0370735 North
+	longitude:	0802408 West
+
+	offset:		31101
+	name:		Shaffer Memorial Cemetery
+	state:		VA
+	latitude:	0370747 North
+	longitude:	0802515 West
+
+	offset:		87695
+	name:		Victory Heights
+	state:		VA
+	latitude:	0370747 North
+	longitude:	0802509 West
+
+	offset:		53242
+	name:		Christiansburg Primary School
+	state:		VA
+	latitude:	0370757 North
+	longitude:	0802455 West
+
+	offset:		53868
+	name:		Christiansburg Recreation Center
+	state:		VA
+	latitude:	0370746 North
+	longitude:	0802442 West
+
+	offset:		69290
+	name:		Montgomery-Floyd Regional Library
+	state:		VA
+	latitude:	0370747 North
+	longitude:	0802452 West
+
+	offset:		52490
+	name:		Christiansburg Elementary School
+	state:		VA
+	latitude:	0370805 North
+	longitude:	0802500 West
+
+	offset:		33062
+	name:		Town Branch
+	state:		VA
+	latitude:	0370823 North
+	longitude:	0802452 West
+
+	offset:		57393
+	name:		Echo Hills
+	state:		VA
+	latitude:	0370815 North
+	longitude:	0802457 West
+
+	offset:		103165
+	name:		Tekoa Community School
+	state:		VA
+	latitude:	0370821 North
+	longitude:	0802438 West
+
+	offset:		41351
+	name:		Christiansburg
+	state:		VA
+	latitude:	0370747 North
+	longitude:	0802432 West
+
+	offset:		68872
+	name:		Montgomery County Courthouse
+	state:		VA
+	latitude:	0370747 North
+	longitude:	0802430 West
+
+	offset:		69015
+	name:		Montgomery County Jail
+	state:		VA
+	latitude:	0370747 North
+	longitude:	0802428 West
+
+	offset:		53098
+	name:		Christiansburg Post Office
+	state:		VA
+	latitude:	0370748 North
+	longitude:	0802432 West
+
+	offset:		79946
+	name:		Saint Pauls United Methodist Church
+	state:		VA
+	latitude:	0370748 North
+	longitude:	0802429 West
+
+	offset:		52353
+	name:		Christiansburg City Hall
+	state:		VA
+	latitude:	0370752 North
+	longitude:	0802427 West
+
+	offset:		80244
+	name:		Saint Thomas Episcopal Church
+	state:		VA
+	latitude:	0370752 North
+	longitude:	0802424 West
+
+	offset:		46118
+	name:		Asbury Methodist Church
+	state:		VA
+	latitude:	0370800 North
+	longitude:	0802435 West
+
+	offset:		56980
+	name:		East Main Street Historic District
+	state:		VA
+	latitude:	0370758 North
+	longitude:	0802419 West
+
+	offset:		53394
+	name:		Christiansburg Primary School Number 1 (historical)
+	state:		VA
+	latitude:	0370754 North
+	longitude:	0802415 West
+
+	offset:		65260
+	name:		Lester Place
+	state:		VA
+	latitude:	0370755 North
+	longitude:	0802402 West
+
+	offset:		54011
+	name:		Church of God in Christ
+	state:		VA
+	latitude:	0370812 North
+	longitude:	0802426 West
+
+	offset:		63659
+	name:		Johnson Heights
+	state:		VA
+	latitude:	0370813 North
+	longitude:	0802419 West
+
+	offset:		20960
+	name:		Christiansburg Institute
+	state:		VA
+	latitude:	0370822 North
+	longitude:	0802430 West
+
+	offset:		73598
+	name:		Old Hill School (historical)
+	state:		VA
+	latitude:	0370820 North
+	longitude:	0802416 West
+
+	offset:		80638
+	name:		Schaeffer Memorial Baptist Church
+	state:		VA
+	latitude:	0370821 North
+	longitude:	0802418 West
+
+	offset:		53558
+	name:		Christiansburg Primary School Number 2 (historical)
+	state:		VA
+	latitude:	0370804 North
+	longitude:	0802416 West
+
+	offset:		74000
+	name:		Park United Methodist Church
+	state:		VA
+	latitude:	0370808 North
+	longitude:	0802400 West
+
+	offset:		75695
+	name:		Pilgrim Tabernacle (historical)
+	state:		VA
+	latitude:	0370805 North
+	longitude:	0802359 West
+
+	offset:		70307
+	name:		Huff Acres
+	state:		VA
+	latitude:	0370717 North
+	longitude:	0802345 West
+
+	offset:		73327
+	name:		Oakwood Park
+	state:		VA
+	latitude:	0370738 North
+	longitude:	0802335 West
+
+	offset:		81840
+	name:		Sherwood Forest
+	state:		VA
+	latitude:	0370742 North
+	longitude:	0802330 West
+
+	offset:		89852
+	name:		Woodlyn
+	state:		VA
+	latitude:	0370740 North
+	longitude:	0802314 West
+
+	offset:		48965
+	name:		Blue Ridge Court
+	state:		VA
+	latitude:	0370737 North
+	longitude:	0802249 West
+
+	offset:		44880
+	name:		Alleghany Addition
+	state:		VA
+	latitude:	0370744 North
+	longitude:	0802349 West
+
+	offset:		57125
+	name:		East Park Addition
+	state:		VA
+	latitude:	0370758 North
+	longitude:	0802351 West
+
+	offset:		83474
+	name:		Snidow Heights
+	state:		VA
+	latitude:	0370757 North
+	longitude:	0802339 West
+
+	offset:		103015
+	name:		New River Community College
+	state:		VA
+	latitude:	0370748 North
+	longitude:	0802352 West
+
+	offset:		21966
+	name:		Flag Cemetery
+	state:		VA
+	latitude:	0370802 North
+	longitude:	0802331 West
+
+	offset:		33993
+	name:		Walnut Branch
+	state:		VA
+	latitude:	0370812 North
+	longitude:	0802324 West
+
+	offset:		54823
+	name:		Craig Mountain
+	state:		VA
+	latitude:	0370748 North
+	longitude:	0802310 West
+
+	offset:		84282
+	name:		Spradlin Addition
+	state:		VA
+	latitude:	0370804 North
+	longitude:	0802254 West
+
+	offset:		73460
+	name:		Old Hecks Shopping Center
+	state:		VA
+	latitude:	0370757 North
+	longitude:	0802233 West
+
+	offset:		60590
+	name:		Hans Meadow
+	state:		VA
+	latitude:	0370813 North
+	longitude:	0802309 West
+
+	offset:		62215
+	name:		Hills Shopping Center
+	state:		VA
+	latitude:	0370806 North
+	longitude:	0802239 West
+
+	offset:		77623
+	name:		Raintree Village
+	state:		VA
+	latitude:	0370822 North
+	longitude:	0802239 West
+
+	offset:		81437
+	name:		Old Farm Village
+	state:		VA
+	latitude:	0370808 North
+	longitude:	0802233 West
+
+	offset:		18909
+	name:		Belmont
+	state:		VA
+	latitude:	0370946 North
+	longitude:	0802649 West
+
+	offset:		36700
+	name:		Belmont Farms
+	state:		VA
+	latitude:	0370922 North
+	longitude:	0802649 West
+
+	offset:		46930
+	name:		Belmont School (historical)
+	state:		VA
+	latitude:	0370947 North
+	longitude:	0802714 West
+
+	offset:		51394
+	name:		Charlton Cemetery
+	state:		VA
+	latitude:	0370857 North
+	longitude:	0802654 West
+
+	offset:		37760
+	name:		Round Meadow Country Club
+	state:		VA
+	latitude:	0370829 North
+	longitude:	0802621 West
+
+	offset:		56018
+	name:		Diamond Pointe
+	state:		VA
+	latitude:	0370855 North
+	longitude:	0802610 West
+
+	offset:		61141
+	name:		Henley Place
+	state:		VA
+	latitude:	0370907 North
+	longitude:	0802532 West
+
+	offset:		82821
+	name:		Sleepy Hollow
+	state:		VA
+	latitude:	0370905 North
+	longitude:	0802541 West
+
+	offset:		87970
+	name:		Vista Via
+	state:		VA
+	latitude:	0370840 North
+	longitude:	0802524 West
+
+	offset:		64464
+	name:		La Plateau
+	state:		VA
+	latitude:	0370938 North
+	longitude:	0802604 West
+
+	offset:		70845
+	name:		Mountain View Park
+	state:		VA
+	latitude:	0370943 North
+	longitude:	0802532 West
+
+	offset:		89591
+	name:		Windmill Hills
+	state:		VA
+	latitude:	0370913 North
+	longitude:	0802548 West
+
+	offset:		19038
+	name:		Belmont Church
+	state:		VA
+	latitude:	0370953 North
+	longitude:	0802727 West
+
+	offset:		36565
+	name:		Rolling Hills
+	state:		VA
+	latitude:	0370955 North
+	longitude:	0802730 West
+
+	offset:		38177
+	name:		Price Mountain
+	state:		VA
+	latitude:	0371113 North
+	longitude:	0802741 West
+
+	offset:		46652
+	name:		Belmont Community Cemetery
+	state:		VA
+	latitude:	0370954 North
+	longitude:	0802729 West
+
+	offset:		30311
+	name:		Roselawn Memorial Cemetery
+	state:		VA
+	latitude:	0371007 North
+	longitude:	0802526 West
+
+	offset:		46793
+	name:		Belmont Estates
+	state:		VA
+	latitude:	0371007 North
+	longitude:	0802629 West
+
+	offset:		50719
+	name:		Carma Heights
+	state:		VA
+	latitude:	0370955 North
+	longitude:	0802613 West
+
+	offset:		71407
+	name:		New River Valley Mall Shopping Center
+	state:		VA
+	latitude:	0370952 North
+	longitude:	0802529 West
+
+	offset:		52645
+	name:		Christiansburg High School
+	state:		VA
+	latitude:	0370844 North
+	longitude:	0802503 West
+
+	offset:		52794
+	name:		Christiansburg Industrial School (historical)
+	state:		VA
+	latitude:	0370834 North
+	longitude:	0802502 West
+
+	offset:		22583
+	name:		Friends School
+	state:		VA
+	latitude:	0370840 North
+	longitude:	0802455 West
+
+	offset:		84814
+	name:		Suburban Hills
+	state:		VA
+	latitude:	0370844 North
+	longitude:	0802447 West
+
+	offset:		72648
+	name:		Northgate Village Shopping Center
+	state:		VA
+	latitude:	0370904 North
+	longitude:	0802445 West
+
+	offset:		34155
+	name:		Weller Baker School
+	state:		VA
+	latitude:	0370841 North
+	longitude:	0802421 West
+
+	offset:		50194
+	name:		Cambria Baptist Church
+	state:		VA
+	latitude:	0370834 North
+	longitude:	0802418 West
+
+	offset:		50329
+	name:		Cambria Historic District
+	state:		VA
+	latitude:	0370829 North
+	longitude:	0802418 West
+
+	offset:		100800
+	name:		Town of Christiansburg
+	state:		VA
+	latitude:	0370830 North
+	longitude:	0802409 West
+
+	offset:		46385
+	name:		Bangs (historical)
+	state:		VA
+	latitude:	0370828 North
+	longitude:	0802406 West
+
+	offset:		49640
+	name:		Brumfield Acres
+	state:		VA
+	latitude:	0370834 North
+	longitude:	0802359 West
+
+	offset:		74701
+	name:		Pentecostal Holiness Church
+	state:		VA
+	latitude:	0370832 North
+	longitude:	0802358 West
+
+	offset:		79501
+	name:		Saint Johns Methodist Church
+	state:		VA
+	latitude:	0370837 North
+	longitude:	0802412 West
+
+	offset:		71567
+	name:		Newcomb Heights
+	state:		VA
+	latitude:	0370900 North
+	longitude:	0802429 West
+
+	offset:		88921
+	name:		Wheeler Baker School (historical)
+	state:		VA
+	latitude:	0370851 North
+	longitude:	0802421 West
+
+	offset:		18030
+	name:		Alleghany Church
+	state:		VA
+	latitude:	0370930 North
+	longitude:	0802506 West
+
+	offset:		42293
+	name:		WJJJ-AM (Christiansburg)
+	state:		VA
+	latitude:	0370911 North
+	longitude:	0802456 West
+
+	offset:		42561
+	name:		WVVV-FM (Blacksburg)
+	state:		VA
+	latitude:	0370911 North
+	longitude:	0802456 West
+
+	offset:		44482
+	name:		WJJJ Radio Tower (Tazewell)
+	state:		VA
+	latitude:	0370910 North
+	longitude:	0802456 West
+
+	offset:		45985
+	name:		Apple Acres
+	state:		VA
+	latitude:	0370923 North
+	longitude:	0802507 West
+
+	offset:		45294
+	name:		Alleghany School (historical)
+	state:		VA
+	latitude:	0370921 North
+	longitude:	0802429 West
+
+	offset:		50065
+	name:		Cambria
+	state:		VA
+	latitude:	0370835 North
+	longitude:	0802345 West
+
+	offset:		36107
+	name:		Montgomery County Park
+	state:		VA
+	latitude:	0371022 North
+	longitude:	0802442 West
+
+	offset:		36239
+	name:		Virginia Polytechnic Institute and State University Horticultural Research Area
+	state:		VA
+	latitude:	0370958 North
+	longitude:	0802505 West
+
+	offset:		67673
+	name:		Midway Heights
+	state:		VA
+	latitude:	0371020 North
+	longitude:	0802506 West
+
+	offset:		85928
+	name:		The Marketplace Shopping Center
+	state:		VA
+	latitude:	0371002 North
+	longitude:	0802517 West
+
+	offset:		26109
+	name:		Montgomery Primitive Baptist Church
+	state:		VA
+	latitude:	0371100 North
+	longitude:	0802438 West
+
+	offset:		69438
+	name:		Montgomery Regional Hospital
+	state:		VA
+	latitude:	0371114 North
+	longitude:	0802440 West
+
+	offset:		23830
+	name:		Jennelle Cemetery
+	state:		VA
+	latitude:	0371110 North
+	longitude:	0802411 West
+
+	offset:		38447
+	name:		Yellow Sulphur
+	state:		VA
+	latitude:	0371017 North
+	longitude:	0802348 West
+
+	offset:		68743
+	name:		Montgomery County
+	state:		VA
+	latitude:	0371000 North
+	longitude:	0802259 West
+
+	offset:		38583
+	name:		Yellow Sulphur Springs
+	state:		VA
+	latitude:	0371042 North
+	longitude:	0802350 West
+
+	offset:		89981
+	name:		Yellow Sulphur Springs Post Office (historical)
+	state:		VA
+	latitude:	0371042 North
+	longitude:	0802350 West
+
+	offset:		90284
+	name:		District B-01
+	state:		VA
+	latitude:	0371034 North
+	longitude:	0802345 West
+
+	offset:		105190
+	name:		Blacksburg Quarry
+	state:		VA
+	latitude:	0371045 North
+	longitude:	0802332 West
+
+	offset:		32900
+	name:		Toms Creek
+	state:		VA
+	latitude:	0371159 North
+	longitude:	0803350 West
+
+	offset:		44057
+	name:		Whitethorne
+	state:		VA
+	latitude:	0371159 North
+	longitude:	0803352 West
+
+	offset:		33561
+	name:		Wake Forest Cemetery
+	state:		VA
+	latitude:	0371254 North
+	longitude:	0803441 West
+
+	offset:		33699
+	name:		Wake Forest School
+	state:		VA
+	latitude:	0371254 North
+	longitude:	0803407 West
+
+	offset:		43790
+	name:		Wake Forest
+	state:		VA
+	latitude:	0371317 North
+	longitude:	0803419 West
+
+	offset:		25170
+	name:		Longshop
+	state:		VA
+	latitude:	0371236 North
+	longitude:	0803310 West
+
+	offset:		32139
+	name:		Stroubles Creek
+	state:		VA
+	latitude:	0371128 North
+	longitude:	0803132 West
+
+	offset:		34722
+	name:		Whittaker Hollow
+	state:		VA
+	latitude:	0371240 North
+	longitude:	0803223 West
+
+	offset:		81977
+	name:		Shiloh Church (historical)
+	state:		VA
+	latitude:	0371241 North
+	longitude:	0803239 West
+
+	offset:		19908
+	name:		Big Run
+	state:		VA
+	latitude:	0371305 North
+	longitude:	0803142 West
+
+	offset:		90676
+	name:		District E-01
+	state:		VA
+	latitude:	0371251 North
+	longitude:	0803059 West
+
+	offset:		24684
+	name:		Lick Run
+	state:		VA
+	latitude:	0371339 North
+	longitude:	0803152 West
+
+	offset:		32643
+	name:		Sunnyside Church
+	state:		VA
+	latitude:	0371338 North
+	longitude:	0803159 West
+
+	offset:		27804
+	name:		New Mount Zion Church
+	state:		VA
+	latitude:	0371346 North
+	longitude:	0803120 West
+
+	offset:		84950
+	name:		Sunnyside School (historical)
+	state:		VA
+	latitude:	0371346 North
+	longitude:	0803120 West
+
+	offset:		29818
+	name:		Poverty Creek
+	state:		VA
+	latitude:	0371354 North
+	longitude:	0803128 West
+
+	offset:		74993
+	name:		Pepper Station (historical)
+	state:		VA
+	latitude:	0371143 North
+	longitude:	0803035 West
+
+	offset:		83342
+	name:		Snider Cemetery
+	state:		VA
+	latitude:	0371237 North
+	longitude:	0803018 West
+
+	offset:		33833
+	name:		Walls Branch
+	state:		VA
+	latitude:	0371145 North
+	longitude:	0802859 West
+
+	offset:		26267
+	name:		Moon Hollow
+	state:		VA
+	latitude:	0371146 North
+	longitude:	0802834 West
+
+	offset:		69152
+	name:		Montgomery Farms
+	state:		VA
+	latitude:	0371210 North
+	longitude:	0802909 West
+
+	offset:		38304
+	name:		Prices Fork
+	state:		VA
+	latitude:	0371235 North
+	longitude:	0802924 West
+
+	offset:		76642
+	name:		Prices Fork Historic District
+	state:		VA
+	latitude:	0371232 North
+	longitude:	0802930 West
+
+	offset:		77066
+	name:		Prices Fork Elementary School
+	state:		VA
+	latitude:	0371231 North
+	longitude:	0802929 West
+
+	offset:		104216
+	name:		Prices Fork Census Designated Place
+	state:		VA
+	latitude:	0371225 North
+	longitude:	0802918 West
+
+	offset:		104915
+	name:		Crow's Nest Greenhouse
+	state:		VA
+	latitude:	0371253 North
+	longitude:	0802935 West
+
+	offset:		22421
+	name:		Fox Hollow
+	state:		VA
+	latitude:	0371353 North
+	longitude:	0803042 West
+
+	offset:		27122
+	name:		Mount Zion Cemetery
+	state:		VA
+	latitude:	0371339 North
+	longitude:	0803050 West
+
+	offset:		21838
+	name:		Fairview Church
+	state:		VA
+	latitude:	0371349 North
+	longitude:	0802943 West
+
+	offset:		58290
+	name:		Fairview School (historical)
+	state:		VA
+	latitude:	0371349 North
+	longitude:	0802943 West
+
+	offset:		29656
+	name:		Poff Hollow
+	state:		VA
+	latitude:	0371349 North
+	longitude:	0803003 West
+
+	offset:		30939
+	name:		Shaffer Hollow
+	state:		VA
+	latitude:	0371345 North
+	longitude:	0802957 West
+
+	offset:		23376
+	name:		Hoge Pond
+	state:		VA
+	latitude:	0371323 North
+	longitude:	0802905 West
+
+	offset:		76782
+	name:		Prices Fork Research Center
+	state:		VA
+	latitude:	0371244 North
+	longitude:	0802919 West
+
+	offset:		22253
+	name:		Fork Lick Hollow
+	state:		VA
+	latitude:	0371404 North
+	longitude:	0803232 West
+
+	offset:		31973
+	name:		Straley Branch
+	state:		VA
+	latitude:	0371457 North
+	longitude:	0803138 West
+
+	offset:		72350
+	name:		Norris Run School (historical)
+	state:		VA
+	latitude:	0371501 North
+	longitude:	0803303 West
+
+	offset:		44193
+	name:		WYDD-TV (Blacksburg)
+	state:		VA
+	latitude:	0371504 North
+	longitude:	0803042 West
+
+	offset:		24256
+	name:		Kanodes Mill
+	state:		VA
+	latitude:	0371417 North
+	longitude:	0802824 West
+
+	offset:		25467
+	name:		McDonald Hollow
+	state:		VA
+	latitude:	0371417 North
+	longitude:	0802824 West
+
+	offset:		25626
+	name:		Meadow Hollow
+	state:		VA
+	latitude:	0371430 North
+	longitude:	0802820 West
+
+	offset:		41901
+	name:		WKEX-AM (Blacksburg)
+	state:		VA
+	latitude:	0371416 North
+	longitude:	0802839 West
+
+	offset:		22872
+	name:		Gap Mountain
+	state:		VA
+	latitude:	0371638 North
+	longitude:	0802949 West
+
+	offset:		36835
+	name:		Poverty Creek Horse Trail
+	state:		VA
+	latitude:	0371544 North
+	longitude:	0802936 West
+
+	offset:		36969
+	name:		Brush Mountain Horse Trail
+	state:		VA
+	latitude:	0371528 North
+	longitude:	0802836 West
+
+	offset:		24390
+	name:		Kipps Cemetery
+	state:		VA
+	latitude:	0371221 North
+	longitude:	0802737 West
+
+	offset:		84678
+	name:		Stroubles Mill
+	state:		VA
+	latitude:	0371235 North
+	longitude:	0802719 West
+
+	offset:		38037
+	name:		Merrimac
+	state:		VA
+	latitude:	0371122 North
+	longitude:	0802532 West
+
+	offset:		100385
+	name:		Merrimac Census Designated Place
+	state:		VA
+	latitude:	0371127 North
+	longitude:	0802528 West
+
+	offset:		48151
+	name:		Blacksburg Middle School
+	state:		VA
+	latitude:	0371253 North
+	longitude:	0802739 West
+
+	offset:		61275
+	name:		Hethwood
+	state:		VA
+	latitude:	0371255 North
+	longitude:	0802714 West
+
+	offset:		101545
+	name:		Kipps Elementary School
+	state:		VA
+	latitude:	0371257 North
+	longitude:	0802724 West
+
+	offset:		61403
+	name:		Hethwood Square Shopping Center
+	state:		VA
+	latitude:	0371302 North
+	longitude:	0802717 West
+
+	offset:		76922
+	name:		Prices Fork Road Fire Station
+	state:		VA
+	latitude:	0371306 North
+	longitude:	0802715 West
+
+	offset:		51931
+	name:		Chowning Place
+	state:		VA
+	latitude:	0371300 North
+	longitude:	0802644 West
+
+	offset:		68347
+	name:		Mission Hills
+	state:		VA
+	latitude:	0371315 North
+	longitude:	0802659 West
+
+	offset:		75839
+	name:		Pilgrims Pointe
+	state:		VA
+	latitude:	0371308 North
+	longitude:	0802659 West
+
+	offset:		49250
+	name:		Brightwood Manor
+	state:		VA
+	latitude:	0371327 North
+	longitude:	0802644 West
+
+	offset:		59790
+	name:		Gladewood
+	state:		VA
+	latitude:	0371400 North
+	longitude:	0802644 West
+
+	offset:		73197
+	name:		Oak Manor
+	state:		VA
+	latitude:	0371323 North
+	longitude:	0802650 West
+
+	offset:		102129
+	name:		Tall Oaks Montessori School
+	state:		VA
+	latitude:	0371252 North
+	longitude:	0802638 West
+
+	offset:		83083
+	name:		Smithfield Plantation
+	state:		VA
+	latitude:	0371304 North
+	longitude:	0802556 West
+
+	offset:		93446
+	name:		Virginia Maryland Regional College of Veterinary Medicine
+	state:		VA
+	latitude:	0371304 North
+	longitude:	0802543 West
+
+	offset:		57653
+	name:		English Field
+	state:		VA
+	latitude:	0371303 North
+	longitude:	0802522 West
+
+	offset:		96243
+	name:		English Baseball Field
+	state:		VA
+	latitude:	0371305 North
+	longitude:	0802526 West
+
+	offset:		96378
+	name:		Food Science and Technology Building
+	state:		VA
+	latitude:	0371311 North
+	longitude:	0802532 West
+
+	offset:		65523
+	name:		Litton Reaves Hall
+	state:		VA
+	latitude:	0371317 North
+	longitude:	0802526 West
+
+	offset:		96948
+	name:		George Litton and Paul Reaves Hall
+	state:		VA
+	latitude:	0371317 North
+	longitude:	0802527 West
+
+	offset:		99265
+	name:		McComas Hall
+	state:		VA
+	latitude:	0371312 North
+	longitude:	0802522 West
+
+	offset:		41769
+	name:		WKEX-AM (Blacksburg)
+	state:		VA
+	latitude:	0371357 North
+	longitude:	0802639 West
+
+	offset:		42161
+	name:		WKEX-AM (Blacksburg)
+	state:		VA
+	latitude:	0371357 North
+	longitude:	0802639 West
+
+	offset:		87274
+	name:		University Mall Shopping Center
+	state:		VA
+	latitude:	0371402 North
+	longitude:	0802604 West
+
+	offset:		62081
+	name:		Hillcrest Dormitory
+	state:		VA
+	latitude:	0371326 North
+	longitude:	0802531 West
+
+	offset:		85804
+	name:		The Grove
+	state:		VA
+	latitude:	0371327 North
+	longitude:	0802539 West
+
+	offset:		96529
+	name:		Fralin Biotechnology Center
+	state:		VA
+	latitude:	0371326 North
+	longitude:	0802526 West
+
+	offset:		97365
+	name:		Hillcrest Hall
+	state:		VA
+	latitude:	0371326 North
+	longitude:	0802530 West
+
+	offset:		99132
+	name:		Maude Wallace Hall
+	state:		VA
+	latitude:	0371322 North
+	longitude:	0802528 West
+
+	offset:		54282
+	name:		Cochrane Hall
+	state:		VA
+	latitude:	0371322 North
+	longitude:	0802520 West
+
+	offset:		57777
+	name:		Engel Hall
+	state:		VA
+	latitude:	0371325 North
+	longitude:	0802525 West
+
+	offset:		44621
+	name:		Agnew Hall
+	state:		VA
+	latitude:	0371329 North
+	longitude:	0802527 West
+
+	offset:		80511
+	name:		Saunders Hall
+	state:		VA
+	latitude:	0371329 North
+	longitude:	0802528 West
+
+	offset:		96113
+	name:		Ella Agnew Hall
+	state:		VA
+	latitude:	0371329 North
+	longitude:	0802528 West
+
+	offset:		80784
+	name:		Seitz Hall
+	state:		VA
+	latitude:	0371328 North
+	longitude:	0802525 West
+
+	offset:		93758
+	name:		William "Buttermilk" Saunders Hall
+	state:		VA
+	latitude:	0371329 North
+	longitude:	0802529 West
+
+	offset:		51525
+	name:		Cheatham Hall
+	state:		VA
+	latitude:	0371326 North
+	longitude:	0802521 West
+
+	offset:		83217
+	name:		Smyth Hall
+	state:		VA
+	latitude:	0371330 North
+	longitude:	0802523 West
+
+	offset:		95407
+	name:		Clarice Slusher Pritchard Hall
+	state:		VA
+	latitude:	0371330 North
+	longitude:	0802520 West
+
+	offset:		55501
+	name:		Davidson Hall
+	state:		VA
+	latitude:	0371337 North
+	longitude:	0802531 West
+
+	offset:		60341
+	name:		Hahn Hall
+	state:		VA
+	latitude:	0371340 North
+	longitude:	0802531 West
+
+	offset:		78948
+	name:		Robeson Hall
+	state:		VA
+	latitude:	0371341 North
+	longitude:	0802530 West
+
+	offset:		94182
+	name:		Wright House
+	state:		VA
+	latitude:	0371336 North
+	longitude:	0802535 West
+
+	offset:		76384
+	name:		Price Hall
+	state:		VA
+	latitude:	0371332 North
+	longitude:	0802527 West
+
+	offset:		97097
+	name:		Harvey Price Hall
+	state:		VA
+	latitude:	0371333 North
+	longitude:	0802527 West
+
+	offset:		62619
+	name:		Hutcheson Hall
+	state:		VA
+	latitude:	0371332 North
+	longitude:	0802523 West
+
+	offset:		80386
+	name:		Sandy Hall
+	state:		VA
+	latitude:	0371332 North
+	longitude:	0802525 West
+
+	offset:		89324
+	name:		Williams Hall
+	state:		VA
+	latitude:	0371340 North
+	longitude:	0802528 West
+
+	offset:		93055
+	name:		Roy Holden Hall
+	state:		VA
+	latitude:	0371340 North
+	longitude:	0802521 West
+
+	offset:		87832
+	name:		Virginia Tech Golf Course
+	state:		VA
+	latitude:	0371344 North
+	longitude:	0802554 West
+
+	offset:		55891
+	name:		Derring Hall
+	state:		VA
+	latitude:	0371344 North
+	longitude:	0802532 West
+
+	offset:		92227
+	name:		Paul Derring Hall
+	state:		VA
+	latitude:	0371344 North
+	longitude:	0802533 West
+
+	offset:		100672
+	name:		Town of Blacksburg
+	state:		VA
+	latitude:	0371348 North
+	longitude:	0802540 West
+
+	offset:		49777
+	name:		Burke Johnson Student Center
+	state:		VA
+	latitude:	0371344 North
+	longitude:	0802529 West
+
+	offset:		96802
+	name:		G Burke Johnston Student Center
+	state:		VA
+	latitude:	0371344 North
+	longitude:	0802529 West
+
+	offset:		92888
+	name:		Robert Pamplin Senior and Robert Pamplin Junior Hall
+	state:		VA
+	latitude:	0371343 North
+	longitude:	0802529 West
+
+	offset:		49919
+	name:		Burruss Administration Building
+	state:		VA
+	latitude:	0371343 North
+	longitude:	0802526 West
+
+	offset:		73873
+	name:		Pamplin Hall
+	state:		VA
+	latitude:	0371343 North
+	longitude:	0802528 West
+
+	offset:		55241
+	name:		Cowgil Hall
+	state:		VA
+	latitude:	0371347 North
+	longitude:	0802529 West
+
+	offset:		95010
+	name:		Burchard Hall
+	state:		VA
+	latitude:	0371346 North
+	longitude:	0802529 West
+
+	offset:		95680
+	name:		Clinton Cowgill Hall
+	state:		VA
+	latitude:	0371347 North
+	longitude:	0802530 West
+
+	offset:		33387
+	name:		Virginia Polytechnic Institute and State University
+	state:		VA
+	latitude:	0371345 North
+	longitude:	0802526 West
+
+	offset:		98439
+	name:		Julian Burruss Hall
+	state:		VA
+	latitude:	0371344 North
+	longitude:	0802526 West
+
+	offset:		74430
+	name:		Patton Hall
+	state:		VA
+	latitude:	0371345 North
+	longitude:	0802520 West
+
+	offset:		94051
+	name:		William Patton Hall
+	state:		VA
+	latitude:	0371345 North
+	longitude:	0802521 West
+
+	offset:		60723
+	name:		Hancock Hall
+	state:		VA
+	latitude:	0371349 North
+	longitude:	0802526 West
+
+	offset:		89195
+	name:		Whittemore Hall
+	state:		VA
+	latitude:	0371351 North
+	longitude:	0802527 West
+
+	offset:		97886
+	name:		J W Whittemore Hall
+	state:		VA
+	latitude:	0371351 North
+	longitude:	0802529 West
+
+	offset:		60465
+	name:		Holden Hall
+	state:		VA
+	latitude:	0371347 North
+	longitude:	0802524 West
+
+	offset:		72224
+	name:		Norris Hall
+	state:		VA
+	latitude:	0371348 North
+	longitude:	0802521 West
+
+	offset:		77895
+	name:		Randolph Hall
+	state:		VA
+	latitude:	0371351 North
+	longitude:	0802524 West
+
+	offset:		98716
+	name:		Lingan Randolph Hall
+	state:		VA
+	latitude:	0371350 North
+	longitude:	0802524 West
+
+	offset:		92498
+	name:		Price House
+	state:		VA
+	latitude:	0371352 North
+	longitude:	0802521 West
+
+	offset:		96671
+	name:		Fred Durham Hall
+	state:		VA
+	latitude:	0371353 North
+	longitude:	0802526 West
+
+	offset:		81304
+	name:		Myers Acres
+	state:		VA
+	latitude:	0371129 North
+	longitude:	0802436 West
+
+	offset:		23241
+	name:		Hightop Mission Church
+	state:		VA
+	latitude:	0371120 North
+	longitude:	0802415 West
+
+	offset:		58431
+	name:		Farmview
+	state:		VA
+	latitude:	0371145 North
+	longitude:	0802431 West
+
+	offset:		77761
+	name:		Ramble Ridge
+	state:		VA
+	latitude:	0371147 North
+	longitude:	0802412 West
+
+	offset:		102866
+	name:		Saint John Neumann Academy
+	state:		VA
+	latitude:	0371148 North
+	longitude:	0802415 West
+
+	offset:		35641
+	name:		Virginia Tech/Montgomery Executive Airport
+	state:		VA
+	latitude:	0371222 North
+	longitude:	0802428 West
+
+	offset:		41497
+	name:		Virginia Tech Airport
+	state:		VA
+	latitude:	0371227 North
+	longitude:	0802428 West
+
+	offset:		44745
+	name:		Airport Acres
+	state:		VA
+	latitude:	0371238 North
+	longitude:	0802426 West
+
+	offset:		27676
+	name:		New Hope Church
+	state:		VA
+	latitude:	0371204 North
+	longitude:	0802346 West
+
+	offset:		36430
+	name:		Hilltop Plaza
+	state:		VA
+	latitude:	0371232 North
+	longitude:	0802345 West
+
+	offset:		50854
+	name:		Carriage Hill
+	state:		VA
+	latitude:	0371238 North
+	longitude:	0802341 West
+
+	offset:		81575
+	name:		Shelor Acres
+	state:		VA
+	latitude:	0371236 North
+	longitude:	0802321 West
+
+	offset:		84026
+	name:		Southeast Park
+	state:		VA
+	latitude:	0371236 North
+	longitude:	0802332 West
+
+	offset:		23119
+	name:		High Knob
+	state:		VA
+	latitude:	0371207 North
+	longitude:	0802258 West
+
+	offset:		78281
+	name:		Rector Tennis Pavillion
+	state:		VA
+	latitude:	0371253 North
+	longitude:	0802509 West
+
+	offset:		78148
+	name:		Rector Field House
+	state:		VA
+	latitude:	0371308 North
+	longitude:	0802519 West
+
+	offset:		92621
+	name:		Rechor Field House
+	state:		VA
+	latitude:	0371308 North
+	longitude:	0802519 West
+
+	offset:		99789
+	name:		Miller-Johnson Track/Soccer Complex
+	state:		VA
+	latitude:	0371303 North
+	longitude:	0802518 West
+
+	offset:		50988
+	name:		Cassel Coliseum
+	state:		VA
+	latitude:	0371321 North
+	longitude:	0802509 West
+
+	offset:		95138
+	name:		Cassell Coliseum
+	state:		VA
+	latitude:	0371321 North
+	longitude:	0802509 West
+
+	offset:		69754
+	name:		Mosely Practice Field
+	state:		VA
+	latitude:	0371312 North
+	longitude:	0802519 West
+
+	offset:		37626
+	name:		Lane Stadium
+	state:		VA
+	latitude:	0371312 North
+	longitude:	0802505 West
+
+	offset:		63393
+	name:		Jamerson Athletic Center
+	state:		VA
+	latitude:	0371318 North
+	longitude:	0802507 West
+
+	offset:		84151
+	name:		Southgate
+	state:		VA
+	latitude:	0371306 North
+	longitude:	0802449 West
+
+	offset:		88516
+	name:		Wesleyan Methodist Church
+	state:		VA
+	latitude:	0371317 North
+	longitude:	0802451 West
+
+	offset:		18754
+	name:		Margaret Beeks Elementary School
+	state:		VA
+	latitude:	0371250 North
+	longitude:	0802421 West
+
+	offset:		59377
+	name:		Gables Shopping Center
+	state:		VA
+	latitude:	0371258 North
+	longitude:	0802409 West
+
+	offset:		62349
+	name:		Hubbard Haven
+	state:		VA
+	latitude:	0371240 North
+	longitude:	0802411 West
+
+	offset:		65917
+	name:		Lowes Shopping Center
+	state:		VA
+	latitude:	0371256 North
+	longitude:	0802358 West
+
+	offset:		101833
+	name:		Blacksburg Christian School
+	state:		VA
+	latitude:	0371252 North
+	longitude:	0802358 West
+
+	offset:		56843
+	name:		Dunton Addition
+	state:		VA
+	latitude:	0371304 North
+	longitude:	0802426 West
+
+	offset:		54546
+	name:		Country Club Park
+	state:		VA
+	latitude:	0371315 North
+	longitude:	0802409 West
+
+	offset:		57902
+	name:		Evergreen
+	state:		VA
+	latitude:	0371320 North
+	longitude:	0802414 West
+
+	offset:		99516
+	name:		Merryman Athletic Facility
+	state:		VA
+	latitude:	0371317 North
+	longitude:	0802358 West
+
+	offset:		45715
+	name:		Ambler Johnston Hall
+	state:		VA
+	latitude:	0371323 North
+	longitude:	0802516 West
+
+	offset:		97490
+	name:		J Ambler Johnston Hall
+	state:		VA
+	latitude:	0371323 North
+	longitude:	0802516 West
+
+	offset:		56283
+	name:		Dietrick Hall
+	state:		VA
+	latitude:	0371328 North
+	longitude:	0802516 West
+
+	offset:		82956
+	name:		Slusher Hall
+	state:		VA
+	latitude:	0371331 North
+	longitude:	0802518 West
+
+	offset:		98573
+	name:		Leander Dietrick Dining Hall
+	state:		VA
+	latitude:	0371327 North
+	longitude:	0802517 West
+
+	offset:		77218
+	name:		Pritchard Hall
+	state:		VA
+	latitude:	0371327 North
+	longitude:	0802511 West
+
+	offset:		92359
+	name:		Peddrew-Yates Residence Hall
+	state:		VA
+	latitude:	0371330 North
+	longitude:	0802513 West
+
+	offset:		65656
+	name:		Lee Hall
+	state:		VA
+	latitude:	0371328 North
+	longitude:	0802507 West
+
+	offset:		95548
+	name:		Claudius Lee Hall
+	state:		VA
+	latitude:	0371328 North
+	longitude:	0802507 West
+
+	offset:		50465
+	name:		Campbell Hall
+	state:		VA
+	latitude:	0371334 North
+	longitude:	0802519 West
+
+	offset:		93182
+	name:		Thomas Campbell Hall
+	state:		VA
+	latitude:	0371334 North
+	longitude:	0802519 West
+
+	offset:		67401
+	name:		Memorial Gymnasium
+	state:		VA
+	latitude:	0371334 North
+	longitude:	0802515 West
+
+	offset:		94309
+	name:		Al Payne Hall
+	state:		VA
+	latitude:	0371333 North
+	longitude:	0802513 West
+
+	offset:		99934
+	name:		New Residence Hall - East
+	state:		VA
+	latitude:	0371332 North
+	longitude:	0802509 West
+
+	offset:		57525
+	name:		Eggleston Hall
+	state:		VA
+	latitude:	0371338 North
+	longitude:	0802513 West
+
+	offset:		71704
+	name:		Newman Hall
+	state:		VA
+	latitude:	0371334 North
+	longitude:	0802505 West
+
+	offset:		72927
+	name:		O'Shaughnessy Hall
+	state:		VA
+	latitude:	0371331 North
+	longitude:	0802506 West
+
+	offset:		97757
+	name:		J J Owens Hall
+	state:		VA
+	latitude:	0371335 North
+	longitude:	0802508 West
+
+	offset:		98851
+	name:		Louis O'Shaughnessy Hall
+	state:		VA
+	latitude:	0371331 North
+	longitude:	0802507 West
+
+	offset:		46525
+	name:		Barringer Hall
+	state:		VA
+	latitude:	0371334 North
+	longitude:	0802501 West
+
+	offset:		63532
+	name:		Johnson Hall
+	state:		VA
+	latitude:	0371332 North
+	longitude:	0802504 West
+
+	offset:		67809
+	name:		Miles Hall
+	state:		VA
+	latitude:	0371331 North
+	longitude:	0802502 West
+
+	offset:		92093
+	name:		Paul Barringer Hall
+	state:		VA
+	latitude:	0371334 North
+	longitude:	0802502 West
+
+	offset:		56411
+	name:		Donaldson Brown Continuing Education Center
+	state:		VA
+	latitude:	0371342 North
+	longitude:	0802504 West
+
+	offset:		94437
+	name:		Alumni Hall-Virginia Tech
+	state:		VA
+	latitude:	0371342 North
+	longitude:	0802505 West
+
+	offset:		95266
+	name:		Charles Vawter Senior Hall
+	state:		VA
+	latitude:	0371337 North
+	longitude:	0802504 West
+
+	offset:		95955
+	name:		Donaldson Brown Hotel and Conference Center
+	state:		VA
+	latitude:	0371341 North
+	longitude:	0802504 West
+
+	offset:		47733
+	name:		Blacksburg Area Branch Library
+	state:		VA
+	latitude:	0371334 North
+	longitude:	0802445 West
+
+	offset:		67934
+	name:		Miller Addition
+	state:		VA
+	latitude:	0371326 North
+	longitude:	0802438 West
+
+	offset:		95811
+	name:		Cranwell International Center
+	state:		VA
+	latitude:	0371322 North
+	longitude:	0802458 West
+
+	offset:		93626
+	name:		War Memorial Chapel
+	state:		VA
+	latitude:	0371343 North
+	longitude:	0802515 West
+
+	offset:		71827
+	name:		Newman Library
+	state:		VA
+	latitude:	0371344 North
+	longitude:	0802510 West
+
+	offset:		58561
+	name:		Femoyer Hall
+	state:		VA
+	latitude:	0371352 North
+	longitude:	0802517 West
+
+	offset:		92754
+	name:		Robert Femoyer Hall
+	state:		VA
+	latitude:	0371352 North
+	longitude:	0802517 West
+
+	offset:		66868
+	name:		Major Williams Dormitory
+	state:		VA
+	latitude:	0371351 North
+	longitude:	0802515 West
+
+	offset:		67006
+	name:		McBryde Hall
+	state:		VA
+	latitude:	0371349 North
+	longitude:	0802519 West
+
+	offset:		98990
+	name:		Major Lloyd W Williams Hall
+	state:		VA
+	latitude:	0371352 North
+	longitude:	0802516 West
+
+	offset:		93317
+	name:		Torgersen Hall
+	state:		VA
+	latitude:	0371347 North
+	longitude:	0802514 West
+
+	offset:		49514
+	name:		Brodie Hall
+	state:		VA
+	latitude:	0371348 North
+	longitude:	0802512 West
+
+	offset:		94855
+	name:		Arts and Science Administration Building
+	state:		VA
+	latitude:	0371352 North
+	longitude:	0802513 West
+
+	offset:		98020
+	name:		James H Lane Hall
+	state:		VA
+	latitude:	0371351 North
+	longitude:	0802512 West
+
+	offset:		64863
+	name:		Lane Hall
+	state:		VA
+	latitude:	0371351 North
+	longitude:	0802511 West
+
+	offset:		84421
+	name:		Squires Hall
+	state:		VA
+	latitude:	0371346 North
+	longitude:	0802506 West
+
+	offset:		98289
+	name:		John Houston Squires Student Center
+	state:		VA
+	latitude:	0371346 North
+	longitude:	0802506 West
+
+	offset:		94577
+	name:		Architecture Annex
+	state:		VA
+	latitude:	0371343 North
+	longitude:	0802459 West
+
+	offset:		99387
+	name:		Media Building
+	state:		VA
+	latitude:	0371343 North
+	longitude:	0802458 West
+
+	offset:		78022
+	name:		Rasche Hall
+	state:		VA
+	latitude:	0371351 North
+	longitude:	0802509 West
+
+	offset:		93907
+	name:		William H "Bosco" Rasche Hall
+	state:		VA
+	latitude:	0371350 North
+	longitude:	0802509 West
+
+	offset:		60985
+	name:		Henderson Student Health Service Building
+	state:		VA
+	latitude:	0371349 North
+	longitude:	0802501 West
+
+	offset:		86337
+	name:		Thomas Hall
+	state:		VA
+	latitude:	0371354 North
+	longitude:	0802515 West
+
+	offset:		94710
+	name:		Art and Design Learning Center
+	state:		VA
+	latitude:	0371354 North
+	longitude:	0802515 West
+
+	offset:		99657
+	name:		Military Building
+	state:		VA
+	latitude:	0371354 North
+	longitude:	0802518 West
+
+	offset:		100074
+	name:		Old Security Building
+	state:		VA
+	latitude:	0371353 North
+	longitude:	0802518 West
+
+	offset:		68615
+	name:		Monteith Hall
+	state:		VA
+	latitude:	0371355 North
+	longitude:	0802513 West
+
+	offset:		81044
+	name:		Shanks Hall
+	state:		VA
+	latitude:	0371354 North
+	longitude:	0802512 West
+
+	offset:		97229
+	name:		Herbert J Thomas Hall
+	state:		VA
+	latitude:	0371356 North
+	longitude:	0802513 West
+
+	offset:		98147
+	name:		Jimmie Monteith Junior Hall
+	state:		VA
+	latitude:	0371354 North
+	longitude:	0802511 West
+
+	offset:		48012
+	name:		Blacksburg Historic District
+	state:		VA
+	latitude:	0371355 North
+	longitude:	0802459 West
+
+	offset:		66051
+	name:		Luther Memorial Church
+	state:		VA
+	latitude:	0371358 North
+	longitude:	0802507 West
+
+	offset:		82119
+	name:		Shultz Hall
+	state:		VA
+	latitude:	0371354 North
+	longitude:	0802507 West
+
+	offset:		97627
+	name:		J H Shultz Hall
+	state:		VA
+	latitude:	0371354 North
+	longitude:	0802507 West
+
+	offset:		41209
+	name:		Blacksburg
+	state:		VA
+	latitude:	0371346 North
+	longitude:	0802450 West
+
+	offset:		47878
+	name:		Blacksburg City Hall
+	state:		VA
+	latitude:	0371350 North
+	longitude:	0802451 West
+
+	offset:		48298
+	name:		Blacksburg Post Office
+	state:		VA
+	latitude:	0371348 North
+	longitude:	0802452 West
+
+	offset:		52067
+	name:		Christ Episcopal Church
+	state:		VA
+	latitude:	0371350 North
+	longitude:	0802449 West
+
+	offset:		77347
+	name:		Progress Street Fire Station
+	state:		VA
+	latitude:	0371352 North
+	longitude:	0802449 West
+
+	offset:		49103
+	name:		Blacksburg United Methodist Church
+	state:		VA
+	latitude:	0371347 North
+	longitude:	0802445 West
+
+	offset:		79788
+	name:		Saint Paul African Methodist Episcopal Church
+	state:		VA
+	latitude:	0371351 North
+	longitude:	0802446 West
+
+	offset:		63930
+	name:		Keister Addition
+	state:		VA
+	latitude:	0371358 North
+	longitude:	0802448 West
+
+	offset:		79642
+	name:		Saint Marys Roman Catholic Church
+	state:		VA
+	latitude:	0371356 North
+	longitude:	0802453 West
+
+	offset:		42429
+	name:		WUVT-FM (Blacksburg)
+	state:		VA
+	latitude:	0371328 North
+	longitude:	0802429 West
+
+	offset:		48438
+	name:		Blacksburg Presbyterian Church
+	state:		VA
+	latitude:	0371331 North
+	longitude:	0802427 West
+
+	offset:		68071
+	name:		Miller-Southside Historic District
+	state:		VA
+	latitude:	0371323 North
+	longitude:	0802434 West
+
+	offset:		70702
+	name:		Mountain View Estates
+	state:		VA
+	latitude:	0371330 North
+	longitude:	0802424 West
+
+	offset:		47070
+	name:		Berryfield
+	state:		VA
+	latitude:	0371346 North
+	longitude:	0802434 West
+
+	offset:		58688
+	name:		First Baptist Church
+	state:		VA
+	latitude:	0371343 North
+	longitude:	0802435 West
+
+	offset:		88789
+	name:		Westview Cemetery
+	state:		VA
+	latitude:	0371402 North
+	longitude:	0802429 West
+
+	offset:		102279
+	name:		Dayspring Christian Academy
+	state:		VA
+	latitude:	0371350 North
+	longitude:	0802425 West
+
+	offset:		64333
+	name:		Knob Hill
+	state:		VA
+	latitude:	0371348 North
+	longitude:	0802355 West
+
+	offset:		75412
+	name:		Piedmont
+	state:		VA
+	latitude:	0371244 North
+	longitude:	0802342 West
+
+	offset:		54957
+	name:		Crestwood Gardens
+	state:		VA
+	latitude:	0371240 North
+	longitude:	0802328 West
+
+	offset:		58961
+	name:		Forest Hills (historical)
+	state:		VA
+	latitude:	0371254 North
+	longitude:	0802327 West
+
+	offset:		48581
+	name:		Blackwood
+	state:		VA
+	latitude:	0371309 North
+	longitude:	0802351 West
+
+	offset:		77488
+	name:		Rainbow Ridge
+	state:		VA
+	latitude:	0371304 North
+	longitude:	0802329 West
+
+	offset:		61814
+	name:		Highland Park
+	state:		VA
+	latitude:	0371325 North
+	longitude:	0802330 West
+
+	offset:		59512
+	name:		Glade Road Heights
+	state:		VA
+	latitude:	0371407 North
+	longitude:	0802723 West
+
+	offset:		28073
+	name:		New Saint Peters Church
+	state:		VA
+	latitude:	0371410 North
+	longitude:	0802659 West
+
+	offset:		59652
+	name:		Glade School (historical)
+	state:		VA
+	latitude:	0371410 North
+	longitude:	0802701 West
+
+	offset:		71955
+	name:		Nicholas Manor
+	state:		VA
+	latitude:	0371418 North
+	longitude:	0802704 West
+
+	offset:		88653
+	name:		Westover Hills
+	state:		VA
+	latitude:	0371413 North
+	longitude:	0802649 West
+
+	offset:		27383
+	name:		Mountain View Church
+	state:		VA
+	latitude:	0371526 North
+	longitude:	0802650 West
+
+	offset:		37898
+	name:		Swanee Hollow Country Club
+	state:		VA
+	latitude:	0371437 North
+	longitude:	0802615 West
+
+	offset:		63796
+	name:		Karr Heights
+	state:		VA
+	latitude:	0371405 North
+	longitude:	0802630 West
+
+	offset:		87418
+	name:		University Place
+	state:		VA
+	latitude:	0371408 North
+	longitude:	0802614 West
+
+	offset:		65779
+	name:		Longview Estates
+	state:		VA
+	latitude:	0371421 North
+	longitude:	0802559 West
+
+	offset:		67133
+	name:		McBryde Village
+	state:		VA
+	latitude:	0371408 North
+	longitude:	0802548 West
+
+	offset:		86857
+	name:		Tremont Estates
+	state:		VA
+	latitude:	0371412 North
+	longitude:	0802601 West
+
+	offset:		24844
+	name:		Gilbert Linkous Elementary School
+	state:		VA
+	latitude:	0371413 North
+	longitude:	0802532 West
+
+	offset:		85095
+	name:		Sundance Ridge
+	state:		VA
+	latitude:	0371442 North
+	longitude:	0802545 West
+
+	offset:		85231
+	name:		Sundance Village
+	state:		VA
+	latitude:	0371433 North
+	longitude:	0802545 West
+
+	offset:		84548
+	name:		Stonegate
+	state:		VA
+	latitude:	0371425 North
+	longitude:	0802534 West
+
+	offset:		86593
+	name:		Toms Creek Park
+	state:		VA
+	latitude:	0371508 North
+	longitude:	0802610 West
+
+	offset:		81709
+	name:		Shenandoah
+	state:		VA
+	latitude:	0371454 North
+	longitude:	0802527 West
+
+	offset:		64732
+	name:		Laurel Ridge
+	state:		VA
+	latitude:	0371606 North
+	longitude:	0802654 West
+
+	offset:		70572
+	name:		Mountain View
+	state:		VA
+	latitude:	0371535 North
+	longitude:	0802652 West
+
+	offset:		90813
+	name:		District F-01
+	state:		VA
+	latitude:	0371551 North
+	longitude:	0802638 West
+
+	offset:		83609
+	name:		Snidow Heights
+	state:		VA
+	latitude:	0371423 North
+	longitude:	0802517 West
+
+	offset:		35952
+	name:		Harding Avenue Elementary School
+	state:		VA
+	latitude:	0371404 North
+	longitude:	0802440 West
+
+	offset:		56152
+	name:		Dickerson
+	state:		VA
+	latitude:	0371417 North
+	longitude:	0802455 West
+
+	offset:		65394
+	name:		Linkous
+	state:		VA
+	latitude:	0371420 North
+	longitude:	0802439 West
+
+	offset:		74141
+	name:		Patrick Henry Place
+	state:		VA
+	latitude:	0371445 North
+	longitude:	0802458 West
+
+	offset:		87556
+	name:		University Terrace
+	state:		VA
+	latitude:	0371438 North
+	longitude:	0802515 West
+
+	offset:		56708
+	name:		Dundas Heights
+	state:		VA
+	latitude:	0371424 North
+	longitude:	0802434 West
+
+	offset:		82386
+	name:		Silver Leaf
+	state:		VA
+	latitude:	0371416 North
+	longitude:	0802427 West
+
+	offset:		64068
+	name:		Kessler Park
+	state:		VA
+	latitude:	0371415 North
+	longitude:	0802356 West
+
+	offset:		73739
+	name:		Orchard View
+	state:		VA
+	latitude:	0371413 North
+	longitude:	0802414 West
+
+	offset:		86205
+	name:		The Vistas
+	state:		VA
+	latitude:	0371418 North
+	longitude:	0802410 West
+
+	offset:		35807
+	name:		Blacksburg High School
+	state:		VA
+	latitude:	0371436 North
+	longitude:	0802424 West
+
+	offset:		45850
+	name:		Apperson Park
+	state:		VA
+	latitude:	0371425 North
+	longitude:	0802412 West
+
+	offset:		62484
+	name:		Hunters Ridge
+	state:		VA
+	latitude:	0371451 North
+	longitude:	0802500 West
+
+	offset:		75278
+	name:		Pheasant Run
+	state:		VA
+	latitude:	0371454 North
+	longitude:	0802505 West
+
+	offset:		54147
+	name:		Clover Valley
+	state:		VA
+	latitude:	0371448 North
+	longitude:	0802444 West
+
+	offset:		74282
+	name:		Patrick Henry Centre Shopping Center
+	state:		VA
+	latitude:	0371450 North
+	longitude:	0802454 West
+
+	offset:		90943
+	name:		District G-01
+	state:		VA
+	latitude:	0371504 North
+	longitude:	0802439 West
+
+	offset:		72794
+	name:		Northside Park
+	state:		VA
+	latitude:	0371522 North
+	longitude:	0802503 West
+
+	offset:		45020
+	name:		Alleghany Heights
+	state:		VA
+	latitude:	0371509 North
+	longitude:	0802446 West
+
+	offset:		54685
+	name:		Countryside Estates
+	state:		VA
+	latitude:	0371523 North
+	longitude:	0802444 West
+
+	offset:		71143
+	name:		Murphy
+	state:		VA
+	latitude:	0371453 North
+	longitude:	0802427 West
+
+	offset:		21558
+	name:		Davis Chapel
+	state:		VA
+	latitude:	0371441 North
+	longitude:	0802248 West
+
+	offset:		51118
+	name:		Cedar Orchard
+	state:		VA
+	latitude:	0371405 North
+	longitude:	0802348 West
+
+	offset:		86072
+	name:		The Orchard
+	state:		VA
+	latitude:	0371409 North
+	longitude:	0802334 West
+
+	offset:		67270
+	name:		Meadow Brook
+	state:		VA
+	latitude:	0371557 North
+	longitude:	0802450 West
+
+	offset:		101404
+	name:		Blacksburg New School
+	state:		VA
+	latitude:	0371601 North
+	longitude:	0802502 West
+
+	offset:		26857
+	name:		Mount Tabor
+	state:		VA
+	latitude:	0371559 North
+	longitude:	0802400 West
+
+	offset:		66739
+	name:		Meadow Run
+	state:		VA
+	latitude:	0371550 North
+	longitude:	0802400 West
+
+	offset:		70029
+	name:		Mount Tabor School (historical)
+	state:		VA
+	latitude:	0371556 North
+	longitude:	0802403 West
+
+	offset:		89726
+	name:		Woodbine
+	state:		VA
+	latitude:	0371538 North
+	longitude:	0802429 West
+
+	offset:		21107
+	name:		Coal Bank Hollow
+	state:		VA
+	latitude:	0371632 North
+	longitude:	0802510 West
+
+	offset:		35213
+	name:		Blacksburg Ranger Station
+	state:		VA
+	latitude:	0371634 North
+	longitude:	0802516 West
+
+	offset:		22994
+	name:		Hale Cemetery
+	state:		VA
+	latitude:	0371633 North
+	longitude:	0802346 West
+
+	offset:		31569
+	name:		Slussers Chapel
+	state:		VA
+	latitude:	0371612 North
+	longitude:	0802336 West
+
+	offset:		70170
+	name:		Mount Tabor Village
+	state:		VA
+	latitude:	0371550 North
+	longitude:	0802347 West
+
+	offset:		28542
+	name:		Pandapas Pond
+	state:		VA
+	latitude:	0371653 North
+	longitude:	0802805 West
+
+	offset:		29361
+	name:		Pleasant View Cemetery
+	state:		VA
+	latitude:	0371711 North
+	longitude:	0802754 West
+
+	offset:		27258
+	name:		Mountain Mission
+	state:		VA
+	latitude:	0371657 North
+	longitude:	0802627 West
+
+	offset:		91509
+	name:		Shawsville Volunteer Rescue Squad
+	state:		VA
+	latitude:	0371704 North
+	longitude:	0802632 West
+
+	offset:		31855
+	name:		Stevers Gap
+	state:		VA
+	latitude:	0371851 North
+	longitude:	0802602 West
+
+	offset:		76509
+	name:		Preston Forest
+	state:		VA
+	latitude:	0371717 North
+	longitude:	0802409 West
+
+	offset:		12009
+	name:		Pilot Mountain
+	state:		VA
+	latitude:	0370410 North
+	longitude:	0802128 West
+
+	offset:		7197
+	name:		Fishers View Mountain
+	state:		VA
+	latitude:	0370525 North
+	longitude:	0801744 West
+
+	offset:		40960
+	name:		Craig Mountain
+	state:		VA
+	latitude:	0370501 North
+	longitude:	0801940 West
+
+	offset:		45580
+	name:		Altoona School (historical)
+	state:		VA
+	latitude:	0370425 North
+	longitude:	0801804 West
+
+	offset:		58821
+	name:		Fishers View School (historical)
+	state:		VA
+	latitude:	0370451 North
+	longitude:	0801732 West
+
+	offset:		11063
+	name:		Oak Grove Cemetery
+	state:		VA
+	latitude:	0370636 North
+	longitude:	0802214 West
+
+	offset:		17571
+	name:		Oak Grove
+	state:		VA
+	latitude:	0370648 North
+	longitude:	0802159 West
+
+	offset:		73060
+	name:		Oak Grove School (historical)
+	state:		VA
+	latitude:	0370646 North
+	longitude:	0802151 West
+
+	offset:		5404
+	name:		Dry Branch
+	state:		VA
+	latitude:	0370544 North
+	longitude:	0802007 West
+
+	offset:		15371
+	name:		Tanzy Hollow
+	state:		VA
+	latitude:	0370544 North
+	longitude:	0802007 West
+
+	offset:		11323
+	name:		Panther Hollow
+	state:		VA
+	latitude:	0370552 North
+	longitude:	0802008 West
+
+	offset:		13114
+	name:		Rocky Branch
+	state:		VA
+	latitude:	0370617 North
+	longitude:	0801952 West
+
+	offset:		41082
+	name:		Sugar Grove
+	state:		VA
+	latitude:	0370606 North
+	longitude:	0801943 West
+
+	offset:		101253
+	name:		Falling Branch Elementary School
+	state:		VA
+	latitude:	0370734 North
+	longitude:	0802219 West
+
+	offset:		57265
+	name:		East Ridge
+	state:		VA
+	latitude:	0370758 North
+	longitude:	0802208 West
+
+	offset:		85530
+	name:		Teel Subdivision
+	state:		VA
+	latitude:	0370820 North
+	longitude:	0802203 West
+
+	offset:		42033
+	name:		WFNR-AM (Blacksburg)
+	state:		VA
+	latitude:	0370801 North
+	longitude:	0802116 West
+
+	offset:		42693
+	name:		WFNR-FM (Christiansburg)
+	state:		VA
+	latitude:	0370801 North
+	longitude:	0802116 West
+
+	offset:		58033
+	name:		Falling Branch
+	state:		VA
+	latitude:	0370750 North
+	longitude:	0802136 West
+
+	offset:		63139
+	name:		Interchange 118
+	state:		VA
+	latitude:	0370814 North
+	longitude:	0802123 West
+
+	offset:		7443
+	name:		Garber Chapel
+	state:		VA
+	latitude:	0370816 North
+	longitude:	0802034 West
+
+	offset:		55629
+	name:		DeHart Subdivision
+	state:		VA
+	latitude:	0370813 North
+	longitude:	0802051 West
+
+	offset:		101983
+	name:		Community Christian Academy
+	state:		VA
+	latitude:	0370814 North
+	longitude:	0802054 West
+
+	offset:		6584
+	name:		Falling Branch
+	state:		VA
+	latitude:	0370638 North
+	longitude:	0801825 West
+
+	offset:		4384
+	name:		Cooks Branch
+	state:		VA
+	latitude:	0370648 North
+	longitude:	0801753 West
+
+	offset:		10933
+	name:		Mount Pleasant Church
+	state:		VA
+	latitude:	0370758 North
+	longitude:	0801823 West
+
+	offset:		55366
+	name:		Cumberland Forest
+	state:		VA
+	latitude:	0370824 North
+	longitude:	0801918 West
+
+	offset:		69886
+	name:		Mount Pleasant School (historical)
+	state:		VA
+	latitude:	0370803 North
+	longitude:	0801828 West
+
+	offset:		70434
+	name:		Mountain Top Estates
+	state:		VA
+	latitude:	0370815 North
+	longitude:	0801929 West
+
+	offset:		76108
+	name:		Pond Hill
+	state:		VA
+	latitude:	0370738 North
+	longitude:	0801810 West
+
+	offset:		40053
+	name:		Houchins
+	state:		VA
+	latitude:	0370906 North
+	longitude:	0802135 West
+
+	offset:		8972
+	name:		Kettle Hollow
+	state:		VA
+	latitude:	0370945 North
+	longitude:	0802035 West
+
+	offset:		48711
+	name:		Blake Forest
+	state:		VA
+	latitude:	0370837 North
+	longitude:	0801958 West
+
+	offset:		89067
+	name:		White Pine
+	state:		VA
+	latitude:	0370827 North
+	longitude:	0802009 West
+
+	offset:		5005
+	name:		Den Creek
+	state:		VA
+	latitude:	0371106 North
+	longitude:	0802106 West
+
+	offset:		12854
+	name:		Riverside Church
+	state:		VA
+	latitude:	0371112 North
+	longitude:	0802107 West
+
+	offset:		48841
+	name:		Blakenship Farm
+	state:		VA
+	latitude:	0371102 North
+	longitude:	0802213 West
+
+	offset:		8687
+	name:		Iron Mine Hollow
+	state:		VA
+	latitude:	0371002 North
+	longitude:	0802042 West
+
+	offset:		14253
+	name:		Slaughterpen Hollow
+	state:		VA
+	latitude:	0371010 North
+	longitude:	0802035 West
+
+	offset:		69591
+	name:		Montgomery White Sulphur Springs (historical)
+	state:		VA
+	latitude:	0371013 North
+	longitude:	0802054 West
+
+	offset:		3933
+	name:		Church Campgrounds
+	state:		VA
+	latitude:	0370843 North
+	longitude:	0801906 West
+
+	offset:		5159
+	name:		Den Hill
+	state:		VA
+	latitude:	0370847 North
+	longitude:	0801911 West
+
+	offset:		66596
+	name:		Marvin Garden Subdivision
+	state:		VA
+	latitude:	0370834 North
+	longitude:	0801904 West
+
+	offset:		16499
+	name:		Wells Hollow
+	state:		VA
+	latitude:	0370934 North
+	longitude:	0801938 West
+
+	offset:		17443
+	name:		Montgomery
+	state:		VA
+	latitude:	0370923 North
+	longitude:	0801908 West
+
+	offset:		5276
+	name:		Den Hill Cemetery
+	state:		VA
+	latitude:	0370920 North
+	longitude:	0801844 West
+
+	offset:		10676
+	name:		Mount Calvary Church
+	state:		VA
+	latitude:	0370919 North
+	longitude:	0801848 West
+
+	offset:		47615
+	name:		Big Tunnel
+	state:		VA
+	latitude:	0370930 North
+	longitude:	0801859 West
+
+	offset:		55765
+	name:		Den Hill
+	state:		VA
+	latitude:	0370920 North
+	longitude:	0801847 West
+
+	offset:		12408
+	name:		Poplar Hollow
+	state:		VA
+	latitude:	0370948 North
+	longitude:	0801750 West
+
+	offset:		76226
+	name:		Poplar Branch
+	state:		VA
+	latitude:	0370948 North
+	longitude:	0801750 West
+
+	offset:		88380
+	name:		Wanless Church (historical)
+	state:		VA
+	latitude:	0370947 North
+	longitude:	0801756 West
+
+	offset:		39663
+	name:		Dee Cee Hill
+	state:		VA
+	latitude:	0371003 North
+	longitude:	0801909 West
+
+	offset:		14094
+	name:		Skillet Hollow
+	state:		VA
+	latitude:	0371007 North
+	longitude:	0801703 West
+
+	offset:		16656
+	name:		Wheeling Hollow
+	state:		VA
+	latitude:	0370957 North
+	longitude:	0801741 West
+
+	offset:		39533
+	name:		Brush Harbor
+	state:		VA
+	latitude:	0371103 North
+	longitude:	0801727 West
+
+	offset:		59238
+	name:		Friendship School (historical)
+	state:		VA
+	latitude:	0371051 North
+	longitude:	0801756 West
+
+	offset:		15841
+	name:		Texas Hollow Church
+	state:		VA
+	latitude:	0370554 North
+	longitude:	0801642 West
+
+	offset:		70985
+	name:		Mudhole Hollow
+	state:		VA
+	latitude:	0370611 North
+	longitude:	0801607 West
+
+	offset:		85664
+	name:		Texas Hollow School (historical)
+	state:		VA
+	latitude:	0370614 North
+	longitude:	0801557 West
+
+	offset:		40842
+	name:		Cabes Hill
+	state:		VA
+	latitude:	0370622 North
+	longitude:	0801642 West
+
+	offset:		14739
+	name:		Sowders Chapel Baptist Church
+	state:		VA
+	latitude:	0370648 North
+	longitude:	0801544 West
+
+	offset:		15685
+	name:		Texas Hollow
+	state:		VA
+	latitude:	0370625 North
+	longitude:	0801532 West
+
+	offset:		79216
+	name:		Rose Run
+	state:		VA
+	latitude:	0370630 North
+	longitude:	0801528 West
+
+	offset:		401
+	name:		Alleghany Church
+	state:		VA
+	latitude:	0370726 North
+	longitude:	0801609 West
+
+	offset:		650
+	name:		Alleghany Springs
+	state:		VA
+	latitude:	0370741 North
+	longitude:	0801554 West
+
+	offset:		5995
+	name:		Elliott Creek
+	state:		VA
+	latitude:	0370737 North
+	longitude:	0801557 West
+
+	offset:		45436
+	name:		Alleghany Spring School (historical)
+	state:		VA
+	latitude:	0370706 North
+	longitude:	0801601 West
+
+	offset:		7564
+	name:		Georges Run
+	state:		VA
+	latitude:	0370819 North
+	longitude:	0801617 West
+
+	offset:		3409
+	name:		Calhoun Run
+	state:		VA
+	latitude:	0370744 North
+	longitude:	0801557 West
+
+	offset:		45156
+	name:		Alleghany School (historical)
+	state:		VA
+	latitude:	0370812 North
+	longitude:	0801518 West
+
+	offset:		784
+	name:		Allen Hollow
+	state:		VA
+	latitude:	0370849 North
+	longitude:	0801613 West
+
+	offset:		15210
+	name:		Sweet Spring Hollow
+	state:		VA
+	latitude:	0370829 North
+	longitude:	0801556 West
+
+	offset:		85369
+	name:		Sweet Spring Run
+	state:		VA
+	latitude:	0370829 North
+	longitude:	0801557 West
+
+	offset:		13704
+	name:		River Ridge
+	state:		VA
+	latitude:	0370846 North
+	longitude:	0801518 West
+
+	offset:		525
+	name:		Alleghany Church
+	state:		VA
+	latitude:	0370925 North
+	longitude:	0801518 West
+
+	offset:		104789
+	name:		Lavery's Sod Farm
+	state:		VA
+	latitude:	0370926 North
+	longitude:	0801515 West
+
+	offset:		3249
+	name:		Calfhill Hollow
+	state:		VA
+	latitude:	0371017 North
+	longitude:	0801646 West
+
+	offset:		90418
+	name:		District C-01
+	state:		VA
+	latitude:	0371017 North
+	longitude:	0801616 West
+
+	offset:		13393
+	name:		Ryan Hollow
+	state:		VA
+	latitude:	0371020 North
+	longitude:	0801601 West
+
+	offset:		9732
+	name:		Long Hollow Ridge
+	state:		VA
+	latitude:	0371035 North
+	longitude:	0801652 West
+
+	offset:		40319
+	name:		Middle Piece Mountain
+	state:		VA
+	latitude:	0371104 North
+	longitude:	0801600 West
+
+	offset:		9286
+	name:		Kirk Hollow
+	state:		VA
+	latitude:	0370957 North
+	longitude:	0801515 West
+
+	offset:		40704
+	name:		Shawsville
+	state:		VA
+	latitude:	0371006 North
+	longitude:	0801519 West
+
+	offset:		81170
+	name:		Shawsville Historic District
+	state:		VA
+	latitude:	0371005 North
+	longitude:	0801522 West
+
+	offset:		17198
+	name:		Ellett
+	state:		VA
+	latitude:	0371129 North
+	longitude:	0802200 West
+
+	offset:		86994
+	name:		Trinity United Methodist Church
+	state:		VA
+	latitude:	0371128 North
+	longitude:	0802205 West
+
+	offset:		20516
+	name:		Cedar Run
+	state:		VA
+	latitude:	0371121 North
+	longitude:	0802132 West
+
+	offset:		34890
+	name:		Wilson Creek
+	state:		VA
+	latitude:	0371116 North
+	longitude:	0802108 West
+
+	offset:		40449
+	name:		New Ellett
+	state:		VA
+	latitude:	0371158 North
+	longitude:	0802148 West
+
+	offset:		15527
+	name:		Taylor Hollow
+	state:		VA
+	latitude:	0371205 North
+	longitude:	0802122 West
+
+	offset:		82662
+	name:		Slate Lick Run
+	state:		VA
+	latitude:	0371205 North
+	longitude:	0802123 West
+
+	offset:		8408
+	name:		Hightop Mountain
+	state:		VA
+	latitude:	0371218 North
+	longitude:	0802006 West
+
+	offset:		54410
+	name:		Country Club Estates
+	state:		VA
+	latitude:	0371245 North
+	longitude:	0802144 West
+
+	offset:		6310
+	name:		Fagg Hollow
+	state:		VA
+	latitude:	0371130 North
+	longitude:	0801941 West
+
+	offset:		6910
+	name:		Falling Waters Church
+	state:		VA
+	latitude:	0371156 North
+	longitude:	0801905 West
+
+	offset:		7040
+	name:		Falls Hollow
+	state:		VA
+	latitude:	0371143 North
+	longitude:	0801925 West
+
+	offset:		17322
+	name:		Fagg
+	state:		VA
+	latitude:	0371146 North
+	longitude:	0801923 West
+
+	offset:		10425
+	name:		Mill Knob
+	state:		VA
+	latitude:	0371154 North
+	longitude:	0801822 West
+
+	offset:		4220
+	name:		Coffees Valley
+	state:		VA
+	latitude:	0371149 North
+	longitude:	0801743 West
+
+	offset:		4694
+	name:		Dark Hollow
+	state:		VA
+	latitude:	0371147 North
+	longitude:	0801726 West
+
+	offset:		7720
+	name:		Ginger Hollow
+	state:		VA
+	latitude:	0371153 North
+	longitude:	0801801 West
+
+	offset:		16341
+	name:		Walnut Hollow
+	state:		VA
+	latitude:	0371152 North
+	longitude:	0801746 West
+
+	offset:		10142
+	name:		Midway Church
+	state:		VA
+	latitude:	0371302 North
+	longitude:	0801708 West
+
+	offset:		40577
+	name:		Reesedale
+	state:		VA
+	latitude:	0371345 North
+	longitude:	0801756 West
+
+	offset:		78419
+	name:		Reesedale Church
+	state:		VA
+	latitude:	0371345 North
+	longitude:	0801744 West
+
+	offset:		9857
+	name:		Lusters Gate
+	state:		VA
+	latitude:	0371433 North
+	longitude:	0802149 West
+
+	offset:		23511
+	name:		Indian Run
+	state:		VA
+	latitude:	0371430 North
+	longitude:	0802125 West
+
+	offset:		89452
+	name:		Willow Springs Lake
+	state:		VA
+	latitude:	0371455 North
+	longitude:	0802113 West
+
+	offset:		102429
+	name:		Gateway Christian Academy
+	state:		VA
+	latitude:	0371440 North
+	longitude:	0802202 West
+
+	offset:		18324
+	name:		Anderson Cemetery
+	state:		VA
+	latitude:	0371519 North
+	longitude:	0802057 West
+
+	offset:		26426
+	name:		Mossy Spring Branch
+	state:		VA
+	latitude:	0371518 North
+	longitude:	0802049 West
+
+	offset:		28678
+	name:		Paris Mountain
+	state:		VA
+	latitude:	0371405 North
+	longitude:	0802009 West
+
+	offset:		34287
+	name:		White Church
+	state:		VA
+	latitude:	0371521 North
+	longitude:	0802050 West
+
+	offset:		19315
+	name:		Bennett Cemetery
+	state:		VA
+	latitude:	0371555 North
+	longitude:	0801943 West
+
+	offset:		25788
+	name:		Mill Creek
+	state:		VA
+	latitude:	0371537 North
+	longitude:	0802026 West
+
+	offset:		33222
+	name:		Turkeypen Hollow
+	state:		VA
+	latitude:	0371615 North
+	longitude:	0802044 West
+
+	offset:		39394
+	name:		Bennetts Mill
+	state:		VA
+	latitude:	0371542 North
+	longitude:	0802020 West
+
+	offset:		78544
+	name:		Reesedale School (historical)
+	state:		VA
+	latitude:	0371403 North
+	longitude:	0801802 West
+
+	offset:		18460
+	name:		Austin Hollow
+	state:		VA
+	latitude:	0371621 North
+	longitude:	0801821 West
+
+	offset:		21683
+	name:		Dry Run
+	state:		VA
+	latitude:	0371619 North
+	longitude:	0801830 West
+
+	offset:		72492
+	name:		North Fork Valley Rural Historic District
+	state:		VA
+	latitude:	0371630 North
+	longitude:	0801830 West
+
+	offset:		39918
+	name:		Half Acre of Rocks
+	state:		VA
+	latitude:	0371602 North
+	longitude:	0801705 West
+
+	offset:		12566
+	name:		Reese Hollow
+	state:		VA
+	latitude:	0371234 North
+	longitude:	0801649 West
+
+	offset:		8848
+	name:		Ironto
+	state:		VA
+	latitude:	0371307 North
+	longitude:	0801641 West
+
+	offset:		4540
+	name:		Craig Branch
+	state:		VA
+	latitude:	0371415 North
+	longitude:	0801628 West
+
+	offset:		7326
+	name:		Flatwoods
+	state:		VA
+	latitude:	0371438 North
+	longitude:	0801619 West
+
+	offset:		7995
+	name:		Halls Church
+	state:		VA
+	latitude:	0371417 North
+	longitude:	0801606 West
+
+	offset:		22094
+	name:		Flatwoods Branch
+	state:		VA
+	latitude:	0371413 North
+	longitude:	0801602 West
+
+	offset:		35047
+	name:		Womack Branch
+	state:		VA
+	latitude:	0371512 North
+	longitude:	0801535 West
+
+	offset:		39265
+	name:		Acre of Rocks
+	state:		VA
+	latitude:	0371636 North
+	longitude:	0801607 West
+
+	offset:		19741
+	name:		Big Ford Hollow
+	state:		VA
+	latitude:	0371924 North
+	longitude:	0802156 West
+
+	offset:		23962
+	name:		Johnson Ridge
+	state:		VA
+	latitude:	0371657 North
+	longitude:	0801948 West
+
+	offset:		90146
+	name:		District A-01
+	state:		VA
+	latitude:	0371734 North
+	longitude:	0802106 West
+
+	offset:		27513
+	name:		Mullins Branch
+	state:		VA
+	latitude:	0371714 North
+	longitude:	0801927 West
+
+	offset:		31241
+	name:		Sites Branch
+	state:		VA
+	latitude:	0371725 North
+	longitude:	0801940 West
+
+	offset:		34416
+	name:		Whitelock Cemetery
+	state:		VA
+	latitude:	0371814 North
+	longitude:	0801901 West
+
+	offset:		23666
+	name:		Jack Hollow
+	state:		VA
+	latitude:	0371653 North
+	longitude:	0801805 West
+
+	offset:		28932
+	name:		Pepper Run
+	state:		VA
+	latitude:	0371723 North
+	longitude:	0801733 West
+
+	offset:		31693
+	name:		Smith Run
+	state:		VA
+	latitude:	0371734 North
+	longitude:	0801700 West
+
+	offset:		104649
+	name:		Catawba Valley Airport
+	state:		VA
+	latitude:	0371701 North
+	longitude:	0801805 West
+
+	offset:		39784
+	name:		Double Ridge Knob
+	state:		VA
+	latitude:	0371912 North
+	longitude:	0801835 West
+
+	offset:		26987
+	name:		Mount Union Church
+	state:		VA
+	latitude:	0371848 North
+	longitude:	0801736 West
+
+	offset:		8116
+	name:		Hazelnut Hollow
+	state:		VA
+	latitude:	0371947 North
+	longitude:	0802027 West
+
+	offset:		29983
+	name:		Rock Hollow
+	state:		VA
+	latitude:	0371955 North
+	longitude:	0802029 West
+
+	offset:		19449
+	name:		Betsy Boating Hollow
+	state:		VA
+	latitude:	0371954 North
+	longitude:	0802008 West
+
+	offset:		30452
+	name:		Rush Hollow
+	state:		VA
+	latitude:	0372007 North
+	longitude:	0801948 West
+
+	offset:		30616
+	name:		Sarver Hollow
+	state:		VA
+	latitude:	0372042 North
+	longitude:	0801950 West
+
+	offset:		20385
+	name:		Bruisers Knob
+	state:		VA
+	latitude:	0372111 North
+	longitude:	0802037 West
+
+	offset:		35496
+	name:		Sarver Tract Recreation Site
+	state:		VA
+	latitude:	0372133 North
+	longitude:	0801957 West
+
+	offset:		18159
+	name:		Allen Hollow
+	state:		VA
+	latitude:	0372001 North
+	longitude:	0801938 West
+
+	offset:		32304
+	name:		Sugar Bottom Hollow
+	state:		VA
+	latitude:	0372010 North
+	longitude:	0801917 West
+
+	offset:		34553
+	name:		Whitewash Hollow
+	state:		VA
+	latitude:	0372016 North
+	longitude:	0801932 West
+
+	offset:		35348
+	name:		Caldwell Fields Recreation Site
+	state:		VA
+	latitude:	0372013 North
+	longitude:	0801932 West
+
+	offset:		25950
+	name:		Mill Hollow
+	state:		VA
+	latitude:	0372020 North
+	longitude:	0801842 West
+
+	offset:		25294
+	name:		Maple Springs Hollow
+	state:		VA
+	latitude:	0372047 North
+	longitude:	0801831 West
+
+	offset:		32473
+	name:		Sugar House Hollow
+	state:		VA
+	latitude:	0372039 North
+	longitude:	0801824 West
+
+	offset:		17861
+	name:		Aiken Dam Hollow
+	state:		VA
+	latitude:	0372056 North
+	longitude:	0801740 West
+
+	offset:		24091
+	name:		Jones Hollow
+	state:		VA
+	latitude:	0372100 North
+	longitude:	0801753 West
+
+	offset:		25000
+	name:		Locust Lick Hollow
+	state:		VA
+	latitude:	0372057 North
+	longitude:	0801731 West
+
+	offset:		24519
+	name:		Leyman Hollow
+	state:		VA
+	latitude:	0372113 North
+	longitude:	0801703 West
+
+	offset:		20066
+	name:		Blankenship Hollow
+	state:		VA
+	latitude:	0371753 North
+	longitude:	0801643 West
+
+	offset:		21428
+	name:		Crawford Ridge
+	state:		VA
+	latitude:	0371938 North
+	longitude:	0801518 West
+
+	offset:		22710
+	name:		Gallion Branch
+	state:		VA
+	latitude:	0371832 North
+	longitude:	0801528 West
+
+	offset:		40179
+	name:		McDonalds Mill
+	state:		VA
+	latitude:	0371800 North
+	longitude:	0801632 West
+
+
+-----------------------------------------------------------------
+
+Executing command 6: what_is_in	370157N	0802908W	240	60
+
+The features found in the rectangle (-289808, 133077), (-289688, 133557) are:
+
+	offset:		1068
+	name:		Bethany Church
+	state:		VA
+	latitude:	0370048 North
+	longitude:	0802843 West
+
+	offset:		10805
+	name:		Mount Jackson Church
+	state:		VA
+	latitude:	0370037 North
+	longitude:	0802851 West
+
+	offset:		51653
+	name:		Chestnut Ridge School (historical)
+	state:		VA
+	latitude:	0370047 North
+	longitude:	0802844 West
+
+	offset:		3130
+	name:		Calfee Knob
+	state:		VA
+	latitude:	0370157 North
+	longitude:	0802908 West
+
+	offset:		13973
+	name:		Sidney Church
+	state:		VA
+	latitude:	0370144 North
+	longitude:	0802815 West
+
+	offset:		6462
+	name:		Fairview Church
+	state:		VA
+	latitude:	0370300 North
+	longitude:	0802953 West
+
+	offset:		51795
+	name:		Childress School (historical)
+	state:		VA
+	latitude:	0370342 North
+	longitude:	0802954 West
+
+	offset:		58165
+	name:		Fairview
+	state:		VA
+	latitude:	0370302 North
+	longitude:	0802951 West
+
+
+-----------------------------------------------------------------
+
+Executing command 7: what_is_in	371347N	0802514W	1	1
+
+The features found in the rectangle (-289515, 134026), (-289513, 134028) are:
+
+	offset:		93317
+	name:		Torgersen Hall
+	state:		VA
+	latitude:	0371347 North
+	longitude:	0802514 West
+
+
+-----------------------------------------------------------------
+
+Executing command 8: what_is_in	371347N	0802514W	2	360
+
+The features found in the rectangle (-289874, 134025), (-289154, 134029) are:
+
+	offset:		21838
+	name:		Fairview Church
+	state:		VA
+	latitude:	0371349 North
+	longitude:	0802943 West
+
+	offset:		58290
+	name:		Fairview School (historical)
+	state:		VA
+	latitude:	0371349 North
+	longitude:	0802943 West
+
+	offset:		29656
+	name:		Poff Hollow
+	state:		VA
+	latitude:	0371349 North
+	longitude:	0803003 West
+
+	offset:		30939
+	name:		Shaffer Hollow
+	state:		VA
+	latitude:	0371345 North
+	longitude:	0802957 West
+
+	offset:		100672
+	name:		Town of Blacksburg
+	state:		VA
+	latitude:	0371348 North
+	longitude:	0802540 West
+
+	offset:		55241
+	name:		Cowgil Hall
+	state:		VA
+	latitude:	0371347 North
+	longitude:	0802529 West
+
+	offset:		95010
+	name:		Burchard Hall
+	state:		VA
+	latitude:	0371346 North
+	longitude:	0802529 West
+
+	offset:		95680
+	name:		Clinton Cowgill Hall
+	state:		VA
+	latitude:	0371347 North
+	longitude:	0802530 West
+
+	offset:		33387
+	name:		Virginia Polytechnic Institute and State University
+	state:		VA
+	latitude:	0371345 North
+	longitude:	0802526 West
+
+	offset:		74430
+	name:		Patton Hall
+	state:		VA
+	latitude:	0371345 North
+	longitude:	0802520 West
+
+	offset:		94051
+	name:		William Patton Hall
+	state:		VA
+	latitude:	0371345 North
+	longitude:	0802521 West
+
+	offset:		60723
+	name:		Hancock Hall
+	state:		VA
+	latitude:	0371349 North
+	longitude:	0802526 West
+
+	offset:		60465
+	name:		Holden Hall
+	state:		VA
+	latitude:	0371347 North
+	longitude:	0802524 West
+
+	offset:		72224
+	name:		Norris Hall
+	state:		VA
+	latitude:	0371348 North
+	longitude:	0802521 West
+
+	offset:		67006
+	name:		McBryde Hall
+	state:		VA
+	latitude:	0371349 North
+	longitude:	0802519 West
+
+	offset:		93317
+	name:		Torgersen Hall
+	state:		VA
+	latitude:	0371347 North
+	longitude:	0802514 West
+
+	offset:		49514
+	name:		Brodie Hall
+	state:		VA
+	latitude:	0371348 North
+	longitude:	0802512 West
+
+	offset:		84421
+	name:		Squires Hall
+	state:		VA
+	latitude:	0371346 North
+	longitude:	0802506 West
+
+	offset:		98289
+	name:		John Houston Squires Student Center
+	state:		VA
+	latitude:	0371346 North
+	longitude:	0802506 West
+
+	offset:		60985
+	name:		Henderson Student Health Service Building
+	state:		VA
+	latitude:	0371349 North
+	longitude:	0802501 West
+
+	offset:		41209
+	name:		Blacksburg
+	state:		VA
+	latitude:	0371346 North
+	longitude:	0802450 West
+
+	offset:		48298
+	name:		Blacksburg Post Office
+	state:		VA
+	latitude:	0371348 North
+	longitude:	0802452 West
+
+	offset:		49103
+	name:		Blacksburg United Methodist Church
+	state:		VA
+	latitude:	0371347 North
+	longitude:	0802445 West
+
+	offset:		47070
+	name:		Berryfield
+	state:		VA
+	latitude:	0371346 North
+	longitude:	0802434 West
+
+	offset:		64333
+	name:		Knob Hill
+	state:		VA
+	latitude:	0371348 North
+	longitude:	0802355 West
+
+
+-----------------------------------------------------------------
+
+Executing command 9: what_is_in	371347N	0802514W	360	2
+
+The features found in the rectangle (-289516, 133667), (-289512, 134387) are:
+
+	offset:		31101
+	name:		Shaffer Memorial Cemetery
+	state:		VA
+	latitude:	0370747 North
+	longitude:	0802515 West
+
+	offset:		45715
+	name:		Ambler Johnston Hall
+	state:		VA
+	latitude:	0371323 North
+	longitude:	0802516 West
+
+	offset:		97490
+	name:		J Ambler Johnston Hall
+	state:		VA
+	latitude:	0371323 North
+	longitude:	0802516 West
+
+	offset:		56283
+	name:		Dietrick Hall
+	state:		VA
+	latitude:	0371328 North
+	longitude:	0802516 West
+
+	offset:		92359
+	name:		Peddrew-Yates Residence Hall
+	state:		VA
+	latitude:	0371330 North
+	longitude:	0802513 West
+
+	offset:		67401
+	name:		Memorial Gymnasium
+	state:		VA
+	latitude:	0371334 North
+	longitude:	0802515 West
+
+	offset:		94309
+	name:		Al Payne Hall
+	state:		VA
+	latitude:	0371333 North
+	longitude:	0802513 West
+
+	offset:		57525
+	name:		Eggleston Hall
+	state:		VA
+	latitude:	0371338 North
+	longitude:	0802513 West
+
+	offset:		93626
+	name:		War Memorial Chapel
+	state:		VA
+	latitude:	0371343 North
+	longitude:	0802515 West
+
+	offset:		66868
+	name:		Major Williams Dormitory
+	state:		VA
+	latitude:	0371351 North
+	longitude:	0802515 West
+
+	offset:		98990
+	name:		Major Lloyd W Williams Hall
+	state:		VA
+	latitude:	0371352 North
+	longitude:	0802516 West
+
+	offset:		93317
+	name:		Torgersen Hall
+	state:		VA
+	latitude:	0371347 North
+	longitude:	0802514 West
+
+	offset:		49514
+	name:		Brodie Hall
+	state:		VA
+	latitude:	0371348 North
+	longitude:	0802512 West
+
+	offset:		94855
+	name:		Arts and Science Administration Building
+	state:		VA
+	latitude:	0371352 North
+	longitude:	0802513 West
+
+	offset:		98020
+	name:		James H Lane Hall
+	state:		VA
+	latitude:	0371351 North
+	longitude:	0802512 West
+
+	offset:		86337
+	name:		Thomas Hall
+	state:		VA
+	latitude:	0371354 North
+	longitude:	0802515 West
+
+	offset:		94710
+	name:		Art and Design Learning Center
+	state:		VA
+	latitude:	0371354 North
+	longitude:	0802515 West
+
+	offset:		68615
+	name:		Monteith Hall
+	state:		VA
+	latitude:	0371355 North
+	longitude:	0802513 West
+
+	offset:		81044
+	name:		Shanks Hall
+	state:		VA
+	latitude:	0371354 North
+	longitude:	0802512 West
+
+	offset:		97229
+	name:		Herbert J Thomas Hall
+	state:		VA
+	latitude:	0371356 North
+	longitude:	0802513 West
+
+	offset:		87556
+	name:		University Terrace
+	state:		VA
+	latitude:	0371438 North
+	longitude:	0802515 West
+
+	offset:		35213
+	name:		Blacksburg Ranger Station
+	state:		VA
+	latitude:	0371634 North
+	longitude:	0802516 West
+
+
+-----------------------------------------------------------------
+
+Executing command 10: what_is_in	371002N	0802042W	10	60000
+
+The features found in the rectangle (-349242, 133792), (-229242, 133812) are:
+
+	offset:		42825
+	name:		Centerville
+	state:		VA
+	latitude:	0371011 North
+	longitude:	0803218 West
+
+	offset:		103607
+	name:		Belview Census Designated Place
+	state:		VA
+	latitude:	0371000 North
+	longitude:	0803035 West
+
+	offset:		29095
+	name:		Pine View Church
+	state:		VA
+	latitude:	0371012 North
+	longitude:	0803000 West
+
+	offset:		38855
+	name:		Vicker Heights
+	state:		VA
+	latitude:	0370954 North
+	longitude:	0802839 West
+
+	offset:		19038
+	name:		Belmont Church
+	state:		VA
+	latitude:	0370953 North
+	longitude:	0802727 West
+
+	offset:		36565
+	name:		Rolling Hills
+	state:		VA
+	latitude:	0370955 North
+	longitude:	0802730 West
+
+	offset:		46652
+	name:		Belmont Community Cemetery
+	state:		VA
+	latitude:	0370954 North
+	longitude:	0802729 West
+
+	offset:		30311
+	name:		Roselawn Memorial Cemetery
+	state:		VA
+	latitude:	0371007 North
+	longitude:	0802526 West
+
+	offset:		46793
+	name:		Belmont Estates
+	state:		VA
+	latitude:	0371007 North
+	longitude:	0802629 West
+
+	offset:		50719
+	name:		Carma Heights
+	state:		VA
+	latitude:	0370955 North
+	longitude:	0802613 West
+
+	offset:		71407
+	name:		New River Valley Mall Shopping Center
+	state:		VA
+	latitude:	0370952 North
+	longitude:	0802529 West
+
+	offset:		36239
+	name:		Virginia Polytechnic Institute and State University Horticultural Research Area
+	state:		VA
+	latitude:	0370958 North
+	longitude:	0802505 West
+
+	offset:		85928
+	name:		The Marketplace Shopping Center
+	state:		VA
+	latitude:	0371002 North
+	longitude:	0802517 West
+
+	offset:		68743
+	name:		Montgomery County
+	state:		VA
+	latitude:	0371000 North
+	longitude:	0802259 West
+
+	offset:		8687
+	name:		Iron Mine Hollow
+	state:		VA
+	latitude:	0371002 North
+	longitude:	0802042 West
+
+	offset:		14253
+	name:		Slaughterpen Hollow
+	state:		VA
+	latitude:	0371010 North
+	longitude:	0802035 West
+
+	offset:		39663
+	name:		Dee Cee Hill
+	state:		VA
+	latitude:	0371003 North
+	longitude:	0801909 West
+
+	offset:		14094
+	name:		Skillet Hollow
+	state:		VA
+	latitude:	0371007 North
+	longitude:	0801703 West
+
+	offset:		16656
+	name:		Wheeling Hollow
+	state:		VA
+	latitude:	0370957 North
+	longitude:	0801741 West
+
+	offset:		9286
+	name:		Kirk Hollow
+	state:		VA
+	latitude:	0370957 North
+	longitude:	0801515 West
+
+	offset:		40704
+	name:		Shawsville
+	state:		VA
+	latitude:	0371006 North
+	longitude:	0801519 West
+
+	offset:		81170
+	name:		Shawsville Historic District
+	state:		VA
+	latitude:	0371005 North
+	longitude:	0801522 West
+
+	offset:		14885
+	name:		Spring Branch
+	state:		VA
+	latitude:	0370959 North
+	longitude:	0801415 West
+
+
+-----------------------------------------------------------------
+
+Command sequence quit. Exiting now.

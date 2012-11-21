@@ -9,6 +9,8 @@ import gissystem.models.GeographicPoint;
 
 /**
  * Factory method which handles the creation of the three kinds of what-is-in commands.
+ * @see WhatIsInCommand
+ * @see CountWhatIsInCommand
  * @author John
  *
  */
@@ -20,24 +22,21 @@ public class WhatIsInCommandFactory implements ICommandFactory {
 		
 		if( parts[1].equals( "-l" ) ) {
 			// the verbose option is specified
-			String [] latAndLong = parts[2].split( " " );
-			GeographicPoint point = new GeographicPoint( GeographicCoordinateFactory.createCoordinate( latAndLong[0] ), GeographicCoordinateFactory.createCoordinate( latAndLong[1] ) );
-			Long halfHeight = new Long( parts[3] );
-			Long halfWidth = new Long( parts[4] );
+			GeographicPoint point = new GeographicPoint( GeographicCoordinateFactory.createCoordinate( parts[2] ), GeographicCoordinateFactory.createCoordinate( parts[3] ) );
+			Long halfHeight = new Long( parts[4] );
+			Long halfWidth = new Long( parts[5] );
 			return new WhatIsInCommand( point.getX() - halfWidth, point.getX() + halfWidth, point.getY() - halfHeight, point.getY() + halfHeight, new VerboseFormatter() );
 		} else if( parts[1].equals( "-c" ) ) {
 			// the count option is specified
-			String [] latAndLong = parts[2].split( " " );
-			GeographicPoint point = new GeographicPoint( GeographicCoordinateFactory.createCoordinate( latAndLong[0] ), GeographicCoordinateFactory.createCoordinate( latAndLong[1] ) );
-			Long halfHeight = new Long( parts[3] );
-			Long halfWidth = new Long( parts[4] );
+			GeographicPoint point = new GeographicPoint( GeographicCoordinateFactory.createCoordinate( parts[2] ), GeographicCoordinateFactory.createCoordinate( parts[3] ) );
+			Long halfHeight = new Long( parts[4] );
+			Long halfWidth = new Long( parts[5] );
 			return new CountWhatIsInCommand( point.getX() - halfWidth, point.getX() + halfWidth, point.getY() - halfHeight, point.getY() + halfHeight );
 		} else {
 			// the basic WhatIsInCommand
-			String [] latAndLong = parts[1].split( " " );
-			GeographicPoint point = new GeographicPoint( GeographicCoordinateFactory.createCoordinate( latAndLong[0] ), GeographicCoordinateFactory.createCoordinate( latAndLong[1] ) );
-			Long halfHeight = new Long( parts[2] );
-			Long halfWidth = new Long( parts[3] );
+			GeographicPoint point = new GeographicPoint( GeographicCoordinateFactory.createCoordinate( parts[1] ), GeographicCoordinateFactory.createCoordinate( parts[2] ) );
+			Long halfHeight = new Long( parts[3] );
+			Long halfWidth = new Long( parts[4] );
 			return new WhatIsInCommand( point.getX() - halfWidth, point.getX() + halfWidth, point.getY() - halfHeight, point.getY() + halfHeight );
 		}
 	}

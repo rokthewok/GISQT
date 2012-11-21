@@ -7,8 +7,10 @@ import gissystem.interfaces.ICommand;
 import gissystem.interfaces.ICommandFactory;
 
 /**
- * Factory method which handles creating the three types of WhatIsAt commands
- * @author John
+ * Factory method which handles creating the three types of WhatIsAt commands.
+ * @see WhatIsAtCommand
+ * @see CountWhatIsAtCommand
+ * @author John Q Ruffer
  *
  */
 public class WhatIsAtCommandFactory implements ICommandFactory {

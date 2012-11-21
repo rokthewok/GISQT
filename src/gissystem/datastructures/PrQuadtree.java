@@ -9,15 +9,15 @@ public class PrQuadtree {
  
 	abstract class prQuadNode { } 
 	class prQuadLeaf extends prQuadNode { 
-		Vector<prIndex> Elements;
+		Vector<prIndex> indices;
 		
 		public prQuadLeaf( IPoint point, Long offset ) {
-			this.Elements = new Vector<prIndex>( bucketSize );
-			this.Elements.add( new prIndex( point, offset ) );
+			this.indices = new Vector<prIndex>( bucketSize );
+			this.indices.add( new prIndex( point, offset ) );
 		}
 		
 		public boolean containsCoordinates( IPoint point ) {
-			for( prIndex index : this.Elements ) {
+			for( prIndex index : this.indices ) {
 				if( index.point.equals( point ) ) {
 					return true;
 				}
@@ -27,7 +27,7 @@ public class PrQuadtree {
 		}
 		
 		public void insert( IPoint point, Long offset ) {
-			for( prIndex index : this.Elements ) {
+			for( prIndex index : this.indices ) {
 				if( index.point.equals( point ) ) {
 					index.offsets.add( offset );
 					break;
@@ -36,7 +36,7 @@ public class PrQuadtree {
 		}
 		
 		public void add( IPoint point, Long offset ) {
-			this.Elements.add( new prIndex( point, offset ) );
+			this.indices.add( new prIndex( point, offset ) );
 		}
 	} 
 	class prQuadInternal extends prQuadNode {
@@ -83,11 +83,11 @@ public class PrQuadtree {
 	private String leafClassName = "gissystem.datastructures.PrQuadtree$prQuadLeaf";
 	
 	/**
-	 * ctor.
-	 * @param xMin
-	 * @param xMax
-	 * @param yMin
-	 * @param yMax
+	 * ctor. Default bucket size is 10.
+	 * @param xMin The lower x-bound of the world map.
+	 * @param xMax The upper x-bound of the world map.
+	 * @param yMin The lower y-bound of the world map.
+	 * @param yMax The upper y-bound of the world map.
 	 */
 	public PrQuadtree(long xMin, long xMax, long yMin, long yMax) { 
 		this( xMin, xMax, yMin, yMax, 10 );
@@ -95,11 +95,11 @@ public class PrQuadtree {
 	
 	/**
 	 * ctor.
-	 * @param xMin
-	 * @param xMax
-	 * @param yMin
-	 * @param yMax
-	 * @param bucketSize
+	 * @param xMin The lower x-bound of the world map.
+	 * @param xMax The upper x-bound of the world map.
+	 * @param yMin The lower y-bound of the world map.
+	 * @param yMax The upper y-bound of the world map.
+	 * @param bucketSize The depth of each leaf node's bucket
 	 */
 	public PrQuadtree( long xMin, long xMax, long yMin, long yMax, int bucketSize ) {
 		this.xMin = xMin;
@@ -111,10 +111,12 @@ public class PrQuadtree {
 		this.root = null;
 	}
 	  
-	// Pre:   elem != null 
-	// Post:  If elem lies within the tree's region, and elem is not already  
-	//        present in the tree, elem has been inserted into the tree. 
-	// Return true iff elem is inserted into the tree.  
+	/**
+	 * Attempts to insert an offset with corresponding point in the tree.  
+	 * @param point The coordinates at which the offset is located.
+	 * @param offset The offset value from the database.
+	 * @return true if there is a successful insertion, else false
+	 */
 	public boolean insert( IPoint point, Long offset ) { 
 		if( point == null || offset == null ) {
 			return false;
@@ -134,13 +136,17 @@ public class PrQuadtree {
 		// the root is a leaf
 		if( this.root.getClass().getName().equals( this.leafClassName ) ) {
 			prQuadLeaf leaf = (prQuadLeaf) this.root;
-			if( leaf.containsCoordinates( point ) ) {				// the leaf has that coordinate
+			if( leaf.containsCoordinates( point ) ) {
+				// the leaf has that coordinate
 				leaf.insert( point, offset );
-			} else if( leaf.Elements.size() < this.bucketSize ) {	// the leaf does not have the coordinate, and is not at max capacity
+			} else if( leaf.indices.size() < this.bucketSize ) {
+				// the leaf does not have the coordinate, and is not at max capacity
 				leaf.add( point, offset );
-			} else if( leaf.Elements.size() == this.bucketSize ) {	// the leaf does not have the coordinate and is at max capacity
+			} else if( leaf.indices.size() == this.bucketSize ) {
+				// the leaf does not have the coordinate and is at max capacity
 				this.root = new prQuadInternal();
-				for( prIndex index : leaf.Elements ) {
+				// do a reinsertion of all the existing items in the leaf
+				for( prIndex index : leaf.indices ) {
 					for( Long off : index.offsets ) {
 						if( !insert( null, this.root, null, index.point, off, this.xMin, this.xMax, this.yMin, this.yMax ) ) {
 							return false;
@@ -180,11 +186,14 @@ public class PrQuadtree {
 		// case there is already a data point in the leaf
 		if( child.getClass().getName().equals( this.leafClassName ) ) {
 			prQuadLeaf leaf = (prQuadLeaf) child;
-			if( leaf.containsCoordinates( point ) ) {				// the leaf has that coordinate
+			if( leaf.containsCoordinates( point ) ) {
+				// the leaf has that coordinate
 				leaf.insert( point, offset );
-			} else if( leaf.Elements.size() < this.bucketSize ) {	// the leaf does not have the coordinate, and is not at max capacity
+			} else if( leaf.indices.size() < this.bucketSize ) {
+				// the leaf does not have the coordinate, and is not at max capacity
 				leaf.add( point, offset );
-			} else {	// the leaf does not have the coordinate and is at max capacity
+			} else {
+				// the leaf does not have the coordinate and is at max capacity
 				child = new prQuadInternal();
 				if( parent != null ) {
 					if( directionFrom == Direction.SW ) {
@@ -197,7 +206,8 @@ public class PrQuadtree {
 						parent.NE = child;
 					}
 				}
-				for( prIndex index : leaf.Elements ) {
+				// reinsert all the items in the leaf
+				for( prIndex index : leaf.indices ) {
 					for( Long off : index.offsets ) {
 						if( !insert( parent, child, directionFrom, index.point, off, xMin, xMax, yMin, yMax ) ) {
 							return false;
@@ -209,7 +219,8 @@ public class PrQuadtree {
 			}
 			
 			return true;
-		} else { // this is an internal node
+		} else {
+			// this is an internal node
 			prQuadInternal node = (prQuadInternal) child;
 			Direction result = point.directionFrom( xMin + ( ( xMax - xMin ) / 2 ), yMin + ( ( yMax - yMin ) / 2 ) ); // get direction from the origin
 			if( result == Direction.SW ) {
@@ -218,18 +229,20 @@ public class PrQuadtree {
 				return this.insert( node, node.SE, Direction.SE, point, offset, xMin + ( ( xMax - xMin ) / 2 ), xMax, yMin, yMin + ( ( yMax - yMin ) / 2 ) );
 			} else if( result == Direction.NW ) {
 				return this.insert( node, node.NW, Direction.NW, point, offset, xMin, xMin + ( ( xMax - xMin ) / 2 ), yMin + ( ( yMax - yMin ) / 2 ), yMax );
-			} else { // if it returns NOQUADRANT, it is the origin, and should be placed in the NE quadrant
+			} else {
+				// if it returns NOQUADRANT, it is the origin, and should be placed in the NE quadrant
 				return this.insert( node, node.NE, Direction.NE, point, offset, xMin + ( ( xMax - xMin ) / 2 ), xMax, yMin + ( ( yMax - yMin ) / 2 ), yMax );
 			}
 		}
 	}
   
-	// Pre:  elem != null 
-	// Post: If elem lies in the tree's region, and a matching element occurs 
-	//       in the tree, then that element has been removed. 
-	// Returns true iff a matching element has been removed from the tree. 
-	public boolean delete(IPoint Elem) {
-		if( Elem == null ) {
+	/**
+	 * Delete all the offsets associated with a given point. 
+	 * @param point The point to which a list of offsets corresponds.
+	 * @return true if the deletion is successful; else false.
+	 */
+	public boolean delete( IPoint point ) {
+		if( point == null ) {
 			return false;
 		}
 		
@@ -241,24 +254,25 @@ public class PrQuadtree {
 		// root is a leaf; check if it equals the element to delete
 		if( this.root.getClass().getName().equals( this.leafClassName ) ) {
 			prQuadLeaf leaf = (prQuadLeaf) this.root;
-			if( leaf.Elements.get( 0 ).equals( Elem ) ) {
+			if( leaf.indices.get( 0 ).equals( point ) ) {
 				this.root = null;
 				return true;
 			} else {
 				return false;
 			}
 		} else {
+			// the root is an internal node
 			prQuadInternal node = (prQuadInternal) this.root;
 			boolean success;
-			Direction result = Elem.directionFrom( xMin + ( ( xMax - xMin ) / 2 ), yMin + ( ( yMax - yMin ) / 2 ) ); // get direction from the origin
+			Direction result = point.directionFrom( xMin + ( ( xMax - xMin ) / 2 ), yMin + ( ( yMax - yMin ) / 2 ) ); // get direction from the origin
 			if( result == Direction.SW ) {
-				success = this.delete( node, node.SW, Direction.SW, Elem, xMin, xMin + ( ( xMax - xMin ) / 2 ), yMin, yMin + ( ( yMax - yMin ) / 2 ) );
+				success = this.delete( node, node.SW, Direction.SW, point, xMin, xMin + ( ( xMax - xMin ) / 2 ), yMin, yMin + ( ( yMax - yMin ) / 2 ) );
 			} else if( result == Direction.SE ) {
-				success = this.delete( node, node.SE, Direction.SE, Elem, xMin + ( ( xMax - xMin ) / 2 ), xMax, yMin, yMin + ( ( yMax - yMin ) / 2 ) );
+				success = this.delete( node, node.SE, Direction.SE, point, xMin + ( ( xMax - xMin ) / 2 ), xMax, yMin, yMin + ( ( yMax - yMin ) / 2 ) );
 			} else if( result == Direction.NW ) {
-				success = this.delete( node, node.NW, Direction.NW, Elem, xMin, xMin + ( ( xMax - xMin ) / 2 ), yMin + ( ( yMax - yMin ) / 2 ), yMax );
+				success = this.delete( node, node.NW, Direction.NW, point, xMin, xMin + ( ( xMax - xMin ) / 2 ), yMin + ( ( yMax - yMin ) / 2 ), yMax );
 			} else {
-				success = this.delete( node, node.NE, Direction.NE, Elem, xMin + ( ( xMax - xMin ) / 2 ), xMax, yMin + ( ( yMax - yMin ) / 2 ), yMax );
+				success = this.delete( node, node.NE, Direction.NE, point, xMin + ( ( xMax - xMin ) / 2 ), xMax, yMin + ( ( yMax - yMin ) / 2 ), yMax );
 			}
 			
 			// if all the leaves of the internal node are null, retract the node
@@ -282,12 +296,12 @@ public class PrQuadtree {
 		// recursion has reached an endpoint; check if it's the correct element
 		if( child.getClass().getName().equals( this.leafClassName ) ) {
 			prQuadLeaf leaf = (prQuadLeaf) child;
-			for( prIndex index : leaf.Elements ) {
+			for( prIndex index : leaf.indices ) {
 				if( index.point.equals( point ) ) {
-					leaf.Elements.remove( index );
+					leaf.indices.remove( index );
 					
 					// if that was the only index in the leaf, set that leaf to null
-					if( parent != null && leaf.Elements.size() == 0 ) {
+					if( parent != null && leaf.indices.size() == 0 ) {
 						if( directionFrom == Direction.SW ) {
 							parent.SW = null;
 						} else if( directionFrom == Direction.SE ) {
@@ -305,6 +319,7 @@ public class PrQuadtree {
 			
 			return false;
 		} else {
+			// this is an internal node; keep going!
 			prQuadInternal node = (prQuadInternal) child;
 			boolean success;
 			Direction result = point.directionFrom( xMin + ( ( xMax - xMin ) / 2 ), yMin + ( ( yMax - yMin ) / 2 ) ); // get direction from the origin
@@ -325,9 +340,11 @@ public class PrQuadtree {
 	
 	private void tryRetractNode( prQuadInternal parent, prQuadInternal node, Direction directionFrom ) {
 		if( allLeavesAreNull( node ) ) {
+			// all the leaves are null; set the parent leaves null and retract
 			setParentLeavesNull( parent, directionFrom );
+			// rest of cases, only one leaf is not null
 		} else if( node.SW != null && threeLeavesAreNull( node.SE, node.NW, node.NE ) && node.SW.getClass().getName().equals( this.leafClassName ) ) {
-			Vector<prIndex> indices = ( (prQuadLeaf) node.SW ).Elements;
+			Vector<prIndex> indices = ( (prQuadLeaf) node.SW ).indices;
 			setParentLeavesNull( parent, directionFrom );
 			for( prIndex index : indices ) {
 				for( Long offset : index.offsets ) {
@@ -335,7 +352,7 @@ public class PrQuadtree {
 				}
 			}
 		} else if( node.SE != null && threeLeavesAreNull( node.SW, node.NW, node.NE ) && node.SE.getClass().getName().equals( this.leafClassName ) ) {
-			Vector<prIndex> indices = ( (prQuadLeaf) node.SE ).Elements;
+			Vector<prIndex> indices = ( (prQuadLeaf) node.SE ).indices;
 			setParentLeavesNull( parent, directionFrom );
 			for( prIndex index : indices ) {
 				for( Long offset : index.offsets ) {
@@ -343,7 +360,7 @@ public class PrQuadtree {
 				}
 			}
 		} else if( node.NE != null && threeLeavesAreNull( node.SW, node.SE, node.NW ) && node.NE.getClass().getName().equals( this.leafClassName ) ) {
-			Vector<prIndex> indices = ( (prQuadLeaf) node.NE ).Elements;
+			Vector<prIndex> indices = ( (prQuadLeaf) node.NE ).indices;
 			setParentLeavesNull( parent, directionFrom );
 			for( prIndex index : indices ) {
 				for( Long offset : index.offsets ) {
@@ -351,7 +368,7 @@ public class PrQuadtree {
 				}
 			}
 		} else if( node.NW != null && threeLeavesAreNull( node.SW, node.NE, node.SE ) && node.NW.getClass().getName().equals( this.leafClassName ) ) {
-			Vector<prIndex> indices = ( (prQuadLeaf) node.NW ).Elements;
+			Vector<prIndex> indices = ( (prQuadLeaf) node.NW ).indices;
 			setParentLeavesNull( parent, directionFrom );
 			for( prIndex index : indices ) {
 				for( Long offset : index.offsets ) {
@@ -381,10 +398,11 @@ public class PrQuadtree {
 		}
 	}
 	
-	// Pre:  elem != null 
-	// Returns reference to an element x within the tree such that  
-	// elem.equals(x)is true, provided such a matching element occurs within 
-	// the tree; returns null otherwise. 
+	/**
+	 * Finds all the offsets at a given point.
+	 * @param point The point to which the offsets correspond.
+	 * @return A Vector of offets or null if the point is not in the tree.
+	 */
 	public Vector<Long> find( IPoint point ) { 
 		return this.find( this.root, point, this.xMin, this.xMax, this.yMin, this.yMax );
 	}
@@ -402,7 +420,7 @@ public class PrQuadtree {
 		// case there is data in the leaf
 		if( root.getClass().getName().equals( this.leafClassName ) ) {
 			prQuadLeaf leaf = (prQuadLeaf) root;
-			for( prIndex index : leaf.Elements ) {
+			for( prIndex index : leaf.indices ) {
 				if( index.point.equals( point ) ) {
 					return index.offsets;
 				}
@@ -426,10 +444,14 @@ public class PrQuadtree {
 		}
 	}
 	
-	   // Pre:  xLo, xHi, yLo and yHi define a rectangular region 
-	   // Returns a collection of (references to) all elements x such that x is  
-	   //in the tree and x lies at coordinates within the defined rectangular  
-	   // region, including the boundary of the region.
+	/**
+	 * Finds all the offsets within a given set of boundaries.
+	 * @param xLo The lower x-bound of the region.
+	 * @param xHi The upper x-bound of the region.
+	 * @param yLo The lower y-bound of the region.
+	 * @param yHi The upper y-bound of the region.
+	 * @return A Vector of offsets or null if no offsets are located in the region.
+	 */
 	public Vector<Long> find(long xLo, long xHi, long yLo, long yHi) {
 		Vector<Long> offsets = new Vector<Long>();
 		find( offsets, this.root, xLo, xHi, yLo, yHi, this.xMin, this.xMax, this.yMin, this.yMax );
@@ -449,7 +471,7 @@ public class PrQuadtree {
 		} else {
 			if( root.getClass().getName().equals( this.leafClassName ) ) {
 				prQuadLeaf leaf = (prQuadLeaf) root;
-				for( prIndex index : leaf.Elements ) {
+				for( prIndex index : leaf.indices ) {
 					if( index.point.inQuadrant( xLo, xHi, yLo, yHi ) != Direction.NOQUADRANT ) {
 						offsets.addAll( index.offsets );
 					}
@@ -464,10 +486,11 @@ public class PrQuadtree {
 		}
 	}
 
-	@Override
 	/**
 	 * Creates a String depiction of the tree. Nodes are written out in NE, NW, SE, SW order. UPDATE: now prints in SW, SE, NE, NW order
+	 * @return the String representation of the tree.
 	 */
+	@Override
 	public String toString() {
 		StringBuilder sb = new StringBuilder();
 		
@@ -475,6 +498,9 @@ public class PrQuadtree {
 		return sb.toString();
 	}
 	
+	/*
+	 * helper function for toString()
+	 */
 	private void appendSubtree( prQuadNode root, StringBuilder sb, String padding ) {
 		// empty leaf = *
 		// internal node = []
@@ -484,7 +510,7 @@ public class PrQuadtree {
 		} else if( root.getClass().getName().equals( this.leafClassName ) ) {
 			prQuadLeaf leaf = (prQuadLeaf) root;
 			sb.append( padding );
-			for( prIndex index : leaf.Elements ) {
+			for( prIndex index : leaf.indices ) {
 				sb.append( index.toString() );
 				sb.append( " | " );
 			}

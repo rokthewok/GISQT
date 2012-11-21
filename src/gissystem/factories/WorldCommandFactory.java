@@ -6,7 +6,7 @@ import gissystem.interfaces.ICommandFactory;
 import gissystem.models.GeographicCoordinate;
 
 /**
- * Factory method that creates a WorldCommand from a raw command String.
+ * Factory method that creates a {@link WorldCommand} from a raw command String.
  * @author John
  *
  */

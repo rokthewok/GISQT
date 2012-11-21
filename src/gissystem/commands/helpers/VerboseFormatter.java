@@ -18,7 +18,6 @@ public class VerboseFormatter implements IFormatter {
 	@Override
 	public String formatFeatureOutput( Long offset, GeographicFeature feature ) {
 		StringBuilder sb = new StringBuilder();
-		sb.append( "\t" );
 		
 		appendItem( "offset", offset.toString(), sb );
 		appendItem( "feature ID", feature.getId().toString(), sb );
@@ -43,12 +42,13 @@ public class VerboseFormatter implements IFormatter {
 	 */
 	private void appendItem( String label, String item, StringBuilder sb ) {
 		if( item != null ) {
+			sb.append( "\t" );
 			sb.append( label + ":" );
 			for( int i = 0; i < 21 - label.length(); i++ ) {
 				sb.append( " " );
 			}
 			sb.append( item );
-			sb.append( "\n\t" );
+			sb.append( "\n" );
 		}
 	}
 	

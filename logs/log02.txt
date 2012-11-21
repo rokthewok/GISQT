@@ -1,0 +1,492 @@
+GIS System
+database: databases/database02.txt
+commands: commands/Script02.txt
+captain's log: logs/log02.txt
+star date:
+
+
+Executing command 1: world	0794130W	0792630W	381500N	383000N
+
+Map boundaries:
+                        138600
+        -286890                       -285990
+                        137700
+
+
+-----------------------------------------------------------------
+
+Executing command 2: import	VA_Monterey.txt
+
+	number of entries added: 63
+	longest hashtable probe sequence: 1
+
+
+-----------------------------------------------------------------
+
+Executing command 3: debug	quad
+
+      *
+      Index at (-286627, 137860) offsets: [2346] | Index at (-286628, 137896) offsets: [7435] | 
+   []
+      Index at (-286479, 137945) offsets: [2612] | Index at (-286502, 138023) offsets: [3037] | Index at (-286523, 138047) offsets: [7309] | Index at (-286562, 138080) offsets: [8654] | 
+      *
+         Index at (-286433, 137756) offsets: [953] | Index at (-286358, 137773) offsets: [1201] | Index at (-286376, 137772) offsets: [6560] | Index at (-286356, 137772) offsets: [8081] | 
+         Index at (-286314, 137725) offsets: [2877] | Index at (-286224, 137708) offsets: [3720] | 
+      []
+            Index at (-286304, 137827) offsets: [1361] | Index at (-286311, 137845) offsets: [4128] | 
+            *
+         []
+            Index at (-286253, 137904) offsets: [1513] | Index at (-286219, 137891) offsets: [5669] | Index at (-286229, 137889) offsets: [7818] | 
+            *
+         *
+      Index at (-286212, 137722) offsets: [4975] | Index at (-286205, 137731) offsets: [5259] | 
+   []
+      *
+      Index at (-286438, 137942) offsets: [675] | Index at (-286269, 138108) offsets: [3593] | Index at (-286231, 138105) offsets: [4530] | Index at (-286374, 138012) offsets: [6434] | 
+[]
+         *
+         Index at (-286273, 138193) offsets: [6693] | 
+      []
+         *
+            Index at (-286416, 138293) offsets: [7069] | 
+            Index at (-286345, 138312) offsets: [4696] | Index at (-286337, 138287) offsets: [8513] | 
+         []
+            Index at (-286353, 138352) offsets: [7188] | 
+            Index at (-286392, 138367) offsets: [265] | Index at (-286393, 138370) offsets: [5991] | 
+      Index at (-286213, 138302) offsets: [4409] | 
+   []
+      *
+         Index at (-286329, 138414) offsets: [4819] | 
+            Index at (-286301, 138424) offsets: [5419] | Index at (-286324, 138413) offsets: [5829] | 
+            *
+         []
+            Index at (-286269, 138486) offsets: [4256] | 
+            Index at (-286319, 138445) offsets: [3438] | Index at (-286321, 138438) offsets: [6142] | 
+      []
+            Index at (-286299, 138530) offsets: [2100] | Index at (-286316, 138492) offsets: [6940] | 
+            Index at (-286231, 138536) offsets: [1822, 5102] | 
+         []
+            Index at (-286263, 138580) offsets: [2223] | 
+            Index at (-286313, 138576) offsets: [1670] | 
+            *
+            *
+         []
+            Index at (-286379, 138600) offsets: [387] | Index at (-286342, 138593) offsets: [515] | Index at (-286358, 138591) offsets: [3162] | Index at (-286383, 138597) offsets: [7942] | 
+            Index at (-286403, 138593) offsets: [1078] | Index at (-286390, 138593) offsets: [1946] | Index at (-286428, 138574) offsets: [6811] | 
+      *
+         Index at (-286561, 138234) offsets: [6294] | 
+         Index at (-286517, 138257) offsets: [7562] | 
+      []
+            *
+                  Index at (-286484, 138266) offsets: [2473] | Index at (-286486, 138267) offsets: [8225] | 
+                  *
+               []
+                  *
+                  Index at (-286490, 138284) offsets: [7682] | Index at (-286486, 138282) offsets: [8369] | Index at (-286491, 138282) offsets: [8792] | 
+               *
+            []
+               Index at (-286449, 138309) offsets: [797] | 
+               *
+         []
+            *
+            Index at (-286500, 138341) offsets: [3879] | 
+         Index at (-286638, 138326) offsets: [2754] | Index at (-286582, 138315) offsets: [4001] | 
+   []
+      Index at (-286612, 138532) offsets: [3314] | Index at (-286475, 138508) offsets: [5548] | 
+      *
+
+-----------------------------------------------------------------
+
+Executing command 4: debug	hash
+
+Display format is: <table slot #>: {<record key>, <record offsets>}
+Table size: 1019
+Current population: 63
+
+3:	{Doe Hill:VA, [6693]}
+4:	{Asbury Church:VA, [265]}
+6:	{Bluegrass Valley:VA, [515]}
+48:	{Seldom Seen Hollow:VA, [4530]}
+95:	{Laurel Run:VA, [3438]}
+100:	{Mount Carlyle:VA, [953]}
+113:	{Town of Monterey:VA, [8792]}
+161:	{Hannah Field Airport:VA, [6294]}
+187:	{Monterey:VA, [7682]}
+196:	{Smith Field:VA, [7818]}
+206:	{Blue Grass School (historical):VA, [7942]}
+234:	{Frank Run:VA, [1946]}
+238:	{Jack Mountain:VA, [3037]}
+267:	{New Hampden:VA, [6811]}
+273:	{Ginseng Mountain:VA, [2100]}
+281:	{Strait Creek:VA, [5102]}
+297:	{Central Church:VA, [1078]}
+301:	{Strait Creek School (historical):VA, [8513]}
+331:	{Highland High School:VA, [2473]}
+332:	{Burners Run:VA, [797]}
+336:	{Possum Trot:VA, [6940]}
+339:	{Simmons Run:VA, [4819]}
+345:	{Hightown Church:VA, [2754]}
+348:	{Key Run:VA, [3162]}
+376:	{Little Doe Hill:VA, [3593]}
+398:	{Swope Hollow:VA, [5259]}
+412:	{Highland Wildlife Management Area:VA, [2612]}
+413:	{Blue Grass:VA, [387]}
+427:	{Trimble:VA, [7435]}
+435:	{New Salem Church:VA, [4128]}
+445:	{Lantz Mountain:VA, [3314]}
+482:	{Bear Mountain:VA, [6434]}
+504:	{Hamilton Chapel:VA, [2346]}
+505:	{Claylick Hollow:VA, [1201]}
+527:	{Wooden Run:VA, [6142]}
+529:	{Clover Creek Presbyterian Church:VA, [8081]}
+530:	{Crab Run:VA, [1361]}
+531:	{Forks of Waters:VA, [1822]}
+532:	{Union Chapel:VA, [5548]}
+556:	{Vance Hollow:VA, [5669]}
+569:	{Monterey District:VA, [8654]}
+628:	{Clover Creek:VA, [6560]}
+683:	{Trimble Knob:VA, [7562]}
+706:	{Southall Chapel:VA, [4975]}
+708:	{Miracle Ridge:VA, [3879]}
+715:	{Thorny Bottom Church:VA, [5419]}
+721:	{Buck Hill:VA, [675]}
+728:	{Barren Rock:VA, [4409]}
+760:	{Rich Hills:VA, [7069]}
+772:	{Highland Elementary School:VA, [8225]}
+802:	{Davis Run:VA, [1513]}
+836:	{Monterey Methodist Episcopal Church:VA, [8369]}
+905:	{Sounding Knob:VA, [7309]}
+914:	{Peck Run:VA, [4256]}
+933:	{Seybert Hills:VA, [7188]}
+937:	{Monterey Mountain:VA, [4001]}
+943:	{Seybert Chapel:VA, [4696]}
+960:	{Meadow Draft:VA, [3720]}
+965:	{West Strait Creek:VA, [5829]}
+970:	{Elk Run:VA, [1670]}
+976:	{Hupman Valley:VA, [2877]}
+987:	{Gulf Mountain:VA, [2223]}
+1015:	{White Run:VA, [5991]}
+
+
+-----------------------------------------------------------------
+
+Executing command 5: what_is_in	-c	382148N	0793109W	15	15
+
+The number of offsets within the rectangle (-286284, 138093), (-286254, 138123) is: 1
+
+
+-----------------------------------------------------------------
+
+Executing command 6: what_is_in	382148N	0793109W	15	15
+
+The features found in the rectangle (-286284, 138093), (-286254, 138123) are:
+
+	offset:		3593
+	name:		Little Doe Hill
+	state:		VA
+	latitude:	0382148 North
+	longitude:	0793109 West
+
+
+-----------------------------------------------------------------
+
+Executing command 7: what_is_in	-l	382148N	0793109W	15	15
+
+The features found in the rectangle (-286284, 138093), (-286254, 138123) are:
+	offset:               3593
+	feature ID:           1484896
+	feature name:         Little Doe Hill
+	classification:       Summit
+	state:                VA
+	county:               Highland
+	latitude:             0382148 North
+	longitude:            0793109 West
+	elevation (m):        988
+	quadrangle:           Monterey SE
+	date created:         09/28/1979
+
+
+-----------------------------------------------------------------
+
+Executing command 8: debug	pool
+
+MRU
+  3593:	1484896|Little Doe Hill|Summit|VA|51|Highland|091|382148N|0793109W|38.3634555|-79.5192122|||||988|3241|Monterey SE|09/28/1979|
+  8792:	2391311|Town of Monterey|Civil|VA|51|Highland|091|382442N|0793451W|38.4115829|-79.580854|||||884|2900|Monterey|02/19/2008|
+  8654:	1927411|Monterey District|Civil|VA|51|Highland|091|382120N|0793602W|38.3554354|-79.600688|||||1044|3425|Monterey SE|07/18/2001|02/27/2009
+  8513:	1673781|Strait Creek School (historical)|School|VA|51|Highland|091|382447N|0793217W|38.4131765|-79.5381022|||||935|3068|Monterey|11/13/1995|
+  8369:	1673777|Monterey Methodist Episcopal Church|Church|VA|51|Highland|091|382442N|0793446W|38.4117874|-79.5794924|||||880|2887|Monterey|11/13/1995|
+  8225:	1673775|Highland Elementary School|School|VA|51|Highland|091|382427N|0793446W|38.4074301|-79.579567|||||878|2881|Monterey|11/13/1995|09/15/2010
+  8081:	1673766|Clover Creek Presbyterian Church|Church|VA|51|Highland|091|381612N|0793236W|38.2701243|-79.5433787|||||581|1906|Monterey SE|11/13/1995|
+  7942:	1673765|Blue Grass School (historical)|School|VA|51|Highland|091|382957N|0793303W|38.4992855|-79.5508813|||||777|2549|Monterey|11/13/1995|
+  7818:	1498741|Smith Field|Airport|VA|51|Highland|091|381809N|0793029W|38.3026237|-79.5081001|||||617|2024|Monterey SE|09/01/1992|
+  7682:	1498517|Monterey|Populated Place|VA|51|Highland|091|382444N|0793450W|38.4123429|-79.5806036|||||882|2894|Monterey|09/28/1979|03/17/2008
+  7562:	1496326|Trimble Knob|Summit|VA|51|Highland|091|382417N|0793517W|38.404843|-79.5881037|||||952|3123|Monterey|09/28/1979|
+  7435:	1496325|Trimble|Populated Place|VA|51|Highland|091|381816N|0793708W|38.3045674|-79.618937|||||777|2549|Monterey SE|09/28/1979|
+  7309:	1496241|Sounding Knob|Summit|VA|51|Highland|091|382047N|0793523W|38.3465111|-79.5897699|||||1334|4377|Monterey SE|09/28/1979|
+  7188:	1496194|Seybert Hills|Summit|VA|51|Highland|091|382552N|0793233W|38.4312316|-79.542547|||||967|3173|Monterey|09/28/1979|
+  7069:	1496144|Rich Hills|Summit|VA|51|Highland|091|382453N|0793336W|38.414843|-79.5600474|||||1000|3281|Monterey|09/28/1979|
+  6940:	1496110|Possum Trot|Populated Place|VA|51|Highland|091|382812N|0793156W|38.4701196|-79.5322693|||||768|2520|Monterey|09/28/1979|
+  6811:	1496000|New Hampden|Populated Place|VA|51|Highland|091|382934N|0793348W|38.4928967|-79.5633816|||||792|2598|Monterey|09/28/1979|
+  6693:	1495470|Doe Hill|Summit|VA|51|Highland|091|382313N|0793113W|38.3870661|-79.5203237|||||1210|3970|Monterey|09/28/1979|
+  6560:	1495400|Clover Creek|Populated Place|VA|51|Highland|091|381612N|0793256W|38.2701242|-79.5489345|||||570|1870|Monterey SE|09/28/1979|
+  6434:	1495244|Bear Mountain|Summit|VA|51|Highland|091|382012N|0793254W|38.3367894|-79.5483795|||||1076|3530|Monterey SE|09/28/1979|
+LRU
+
+-----------------------------------------------------------------
+
+Executing command 9: what_is_in	382148N	0793109W	60	60
+
+The features found in the rectangle (-286329, 138048), (-286209, 138168) are:
+
+	offset:		3593
+	name:		Little Doe Hill
+	state:		VA
+	latitude:	0382148 North
+	longitude:	0793109 West
+
+	offset:		4530
+	name:		Seldom Seen Hollow
+	state:		VA
+	latitude:	0382145 North
+	longitude:	0793031 West
+
+
+-----------------------------------------------------------------
+
+Executing command 10: what_is_in	382148N	0793109W	120	120
+
+The features found in the rectangle (-286389, 137988), (-286149, 138228) are:
+
+	offset:		3593
+	name:		Little Doe Hill
+	state:		VA
+	latitude:	0382148 North
+	longitude:	0793109 West
+
+	offset:		4530
+	name:		Seldom Seen Hollow
+	state:		VA
+	latitude:	0382145 North
+	longitude:	0793031 West
+
+	offset:		6434
+	name:		Bear Mountain
+	state:		VA
+	latitude:	0382012 North
+	longitude:	0793254 West
+
+	offset:		6693
+	name:		Doe Hill
+	state:		VA
+	latitude:	0382313 North
+	longitude:	0793113 West
+
+
+-----------------------------------------------------------------
+
+Executing command 11: what_is_in	382148N	0793109W	180	180
+
+The features found in the rectangle (-286449, 137928), (-286089, 138288) are:
+
+	offset:		675
+	name:		Buck Hill
+	state:		VA
+	latitude:	0381902 North
+	longitude:	0793358 West
+
+	offset:		3593
+	name:		Little Doe Hill
+	state:		VA
+	latitude:	0382148 North
+	longitude:	0793109 West
+
+	offset:		4530
+	name:		Seldom Seen Hollow
+	state:		VA
+	latitude:	0382145 North
+	longitude:	0793031 West
+
+	offset:		6434
+	name:		Bear Mountain
+	state:		VA
+	latitude:	0382012 North
+	longitude:	0793254 West
+
+	offset:		6693
+	name:		Doe Hill
+	state:		VA
+	latitude:	0382313 North
+	longitude:	0793113 West
+
+	offset:		8513
+	name:		Strait Creek School (historical)
+	state:		VA
+	latitude:	0382447 North
+	longitude:	0793217 West
+
+
+-----------------------------------------------------------------
+
+Executing command 12: debug	pool
+
+MRU
+  8513:	1673781|Strait Creek School (historical)|School|VA|51|Highland|091|382447N|0793217W|38.4131765|-79.5381022|||||935|3068|Monterey|11/13/1995|
+  6693:	1495470|Doe Hill|Summit|VA|51|Highland|091|382313N|0793113W|38.3870661|-79.5203237|||||1210|3970|Monterey|09/28/1979|
+  6434:	1495244|Bear Mountain|Summit|VA|51|Highland|091|382012N|0793254W|38.3367894|-79.5483795|||||1076|3530|Monterey SE|09/28/1979|
+  4530:	1486995|Seldom Seen Hollow|Valley|VA|51|Highland|091|382145N|0793031W|38.3626223|-79.5086563|382227N|0793004W|38.3741667|-79.5011111|750|2461|Monterey SE|09/28/1979|
+  3593:	1484896|Little Doe Hill|Summit|VA|51|Highland|091|382148N|0793109W|38.3634555|-79.5192122|||||988|3241|Monterey SE|09/28/1979|
+  675:	1482110|Buck Hill|Summit|VA|51|Highland|091|381902N|0793358W|38.3173452|-79.5661577|||||1003|3291|Monterey SE|09/28/1979|
+  8792:	2391311|Town of Monterey|Civil|VA|51|Highland|091|382442N|0793451W|38.4115829|-79.580854|||||884|2900|Monterey|02/19/2008|
+  8654:	1927411|Monterey District|Civil|VA|51|Highland|091|382120N|0793602W|38.3554354|-79.600688|||||1044|3425|Monterey SE|07/18/2001|02/27/2009
+  8369:	1673777|Monterey Methodist Episcopal Church|Church|VA|51|Highland|091|382442N|0793446W|38.4117874|-79.5794924|||||880|2887|Monterey|11/13/1995|
+  8225:	1673775|Highland Elementary School|School|VA|51|Highland|091|382427N|0793446W|38.4074301|-79.579567|||||878|2881|Monterey|11/13/1995|09/15/2010
+  8081:	1673766|Clover Creek Presbyterian Church|Church|VA|51|Highland|091|381612N|0793236W|38.2701243|-79.5433787|||||581|1906|Monterey SE|11/13/1995|
+  7942:	1673765|Blue Grass School (historical)|School|VA|51|Highland|091|382957N|0793303W|38.4992855|-79.5508813|||||777|2549|Monterey|11/13/1995|
+  7818:	1498741|Smith Field|Airport|VA|51|Highland|091|381809N|0793029W|38.3026237|-79.5081001|||||617|2024|Monterey SE|09/01/1992|
+  7682:	1498517|Monterey|Populated Place|VA|51|Highland|091|382444N|0793450W|38.4123429|-79.5806036|||||882|2894|Monterey|09/28/1979|03/17/2008
+  7562:	1496326|Trimble Knob|Summit|VA|51|Highland|091|382417N|0793517W|38.404843|-79.5881037|||||952|3123|Monterey|09/28/1979|
+  7435:	1496325|Trimble|Populated Place|VA|51|Highland|091|381816N|0793708W|38.3045674|-79.618937|||||777|2549|Monterey SE|09/28/1979|
+  7309:	1496241|Sounding Knob|Summit|VA|51|Highland|091|382047N|0793523W|38.3465111|-79.5897699|||||1334|4377|Monterey SE|09/28/1979|
+  7188:	1496194|Seybert Hills|Summit|VA|51|Highland|091|382552N|0793233W|38.4312316|-79.542547|||||967|3173|Monterey|09/28/1979|
+  7069:	1496144|Rich Hills|Summit|VA|51|Highland|091|382453N|0793336W|38.414843|-79.5600474|||||1000|3281|Monterey|09/28/1979|
+  6940:	1496110|Possum Trot|Populated Place|VA|51|Highland|091|382812N|0793156W|38.4701196|-79.5322693|||||768|2520|Monterey|09/28/1979|
+LRU
+
+-----------------------------------------------------------------
+
+Executing command 13: what_is_in	382957N	0793303W	240	60
+
+The features found in the rectangle (-286443, 138357), (-286323, 138837) are:
+
+	offset:		265
+	name:		Asbury Church
+	state:		VA
+	latitude:	0382607 North
+	longitude:	0793312 West
+
+	offset:		5991
+	name:		White Run
+	state:		VA
+	latitude:	0382610 North
+	longitude:	0793313 West
+
+	offset:		4819
+	name:		Simmons Run
+	state:		VA
+	latitude:	0382654 North
+	longitude:	0793209 West
+
+	offset:		5829
+	name:		West Strait Creek
+	state:		VA
+	latitude:	0382653 North
+	longitude:	0793204 West
+
+	offset:		1078
+	name:		Central Church
+	state:		VA
+	latitude:	0382953 North
+	longitude:	0793323 West
+
+	offset:		1946
+	name:		Frank Run
+	state:		VA
+	latitude:	0382953 North
+	longitude:	0793310 West
+
+	offset:		6811
+	name:		New Hampden
+	state:		VA
+	latitude:	0382934 North
+	longitude:	0793348 West
+
+	offset:		387
+	name:		Blue Grass
+	state:		VA
+	latitude:	0383000 North
+	longitude:	0793259 West
+
+	offset:		515
+	name:		Bluegrass Valley
+	state:		VA
+	latitude:	0382953 North
+	longitude:	0793222 West
+
+	offset:		3162
+	name:		Key Run
+	state:		VA
+	latitude:	0382951 North
+	longitude:	0793238 West
+
+	offset:		7942
+	name:		Blue Grass School (historical)
+	state:		VA
+	latitude:	0382957 North
+	longitude:	0793303 West
+
+
+-----------------------------------------------------------------
+
+Executing command 14: what_is_in	382957N	0793303W	60	240
+
+The features found in the rectangle (-286623, 138537), (-286143, 138657) are:
+
+	offset:		1078
+	name:		Central Church
+	state:		VA
+	latitude:	0382953 North
+	longitude:	0793323 West
+
+	offset:		1946
+	name:		Frank Run
+	state:		VA
+	latitude:	0382953 North
+	longitude:	0793310 West
+
+	offset:		6811
+	name:		New Hampden
+	state:		VA
+	latitude:	0382934 North
+	longitude:	0793348 West
+
+	offset:		387
+	name:		Blue Grass
+	state:		VA
+	latitude:	0383000 North
+	longitude:	0793259 West
+
+	offset:		515
+	name:		Bluegrass Valley
+	state:		VA
+	latitude:	0382953 North
+	longitude:	0793222 West
+
+	offset:		3162
+	name:		Key Run
+	state:		VA
+	latitude:	0382951 North
+	longitude:	0793238 West
+
+	offset:		7942
+	name:		Blue Grass School (historical)
+	state:		VA
+	latitude:	0382957 North
+	longitude:	0793303 West
+
+	offset:		1670
+	name:		Elk Run
+	state:		VA
+	latitude:	0382936 North
+	longitude:	0793153 West
+
+	offset:		2223
+	name:		Gulf Mountain
+	state:		VA
+	latitude:	0382940 North
+	longitude:	0793103 West
+
+
+-----------------------------------------------------------------
+
+Command sequence quit. Exiting now.

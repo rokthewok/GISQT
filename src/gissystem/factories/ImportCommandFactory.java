@@ -5,8 +5,8 @@ import gissystem.interfaces.ICommand;
 import gissystem.interfaces.ICommandFactory;
 
 /**
- * Factory method which creates an ImportCommand.
- * @author John
+ * Factory method which creates an {@link ImportCommand}.
+ * @author John Queue Ruffer
  *
  */
 public class ImportCommandFactory implements ICommandFactory {

@@ -1,0 +1,300 @@
+GIS System
+database: databases/database04.txt
+commands: commands/Script04.txt
+captain's log: logs/log04.txt
+star date:
+
+
+Executing command 1: world	0804500W	0800000W	370000N	374500N
+
+Map boundaries:
+                        135900
+        -290700                       -288000
+                        133200
+
+
+-----------------------------------------------------------------
+
+Executing command 2: import	VA_Montgomery.txt
+
+	number of entries added: 752
+	longest hashtable probe sequence: 17
+
+
+-----------------------------------------------------------------
+
+Executing command 3: what_is	-l	Paul Derring Hall	VA
+
+The features found with name "Paul Derring Hall" and state "VA" are:
+	offset:               92227
+	feature ID:           2110546
+	feature name:         Paul Derring Hall
+	classification:       Building
+	state:                VA
+	county:               Montgomery
+	latitude:             0371344 North
+	longitude:            0802533 West
+	elevation (m):        621
+	quadrangle:           Blacksburg
+	date created:         03/28/2007
+
+
+-----------------------------------------------------------------
+
+Executing command 4: what_is	-l	Holden Hall	VA
+
+The features found with name "Holden Hall" and state "VA" are:
+	offset:               60465
+	feature ID:           1674568
+	feature name:         Holden Hall
+	classification:       Building
+	state:                VA
+	county:               Montgomery
+	latitude:             0371347 North
+	longitude:            0802524 West
+	elevation (m):        633
+	quadrangle:           Blacksburg
+	date created:         11/13/1995
+
+
+-----------------------------------------------------------------
+
+Executing command 5: what_is	-l	Sugar Bottom Hollow	VA
+
+The features found with name "Sugar Bottom Hollow" and state "VA" are:
+	offset:               32304
+	feature ID:           1487685
+	feature name:         Sugar Bottom Hollow
+	classification:       Valley
+	state:                VA
+	county:               Montgomery
+	latitude:             0372010 North
+	longitude:            0801917 West
+	Source lat:           0371915 North
+	Source long:          0801845 West
+	elevation (m):        536
+	quadrangle:           McDonalds Mill
+	date created:         09/28/1979
+
+
+-----------------------------------------------------------------
+
+Executing command 6: what_is	-l	Blacksburg Quarry	VA
+
+The features found with name "Blacksburg Quarry" and state "VA" are:
+	offset:               105190
+	feature ID:           2724890
+	feature name:         Blacksburg Quarry
+	classification:       Mine
+	state:                VA
+	county:               Montgomery
+	latitude:             0371045 North
+	longitude:            0802332 West
+	elevation (m):        579
+	quadrangle:           Blacksburg
+	date created:         05/08/2012
+
+
+-----------------------------------------------------------------
+
+Executing command 7: what_is_at	371347N	0802514W
+
+Found at 0802514W, 371347N:
+	offset: 93317
+	feature name: Torgersen Hall
+	feature county: Montgomery
+	feature state: VA
+
+
+
+-----------------------------------------------------------------
+
+Executing command 8: what_is_at	370817N	0802808W
+
+Found at 0802808W, 370817N:
+	offset: 18623
+	feature name: Barringer Mountain
+	feature county: Montgomery
+	feature state: VA
+
+
+
+-----------------------------------------------------------------
+
+Executing command 9: what_is_at	371105N	0803133W
+
+Found at 0803133W, 371105N:
+	offset: 41632
+	feature name: Radford AAP Heliport
+	feature county: Montgomery
+	feature state: VA
+
+
+
+-----------------------------------------------------------------
+
+Executing command 10: what_is_in	371347N	0802514W	5	5
+
+The features found in the rectangle (-289519, 134022), (-289509, 134032) are:
+
+	offset:		93626
+	name:		War Memorial Chapel
+	state:		VA
+	latitude:	0371343 North
+	longitude:	0802515 West
+
+	offset:		71827
+	name:		Newman Library
+	state:		VA
+	latitude:	0371344 North
+	longitude:	0802510 West
+
+	offset:		58561
+	name:		Femoyer Hall
+	state:		VA
+	latitude:	0371352 North
+	longitude:	0802517 West
+
+	offset:		92754
+	name:		Robert Femoyer Hall
+	state:		VA
+	latitude:	0371352 North
+	longitude:	0802517 West
+
+	offset:		66868
+	name:		Major Williams Dormitory
+	state:		VA
+	latitude:	0371351 North
+	longitude:	0802515 West
+
+	offset:		67006
+	name:		McBryde Hall
+	state:		VA
+	latitude:	0371349 North
+	longitude:	0802519 West
+
+	offset:		98990
+	name:		Major Lloyd W Williams Hall
+	state:		VA
+	latitude:	0371352 North
+	longitude:	0802516 West
+
+	offset:		93317
+	name:		Torgersen Hall
+	state:		VA
+	latitude:	0371347 North
+	longitude:	0802514 West
+
+	offset:		49514
+	name:		Brodie Hall
+	state:		VA
+	latitude:	0371348 North
+	longitude:	0802512 West
+
+	offset:		94855
+	name:		Arts and Science Administration Building
+	state:		VA
+	latitude:	0371352 North
+	longitude:	0802513 West
+
+	offset:		98020
+	name:		James H Lane Hall
+	state:		VA
+	latitude:	0371351 North
+	longitude:	0802512 West
+
+	offset:		64863
+	name:		Lane Hall
+	state:		VA
+	latitude:	0371351 North
+	longitude:	0802511 West
+
+	offset:		78022
+	name:		Rasche Hall
+	state:		VA
+	latitude:	0371351 North
+	longitude:	0802509 West
+
+	offset:		93907
+	name:		William H "Bosco" Rasche Hall
+	state:		VA
+	latitude:	0371350 North
+	longitude:	0802509 West
+
+
+-----------------------------------------------------------------
+
+Executing command 11: what_is_in	371105N	0803133W	5	5
+
+The features found in the rectangle (-289898, 133860), (-289888, 133870) are:
+
+	offset:		41632
+	name:		Radford AAP Heliport
+	state:		VA
+	latitude:	0371105 North
+	longitude:	0803133 West
+
+
+-----------------------------------------------------------------
+
+Executing command 12: what_is_in	370822N	0802430W	10	10
+
+The features found in the rectangle (-289480, 133692), (-289460, 133712) are:
+
+	offset:		103165
+	name:		Tekoa Community School
+	state:		VA
+	latitude:	0370821 North
+	longitude:	0802438 West
+
+	offset:		54011
+	name:		Church of God in Christ
+	state:		VA
+	latitude:	0370812 North
+	longitude:	0802426 West
+
+	offset:		20960
+	name:		Christiansburg Institute
+	state:		VA
+	latitude:	0370822 North
+	longitude:	0802430 West
+
+
+-----------------------------------------------------------------
+
+Executing command 13: what_is_in	372230N	0802230W	120	120	
+
+The features found in the rectangle (-289470, 134430), (-289230, 134670) are:
+
+	offset:		20385
+	name:		Bruisers Knob
+	state:		VA
+	latitude:	0372111 North
+	longitude:	0802037 West
+
+
+-----------------------------------------------------------------
+
+Executing command 14: what_is	Monterey	VA
+
+The features found with name "Monterey" and state "VA" are:
+	no results.
+
+-----------------------------------------------------------------
+
+Executing command 15: what_is_at	371347N	0804505W
+
+Found at 0804505W, 371347N:
+	nothing at specified coordinates
+
+
+-----------------------------------------------------------------
+
+Executing command 16: what_is_in	372230N	0802230W	10	10	
+
+The features found in the rectangle (-289360, 134540), (-289340, 134560) are:
+	no results.
+
+-----------------------------------------------------------------
+
+Command sequence quit. Exiting now.now.

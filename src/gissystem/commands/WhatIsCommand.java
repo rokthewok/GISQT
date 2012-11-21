@@ -56,7 +56,7 @@ public class WhatIsCommand implements ICommand {
 		List<Long> offsets = controller.getHashTableController().findFeature( this.featureName, this.stateAbbreviation );
 		
 		controller.getLogger().writeToLog( "The features found with name \"" + this.featureName + "\" and state \"" + this.stateAbbreviation +"\" are:\n" );
-		if( offsets.isEmpty() ) {
+		if( offsets == null ) {
 			controller.getLogger().writeToLog( "\tno results." );
 		} else {
 			for( Long offset : offsets ) {

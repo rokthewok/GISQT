@@ -1,0 +1,2262 @@
+GIS System
+database: databases/database03.txt
+commands: commands/Script03.txt
+captain's log: logs/log03.txt
+star date:
+
+
+Executing command 1: world	0800400W	0792100W	375230N	383530N
+
+Map boundaries:
+                        138930
+        -288240                       -285660
+                        136350
+
+
+-----------------------------------------------------------------
+
+Executing command 2: import	VA_Highland.txt
+
+	number of entries added: 289
+	longest hashtable probe sequence: 6
+
+
+-----------------------------------------------------------------
+
+Executing command 3: debug	quad
+
+   *
+      *
+      *
+   []
+         *
+         *
+      []
+         Index at (-285976, 137604) offsets: [21184] | 
+            *
+            *
+         []
+            Index at (-286002, 137581) offsets: [23535] | Index at (-286074, 137600) offsets: [26929] | 
+            Index at (-286277, 137530) offsets: [13004] | Index at (-286263, 137634) offsets: [15375] | Index at (-286273, 137625) offsets: [26053] | 
+         *
+         *
+      []
+            *
+            *
+         []
+               Index at (-286453, 137507) offsets: [4735] | 
+               Index at (-286353, 137554) offsets: [14185] | Index at (-286342, 137545) offsets: [31435] | Index at (-286347, 137556) offsets: [35861] | 
+            []
+               Index at (-286307, 137624) offsets: [3922] | Index at (-286332, 137613) offsets: [14767] | Index at (-286306, 137615) offsets: [29974] | 
+               *
+            Index at (-286527, 137569) offsets: [18437] | Index at (-286579, 137599) offsets: [23986] | Index at (-286578, 137598) offsets: [28822] | 
+            *
+            *
+         []
+            *
+               *
+               *
+            []
+               Index at (-286825, 137579) offsets: [3166] | 
+                  Index at (-286945, 137586) offsets: [18997] | 
+                  *
+               []
+                  Index at (-286903, 137626) offsets: [3000] | 
+                  Index at (-286912, 137623) offsets: [20876] | Index at (-286916, 137620) offsets: [25294] | Index at (-286920, 137625) offsets: [25449] | Index at (-286917, 137622) offsets: [31030] | 
+[]
+            Index at (-286861, 137719) offsets: [38548, 38685] | 
+               Index at (-286739, 137694) offsets: [2127] | Index at (-286742, 137685) offsets: [27862] | Index at (-286739, 137692) offsets: [36497] | 
+               *
+            []
+               Index at (-286683, 137757) offsets: [2011] | Index at (-286707, 137783) offsets: [22985] | 
+               *
+         []
+               Index at (-286779, 137845) offsets: [8049] | Index at (-286760, 137842) offsets: [28946] | Index at (-286786, 137874) offsets: [38962] | 
+               *
+            []
+               Index at (-286706, 137962) offsets: [28392] | Index at (-286661, 137926) offsets: [37317] | 
+                  Index at (-286774, 137920) offsets: [28513] | 
+                  Index at (-286737, 137887) offsets: [7932] | 
+               []
+                  *
+                  Index at (-286775, 137953) offsets: [39688] | Index at (-286753, 137938) offsets: [39806] | Index at (-286779, 137944) offsets: [39923] | 
+            Index at (-286891, 137880) offsets: [387] | Index at (-286930, 137957) offsets: [10059] | Index at (-286934, 137958) offsets: [35101] | 
+            Index at (-286534, 137650) offsets: [9093] | Index at (-286537, 137649) offsets: [15903] | Index at (-286498, 137666) offsets: [19311] | Index at (-286513, 137666) offsets: [37041] | 
+               *
+               Index at (-286318, 137683) offsets: [26389] | Index at (-286348, 137690) offsets: [30899] | 
+            []
+               Index at (-286358, 137773) offsets: [6388] | Index at (-286314, 137725) offsets: [12561] | Index at (-286376, 137772) offsets: [33123] | Index at (-286356, 137772) offsets: [36761] | 
+               Index at (-286433, 137756) offsets: [5532] | 
+         []
+            Index at (-286438, 137942) offsets: [4334] | Index at (-286311, 137845) offsets: [20159] | 
+            Index at (-286627, 137860) offsets: [10551] | Index at (-286479, 137945) offsets: [11536] | Index at (-286628, 137896) offsets: [34733] | 
+      []
+            Index at (-286502, 138023) offsets: [12721] | Index at (-286523, 138047) offsets: [34607] | Index at (-286562, 138080) offsets: [40329] | 
+            Index at (-286374, 138012) offsets: [32634] | 
+         []
+            *
+               *
+               *
+            []
+                  *
+                  *
+               []
+                     *
+                     *
+                  []
+                     Index at (-286484, 138266) offsets: [11397] | Index at (-286486, 138267) offsets: [37994] | Index at (-286486, 138282) offsets: [38267] | 
+                     Index at (-286490, 138284) offsets: [35601] | Index at (-286491, 138282) offsets: [40602] | 
+                  Index at (-286517, 138257) offsets: [34860] | 
+               Index at (-286561, 138234) offsets: [30759] | 
+            Index at (-286930, 138104) offsets: [8814] | Index at (-286917, 138007) offsets: [37180] | Index at (-286920, 138101) offsets: [39534] | 
+            Index at (-286681, 138055) offsets: [13287] | Index at (-286682, 138036) offsets: [13722] | Index at (-286705, 137965) offsets: [35225] | Index at (-286693, 137992) offsets: [38411] | 
+         []
+            Index at (-286694, 138151) offsets: [28273] | Index at (-286651, 138130) offsets: [35475] | 
+               Index at (-286896, 138142) offsets: [22541] | Index at (-286910, 138129) offsets: [39399] | 
+               Index at (-286861, 138202) offsets: [5216] | Index at (-286866, 138193) offsets: [20724] | Index at (-286790, 138178) offsets: [21438] | Index at (-286794, 138154) offsets: [33862] | 
+            []
+               Index at (-286827, 138256) offsets: [3768] | 
+               *
+               Index at (-286259, 137659) offsets: [19872] | Index at (-286234, 137700) offsets: [25132] | Index at (-286286, 137641) offsets: [36239] | 
+               Index at (-286224, 137708) offsets: [17745] | 
+            []
+                  Index at (-286194, 137740) offsets: [1106] | Index at (-286212, 137722) offsets: [24722] | Index at (-286205, 137731) offsets: [26646] | 
+                  Index at (-286185, 137747) offsets: [513] | 
+               []
+                  Index at (-286153, 137769) offsets: [10678] | Index at (-286154, 137769) offsets: [12846] | 
+                  *
+               *
+               Index at (-286080, 137656) offsets: [1260] | Index at (-286125, 137682) offsets: [5058] | Index at (-286087, 137664) offsets: [11233] | Index at (-286097, 137665) offsets: [12239] | 
+               Index at (-286046, 137642) offsets: [28663] | 
+            []
+               *
+               *
+         []
+               *
+                  Index at (-286062, 137836) offsets: [3611] | Index at (-286039, 137807) offsets: [6548] | Index at (-286051, 137839) offsets: [23108] | Index at (-286054, 137840) offsets: [33618] | 
+                  Index at (-286005, 137812) offsets: [8940] | Index at (-285991, 137823) offsets: [13134] | 
+               []
+                  Index at (-286020, 137875) offsets: [30451] | 
+                  *
+            []
+               *
+               Index at (-286115, 137940) offsets: [40467] | 
+               Index at (-286304, 137827) offsets: [7181] | 
+               Index at (-286198, 137847) offsets: [34488] | 
+            []
+               Index at (-286169, 137947) offsets: [1774] | Index at (-286219, 137891) offsets: [28113] | 
+               Index at (-286253, 137904) offsets: [7486] | Index at (-286229, 137889) offsets: [35737] | 
+               Index at (-285923, 137681) offsets: [15053] | Index at (-285978, 137655) offsets: [16041] | Index at (-285923, 137680) offsets: [21680] | 
+               *
+            []
+               Index at (-285879, 137744) offsets: [32883] | 
+               Index at (-285935, 137726) offsets: [10428] | 
+            *
+         []
+            Index at (-285792, 137934) offsets: [31596] | 
+               Index at (-285972, 137831) offsets: [11921] | Index at (-285954, 137845) offsets: [12078] | 
+               *
+            []
+               Index at (-285844, 137940) offsets: [7773, 22261] | Index at (-285887, 137917) offsets: [32355] | 
+               Index at (-285945, 137917) offsets: [6230] | Index at (-285947, 137909) offsets: [7031] | Index at (-285952, 137909) offsets: [30293] | 
+      []
+               Index at (-285961, 138002) offsets: [18281] | Index at (-285934, 138035) offsets: [24148] | 
+                  Index at (-285886, 137973) offsets: [10836] | Index at (-285895, 137964) offsets: [37441] | Index at (-285888, 137970) offsets: [37589] | Index at (-285892, 137963) offsets: [37728] | 
+                  Index at (-285855, 137984) offsets: [16766] | Index at (-285837, 137994) offsets: [19154] | 
+               []
+                  *
+                  *
+            []
+               Index at (-285896, 138079) offsets: [2259] | 
+               *
+               Index at (-285813, 138002) offsets: [27698] | Index at (-285792, 138030) offsets: [29823] | 
+               *
+            []
+               Index at (-285715, 138110) offsets: [9490] | Index at (-285718, 138112) offsets: [26219] | Index at (-285719, 138120) offsets: [37867] | 
+               Index at (-285778, 138052) offsets: [19564] | 
+         []
+               Index at (-285794, 138190) offsets: [13438] | Index at (-285755, 138171) offsets: [23262] | 
+               Index at (-285715, 138135) offsets: [9894] | Index at (-285682, 138182) offsets: [16929] | Index at (-285683, 138183) offsets: [30133] | 
+            []
+               Index at (-285674, 138213) offsets: [21969] | Index at (-285667, 138217) offsets: [23825] | 
+               *
+            Index at (-285839, 138182) offsets: [5657] | Index at (-285912, 138266) offsets: [17085] | Index at (-285960, 138219) offsets: [31848] | Index at (-285883, 138236) offsets: [31970] | 
+               *
+               Index at (-286151, 138003) offsets: [7333] | Index at (-286166, 138008) offsets: [17370] | Index at (-286146, 137998) offsets: [33005] | Index at (-286162, 137993) offsets: [38138] | 
+            []
+               *
+               Index at (-286269, 138108) offsets: [15654] | Index at (-286231, 138105) offsets: [22696] | 
+               Index at (-286110, 137967) offsets: [24305] | Index at (-286089, 138032) offsets: [33499] | 
+               Index at (-286021, 138006) offsets: [33743] | 
+            []
+               *
+               Index at (-286116, 138103) offsets: [11801] | Index at (-286131, 138053) offsets: [20443] | 
+         []
+            Index at (-286014, 138266) offsets: [3299] | Index at (-286062, 138218) offsets: [17621] | Index at (-286047, 138213) offsets: [18595] | Index at (-286103, 138231) offsets: [32226] | 
+            Index at (-286273, 138193) offsets: [33256] | 
+   []
+            Index at (-286213, 138302) offsets: [21848] | Index at (-286301, 138424) offsets: [27291] | 
+            Index at (-285987, 138427) offsets: [31728] | Index at (-286000, 138355) offsets: [32100] | Index at (-286006, 138359) offsets: [36905] | 
+         []
+            *
+            Index at (-286231, 138536) offsets: [9212, 25743] | Index at (-286299, 138530) offsets: [9771] | Index at (-286263, 138580) offsets: [10305] | Index at (-286269, 138486) offsets: [21031] | 
+            *
+               Index at (-285755, 138304) offsets: [29667] | 
+               Index at (-285668, 138316) offsets: [4614] | Index at (-285739, 138318) offsets: [12401] | Index at (-285735, 138324) offsets: [24849] | Index at (-285733, 138324) offsets: [35347] | 
+            []
+               *
+               *
+         []
+            Index at (-285749, 138600) offsets: [29507] | 
+            *
+      []
+         *
+         Index at (-286229, 138683) offsets: [4082] | Index at (-286294, 138650) offsets: [7643] | 
+            Index at (-286816, 138287) offsets: [11077] | Index at (-286823, 138346) offsets: [19442] | Index at (-286886, 138408) offsets: [32760] | 
+            Index at (-286638, 138326) offsets: [11678] | Index at (-286674, 138352) offsets: [33374] | Index at (-286783, 138335) offsets: [40193] | 
+         []
+            Index at (-286752, 138553) offsets: [823] | Index at (-286769, 138592) offsets: [2419] | Index at (-286784, 138478) offsets: [21560] | Index at (-286683, 138499) offsets: [27048] | 
+            Index at (-286797, 138572) offsets: [6874] | Index at (-286854, 138548) offsets: [26806] | 
+            Index at (-286500, 138341) offsets: [18748] | Index at (-286582, 138315) offsets: [18870] | 
+               Index at (-286449, 138309) offsets: [4902] | Index at (-286416, 138293) offsets: [34248] | 
+               Index at (-286345, 138312) offsets: [22862] | Index at (-286353, 138352) offsets: [34367] | Index at (-286337, 138287) offsets: [38821] | 
+            []
+               Index at (-286319, 138445) offsets: [14898] | Index at (-286329, 138414) offsets: [23669] | Index at (-286324, 138413) offsets: [29066] | Index at (-286321, 138438) offsets: [30607] | 
+               Index at (-286392, 138367) offsets: [265] | Index at (-286393, 138370) offsets: [29356] | 
+         []
+               *
+               Index at (-286316, 138492) offsets: [34119] | 
+            []
+                  *
+                  *
+               []
+                  Index at (-286342, 138593) offsets: [2840] | Index at (-286313, 138576) offsets: [8509] | 
+                  Index at (-286379, 138600) offsets: [2576] | Index at (-286383, 138605) offsets: [2704] | Index at (-286358, 138591) offsets: [13873] | Index at (-286383, 138597) offsets: [36622] | 
+               Index at (-286403, 138593) offsets: [5810] | Index at (-286390, 138593) offsets: [9336] | Index at (-286428, 138574) offsets: [33990] | 
+            Index at (-286612, 138532) offsets: [14350] | Index at (-286475, 138508) offsets: [27577] | 
+      []
+            Index at (-286624, 138764) offsets: [14025] | Index at (-286619, 138704) offsets: [27166] | 
+            Index at (-286370, 138647) offsets: [20034] | 
+         []
+            Index at (-286453, 138853) offsets: [14474, 25580] | Index at (-286444, 138813) offsets: [26519] | Index at (-286463, 138821) offsets: [36104] | Index at (-286321, 138793) offsets: [36367] | 
+                  Index at (-286601, 138791) offsets: [5933] | Index at (-286617, 138804) offsets: [24430] | 
+                  Index at (-286567, 138769) offsets: [6097] | 
+               []
+                  Index at (-286572, 138824) offsets: [6708] | Index at (-286580, 138817) offsets: [14636] | 
+                  Index at (-286600, 138821) offsets: [4456] | Index at (-286605, 138815) offsets: [16198] | 
+               Index at (-286537, 138828) offsets: [18033] | 
+            []
+               *
+               Index at (-286599, 138874) offsets: [29228] | 
+            *
+               Index at (-286733, 138651) offsets: [19719] | Index at (-286713, 138681) offsets: [20287] | 
+               Index at (-286635, 138667) offsets: [17904] | Index at (-286697, 138628) offsets: [22418] | 
+            []
+               Index at (-286680, 138725) offsets: [946] | Index at (-286676, 138729) offsets: [16499] | 
+               Index at (-286744, 138735) offsets: [10956] | 
+         []
+            Index at (-286680, 138842) offsets: [16366] | Index at (-286710, 138905) offsets: [31157] | Index at (-286719, 138914) offsets: [31294] | Index at (-286675, 138878) offsets: [35984] | 
+            *
+      *
+         Index at (-287277, 137886) offsets: [1528] | 
+               *
+               Index at (-287136, 137718) offsets: [5369] | 
+            []
+               Index at (-287123, 137757) offsets: [3456] | Index at (-287151, 137797) offsets: [4213] | Index at (-287126, 137746) offsets: [13557] | 
+               Index at (-287266, 137756) offsets: [20602] | 
+               Index at (-287043, 137651) offsets: [17496] | 
+               *
+            []
+               *
+               Index at (-287096, 137794) offsets: [8201] | Index at (-287103, 137745) offsets: [16650] | Index at (-287060, 137762) offsets: [27993] | Index at (-287097, 137781) offsets: [40040] | 
+         []
+               Index at (-287069, 137847) offsets: [8661] | Index at (-287087, 137830) offsets: [27420, 39235] | Index at (-287054, 137821) offsets: [34980] | Index at (-287092, 137825) offsets: [39100] | 
+               *
+            []
+                  Index at (-287024, 137899) offsets: [1385] | Index at (-287028, 137898) offsets: [8351] | Index at (-287017, 137895) offsets: [18169] | Index at (-287024, 137907) offsets: [22105] | 
+                  *
+               []
+                  *
+                  Index at (-287007, 137953) offsets: [23379] | 
+               *
+               Index at (-287242, 137874) offsets: [668] | 
+               Index at (-287175, 137847) offsets: [1656] | Index at (-287186, 137880) offsets: [15219] | Index at (-287152, 137823) offsets: [21318] | 
+            []
+               Index at (-287165, 137917) offsets: [1891] | 
+               Index at (-287251, 137907) offsets: [15781] | Index at (-287219, 137940) offsets: [24593] | Index at (-287228, 137913) offsets: [25005] | 
+      []
+            Index at (-287132, 137972) offsets: [10182] | Index at (-287233, 137972) offsets: [15533] | 
+            Index at (-287012, 138119) offsets: [9655] | Index at (-287009, 137981) offsets: [17210] | Index at (-286977, 138020) offsets: [25900] | 
+         []
+            Index at (-286964, 138266) offsets: [32515] | 
+            *
+         *
+   []
+      *
+      *
+
+-----------------------------------------------------------------
+
+Executing command 4: debug	hash
+
+Display format is: <table slot #>: {<record key>, <record offsets>}
+Table size: 1019
+Current population: 281
+
+3:	{Doe Hill:VA, [32100, 33256]}
+4:	{Asbury Church:VA, [265]}
+6:	{Bluegrass Valley:VA, [2840]}
+7:	{Big Hill:VA, [1774]}
+8:	{Grassy Field Hollow:VA, [9894]}
+9:	{Laurel Fork:VA, [14474]}
+22:	{Stark Ridge:VA, [39923]}
+25:	{McDowell High School:VA, [38138]}
+35:	{Page Run:VA, [20724]}
+41:	{Bearcamp Knob:VA, [823]}
+46:	{Lower Gap:VA, [16650]}
+47:	{Sheets Hollow:VA, [23379]}
+48:	{Blue Grass Cemetery:VA, [2704]}
+49:	{Seldom Seen Hollow:VA, [22696]}
+55:	{Jenny Gwin Draft:VA, [12846]}
+56:	{Middle Mountain:VA, [17904]}
+59:	{Hickory Log Hollow:VA, [11233]}
+60:	{Kettle Hollow:VA, [13722]}
+61:	{Hardscrabble:VA, [36104]}
+62:	{Summers Mountain:VA, [26389]}
+71:	{Bullpasture Mountain:VA, [31970]}
+76:	{Water Sinks:VA, [28822]}
+77:	{Briery Draft:VA, [3611]}
+78:	{Columbia Union College Biological Station:VA, [7031]}
+81:	{Sites Hollow:VA, [24148]}
+82:	{Kent Simmons Hollow:VA, [13557]}
+83:	{Falls Hollow:VA, [8940]}
+84:	{Mountain Path:VA, [19442]}
+86:	{Whiteman Run:VA, [29667]}
+89:	{Palo Alto:VA, [35347]}
+95:	{Laurel Run:VA, [14898]}
+100:	{Mount Carlyle:VA, [5532]}
+107:	{Stillhouse Run:VA, [25132]}
+109:	{Mill Hollow:VA, [18281]}
+112:	{Jones Run:VA, [13287]}
+113:	{Vinegar Run:VA, [28513]}
+114:	{Town of Monterey:VA, [40602]}
+119:	{Swank Chapel:VA, [26519]}
+133:	{East Back Creek:VA, [8351]}
+135:	{Scaffold Run:VA, [22541]}
+138:	{Spring Run:VA, [24849]}
+144:	{Bald Knob:VA, [32515]}
+146:	{Blights Run:VA, [2419]}
+147:	{Buffalo Knob:VA, [4614]}
+148:	{Laurel Gap Church:VA, [14767]}
+153:	{Hevener Run:VA, [11077]}
+161:	{Hannah Field Airport:VA, [30759]}
+162:	{Shaws Fork:VA, [23108]}
+168:	{Bolar Spring:VA, [3166]}
+169:	{Christian Run Trail:VA, [6097]}
+171:	{Big Crooked Ridge:VA, [1528]}
+179:	{Headwaters School (historical):VA, [37728]}
+182:	{Dry Branch:VA, [8049]}
+186:	{Shaws Ridge:VA, [23262]}
+187:	{Mustoe:VA, [35225]}
+188:	{Monterey:VA, [35601]}
+192:	{Devils Backbone:VA, [7643]}
+193:	{Locust Springs Picnic Area:VA, [31157]}
+194:	{Paddy Knob:VA, [20602]}
+195:	{Peak Run:VA, [20876]}
+196:	{Smith Field:VA, [35737]}
+197:	{Lockridge Memorial Church:VA, [15903]}
+201:	{Back Draft:VA, [513]}
+205:	{Galford Gap:VA, [9655]}
+206:	{Blue Grass School (historical):VA, [36622]}
+207:	{McKendree Church:VA, [17621]}
+217:	{Botkin Hollow:VA, [3299]}
+224:	{Lynn Hollow:VA, [16929]}
+227:	{Bethel:VA, [36497]}
+231:	{Little Ridge:VA, [15781]}
+234:	{Frank Run:VA, [9336]}
+235:	{Jones Trail:VA, [13438]}
+238:	{Jack Mountain:VA, [12721]}
+252:	{Locust Spring Run Trail:VA, [16366]}
+264:	{Buck Mountain:VA, [31848]}
+267:	{New Hampden:VA, [33990]}
+273:	{Ginseng Mountain:VA, [9771]}
+276:	{Brushy Mountain:VA, [4082]}
+281:	{Strait Creek:VA, [25743]}
+287:	{Green Hill School (historical):VA, [37180]}
+290:	{Salthouse Hollow:VA, [22261]}
+296:	{Naples (historical):VA, [39399]}
+297:	{Central Church:VA, [5810]}
+298:	{Locust Fork:VA, [16041]}
+301:	{Strait Creek School (historical):VA, [38821]}
+306:	{Wide Hollow:VA, [29974]}
+307:	{Upper Mountain Lick:VA, [27698]}
+327:	{Gwin Mountain:VA, [10428]}
+329:	{Alum Rock:VA, [35861]}
+331:	{Highland High School:VA, [11397]}
+332:	{Burners Run:VA, [4902]}
+336:	{Possum Trot:VA, [34119]}
+338:	{Opossum Hollow:VA, [20443]}
+339:	{Simmons Run:VA, [23669]}
+345:	{Hightown Church:VA, [11678]}
+346:	{Right Prong Benson Run:VA, [21680]}
+348:	{Cold Spring Run:VA, [6708]}
+349:	{Benson Run:VA, [1106]}
+350:	{Nelson Draft:VA, [19872]}
+351:	{Key Run:VA, [13873]}
+352:	{Back Creek Mountain:VA, [387]}
+356:	{White Oak Flat:VA, [29228]}
+359:	{Whitehorn Creek:VA, [29507]}
+361:	{Big End:VA, [1656]}
+364:	{Wilson Hollow:VA, [30293]}
+365:	{Sorrel Point Ridge:VA, [24593]}
+372:	{Campground Hollow:VA, [5369]}
+376:	{Little Doe Hill:VA, [15654]}
+377:	{Christian Run:VA, [5933]}
+398:	{Swope Hollow:VA, [26646]}
+410:	{Buck Run:VA, [4456]}
+411:	{Hupman Valley Trail:VA, [30899]}
+412:	{Highland Wildlife Management Area:VA, [11536]}
+413:	{Blue Grass:VA, [2576]}
+427:	{Trimble:VA, [34733]}
+435:	{New Salem Church:VA, [20159]}
+440:	{Beulah Presbyterian Church:VA, [1385]}
+442:	{Locust Springs Recreation Site:VA, [31294]}
+445:	{Dry Run:VA, [8201]}
+446:	{Lantz Mountain:VA, [14350]}
+447:	{McDowell:VA, [17370]}
+455:	{Hamilton Draft:VA, [10678]}
+456:	{Patna:VA, [36239]}
+458:	{The Bump:VA, [26929]}
+465:	{Eowyns Run:VA, [40040]}
+467:	{Hulit Draft:VA, [31435]}
+472:	{Sapling Ridge:VA, [22418]}
+474:	{Lost Run:VA, [16499]}
+482:	{Bear Mountain:VA, [32634, 32760]}
+486:	{Collins Run:VA, [6874]}
+490:	{Straight Fork:VA, [25580]}
+493:	{Sirons Mill:VA, [32226]}
+495:	{Big Ridge:VA, [1891]}
+496:	{Warwick Run:VA, [39235]}
+499:	{Broad Run:VA, [3768]}
+503:	{Wildcat Hollow:VA, [30133]}
+504:	{Hamilton Chapel:VA, [10551]}
+505:	{Claylick Hollow:VA, [6388]}
+514:	{Jerry Hollow:VA, [13134]}
+516:	{Wesley Chapel:VA, [28946]}
+522:	{Lower Mountain Lick:VA, [16766]}
+524:	{Mill Gap:VA, [18169, 35101]}
+527:	{Wooden Run:VA, [30607]}
+529:	{Stony Run:VA, [25294]}
+530:	{Crab Run:VA, [7181, 7333]}
+531:	{Forks of Waters:VA, [9212]}
+532:	{Union Chapel:VA, [27577]}
+533:	{Snowy Mountain:VA, [36367]}
+535:	{Clover Creek Presbyterian Church:VA, [36761]}
+536:	{Victory Chapel:VA, [28392]}
+537:	{Valley Bethel Church:VA, [27862]}
+540:	{Highland County:VA, [37867]}
+544:	{Wallowhole Hollow:VA, [28663]}
+556:	{Vance Hollow:VA, [28113]}
+569:	{Monterey District:VA, [40329]}
+572:	{Meadowdale:VA, [33862]}
+574:	{Newman Run:VA, [20287]}
+582:	{Tamarack Ridge:VA, [26806]}
+594:	{Maple Knob:VA, [33743]}
+600:	{The Divide:VA, [27048]}
+601:	{Ruckman Draft:VA, [22105]}
+603:	{Sinking Creek:VA, [23986]}
+606:	{Hiner Church:VA, [11801]}
+607:	{New Church:VA, [20034]}
+608:	{Huffman Hollow:VA, [12401]}
+609:	{Buckeye (historical):VA, [39100]}
+610:	{Hightown:VA, [33374]}
+612:	{McGuffin Trail:VA, [17496]}
+613:	{Pisgah Church:VA, [21438]}
+615:	{Steep Pinch Ridge:VA, [25005]}
+621:	{Blue Grass District:VA, [40193]}
+628:	{Carroll Draft:VA, [5657]}
+629:	{Clover Creek:VA, [33123]}
+641:	{Plum Grove School (historical):VA, [38411]}
+642:	{Middle Mountain Trail:VA, [18033]}
+648:	{Doe Hill School (historical):VA, [36905]}
+651:	{Hoop Hole Hollow:VA, [12078]}
+656:	{Sues Draft:VA, [25900]}
+665:	{The Stamp:VA, [27166]}
+668:	{Gregory Ridge:VA, [10182]}
+670:	{Valley Center:VA, [27993]}
+671:	{Cedar Ridge:VA, [39806]}
+673:	{Headwaters Brethren Church (historical):VA, [37441]}
+675:	{Bearwallow Run:VA, [946]}
+683:	{Big Valley Cemetery:VA, [2127]}
+684:	{Trimble Knob:VA, [34860]}
+688:	{Knotmaul Run:VA, [14025]}
+696:	{Pine Ridge:VA, [21318]}
+704:	{Siebert Run:VA, [39534]}
+706:	{Southall Chapel:VA, [24722]}
+708:	{Miracle Ridge:VA, [18748]}
+709:	{Black Gum Draft:VA, [2259]}
+710:	{Fairview Cemetery:VA, [8814]}
+711:	{Head Waters:VA, [10836]}
+715:	{Thorny Bottom Church:VA, [27291]}
+717:	{Phillips Hollow:VA, [32355]}
+721:	{Buck Hill:VA, [4334]}
+724:	{Wolfe Draft:VA, [30451]}
+728:	{Mortons Draft:VA, [19154]}
+729:	{Barren Rock:VA, [21848]}
+740:	{Phillips Spring:VA, [21184]}
+745:	{Big Valley:VA, [2011]}
+747:	{Freezland Hollow:VA, [9490]}
+754:	{Flood School (historical):VA, [37041]}
+756:	{Riverview Church (historical):VA, [38685]}
+760:	{Lynn Rock Church:VA, [17085]}
+761:	{Rich Hills:VA, [34248]}
+770:	{Little Mountain:VA, [22985, 34980]}
+771:	{Stony Run Church:VA, [31030]}
+772:	{Highland Elementary School:VA, [37994]}
+773:	{Sulphur Spring Hollow:VA, [26219]}
+777:	{Cabin Hollow:VA, [5058]}
+786:	{Confederate Breastworks:VA, [31596]}
+787:	{Mount Zion Church:VA, [19311]}
+793:	{Sheep Knob:VA, [34488]}
+802:	{Davis Run:VA, [7486]}
+803:	{Laurel Fork Trail:VA, [14636]}
+806:	{Rock Lick Spring:VA, [21969]}
+819:	{Bullpasture Gorge:VA, [4735]}
+822:	{Mill Run:VA, [18437, 18595]}
+831:	{Left Prong Benson Run:VA, [15053]}
+835:	{Henry Ridge:VA, [10956]}
+836:	{Lick Draft:VA, [15219, 15375]}
+837:	{Brushy Fork:VA, [3922]}
+838:	{Clover Lick Hollow:VA, [6548]}
+839:	{Green Hill Church:VA, [10059]}
+840:	{Shenandoah Mountain Trail:VA, [23535]}
+841:	{Woods-Terry School (historical):VA, [38962]}
+842:	{Bear Hollow:VA, [668]}
+846:	{Church Hollow:VA, [6230]}
+851:	{Monterey Methodist Episcopal Church:VA, [38267]}
+859:	{Cedar Knob:VA, [33005]}
+860:	{Morris Run:VA, [18997]}
+863:	{Hulls Hill:VA, [33499]}
+864:	{Lawson Knob:VA, [39688]}
+872:	{Sugar Tree Draft:VA, [26053]}
+876:	{Campbell Run:VA, [5216]}
+877:	{Bridge Hollow:VA, [3456]}
+880:	{Liberty:VA, [33618]}
+895:	{Lick Points:VA, [15533]}
+896:	{Erwin Draft:VA, [8661]}
+898:	{Mudlick Draft:VA, [19564]}
+901:	{Headwaters Presbyterian Church:VA, [37589]}
+904:	{Townsend Draft:VA, [27420]}
+905:	{Sounding Knob:VA, [34607]}
+909:	{Vanderpool Gap:VA, [28273]}
+911:	{Slabcamp Run:VA, [24430]}
+914:	{Peck Run:VA, [21031]}
+923:	{Flood:VA, [9093]}
+926:	{Mullenax Run:VA, [19719]}
+928:	{Bolar Run:VA, [3000]}
+933:	{Seybert Hills:VA, [34367]}
+934:	{River View School (historical):VA, [38548]}
+936:	{Buck Knob:VA, [35984]}
+937:	{Benson Run Trail:VA, [1260]}
+938:	{Monterey Mountain:VA, [18870]}
+941:	{Brushy Hill:VA, [31728]}
+943:	{Seybert Chapel:VA, [22862]}
+950:	{Lynn Stand Hollow:VA, [17210]}
+960:	{Meadow Draft:VA, [17745]}
+962:	{Brushy Ridge:VA, [4213, 32883]}
+965:	{West Strait Creek:VA, [29066]}
+969:	{Stony Run Cemetery:VA, [25449]}
+970:	{Elk Run:VA, [8509]}
+971:	{Stonewall District:VA, [40467]}
+976:	{Hiner Hollow:VA, [11921]}
+977:	{Hupman Valley:VA, [12561]}
+979:	{Vanderpool:VA, [35475]}
+987:	{Gulf Mountain:VA, [10305]}
+990:	{Red Oak Knob:VA, [21560]}
+993:	{Devrick Hollow:VA, [7773]}
+998:	{Horsehole Hollow:VA, [12239]}
+1001:	{Jerkemtight Trail:VA, [13004]}
+1002:	{Griffin Cemetery:VA, [37317]}
+1004:	{Knox Lick Draft:VA, [14185]}
+1008:	{Sittlington Hill:VA, [24305]}
+1009:	{Dixon Hills:VA, [7932]}
+1013:	{Locust Spring Run:VA, [16198]}
+1015:	{White Run:VA, [29356]}
+1016:	{Wide Draft:VA, [29823]}
+1018:	{Sinclair Hollow:VA, [23825]}
+
+
+-----------------------------------------------------------------
+
+Executing command 5: import	VA_Bath.txt
+
+	number of entries added: 520
+	longest hashtable probe sequence: 10
+
+
+-----------------------------------------------------------------
+
+Executing command 6: debug	quad
+
+         Index at (-287943, 136644) offsets: [44796] | Index at (-288203, 136626) offsets: [103891] | 
+            *
+            *
+         []
+            Index at (-287745, 136624) offsets: [63156] | Index at (-287599, 136527) offsets: [99665] | 
+            Index at (-287879, 136634) offsets: [100308] | Index at (-287886, 136662) offsets: [101719] | Index at (-287876, 136635) offsets: [108036] | 
+      []
+               Index at (-287877, 136678) offsets: [75364] | Index at (-287886, 136728) offsets: [89348] | Index at (-287896, 136749) offsets: [95935] | 
+               Index at (-287799, 136694) offsets: [55242] | Index at (-287831, 136707) offsets: [61223] | 
+            []
+               Index at (-287784, 136795) offsets: [62325] | Index at (-287816, 136778) offsets: [95368] | 
+                  *
+                     Index at (-287860, 136756) offsets: [101216] | Index at (-287861, 136755) offsets: [108306] | 
+                     Index at (-287847, 136755) offsets: [47928] | Index at (-287846, 136755) offsets: [73121] | 
+                  []
+                     *
+                     Index at (-287862, 136783) offsets: [67270] | 
+               []
+                     *
+                     Index at (-287852, 136802) offsets: [54083] | 
+                  []
+                     Index at (-287857, 136814) offsets: [57205] | Index at (-287853, 136820) offsets: [65127] | Index at (-287848, 136832) offsets: [65606] | Index at (-287853, 136825) offsets: [72348] | 
+                     *
+                  Index at (-287904, 136804) offsets: [97765] | 
+               Index at (-287681, 136723) offsets: [51829] | Index at (-287677, 136725) offsets: [63563] | 
+               Index at (-287676, 136725) offsets: [52486] | 
+            []
+               Index at (-287660, 136810) offsets: [55117] | 
+               Index at (-287722, 136831) offsets: [51070] | 
+         []
+               Index at (-287712, 136850) offsets: [97618] | Index at (-287707, 136862) offsets: [110520] | 
+               Index at (-287641, 136902) offsets: [41782] | Index at (-287666, 136901) offsets: [71284] | Index at (-287649, 136901) offsets: [81018] | 
+            []
+               *
+               Index at (-287739, 136979) offsets: [93611] | 
+               Index at (-287840, 136853) offsets: [80855] | 
+                  Index at (-287833, 136861) offsets: [51384] | Index at (-287830, 136866) offsets: [72183] | 
+                  Index at (-287793, 136839) offsets: [89946] | Index at (-287797, 136872) offsets: [95789] | 
+               []
+                  Index at (-287792, 136913) offsets: [93291] | 
+                  Index at (-287814, 136889) offsets: [45119] | Index at (-287801, 136899) offsets: [51223] | Index at (-287820, 136884) offsets: [69144] | 
+            []
+               Index at (-287772, 136945) offsets: [66631] | Index at (-287759, 136957) offsets: [76932] | Index at (-287789, 136927) offsets: [84274] | Index at (-287780, 136935) offsets: [85735] | 
+               *
+         Index at (-288145, 136674) offsets: [40725] | Index at (-287990, 136727) offsets: [69905] | 
+            Index at (-287459, 136432) offsets: [83424] | Index at (-287492, 136499) offsets: [83558] | Index at (-287440, 136491) offsets: [83677] | Index at (-287534, 136452) offsets: [103259] | 
+               *
+               Index at (-287290, 136421) offsets: [43798] | Index at (-287285, 136371) offsets: [49140] | Index at (-287342, 136406) offsets: [89069] | 
+            []
+                  Index at (-287348, 136459) offsets: [47335] | 
+                     Index at (-287298, 136449) offsets: [47171] | Index at (-287310, 136430) offsets: [57651] | Index at (-287304, 136433) offsets: [90625] | 
+                     Index at (-287282, 136443) offsets: [94535] | Index at (-287291, 136449) offsets: [97898] | 
+                  []
+                     Index at (-287279, 136455) offsets: [50149] | Index at (-287281, 136461) offsets: [57515] | 
+                     Index at (-287302, 136468) offsets: [63992] | 
+               []
+                  Index at (-287277, 136470) offsets: [42090] | Index at (-287292, 136480) offsets: [72504] | Index at (-287290, 136475) offsets: [84924] | 
+                  Index at (-287337, 136474) offsets: [78418] | Index at (-287327, 136498) offsets: [83145] | 
+               Index at (-287357, 136457) offsets: [47035] | Index at (-287392, 136469) offsets: [100962] | 
+         []
+            Index at (-287318, 136667) offsets: [43278] | Index at (-287332, 136547) offsets: [67429] | Index at (-287325, 136532) offsets: [72873] | Index at (-287407, 136631) offsets: [102852] | 
+               Index at (-287580, 136546) offsets: [91301] | Index at (-287548, 136589) offsets: [101974] | 
+               Index at (-287465, 136532) offsets: [96462] | Index at (-287468, 136527) offsets: [96855] | Index at (-287467, 136527) offsets: [99920] | Index at (-287504, 136579) offsets: [108178] | 
+            []
+               Index at (-287460, 136622) offsets: [45528] | Index at (-287505, 136659) offsets: [100437] | Index at (-287492, 136603) offsets: [111746] | 
+               Index at (-287530, 136640) offsets: [98795] | 
+               Index at (-287234, 136430) offsets: [43679] | Index at (-287262, 136423) offsets: [43963] | Index at (-287250, 136384) offsets: [91454] | 
+               *
+            []
+               Index at (-287129, 136436) offsets: [54244] | Index at (-287125, 136434) offsets: [54405] | Index at (-287143, 136501) offsets: [82563] | 
+                  Index at (-287258, 136444) offsets: [50944] | 
+                  Index at (-287228, 136461) offsets: [74825] | Index at (-287211, 136468) offsets: [74955] | 
+               []
+                  *
+                  Index at (-287266, 136473) offsets: [44487] | Index at (-287264, 136478) offsets: [81571] | Index at (-287239, 136484) offsets: [81735] | Index at (-287265, 136503) offsets: [82980] | 
+               *
+               Index at (-287022, 136382) offsets: [61501, 102609] | 
+            []
+               *
+               Index at (-287102, 136490) offsets: [44365] | Index at (-287082, 136497) offsets: [48626] | Index at (-287071, 136474) offsets: [64395] | Index at (-287101, 136489) offsets: [107229] | 
+         []
+            *
+                  Index at (-287255, 136513) offsets: [42966] | Index at (-287261, 136534) offsets: [48866] | Index at (-287261, 136512) offsets: [79128] | 
+                  *
+               []
+                  Index at (-287208, 136553) offsets: [57898] | Index at (-287200, 136575) offsets: [78809] | Index at (-287194, 136584) offsets: [89784] | 
+                  *
+               Index at (-287128, 136586) offsets: [60782] | Index at (-287161, 136532) offsets: [96727] | Index at (-287121, 136552) offsets: [100042] | 
+            []
+                  Index at (-287158, 136591) offsets: [87127] | Index at (-287166, 136623) offsets: [87248] | Index at (-287187, 136593) offsets: [87408] | Index at (-287176, 136615) offsets: [107481] | 
+                  Index at (-287141, 136607) offsets: [58345] | 
+               []
+                  Index at (-287118, 136655) offsets: [60625] | Index at (-287116, 136656) offsets: [76676] | Index at (-287131, 136646) offsets: [79752] | 
+                  Index at (-287166, 136652) offsets: [53199] | 
+               Index at (-287249, 136603) offsets: [67099] | 
+      []
+               Index at (-287245, 136682) offsets: [49397] | Index at (-287252, 136675) offsets: [49753] | Index at (-287231, 136733) offsets: [82848] | 
+               Index at (-287168, 136707) offsets: [82722] | 
+            []
+               *
+               Index at (-287228, 136776) offsets: [68723] | Index at (-287248, 136803) offsets: [104505] | 
+               *
+               Index at (-286970, 136751) offsets: [69743] | Index at (-287008, 136712) offsets: [102486] | 
+            []
+               Index at (-287025, 136800) offsets: [68245] | Index at (-286956, 136799) offsets: [87830] | Index at (-287003, 136776) offsets: [98668] | Index at (-286974, 136820) offsets: [107618] | 
+               Index at (-287100, 136755) offsets: [40855] | 
+         []
+               Index at (-287100, 136905) offsets: [42530] | 
+               Index at (-286972, 136837) offsets: [46052] | Index at (-286978, 136887) offsets: [49519] | Index at (-287020, 136862) offsets: [86285] | 
+            []
+                  *
+                  Index at (-286966, 136921) offsets: [47459] | 
+               []
+                  Index at (-286987, 136975) offsets: [42842] | Index at (-286967, 136967) offsets: [65925, 70607] | 
+                  Index at (-286991, 136986) offsets: [98153, 98288] | Index at (-287024, 136989) offsets: [102997] | 
+               Index at (-287066, 136930) offsets: [79597] | Index at (-287102, 136982) offsets: [104386] | Index at (-287075, 136969) offsets: [106422] | 
+               Index at (-287223, 136849) offsets: [70757] | Index at (-287211, 136913) offsets: [103394] | 
+               Index at (-287171, 136896) offsets: [72750] | Index at (-287136, 136870) offsets: [77794] | 
+            []
+               Index at (-287142, 136932) offsets: [69310] | 
+                  Index at (-287260, 136922) offsets: [91578] | Index at (-287261, 136922) offsets: [112585] | 
+                  *
+               []
+                  Index at (-287211, 136981) offsets: [92454] | Index at (-287224, 136984) offsets: [96600] | Index at (-287216, 136974) offsets: [112859] | 
+                  Index at (-287247, 136972) offsets: [92877] | Index at (-287246, 136966) offsets: [105635] | Index at (-287249, 136977) offsets: [107763] | Index at (-287235, 136962) offsets: [109391] | 
+               *
+                  Index at (-287503, 136711) offsets: [69018] | 
+                     *
+                     Index at (-287454, 136681) offsets: [74387] | 
+                  []
+                     Index at (-287446, 136704) offsets: [96198] | 
+                     Index at (-287468, 136703) offsets: [91705] | Index at (-287461, 136701) offsets: [99794] | Index at (-287467, 136704) offsets: [106028] | 
+               []
+                  *
+                  *
+            []
+                  Index at (-287478, 136787) offsets: [60181] | Index at (-287492, 136759) offsets: [95517] | 
+                  Index at (-287451, 136763) offsets: [75084] | 
+               []
+                  Index at (-287463, 136833) offsets: [104011] | 
+                  Index at (-287497, 136824) offsets: [64270] | Index at (-287486, 136829) offsets: [109253] | 
+               Index at (-287566, 136820) offsets: [58821] | 
+               Index at (-287418, 136743) offsets: [101089] | Index at (-287419, 136726) offsets: [103127] | 
+               Index at (-287296, 136722) offsets: [49269] | 
+            []
+               Index at (-287289, 136762) offsets: [91017] | Index at (-287307, 136777) offsets: [102105] | 
+                  Index at (-287397, 136781) offsets: [110801] | Index at (-287395, 136786) offsets: [110944] | Index at (-287395, 136774) offsets: [112163] | 
+                  Index at (-287388, 136776) offsets: [96334] | Index at (-287391, 136762) offsets: [96985] | Index at (-287385, 136778) offsets: [111083] | Index at (-287388, 136782) offsets: [111223] | 
+               []
+                  Index at (-287362, 136821) offsets: [63033] | Index at (-287393, 136798) offsets: [110661] | Index at (-287358, 136793) offsets: [113004] | 
+                  Index at (-287394, 136798) offsets: [100693] | Index at (-287426, 136829) offsets: [105507] | 
+         []
+               Index at (-287375, 136840) offsets: [56963] | Index at (-287370, 136885) offsets: [81181] | 
+               Index at (-287338, 136890) offsets: [58706] | Index at (-287321, 136846) offsets: [104748] | Index at (-287315, 136882) offsets: [110243] | 
+            []
+               *
+               Index at (-287383, 136949) offsets: [71942] | 
+               Index at (-287595, 136904) offsets: [56691] | Index at (-287548, 136837) offsets: [103646] | 
+                  *
+                  Index at (-287470, 136847) offsets: [59754] | Index at (-287434, 136846) offsets: [105378] | Index at (-287443, 136862) offsets: [111476] | 
+               []
+                  Index at (-287456, 136893) offsets: [94664] | 
+                  Index at (-287504, 136887) offsets: [54961] | 
+            []
+                  Index at (-287485, 136933) offsets: [55643] | Index at (-287485, 136938) offsets: [61622] | Index at (-287486, 136946) offsets: [63278] | 
+                  *
+               []
+                  Index at (-287441, 136971) offsets: [58970] | Index at (-287437, 136988) offsets: [98414] | Index at (-287439, 136988) offsets: [98535] | Index at (-287437, 136994) offsets: [103523] | 
+                  Index at (-287509, 136967) offsets: [74108] | Index at (-287514, 136963) offsets: [110094] | 
+               Index at (-287515, 136984) offsets: [64521] | Index at (-287531, 136969) offsets: [81980] | Index at (-287568, 136961) offsets: [106670] | 
+   []
+               Index at (-287584, 137048) offsets: [46898] | Index at (-287583, 137046) offsets: [76517] | 
+               Index at (-287475, 137037) offsets: [92719] | Index at (-287439, 136996) offsets: [106165] | Index at (-287444, 136998) offsets: [106287] | 
+            []
+               *
+               Index at (-287587, 137155) offsets: [68559] | Index at (-287592, 137155) offsets: [101585] | Index at (-287591, 137152) offsets: [108563] | 
+               *
+                  Index at (-287324, 137009) offsets: [66077] | Index at (-287318, 137017) offsets: [74535] | Index at (-287320, 137017) offsets: [109117] | 
+                  Index at (-287302, 137014) offsets: [65452] | Index at (-287302, 137003) offsets: [105119] | 
+               []
+                  *
+                  *
+            []
+               *
+               Index at (-287361, 137153) offsets: [97232] | 
+         []
+               *
+                  Index at (-287335, 137171) offsets: [53684] | Index at (-287337, 137173) offsets: [62913] | Index at (-287327, 137178) offsets: [75807] | Index at (-287334, 137188) offsets: [97108] | 
+                  Index at (-287297, 137177) offsets: [68402] | 
+               []
+                  *
+                  *
+            []
+               *
+               *
+               Index at (-287540, 137218) offsets: [64820] | Index at (-287555, 137194) offsets: [82410] | Index at (-287546, 137207) offsets: [83272] | Index at (-287519, 137197) offsets: [111889] | 
+               *
+            []
+               *
+               Index at (-287516, 137253) offsets: [87987] | 
+            Index at (-287221, 137084) offsets: [53840] | Index at (-287113, 137106) offsets: [105775] | Index at (-287220, 137085) offsets: [107352] | 
+               Index at (-287032, 137066) offsets: [45281] | Index at (-287069, 137020) offsets: [87573] | Index at (-287039, 137040) offsets: [106554] | 
+               *
+            []
+               Index at (-286951, 137076) offsets: [80556] | Index at (-287010, 137116) offsets: [98925] | 
+               Index at (-287101, 137100) offsets: [48501] | Index at (-287050, 137146) offsets: [63875] | Index at (-287101, 137116) offsets: [85326] | Index at (-287082, 137113) offsets: [92586] | 
+         []
+               Index at (-287103, 137183) offsets: [75672] | 
+               Index at (-286977, 137233) offsets: [43442] | Index at (-287020, 137165) offsets: [43563] | Index at (-286978, 137163) offsets: [72634] | 
+            []
+               *
+               Index at (-287033, 137272) offsets: [45405] | Index at (-287049, 137305) offsets: [99543] | 
+               Index at (-287225, 137165) offsets: [54836] | Index at (-287256, 137212) offsets: [75518] | 
+               Index at (-287146, 137226) offsets: [93041] | 
+            []
+               Index at (-287188, 137268) offsets: [52647] | Index at (-287186, 137285) offsets: [66482] | 
+               Index at (-287208, 137242) offsets: [73952] | Index at (-287245, 137243) offsets: [105254] | 
+      []
+            Index at (-287160, 137332) offsets: [46333] | Index at (-287129, 137358) offsets: [75960] | Index at (-287198, 137387) offsets: [103778] | 
+               Index at (-287096, 137348) offsets: [81302] | 
+               *
+            []
+               Index at (-287021, 137431) offsets: [53323] | 
+                  Index at (-287095, 137404) offsets: [52797] | 
+                  Index at (-287038, 137398) offsets: [61752] | Index at (-287072, 137428) offsets: [81419] | Index at (-287063, 137418) offsets: [88442] | 
+               []
+                  Index at (-287041, 137475) offsets: [88909] | 
+                  *
+         []
+               Index at (-287035, 137495) offsets: [54565] | Index at (-287032, 137507) offsets: [109963] | 
+               Index at (-287031, 137488) offsets: [42375] | Index at (-286963, 137549) offsets: [60909] | Index at (-287029, 137497) offsets: [73556] | 
+            []
+               Index at (-287027, 137635) offsets: [78544] | Index at (-286966, 137559) offsets: [113149] | 
+               *
+               *
+               Index at (-287170, 137540) offsets: [104140] | 
+            []
+               *
+                  Index at (-287248, 137598) offsets: [83970] | Index at (-287245, 137578) offsets: [85898] | Index at (-287241, 137597) offsets: [88137] | 
+                  *
+               []
+                  Index at (-287229, 137621) offsets: [58050] | 
+                  Index at (-287234, 137625) offsets: [64671] | 
+               Index at (-287569, 137373) offsets: [42252] | 
+               Index at (-287460, 137354) offsets: [47779] | Index at (-287451, 137376) offsets: [79444] | Index at (-287442, 137361) offsets: [86844] | Index at (-287460, 137355) offsets: [106939] | 
+            []
+               *
+                  Index at (-287586, 137403) offsets: [41011] | Index at (-287586, 137404) offsets: [45770] | Index at (-287594, 137399) offsets: [61060] | Index at (-287587, 137416) offsets: [86445] | 
+                  *
+               []
+                  Index at (-287536, 137465) offsets: [94257] | 
+                  *
+            Index at (-287367, 137450) offsets: [56380] | Index at (-287395, 137431) offsets: [59210] | Index at (-287380, 137438) offsets: [78662] | Index at (-287390, 137435) offsets: [84607] | 
+         []
+               *
+                     *
+                     Index at (-287321, 137483) offsets: [44216] | Index at (-287329, 137478) offsets: [88287] | Index at (-287315, 137497) offsets: [95230] | Index at (-287329, 137493) offsets: [97498] | 
+                  []
+                     Index at (-287326, 137500) offsets: [64977] | 
+                     *
+                  *
+               []
+                  Index at (-287287, 137522) offsets: [62175] | Index at (-287283, 137548) offsets: [84123] | 
+                  *
+            []
+               Index at (-287348, 137637) offsets: [68099] | Index at (-287336, 137604) offsets: [85207] | 
+               Index at (-287405, 137574) offsets: [70174] | 
+            Index at (-287542, 137550) offsets: [53081] | Index at (-287577, 137534) offsets: [76804] | Index at (-287592, 137495) offsets: [94410] | 
+         *
+            Index at (-287774, 137079) offsets: [55377] | Index at (-287857, 137044) offsets: [97365] | Index at (-287856, 137044) offsets: [100573] | 
+               Index at (-287699, 137035) offsets: [41461] | Index at (-287713, 137020) offsets: [70329] | Index at (-287686, 137038) offsets: [78260] | Index at (-287718, 137011) offsets: [91851] | 
+                  Index at (-287652, 137019) offsets: [48209] | 
+                  *
+               []
+                  Index at (-287597, 137051) offsets: [46762] | 
+                  Index at (-287657, 137067) offsets: [41623] | Index at (-287643, 137064) offsets: [56067] | Index at (-287651, 137073) offsets: [88595] | 
+            []
+               Index at (-287631, 137099) offsets: [65288] | Index at (-287616, 137134) offsets: [76354] | Index at (-287623, 137116) offsets: [78971] | 
+               *
+         []
+               Index at (-287695, 137183) offsets: [66358] | Index at (-287690, 137217) offsets: [83803] | 
+               Index at (-287637, 137216) offsets: [59089] | Index at (-287646, 137171) offsets: [66197] | Index at (-287644, 137175) offsets: [101456] | Index at (-287598, 137162) offsets: [112727] | 
+            []
+               Index at (-287657, 137309) offsets: [60461] | Index at (-287666, 137311) offsets: [84439] | 
+               Index at (-287699, 137237) offsets: [46178] | Index at (-287702, 137250) offsets: [47617] | Index at (-287696, 137277) offsets: [50301] | Index at (-287701, 137262) offsets: [80388] | 
+            Index at (-287795, 137245) offsets: [82134] | Index at (-287759, 137248) offsets: [82251] | 
+      []
+            *
+               *
+               Index at (-287657, 137342) offsets: [41169] | Index at (-287633, 137366) offsets: [44957] | Index at (-287624, 137361) offsets: [56530] | Index at (-287630, 137375) offsets: [88753] | 
+            []
+               Index at (-287640, 137462) offsets: [45648] | Index at (-287604, 137406) offsets: [52948] | 
+               *
+         []
+            *
+            *
+         *
+            Index at (-286925, 136390) offsets: [85455] | Index at (-286918, 136397) offsets: [102239] | Index at (-286832, 136475) offsets: [102364] | Index at (-286911, 136490) offsets: [112310] | 
+            Index at (-286684, 136471) offsets: [77088] | 
+         []
+               *
+               Index at (-286648, 136536) offsets: [49882] | Index at (-286650, 136538) offsets: [50012] | Index at (-286701, 136573) offsets: [102731] | 
+            []
+               Index at (-286707, 136641) offsets: [71165] | 
+               Index at (-286745, 136650) offsets: [111613] | 
+            Index at (-286918, 136522) offsets: [55800] | Index at (-286903, 136597) offsets: [63426] | 
+         Index at (-286589, 136603) offsets: [45927] | Index at (-286443, 136592) offsets: [90230] | 
+      []
+               Index at (-286598, 136700) offsets: [73832] | Index at (-286570, 136710) offsets: [101335, 111347] | Index at (-286572, 136723) offsets: [108426] | Index at (-286583, 136719) offsets: [112444] | 
+               *
+            []
+               Index at (-286524, 136804) offsets: [74681] | Index at (-286491, 136805) offsets: [100835] | Index at (-286535, 136794) offsets: [109833] | 
+               Index at (-286626, 136810) offsets: [78108] | 
+            Index at (-286421, 136791) offsets: [48743] | Index at (-286334, 136816) offsets: [77515] | Index at (-286454, 136777) offsets: [95638] | 
+         []
+            Index at (-286351, 136989) offsets: [68856] | Index at (-286396, 136960) offsets: [73430] | Index at (-286354, 136834) offsets: [77632] | Index at (-286345, 136988) offsets: [101852] | 
+               Index at (-286619, 136880) offsets: [80073] | 
+               *
+            []
+               Index at (-286536, 136987) offsets: [46482] | Index at (-286523, 136921) offsets: [80704] | 
+               Index at (-286590, 136965) offsets: [64113] | Index at (-286594, 136919) offsets: [66790] | 
+            Index at (-286940, 136691) offsets: [44088] | Index at (-286930, 136692) offsets: [62448] | Index at (-286816, 136772) offsets: [73276] | Index at (-286842, 136679) offsets: [76107] | 
+               *
+               Index at (-286675, 136693) offsets: [44644] | Index at (-286631, 136679) offsets: [67856] | 
+            []
+                  Index at (-286670, 136780) offsets: [67705] | Index at (-286673, 136782) offsets: [89195] | 
+                  Index at (-286632, 136758) offsets: [51957] | Index at (-286632, 136770) offsets: [52093] | Index at (-286642, 136785) offsets: [73702] | Index at (-286629, 136779) offsets: [89507] | 
+               []
+                  *
+                  Index at (-286679, 136807) offsets: [94785] | 
+               *
+         []
+               Index at (-286786, 136834) offsets: [57084] | Index at (-286774, 136866) offsets: [62602] | 
+               *
+            []
+               *
+               Index at (-286741, 136954) offsets: [46605] | Index at (-286761, 136925) offsets: [62025] | Index at (-286764, 136991) offsets: [62757] | 
+               *
+               Index at (-286807, 136907) offsets: [86725] | 
+            []
+               Index at (-286869, 136926) offsets: [53967] | Index at (-286790, 136941) offsets: [90469] | 
+               Index at (-286894, 136991) offsets: [71411] | Index at (-286903, 136985) offsets: [95087] | 
+      *
+   []
+         Index at (-286277, 137203) offsets: [41335] | Index at (-286158, 137273) offsets: [41939] | Index at (-286265, 137226) offsets: [50788] | Index at (-286262, 137221) offsets: [54688] | 
+         *
+      []
+         Index at (-285976, 137604) offsets: [21184] | 
+            Index at (-286216, 137368) offsets: [86605] | 
+               Index at (-286112, 137349) offsets: [59475] | Index at (-286079, 137384) offsets: [74261] | Index at (-286133, 137321) offsets: [109543] | 
+               Index at (-286062, 137375) offsets: [49636] | Index at (-285983, 137360) offsets: [85615] | 
+            []
+               *
+               *
+         []
+            Index at (-286002, 137581) offsets: [23535] | Index at (-286074, 137600) offsets: [26929] | 
+            Index at (-286277, 137530) offsets: [13004] | Index at (-286263, 137634) offsets: [15375] | Index at (-286273, 137625) offsets: [26053] | 
+               Index at (-286947, 137006) offsets: [71533] | 
+               Index at (-286801, 137025) offsets: [58196] | 
+            []
+               Index at (-286812, 137102) offsets: [56810] | 
+                  *
+                  Index at (-286871, 137094) offsets: [73005] | Index at (-286908, 137076) offsets: [94931] | 
+               []
+                  Index at (-286904, 137126) offsets: [53566] | 
+                  Index at (-286919, 137126) offsets: [43128] | Index at (-286910, 137147) offsets: [55918] | Index at (-286919, 137116) offsets: [92294] | 
+               Index at (-286750, 137063) offsets: [52211] | 
+               Index at (-286690, 136996) offsets: [90355] | Index at (-286671, 137004) offsets: [92015] | Index at (-286637, 137052) offsets: [98028] | 
+            []
+               *
+                  *
+                  Index at (-286740, 137114) offsets: [86139] | Index at (-286742, 137114) offsets: [108996] | 
+               []
+                  Index at (-286723, 137154) offsets: [90073] | 
+                  Index at (-286764, 137136) offsets: [91144] | Index at (-286781, 137120) offsets: [112027] | 
+         []
+               Index at (-286740, 137160) offsets: [57360] | Index at (-286736, 137228) offsets: [67590] | Index at (-286728, 137184) offsets: [93166] | 
+               Index at (-286639, 137228) offsets: [60026] | Index at (-286701, 137169) offsets: [93942] | 
+            []
+               Index at (-286631, 137257) offsets: [104257] | 
+               Index at (-286738, 137304) offsets: [90761] | Index at (-286767, 137278) offsets: [90886] | 
+            Index at (-286838, 137184) offsets: [99298] | 
+               Index at (-286616, 136998) offsets: [50629] | 
+               Index at (-286512, 137062) offsets: [61346] | Index at (-286510, 137062) offsets: [107904] | 
+            []
+               *
+               Index at (-286554, 137152) offsets: [60304] | Index at (-286557, 137089) offsets: [100168] | 
+            Index at (-286359, 137078) offsets: [53443] | Index at (-286450, 137152) offsets: [65767] | Index at (-286460, 137124) offsets: [93770] | 
+         []
+            Index at (-286379, 137160) offsets: [48344] | Index at (-286406, 137315) offsets: [76226] | Index at (-286429, 137266) offsets: [87704] | 
+               *
+               Index at (-286470, 137172) offsets: [71651] | 
+            []
+               *
+                  Index at (-286608, 137263) offsets: [79286] | Index at (-286589, 137243) offsets: [110379] | 
+                  Index at (-286579, 137266) offsets: [104878] | 
+               []
+                  Index at (-286556, 137309) offsets: [72063] | 
+                  Index at (-286601, 137292) offsets: [59594] | 
+      []
+               Index at (-286618, 137357) offsets: [49021] | Index at (-286555, 137349) offsets: [52328] | Index at (-286559, 137342) offsets: [84762] | Index at (-286612, 137368) offsets: [108719] | 
+               Index at (-286469, 137385) offsets: [50467] | Index at (-286538, 137336) offsets: [80231] | Index at (-286519, 137382) offsets: [94101] | Index at (-286470, 137378) offsets: [105000] | 
+            []
+               Index at (-286492, 137443) offsets: [55498] | Index at (-286492, 137438) offsets: [77949] | 
+               *
+               *
+               Index at (-286315, 137349) offsets: [92171] | 
+            []
+               Index at (-286354, 137416) offsets: [71036] | 
+               Index at (-286417, 137446) offsets: [70879] | Index at (-286452, 137444) offsets: [86965] | Index at (-286396, 137454) offsets: [89660] | 
+         []
+                  Index at (-286453, 137507) offsets: [4735] | Index at (-286429, 137482) offsets: [51547] | Index at (-286446, 137513) offsets: [51710] | Index at (-286455, 137501) offsets: [105896] | 
+                  Index at (-286388, 137505) offsets: [42682] | 
+               []
+                  *
+                  *
+               Index at (-286353, 137554) offsets: [14185] | Index at (-286342, 137545) offsets: [31435] | Index at (-286347, 137556) offsets: [35861] | Index at (-286364, 137545) offsets: [71783] | 
+            []
+               Index at (-286307, 137624) offsets: [3922] | Index at (-286332, 137613) offsets: [14767] | Index at (-286306, 137615) offsets: [29974] | 
+               *
+               Index at (-286625, 137513) offsets: [85085] | 
+               Index at (-286532, 137521) offsets: [81860] | Index at (-286488, 137488) offsets: [86018] | Index at (-286505, 137546) offsets: [93452] | Index at (-286471, 137481) offsets: [109679] | 
+            []
+               Index at (-286527, 137569) offsets: [18437] | 
+               Index at (-286579, 137599) offsets: [23986] | Index at (-286578, 137598) offsets: [28822] | 
+               Index at (-286938, 137393) offsets: [58469] | Index at (-286948, 137356) offsets: [58588] | Index at (-286938, 137391) offsets: [96071] | 
+               Index at (-286804, 137378) offsets: [66946] | Index at (-286858, 137360) offsets: [77208] | 
+            []
+               Index at (-286806, 137449) offsets: [61901] | 
+               *
+            Index at (-286767, 137414) offsets: [56226] | Index at (-286667, 137324) offsets: [59353] | Index at (-286731, 137440) offsets: [99172] | Index at (-286727, 137438) offsets: [107088] | 
+         []
+            Index at (-286779, 137486) offsets: [99417] | 
+               *
+               *
+            []
+                  Index at (-286853, 137588) offsets: [48096] | Index at (-286840, 137583) offsets: [69439, 69589] | Index at (-286835, 137582) offsets: [99041] | Index at (-286839, 137577) offsets: [106798, 108854] | 
+                  Index at (-286825, 137579) offsets: [3166] | 
+               []
+                  *
+                  *
+                  Index at (-286945, 137586) offsets: [18997] | Index at (-286940, 137560) offsets: [79918] | 
+                  *
+               []
+                  Index at (-286903, 137626) offsets: [3000] | 
+                  Index at (-286912, 137623) offsets: [20876] | Index at (-286916, 137620) offsets: [25294] | Index at (-286920, 137625) offsets: [25449] | Index at (-286917, 137622) offsets: [31030] | 
+[]
+            Index at (-286861, 137719) offsets: [38548, 38685] | 
+               Index at (-286739, 137694) offsets: [2127] | Index at (-286742, 137685) offsets: [27862] | Index at (-286739, 137692) offsets: [36497] | 
+               *
+            []
+               Index at (-286683, 137757) offsets: [2011] | Index at (-286707, 137783) offsets: [22985] | 
+               *
+         []
+               Index at (-286779, 137845) offsets: [8049] | Index at (-286760, 137842) offsets: [28946] | Index at (-286786, 137874) offsets: [38962] | 
+               *
+            []
+               Index at (-286706, 137962) offsets: [28392] | Index at (-286661, 137926) offsets: [37317] | 
+                  Index at (-286774, 137920) offsets: [28513] | 
+                  Index at (-286737, 137887) offsets: [7932] | 
+               []
+                  *
+                  Index at (-286775, 137953) offsets: [39688] | Index at (-286753, 137938) offsets: [39806] | Index at (-286779, 137944) offsets: [39923] | 
+            Index at (-286891, 137880) offsets: [387] | Index at (-286930, 137957) offsets: [10059] | Index at (-286934, 137958) offsets: [35101] | 
+            Index at (-286534, 137650) offsets: [9093] | Index at (-286537, 137649) offsets: [15903] | Index at (-286498, 137666) offsets: [19311] | Index at (-286513, 137666) offsets: [37041] | 
+               *
+               Index at (-286318, 137683) offsets: [26389] | Index at (-286348, 137690) offsets: [30899] | 
+            []
+               Index at (-286358, 137773) offsets: [6388] | Index at (-286314, 137725) offsets: [12561] | Index at (-286376, 137772) offsets: [33123] | Index at (-286356, 137772) offsets: [36761] | 
+               Index at (-286433, 137756) offsets: [5532] | 
+         []
+            Index at (-286438, 137942) offsets: [4334] | Index at (-286311, 137845) offsets: [20159] | 
+            Index at (-286627, 137860) offsets: [10551] | Index at (-286479, 137945) offsets: [11536] | Index at (-286628, 137896) offsets: [34733] | 
+      []
+            Index at (-286502, 138023) offsets: [12721] | Index at (-286523, 138047) offsets: [34607] | Index at (-286562, 138080) offsets: [40329] | 
+            Index at (-286374, 138012) offsets: [32634] | 
+         []
+            *
+               *
+               *
+            []
+                  *
+                  *
+               []
+                     *
+                     *
+                  []
+                     Index at (-286484, 138266) offsets: [11397] | Index at (-286486, 138267) offsets: [37994] | Index at (-286486, 138282) offsets: [38267] | 
+                     Index at (-286490, 138284) offsets: [35601] | Index at (-286491, 138282) offsets: [40602] | 
+                  Index at (-286517, 138257) offsets: [34860] | 
+               Index at (-286561, 138234) offsets: [30759] | 
+            Index at (-286930, 138104) offsets: [8814] | Index at (-286917, 138007) offsets: [37180] | Index at (-286920, 138101) offsets: [39534] | 
+            Index at (-286681, 138055) offsets: [13287] | Index at (-286682, 138036) offsets: [13722] | Index at (-286705, 137965) offsets: [35225] | Index at (-286693, 137992) offsets: [38411] | 
+         []
+            Index at (-286694, 138151) offsets: [28273] | Index at (-286651, 138130) offsets: [35475] | 
+               Index at (-286896, 138142) offsets: [22541] | Index at (-286910, 138129) offsets: [39399] | 
+               Index at (-286861, 138202) offsets: [5216] | Index at (-286866, 138193) offsets: [20724] | Index at (-286790, 138178) offsets: [21438] | Index at (-286794, 138154) offsets: [33862] | 
+            []
+               Index at (-286827, 138256) offsets: [3768] | 
+               *
+               Index at (-286259, 137659) offsets: [19872] | Index at (-286234, 137700) offsets: [25132] | Index at (-286286, 137641) offsets: [36239] | 
+               Index at (-286224, 137708) offsets: [17745] | 
+            []
+                  Index at (-286194, 137740) offsets: [1106] | Index at (-286212, 137722) offsets: [24722] | Index at (-286205, 137731) offsets: [26646] | 
+                  Index at (-286185, 137747) offsets: [513] | 
+               []
+                  Index at (-286153, 137769) offsets: [10678] | Index at (-286154, 137769) offsets: [12846] | 
+                  *
+               *
+               Index at (-286080, 137656) offsets: [1260] | Index at (-286125, 137682) offsets: [5058] | Index at (-286087, 137664) offsets: [11233] | Index at (-286097, 137665) offsets: [12239] | 
+               Index at (-286046, 137642) offsets: [28663] | 
+            []
+               *
+               *
+         []
+               *
+                  Index at (-286062, 137836) offsets: [3611] | Index at (-286039, 137807) offsets: [6548] | Index at (-286051, 137839) offsets: [23108] | Index at (-286054, 137840) offsets: [33618] | 
+                  Index at (-286005, 137812) offsets: [8940] | Index at (-285991, 137823) offsets: [13134] | 
+               []
+                  Index at (-286020, 137875) offsets: [30451] | 
+                  *
+            []
+               *
+               Index at (-286115, 137940) offsets: [40467] | 
+               Index at (-286304, 137827) offsets: [7181] | 
+               Index at (-286198, 137847) offsets: [34488] | 
+            []
+               Index at (-286169, 137947) offsets: [1774] | Index at (-286219, 137891) offsets: [28113] | 
+               Index at (-286253, 137904) offsets: [7486] | Index at (-286229, 137889) offsets: [35737] | 
+               Index at (-285923, 137681) offsets: [15053] | Index at (-285978, 137655) offsets: [16041] | Index at (-285923, 137680) offsets: [21680] | 
+               *
+            []
+               Index at (-285879, 137744) offsets: [32883] | 
+               Index at (-285935, 137726) offsets: [10428] | 
+            *
+         []
+            Index at (-285792, 137934) offsets: [31596] | 
+               Index at (-285972, 137831) offsets: [11921] | Index at (-285954, 137845) offsets: [12078] | 
+               *
+            []
+               Index at (-285844, 137940) offsets: [7773, 22261] | Index at (-285887, 137917) offsets: [32355] | 
+               Index at (-285945, 137917) offsets: [6230] | Index at (-285947, 137909) offsets: [7031] | Index at (-285952, 137909) offsets: [30293] | 
+      []
+               Index at (-285961, 138002) offsets: [18281] | Index at (-285934, 138035) offsets: [24148] | 
+                  Index at (-285886, 137973) offsets: [10836] | Index at (-285895, 137964) offsets: [37441] | Index at (-285888, 137970) offsets: [37589] | Index at (-285892, 137963) offsets: [37728] | 
+                  Index at (-285855, 137984) offsets: [16766] | Index at (-285837, 137994) offsets: [19154] | 
+               []
+                  *
+                  *
+            []
+               Index at (-285896, 138079) offsets: [2259] | 
+               *
+               Index at (-285813, 138002) offsets: [27698] | Index at (-285792, 138030) offsets: [29823] | 
+               *
+            []
+               Index at (-285715, 138110) offsets: [9490] | Index at (-285718, 138112) offsets: [26219] | Index at (-285719, 138120) offsets: [37867] | 
+               Index at (-285778, 138052) offsets: [19564] | 
+         []
+               Index at (-285794, 138190) offsets: [13438] | Index at (-285755, 138171) offsets: [23262] | 
+               Index at (-285715, 138135) offsets: [9894] | Index at (-285682, 138182) offsets: [16929] | Index at (-285683, 138183) offsets: [30133] | 
+            []
+               Index at (-285674, 138213) offsets: [21969] | Index at (-285667, 138217) offsets: [23825] | 
+               *
+            Index at (-285839, 138182) offsets: [5657] | Index at (-285912, 138266) offsets: [17085] | Index at (-285960, 138219) offsets: [31848] | Index at (-285883, 138236) offsets: [31970] | 
+               *
+               Index at (-286151, 138003) offsets: [7333] | Index at (-286166, 138008) offsets: [17370] | Index at (-286146, 137998) offsets: [33005] | Index at (-286162, 137993) offsets: [38138] | 
+            []
+               *
+               Index at (-286269, 138108) offsets: [15654] | Index at (-286231, 138105) offsets: [22696] | 
+               Index at (-286110, 137967) offsets: [24305] | Index at (-286089, 138032) offsets: [33499] | 
+               Index at (-286021, 138006) offsets: [33743] | 
+            []
+               *
+               Index at (-286116, 138103) offsets: [11801] | Index at (-286131, 138053) offsets: [20443] | 
+         []
+            Index at (-286014, 138266) offsets: [3299] | Index at (-286062, 138218) offsets: [17621] | Index at (-286047, 138213) offsets: [18595] | Index at (-286103, 138231) offsets: [32226] | 
+            Index at (-286273, 138193) offsets: [33256] | 
+   []
+            Index at (-286213, 138302) offsets: [21848] | Index at (-286301, 138424) offsets: [27291] | 
+            Index at (-285987, 138427) offsets: [31728] | Index at (-286000, 138355) offsets: [32100] | Index at (-286006, 138359) offsets: [36905] | 
+         []
+            *
+            Index at (-286231, 138536) offsets: [9212, 25743] | Index at (-286299, 138530) offsets: [9771] | Index at (-286263, 138580) offsets: [10305] | Index at (-286269, 138486) offsets: [21031] | 
+            *
+               Index at (-285755, 138304) offsets: [29667] | 
+               Index at (-285668, 138316) offsets: [4614] | Index at (-285739, 138318) offsets: [12401] | Index at (-285735, 138324) offsets: [24849] | Index at (-285733, 138324) offsets: [35347] | 
+            []
+               *
+               *
+         []
+            Index at (-285749, 138600) offsets: [29507] | 
+            *
+      []
+         *
+         Index at (-286229, 138683) offsets: [4082] | Index at (-286294, 138650) offsets: [7643] | 
+            Index at (-286816, 138287) offsets: [11077] | Index at (-286823, 138346) offsets: [19442] | Index at (-286886, 138408) offsets: [32760] | 
+            Index at (-286638, 138326) offsets: [11678] | Index at (-286674, 138352) offsets: [33374] | Index at (-286783, 138335) offsets: [40193] | 
+         []
+            Index at (-286752, 138553) offsets: [823] | Index at (-286769, 138592) offsets: [2419] | Index at (-286784, 138478) offsets: [21560] | Index at (-286683, 138499) offsets: [27048] | 
+            Index at (-286797, 138572) offsets: [6874] | Index at (-286854, 138548) offsets: [26806] | 
+            Index at (-286500, 138341) offsets: [18748] | Index at (-286582, 138315) offsets: [18870] | 
+               Index at (-286449, 138309) offsets: [4902] | Index at (-286416, 138293) offsets: [34248] | 
+               Index at (-286345, 138312) offsets: [22862] | Index at (-286353, 138352) offsets: [34367] | Index at (-286337, 138287) offsets: [38821] | 
+            []
+               Index at (-286319, 138445) offsets: [14898] | Index at (-286329, 138414) offsets: [23669] | Index at (-286324, 138413) offsets: [29066] | Index at (-286321, 138438) offsets: [30607] | 
+               Index at (-286392, 138367) offsets: [265] | Index at (-286393, 138370) offsets: [29356] | 
+         []
+               *
+               Index at (-286316, 138492) offsets: [34119] | 
+            []
+                  *
+                  *
+               []
+                  Index at (-286342, 138593) offsets: [2840] | Index at (-286313, 138576) offsets: [8509] | 
+                  Index at (-286379, 138600) offsets: [2576] | Index at (-286383, 138605) offsets: [2704] | Index at (-286358, 138591) offsets: [13873] | Index at (-286383, 138597) offsets: [36622] | 
+               Index at (-286403, 138593) offsets: [5810] | Index at (-286390, 138593) offsets: [9336] | Index at (-286428, 138574) offsets: [33990] | 
+            Index at (-286612, 138532) offsets: [14350] | Index at (-286475, 138508) offsets: [27577] | 
+      []
+            Index at (-286624, 138764) offsets: [14025] | Index at (-286619, 138704) offsets: [27166] | 
+            Index at (-286370, 138647) offsets: [20034] | 
+         []
+            Index at (-286453, 138853) offsets: [14474, 25580] | Index at (-286444, 138813) offsets: [26519] | Index at (-286463, 138821) offsets: [36104] | Index at (-286321, 138793) offsets: [36367] | 
+                  Index at (-286601, 138791) offsets: [5933] | Index at (-286617, 138804) offsets: [24430] | 
+                  Index at (-286567, 138769) offsets: [6097] | 
+               []
+                  Index at (-286572, 138824) offsets: [6708] | Index at (-286580, 138817) offsets: [14636] | 
+                  Index at (-286600, 138821) offsets: [4456] | Index at (-286605, 138815) offsets: [16198] | 
+               Index at (-286537, 138828) offsets: [18033] | 
+            []
+               *
+               Index at (-286599, 138874) offsets: [29228] | 
+            *
+               Index at (-286733, 138651) offsets: [19719] | Index at (-286713, 138681) offsets: [20287] | 
+               Index at (-286635, 138667) offsets: [17904] | Index at (-286697, 138628) offsets: [22418] | 
+            []
+               Index at (-286680, 138725) offsets: [946] | Index at (-286676, 138729) offsets: [16499] | 
+               Index at (-286744, 138735) offsets: [10956] | 
+         []
+            Index at (-286680, 138842) offsets: [16366] | Index at (-286710, 138905) offsets: [31157] | Index at (-286719, 138914) offsets: [31294] | Index at (-286675, 138878) offsets: [35984] | 
+            *
+      *
+         Index at (-287277, 137886) offsets: [1528] | Index at (-287408, 137650) offsets: [70493] | Index at (-287460, 137641) offsets: [104637] | 
+               Index at (-287199, 137654) offsets: [59879] | Index at (-287209, 137649) offsets: [63725] | Index at (-287207, 137651) offsets: [75212] | 
+                  Index at (-287175, 137669) offsets: [67976] | Index at (-287184, 137670) offsets: [70026] | 
+                  Index at (-287120, 137676) offsets: [57779] | 
+               []
+                  Index at (-287136, 137718) offsets: [5369] | Index at (-287141, 137695) offsets: [77365] | 
+                  *
+            []
+               Index at (-287123, 137757) offsets: [3456] | Index at (-287151, 137797) offsets: [4213] | Index at (-287126, 137746) offsets: [13557] | 
+               Index at (-287266, 137756) offsets: [20602] | 
+               Index at (-287043, 137651) offsets: [17496] | 
+               *
+            []
+               *
+               Index at (-287096, 137794) offsets: [8201] | Index at (-287103, 137745) offsets: [16650] | Index at (-287060, 137762) offsets: [27993] | Index at (-287097, 137781) offsets: [40040] | 
+         []
+               Index at (-287069, 137847) offsets: [8661] | Index at (-287087, 137830) offsets: [27420, 39235] | Index at (-287054, 137821) offsets: [34980] | Index at (-287092, 137825) offsets: [39100] | 
+               *
+            []
+                  Index at (-287024, 137899) offsets: [1385] | Index at (-287028, 137898) offsets: [8351] | Index at (-287017, 137895) offsets: [18169] | Index at (-287024, 137907) offsets: [22105] | 
+                  *
+               []
+                  *
+                  Index at (-287007, 137953) offsets: [23379] | 
+               *
+               Index at (-287242, 137874) offsets: [668] | 
+               Index at (-287175, 137847) offsets: [1656] | Index at (-287186, 137880) offsets: [15219] | Index at (-287152, 137823) offsets: [21318] | 
+            []
+               Index at (-287165, 137917) offsets: [1891] | 
+               Index at (-287251, 137907) offsets: [15781] | Index at (-287219, 137940) offsets: [24593] | Index at (-287228, 137913) offsets: [25005] | 
+      []
+            Index at (-287132, 137972) offsets: [10182] | Index at (-287233, 137972) offsets: [15533] | 
+            Index at (-287012, 138119) offsets: [9655] | Index at (-287009, 137981) offsets: [17210] | Index at (-286977, 138020) offsets: [25900] | 
+         []
+            Index at (-286964, 138266) offsets: [32515] | 
+            *
+         *
+   []
+      *
+      *
+
+-----------------------------------------------------------------
+
+Executing command 7: debug	hash
+
+Display format is: <table slot #>: {<record key>, <record offsets>}
+Table size: 4079
+Current population: 2180
+
+9:	{Laurel Fork Trail:VA, [14636]}
+16:	{Steep Pinch Ridge:VA, [25005]}
+18:	{Laurel Run:VA, [14898, 66946]}
+28:	{Hoover Ridge:VA, [63156]}
+45:	{Slaty Lick Draft:VA, [86965]}
+51:	{Slabcamp Run:VA, [24430]}
+64:	{Buckhorn Quarters:VA, [51384]}
+67:	{Spring Branch:VA, [87830]}
+69:	{Swamill Hollow:VA, [89784]}
+70:	{Coles Mountain Fire Trail:VA, [55242]}
+71:	{Buckhorn Draft:VA, [51223]}
+76:	{Hot Springs Presbyterian Church:VA, [110801]}
+78:	{Botkin Hollow:VA, [3299]}
+79:	{Bear Loop Hunt Club Dam:VA, [98668]}
+82:	{McDonald Trail:VA, [71942]}
+104:	{Big Turn Run:VA, [46178]}
+105:	{Muddy Run:VA, [75518]}
+108:	{Shop Hollow:VA, [86445]}
+110:	{Bluegrass Hollow:VA, [47459]}
+111:	{Mount Zion Church:VA, [19311]}
+129:	{Big End:VA, [1656]}
+137:	{Paddy Bee Tree Run:VA, [77208]}
+142:	{Joe Hollow:VA, [64977]}
+144:	{Warm Springs Baths:VA, [96600]}
+150:	{Mason Tunnel:VA, [71165]}
+154:	{Crane Trail:VA, [55800]}
+155:	{Blue Grass School (historical):VA, [36622]}
+156:	{Ryder Gap:VA, [82134]}
+157:	{Blue Suck Falls:VA, [47035]}
+164:	{Barney Run:VA, [42530]}
+171:	{Collins Run:VA, [6874]}
+175:	{Wallowhole Hollow:VA, [28663]}
+178:	{Big Hill:VA, [1774]}
+192:	{Townsend Draft:VA, [27420]}
+196:	{Polecat Hollow:VA, [78809]}
+211:	{Sawmill Run:VA, [84123]}
+235:	{Simpson Ridges:VA, [86725]}
+237:	{Benson Run:VA, [1106]}
+239:	{Sheets Hollow:VA, [23379]}
+240:	{Pond Hollow:VA, [78971]}
+242:	{Valley Elementary School:VA, [91705]}
+243:	{McCrays Draft:VA, [71783]}
+247:	{Beards Gap:VA, [43679]}
+273:	{Hiner Church:VA, [11801]}
+274:	{Springhouse Run:VA, [88287]}
+284:	{Big Run:VA, [45770]}
+300:	{Berry Knob:VA, [103778]}
+302:	{Camp Alkulana:VA, [52093]}
+307:	{Bacova Chapel:VA, [106165]}
+315:	{North Sister Knob:VA, [76226]}
+321:	{Woodland Presbyterian Church:VA, [95087]}
+330:	{Bolar:VA, [99041]}
+337:	{Mount Hope United Methodist Church:VA, [74108]}
+339:	{Bald Knob:VA, [32515, 99920]}
+340:	{Snowy Mountain:VA, [36367]}
+348:	{Cold Spring Run:VA, [6708]}
+352:	{Yost:VA, [101852]}
+355:	{Hickman Draft:VA, [62448, 62602]}
+356:	{Huffman Hollow:VA, [12401]}
+358:	{Lick Run Tunnel:VA, [67856]}
+367:	{Warm Springs Valley:VA, [92877]}
+378:	{Monterey Methodist Episcopal Church:VA, [38267]}
+385:	{Salt Stump Trail:VA, [83145]}
+392:	{Hotchkiss:VA, [100835]}
+393:	{Big Lick Run:VA, [44957]}
+396:	{Cloverdale Presbyterian Church:VA, [54688]}
+401:	{Alum Rock:VA, [35861]}
+402:	{Lucy Cabin Hollow:VA, [70329]}
+403:	{Meadow Knob:VA, [72063]}
+404:	{Phillips Hollow:VA, [32355]}
+414:	{Seldom Seen Hollow:VA, [22696]}
+416:	{O'Farrell Hollow:VA, [76354]}
+423:	{Ryder Hollow:VA, [82251]}
+436:	{Ford Run:VA, [59210]}
+450:	{Pheasanty Run:VA, [77949]}
+460:	{McGuffin Trail:VA, [17496]}
+462:	{Green Hill Church:VA, [10059]}
+467:	{Dickenson Ridges:VA, [57084]}
+475:	{Big Lick Draft:VA, [44796]}
+476:	{Davis Run:VA, [7486]}
+478:	{McClung:VA, [71411]}
+479:	{Midway:VA, [101089]}
+488:	{Thompson Creek:VA, [90469]}
+493:	{Knotmaul Run:VA, [14025]}
+505:	{Bridge Hollow:VA, [3456]}
+513:	{Salt Stump Hollow:VA, [82980]}
+518:	{Cabin Hollow:VA, [5058]}
+520:	{Rough Mountain Wilderness:VA, [112310]}
+522:	{Walker Mountain:VA, [85615]}
+528:	{High Top:VA, [100573]}
+536:	{Millboro Tunnel:VA, [73832]}
+538:	{South Piney Mountain Trail:VA, [87573]}
+555:	{Buck Mountain:VA, [31848]}
+557:	{Monterey Mountain:VA, [18870]}
+558:	{Frank Run:VA, [9336]}
+560:	{Bubbling Spring:VA, [49882]}
+563:	{Bolar Spring:VA, [3166]}
+573:	{Brushy Mountain:VA, [4082, 49269]}
+574:	{Bacova School (historical):VA, [106287]}
+578:	{Sirons Mill:VA, [32226]}
+579:	{Bath County High School:VA, [112585]}
+591:	{Piney Ridge:VA, [78544]}
+603:	{Cascades Golf Club:VA, [98795]}
+604:	{Mountain Grove:VA, [101585]}
+609:	{Meadowdale:VA, [33862]}
+628:	{Gulf Mountain:VA, [10305]}
+630:	{The Pillars:VA, [111223]}
+635:	{Sheep Knob:VA, [34488]}
+640:	{Wooden Run:VA, [30607]}
+641:	{McDowell High School:VA, [38138]}
+643:	{Sittlington Hill:VA, [24305]}
+646:	{Big Valley Cemetery:VA, [2127]}
+663:	{John Landes Hollow:VA, [65288]}
+668:	{Warwick Mountain:VA, [93041]}
+669:	{Back Creek Mountain:VA, [387]}
+671:	{Browns Pond:VA, [49021]}
+672:	{Slim Ridge Branch:VA, [87248]}
+674:	{Mare Run:VA, [70607]}
+675:	{Green Hill School (historical):VA, [37180]}
+679:	{Fairview Cemetery:VA, [8814]}
+682:	{Meadow Draft:VA, [17745]}
+698:	{McClung Ridge:VA, [71533]}
+705:	{Grassy Field Hollow:VA, [9894]}
+710:	{Lick Ridge:VA, [67590]}
+711:	{Jordan Run:VA, [65925]}
+714:	{Millboro Springs:VA, [73702]}
+718:	{Mill Run:VA, [18437, 18595, 73556]}
+722:	{Bluegrass Valley:VA, [2840]}
+729:	{Foxtail Hollow:VA, [59594]}
+730:	{New Salem Church:VA, [20159]}
+732:	{Bethel:VA, [36497]}
+738:	{Wilson Mountain:VA, [99543]}
+739:	{Healing Springs:VA, [100437]}
+740:	{Stonewall District:VA, [40467]}
+747:	{Possum Trot:VA, [34119]}
+749:	{Backway Hollow:VA, [42090]}
+750:	{Ayers Hollow:VA, [41623]}
+752:	{White Sulphur Spring Branch:VA, [93770]}
+755:	{Naples (historical):VA, [39399]}
+757:	{Gibson Hollow:VA, [60304]}
+758:	{Paddy Lick:VA, [77365]}
+764:	{Mill Hill:VA, [101216, 108306]}
+766:	{Mad Sheep:VA, [70493]}
+771:	{Hemlock Trail:VA, [62325]}
+772:	{Duncan Knob Lookout:VA, [96071]}
+778:	{Pig Run:VA, [78108]}
+786:	{Locust Spring Run Trail:VA, [16366]}
+788:	{Gulley Run:VA, [61752]}
+789:	{Clover Lick Hollow:VA, [6548]}
+790:	{Cave Run:VA, [52797]}
+802:	{Buckeye Hollow:VA, [51070]}
+818:	{Slim Ridge Hollow:VA, [87408]}
+824:	{Head Waters:VA, [10836]}
+829:	{Church Hollow:VA, [6230]}
+832:	{Douthat Lake:VA, [57515]}
+836:	{Swope Hollow:VA, [26646]}
+847:	{Blue Grass Cemetery:VA, [2704]}
+848:	{Fort Lewis Trail:VA, [59353]}
+849:	{Gates Hollow:VA, [60026]}
+850:	{Elk Run:VA, [8509]}
+851:	{Straight Fork:VA, [25580]}
+865:	{Stony Run:VA, [25294]}
+874:	{Smith Field:VA, [35737]}
+879:	{Eden United Methodist Church:VA, [58821]}
+880:	{Lynn Rock Church:VA, [17085]}
+895:	{Yellow Poplar Hollow:VA, [85735]}
+897:	{Gilliam Run Trail:VA, [96727]}
+916:	{Carroll Draft:VA, [5657]}
+918:	{Green Valley Cemetery:VA, [107904]}
+930:	{Lost Run:VA, [16499]}
+936:	{Vanderpool Gap:VA, [28273]}
+937:	{Tinkertown:VA, [101974]}
+939:	{Cedar Creek District:VA, [111476]}
+944:	{Newman Run:VA, [20287]}
+947:	{Blue Suck Hollow:VA, [47171]}
+949:	{Bearcamp Knob:VA, [823]}
+960:	{Barren Rock:VA, [21848]}
+962:	{Jack Mountain:VA, [12721]}
+967:	{Erwin Draft:VA, [8661]}
+968:	{Bath Alum Camp (historical):VA, [106422]}
+971:	{Siebert Run:VA, [39534]}
+983:	{White Rocks:VA, [105775]}
+1006:	{The Divide:VA, [27048]}
+1014:	{Kent Simmons Hollow:VA, [13557]}
+1016:	{Chestnut Levels:VA, [53081]}
+1031:	{Ratcliff Hill:VA, [104878]}
+1036:	{Deep Hollow:VA, [56810]}
+1038:	{Lynn Hollow:VA, [16929]}
+1048:	{The Bump:VA, [26929]}
+1063:	{The Gap School (historical):VA, [109117]}
+1066:	{Patna:VA, [36239]}
+1069:	{New Church:VA, [20034]}
+1072:	{Burners Run:VA, [4902]}
+1078:	{Mount Mary Cemetery:VA, [74261]}
+1085:	{Headwaters School (historical):VA, [37728]}
+1087:	{Chestnut Cemetery:VA, [52948]}
+1088:	{Wolf Run Hollow:VA, [94931]}
+1089:	{Coles Mountain:VA, [55117]}
+1090:	{Big Crooked Ridge:VA, [1528]}
+1091:	{Wilson School (historical):VA, [109833]}
+1098:	{The Stamp:VA, [27166]}
+1099:	{Buck Knob:VA, [35984]}
+1100:	{Bath County:VA, [106554]}
+1106:	{Bridle Trail:VA, [96985]}
+1116:	{Ashwood:VA, [99794]}
+1117:	{Indian Hill Church:VA, [64395]}
+1119:	{Panther Gap:VA, [77515]}
+1127:	{Upper Mountain Lick:VA, [27698]}
+1139:	{Chesnut Ridge:VA, [85085]}
+1141:	{Hightown:VA, [33374]}
+1144:	{Little Mountain:VA, [22985, 34980, 69018, 85207, 102486, 105254]}
+1148:	{Orebank Trail:VA, [77088]}
+1149:	{Graveyard Run:VA, [61060]}
+1150:	{Sweet Acorn Trail:VA, [89946]}
+1157:	{Strait Creek School (historical):VA, [38821]}
+1161:	{Wildcat Hollow:VA, [30133, 94257]}
+1169:	{Rail Hollow:VA, [80231]}
+1182:	{Valley Bethel Church:VA, [27862]}
+1184:	{Griffin Cemetery:VA, [37317]}
+1185:	{Griffith Knob:VA, [61501]}
+1194:	{Muddy Run Spring:VA, [75672]}
+1199:	{Highland County:VA, [37867]}
+1201:	{Westminister Chapel:VA, [93166]}
+1203:	{Revercomb Hollow:VA, [80855]}
+1204:	{Pritt Hollow:VA, [79918]}
+1218:	{Cascades Creek:VA, [52486]}
+1221:	{Ashwood Elementary School:VA, [106028]}
+1228:	{Windy Cove Presbyterian Church:VA, [94785]}
+1232:	{Bolar Draft:VA, [47928]}
+1238:	{Long Spring Run:VA, [70174]}
+1254:	{Rock Lick Spring:VA, [21969]}
+1257:	{Davis Hollow:VA, [56530]}
+1267:	{Mountain Grove Elementary School (historical):VA, [108563]}
+1268:	{Blue Suck Trail:VA, [47335]}
+1271:	{Old Hump Ridge:VA, [76804]}
+1273:	{Upper Brushy Gap:VA, [91454]}
+1274:	{Set Free Christian Fellowship Church:VA, [108854]}
+1284:	{Whitehorn Creek:VA, [29507]}
+1288:	{Burnsville:VA, [99172]}
+1299:	{Brushy Fork:VA, [3922]}
+1306:	{Birch Run:VA, [46333]}
+1333:	{Millboro Post Office:VA, [111347]}
+1335:	{Big Hollow:VA, [44487, 44644]}
+1338:	{Bolar Run:VA, [3000]}
+1344:	{Bath County Pumped Storage Lake:VA, [95230]}
+1346:	{Rocky Run:VA, [81419]}
+1351:	{White Oak Draft:VA, [93452]}
+1353:	{Callison:VA, [51829]}
+1361:	{Rattlesnake Hollow:VA, [80388]}
+1364:	{Stewart Hollow:VA, [88595]}
+1365:	{Middle Mountain:VA, [17904, 72750, 100962]}
+1374:	{Hoop Hole Hollow:VA, [12078]}
+1385:	{Palo Alto:VA, [35347]}
+1389:	{Claylick Hollow:VA, [6388]}
+1390:	{Short Ridge:VA, [86605]}
+1391:	{House Hole:VA, [63725]}
+1395:	{Aviation, Golf and Farm Club Dam:VA, [98153]}
+1397:	{Rich Hills:VA, [34248]}
+1401:	{Donley Hollow:VA, [57360]}
+1402:	{Stillhouse Run:VA, [25132]}
+1403:	{Nimrod Hall:VA, [76107]}
+1410:	{Fayette County Hunting and Fishing Club:VA, [107618]}
+1412:	{East Back Creek:VA, [8351]}
+1422:	{Sunrise:VA, [97498]}
+1423:	{Beulah Presbyterian Church:VA, [1385]}
+1424:	{Sand Springs:VA, [83424]}
+1431:	{Opossum Hollow:VA, [20443]}
+1436:	{Left Prong Wilson Creek:VA, [67099]}
+1438:	{Salthouse Hollow:VA, [22261]}
+1451:	{Bacova:VA, [103523]}
+1455:	{Shanty Ridge:VA, [86018]}
+1457:	{West Warm Springs:VA, [105119]}
+1458:	{Sites Hollow:VA, [24148]}
+1460:	{Wilson Hollow:VA, [30293]}
+1463:	{Locust Springs Picnic Area:VA, [31157]}
+1464:	{Cabin Creek:VA, [95638]}
+1465:	{Williamsville District:VA, [112027]}
+1468:	{Freezland Hollow:VA, [9490]}
+1474:	{Middle Knob:VA, [72634]}
+1477:	{Jerkemtight Trail:VA, [13004]}
+1482:	{Carloover:VA, [99665]}
+1490:	{Jordan Top:VA, [104386]}
+1494:	{Duncan Ridge:VA, [58588]}
+1496:	{Warm Springs Mountain:VA, [102105]}
+1500:	{Cleeks Mill (historical):VA, [109963]}
+1505:	{Alex Run:VA, [41011]}
+1506:	{Stony Run Trail:VA, [89069]}
+1516:	{Sugarloaf Knob:VA, [89660]}
+1522:	{Bolshers Run:VA, [48344]}
+1526:	{Wide Draft Hollow:VA, [93942]}
+1527:	{White Oak Cove:VA, [93291]}
+1532:	{Thorny Bottom Church:VA, [27291]}
+1552:	{Nelson Draft:VA, [19872]}
+1556:	{Lightner Run:VA, [68099]}
+1559:	{Combs Trail:VA, [55377]}
+1560:	{Kettle Hollow:VA, [13722]}
+1562:	{Locust Springs Recreation Site:VA, [31294]}
+1571:	{Water Sinks:VA, [28822]}
+1574:	{Hannah Field Airport:VA, [30759]}
+1575:	{Marshall Draft:VA, [70879]}
+1578:	{Gillam Run Trail:VA, [60782]}
+1588:	{Scotchtown Draft:VA, [84762]}
+1598:	{Richardson Gorge:VA, [81018]}
+1616:	{Copeland:VA, [102239]}
+1617:	{Dry Branch:VA, [8049]}
+1618:	{Sorrel Point Ridge:VA, [24593]}
+1642:	{Chimney Run:VA, [53684, 107352]}
+1652:	{Barnetts Run:VA, [42375]}
+1654:	{Dunns (historical):VA, [110243]}
+1655:	{Ash Cabin Hollow:VA, [41461]}
+1662:	{Long Run:VA, [70026]}
+1674:	{Ingalls Field Airport:VA, [102852]}
+1686:	{Sand Hollow:VA, [83272]}
+1689:	{Scaffold Run:VA, [22541]}
+1690:	{Shingle Tree Hollow:VA, [86285]}
+1692:	{Valley Springs District:VA, [111746]}
+1697:	{Key Run:VA, [13873]}
+1699:	{Williamsville:VA, [105896]}
+1700:	{Boys Camp:VA, [48626]}
+1718:	{Chimney Rocks:VA, [53566]}
+1719:	{Calvary Baptist Church:VA, [51957]}
+1759:	{Bear Mountain:VA, [32634, 32760]}
+1761:	{Warm Springs Cemetery:VA, [92454]}
+1763:	{Locust Fork:VA, [16041]}
+1766:	{Blowing Springs Campground:VA, [46898]}
+1768:	{Bolar Methodist Church (historical):VA, [106798]}
+1769:	{Middle Mountain Trail:VA, [18033, 72873]}
+1770:	{Stillhouse Hollow:VA, [88909]}
+1788:	{Lake of the Pines:VA, [98288]}
+1790:	{Little Mill Creek:VA, [68856]}
+1791:	{Paddy Knob:VA, [20602]}
+1792:	{Barracks Draft:VA, [42682]}
+1810:	{Strait Creek:VA, [25743]}
+1811:	{Winding Trail:VA, [94664]}
+1812:	{Vance Lick Hollow:VA, [91851]}
+1826:	{Brushy Hollow Trail:VA, [49140]}
+1831:	{Summers Mountain:VA, [26389]}
+1834:	{Board Hollow:VA, [47617]}
+1836:	{Hot Springs:VA, [100693]}
+1837:	{Doe Hill School (historical):VA, [36905]}
+1838:	{Kellison Ridge:VA, [66358]}
+1839:	{Salt Pond Ridge Trail:VA, [82848]}
+1840:	{Wilderness School (historical):VA, [109543]}
+1848:	{Bonner Mountain:VA, [48501]}
+1857:	{Whiteman Run:VA, [29667]}
+1872:	{Wolfe Draft:VA, [30451]}
+1873:	{Meadow Lick Hollow:VA, [72183]}
+1884:	{Mullenax Run:VA, [19719]}
+1886:	{Black Oak Ridge:VA, [46482]}
+1890:	{Laurel Fork:VA, [14474]}
+1893:	{Fort Lewis:VA, [104257]}
+1895:	{Union Chapel Presbyterian Church:VA, [91301]}
+1896:	{Vance Hollow:VA, [28113]}
+1903:	{Tower Hill Mountain Trail:VA, [90886]}
+1911:	{Chimney Run Church:VA, [53840]}
+1928:	{McClintic Point Primitive Campground:VA, [97618]}
+1933:	{Limekiln Hollow:VA, [68245]}
+1941:	{Ritchie Trail:VA, [81181]}
+1949:	{House Rock:VA, [63875]}
+1952:	{Buffalo Knob:VA, [4614]}
+1964:	{Brown Hollow:VA, [48866]}
+1965:	{Mud Run:VA, [75364]}
+1967:	{Castle Run:VA, [52647]}
+1974:	{Lick Draft:VA, [15219, 15375]}
+1978:	{Asbury Church:VA, [265]}
+2014:	{Cobbler Mountain:VA, [54836]}
+2016:	{Mount Pisgah Baptist Church:VA, [74535]}
+2019:	{Little Mare Mountain:VA, [68723]}
+2024:	{Forks of Waters:VA, [9212]}
+2033:	{Millboro:VA, [101335]}
+2034:	{Sapling Ridge:VA, [22418]}
+2037:	{Tobacco House Ridge Trail:VA, [90625]}
+2038:	{Flagg Knob:VA, [59089]}
+2042:	{Little Wilson Creek:VA, [69743]}
+2043:	{Millboro District:VA, [111613]}
+2045:	{Vinegar Run:VA, [28513]}
+2057:	{Hoover Run:VA, [63278]}
+2058:	{South Sister Knob:VA, [87704]}
+2059:	{Horsehole Hollow:VA, [12239]}
+2067:	{Fort Lewis (historical):VA, [110379]}
+2072:	{Horeb Baptist Church:VA, [63426]}
+2073:	{Little Doe Hill:VA, [15654]}
+2074:	{Mortons Draft:VA, [19154]}
+2080:	{Claylick Run:VA, [54405]}
+2103:	{Jenny Gwin Draft:VA, [12846]}
+2105:	{Meva Cove:VA, [72348]}
+2110:	{Bugan Run:VA, [106939]}
+2115:	{TM Gathright Wildlife Management Area:VA, [95789]}
+2116:	{Mount Carlyle:VA, [5532]}
+2133:	{Rehobeth United Methodist Church:VA, [80704]}
+2135:	{White Oak Flat:VA, [29228]}
+2136:	{Stark Ridge:VA, [39923]}
+2141:	{Union Chapel:VA, [27577]}
+2158:	{McDowell:VA, [17370]}
+2163:	{Shaws Fork:VA, [23108]}
+2172:	{Stouts Creek:VA, [40855]}
+2175:	{Buck Hill:VA, [4334]}
+2176:	{Plum Grove School (historical):VA, [38411]}
+2186:	{Neal Run:VA, [75807]}
+2204:	{Highland Elementary School:VA, [37994]}
+2205:	{Green Valley:VA, [100168]}
+2211:	{Crowdertown:VA, [104011]}
+2213:	{Ellis Trail:VA, [58970]}
+2214:	{Doelick Cove:VA, [57205]}
+2237:	{Venable Hollow:VA, [92015]}
+2242:	{Bullpasture River:VA, [51547]}
+2243:	{Rock Hill:VA, [105000]}
+2248:	{Blue Grass District:VA, [40193]}
+2257:	{Warwick Mansion:VA, [97108]}
+2260:	{Big Piney Hollow:VA, [45119]}
+2263:	{Laurel Branch:VA, [66790]}
+2264:	{Little Valley Run:VA, [69589]}
+2267:	{White Oak Run:VA, [93611]}
+2269:	{Indian Draft:VA, [64113]}
+2277:	{Persimmon Pond (historical):VA, [108719]}
+2290:	{Little Ridge:VA, [15781]}
+2293:	{Coles Hollow:VA, [54961]}
+2297:	{Givens Run:VA, [60909]}
+2298:	{Mays Mountain:VA, [99298]}
+2301:	{Hot Springs Run:VA, [63563]}
+2307:	{White Run:VA, [29356]}
+2318:	{Devils Backbone:VA, [7643]}
+2324:	{Red Swamp:VA, [80556]}
+2331:	{Hacken Run:VA, [62175]}
+2340:	{Buckeye (historical):VA, [39100]}
+2350:	{Shanklin (historical):VA, [110520]}
+2360:	{Bath Alum:VA, [42842]}
+2382:	{Miracle Ridge:VA, [18748]}
+2383:	{Katydid Trail:VA, [66077]}
+2384:	{Hevener Run:VA, [11077]}
+2389:	{Rough Mountain:VA, [102609]}
+2408:	{Shenandoah Mountain Trail:VA, [23535]}
+2409:	{Mill Creek:VA, [73121, 73276]}
+2415:	{Campbell Run:VA, [5216, 52328]}
+2419:	{Wildcat Ridge:VA, [94410]}
+2420:	{WXCF-FM (Clifton Forge):VA, [103259]}
+2421:	{Dunns Gap:VA, [58706]}
+2423:	{Little Valley:VA, [69439]}
+2426:	{Little Piney Mountain:VA, [69310]}
+2428:	{Sandy Gap:VA, [83558]}
+2449:	{Short Mountain:VA, [102731]}
+2450:	{Fodder House:VA, [104140]}
+2452:	{Wilson Creek Trail:VA, [94535]}
+2454:	{Coursey Springs State Fish Hatchery:VA, [55498]}
+2466:	{Hickory Hollow:VA, [62757]}
+2473:	{Benson Run Trail:VA, [1260]}
+2485:	{Warwick Run:VA, [39235]}
+2487:	{Still Run:VA, [88753]}
+2493:	{South Fork Pads Creek:VA, [85455]}
+2494:	{Little Back Creek:VA, [68559]}
+2503:	{Turkeypen Hollow:VA, [91144]}
+2505:	{Peck Run:VA, [21031]}
+2508:	{Riverview Church (historical):VA, [38685]}
+2511:	{West Strait Creek:VA, [29066]}
+2519:	{Bald Knob Lookout:VA, [96855]}
+2520:	{Bullpasture Mountain:VA, [31970]}
+2526:	{Beards Gap Trail:VA, [43963]}
+2530:	{Knox Lick Draft:VA, [14185]}
+2539:	{Jewel Hole:VA, [64671]}
+2542:	{Crab Run:VA, [7181, 7333]}
+2554:	{White Rock Mountain:VA, [99417]}
+2561:	{Huffs Trail:VA, [63992]}
+2562:	{Bald Knob FS Repeater Site:VA, [96462]}
+2563:	{McKendree Church:VA, [17621]}
+2579:	{High Top Lookout Tower:VA, [97365]}
+2584:	{Christian Run:VA, [5933]}
+2590:	{Bubbling Spring Recreation Area:VA, [50012]}
+2599:	{Mooretown:VA, [101456]}
+2602:	{Oak Grove Church:VA, [76676]}
+2607:	{Tamarack Ridge:VA, [26806]}
+2608:	{Armstrong:VA, [41335]}
+2610:	{Deerlick Trail:VA, [56963]}
+2612:	{Hot Springs Census Designated Place:VA, [113004]}
+2614:	{Devrick Hollow:VA, [7773]}
+2621:	{Stony Run Cemetery:VA, [25449]}
+2628:	{Mountain Path:VA, [19442]}
+2637:	{Crane:VA, [102364]}
+2639:	{Jerry Run:VA, [64521]}
+2640:	{Bolar Flat Picnic Area and Launch Ramp:VA, [95368]}
+2654:	{Ruckman Draft:VA, [22105]}
+2656:	{Columbia Union College Biological Station:VA, [7031]}
+2657:	{Confederate Breastworks:VA, [31596]}
+2660:	{Swank Chapel:VA, [26519]}
+2661:	{Sacred Heart Catholic Church:VA, [111083]}
+2674:	{Simmons Run:VA, [23669]}
+2675:	{Mud Lick Run:VA, [75212]}
+2678:	{Lemon Hollow Work Camp:VA, [97765]}
+2685:	{Brushy Hill:VA, [31728]}
+2689:	{Sinclair Hollow:VA, [23825]}
+2691:	{Buck Run:VA, [4456]}
+2702:	{Mitchelltown:VA, [104748]}
+2704:	{Landes Hollow:VA, [66631]}
+2710:	{Mountain Top Trail:VA, [74955, 75084]}
+2720:	{Proctor Draft:VA, [80073]}
+2724:	{Perkins Point:VA, [101719]}
+2736:	{Piney Mountain Trail:VA, [85326]}
+2738:	{Beaver Run:VA, [44216]}
+2742:	{Thomastown:VA, [105507]}
+2743:	{Lower Gap:VA, [16650]}
+2750:	{Lake Bacova:VA, [98535]}
+2755:	{Jordan Hollow:VA, [65767]}
+2756:	{Monterey District:VA, [40329]}
+2757:	{Rowan Run:VA, [81980]}
+2760:	{Seybert Chapel:VA, [22862]}
+2762:	{Beards Mountain Trail:VA, [44088]}
+2764:	{Mount Zion Baptist Church:VA, [74681]}
+2768:	{Fowler Spring:VA, [59475]}
+2772:	{The Pines Cemetery:VA, [90230]}
+2773:	{Bogan Run:VA, [47779]}
+2774:	{Greenwood (historical):VA, [108036]}
+2775:	{Limekiln Run:VA, [68402]}
+2784:	{Sapling Woods Hollow:VA, [83803]}
+2785:	{Greenwood:VA, [100308]}
+2791:	{Clay Lick Hollow:VA, [54083]}
+2794:	{Sues Draft:VA, [25900]}
+2797:	{Lawson Knob:VA, [39688]}
+2798:	{Red Oak Knob:VA, [21560]}
+2802:	{Wallace Peak:VA, [92171]}
+2804:	{Bear Hole Run:VA, [43128]}
+2806:	{Gill Gum Hollow:VA, [60461]}
+2808:	{Boiling Spring Camp:VA, [106670]}
+2813:	{Hamilton Chapel:VA, [10551]}
+2814:	{Gabe Hollow Trail:VA, [59754]}
+2828:	{Briery Draft:VA, [3611]}
+2829:	{Sinking Creek:VA, [23986]}
+2830:	{Warm Springs Elementary School (historical):VA, [109391]}
+2831:	{Bullpasture Gorge:VA, [4735]}
+2841:	{McCowan Spring:VA, [71651]}
+2845:	{Blackies Hollow:VA, [46605]}
+2849:	{Black Rock:VA, [98925]}
+2850:	{Flood:VA, [9093]}
+2853:	{Sulphur Spring Hollow:VA, [26219]}
+2864:	{Gwin Mountain:VA, [10428]}
+2876:	{Dry Run:VA, [8201, 57898, 58050, 58196]}
+2879:	{Dean Spur:VA, [56691]}
+2881:	{Johnson Hollow:VA, [65606]}
+2890:	{Marshall Draft Trail:VA, [71036]}
+2891:	{Warm Springs Census Designated Place:VA, [112859]}
+2900:	{Cedar Knob:VA, [33005]}
+2906:	{Cedar Ridge:VA, [39806]}
+2913:	{Hightown Church:VA, [11678]}
+2914:	{Mill Creek Church:VA, [73430]}
+2926:	{Hobby Horse Farm:VA, [108178]}
+2933:	{Mad Tom:VA, [104637]}
+2934:	{Dry Run Ridge:VA, [58345]}
+2952:	{Indian Fort Trail:VA, [64270]}
+2953:	{Allegheny Mountain Trail:VA, [40725]}
+2965:	{Highland High School:VA, [11397]}
+2966:	{Round Hill:VA, [81860]}
+2967:	{Duncan Knob:VA, [58469]}
+2970:	{Trimble:VA, [34733]}
+2978:	{Wesley Chapel:VA, [28946]}
+2980:	{Bacova Junction:VA, [103646]}
+2981:	{Tower Hill Mountain:VA, [90761]}
+2993:	{Open Trail:VA, [95517]}
+3003:	{Liberty:VA, [33618]}
+3004:	{Lower Mountain Lick:VA, [16766]}
+3005:	{Broad Run:VA, [3768]}
+3035:	{Woods-Terry School (historical):VA, [38962]}
+3039:	{Deeds School (historical):VA, [107481]}
+3049:	{Sounding Knob:VA, [34607]}
+3050:	{Port Lock Run:VA, [79444]}
+3051:	{Salt Hollow:VA, [82563]}
+3084:	{Chestnut Ridge:VA, [53199, 53323, 53443]}
+3087:	{Wide Draft:VA, [29823]}
+3102:	{Lynn Stand Hollow:VA, [17210]}
+3106:	{Cummings Run:VA, [56067]}
+3107:	{Chestnut Knob:VA, [103891]}
+3118:	{Warm Springs Work Center:VA, [96198]}
+3119:	{Panther Gap Draft:VA, [77632]}
+3123:	{Sandy Gap Trail:VA, [83677]}
+3133:	{Bay Lick Hollow:VA, [42966]}
+3141:	{George Trail:VA, [60181]}
+3142:	{Gap Run:VA, [59879]}
+3153:	{Mill Gap:VA, [18169, 35101]}
+3154:	{Doe Hill:VA, [32100, 33256]}
+3166:	{Maple Knob:VA, [33743]}
+3167:	{Hulls Hill:VA, [33499]}
+3168:	{O'Roarke Draft:VA, [76517]}
+3171:	{Hulit Draft:VA, [31435]}
+3174:	{McClintic Bridge:VA, [71284]}
+3183:	{Hidden Valley Campground:VA, [97232]}
+3195:	{Greavers Ridge:VA, [61223]}
+3197:	{Kellison Hollow:VA, [66197]}
+3198:	{Jones Trail:VA, [13438]}
+3200:	{Schoolhouse Run:VA, [84607]}
+3215:	{Daggy Hollow:VA, [56226]}
+3242:	{Christian Run Trail:VA, [6097]}
+3250:	{Porter Hollow:VA, [79597]}
+3252:	{Blue Grass:VA, [2576]}
+3257:	{Mill Hollow:VA, [18281]}
+3263:	{Kelly Run:VA, [66482]}
+3271:	{Dam Hollow:VA, [56380]}
+3274:	{Millboro High School (historical):VA, [108426]}
+3278:	{Big Valley:VA, [2011]}
+3288:	{Brushy Ridge Trail:VA, [49753]}
+3289:	{Warm Springs:VA, [105635]}
+3294:	{Hickory Log Hollow:VA, [11233]}
+3295:	{Bear Loop Branch:VA, [43278]}
+3296:	{Walnut Tree Hollow:VA, [92294]}
+3297:	{Brushy Ridge:VA, [4213, 32883, 49397, 49519, 49636]}
+3298:	{Bear Rocks:VA, [43563]}
+3301:	{Hidden Valley:VA, [62913]}
+3303:	{Gillam Run:VA, [60625]}
+3308:	{Germantown (historical):VA, [107763]}
+3310:	{Hamilton Draft:VA, [10678]}
+3313:	{Rocky Ridge:VA, [81302]}
+3317:	{Mikes Ridge:VA, [73005]}
+3323:	{Peak Run:VA, [20876]}
+3329:	{Monterey:VA, [35601]}
+3350:	{Eowyns Run:VA, [40040]}
+3360:	{Ross Camp Hollow:VA, [81571]}
+3365:	{Highland Wildlife Management Area:VA, [11536]}
+3367:	{Zion Hill Church:VA, [85898]}
+3370:	{Williamsville Elementary School (historical):VA, [109679]}
+3371:	{Back Creek:VA, [41782]}
+3378:	{Laurel Gap Church:VA, [14767]}
+3379:	{Thomastown School (historical):VA, [109253]}
+3385:	{Cub Run:VA, [55918]}
+3387:	{Gregory Ridge:VA, [10182]}
+3404:	{Big Piney Mountain:VA, [45281]}
+3409:	{Buck Lick Hollow:VA, [50301, 50467, 50629]}
+3420:	{Trappers Lodge:VA, [91017]}
+3424:	{Pine Ridge:VA, [21318]}
+3432:	{Hardscrabble:VA, [36104]}
+3436:	{The Spurs:VA, [90355]}
+3445:	{Second Hollow:VA, [84924]}
+3458:	{Bolar Gap:VA, [48096]}
+3463:	{River View School (historical):VA, [38548]}
+3465:	{New Hampden:VA, [33990]}
+3466:	{Valley Center:VA, [27993]}
+3469:	{Galford Gap:VA, [9655]}
+3471:	{Apple Tree Hollow:VA, [41169]}
+3478:	{Headwaters Presbyterian Church:VA, [37589]}
+3480:	{Pisgah Church:VA, [21438]}
+3484:	{Mine Hollow:VA, [73952]}
+3489:	{Lodge Trail:VA, [69905]}
+3493:	{Vanderpool:VA, [35475]}
+3502:	{Mare Run Trail:VA, [70757]}
+3503:	{Little Piney Hollow:VA, [69144]}
+3512:	{Clover Creek Presbyterian Church:VA, [36761]}
+3514:	{Blowing Springs:VA, [46762]}
+3521:	{Henry Ridge:VA, [10956]}
+3529:	{Douthat Dam:VA, [97898]}
+3532:	{Shaws Ridge:VA, [23262]}
+3547:	{Victory Chapel:VA, [28392]}
+3553:	{Jerry Hollow:VA, [13134]}
+3554:	{Barn Ridge:VA, [42252]}
+3569:	{Right Prong Benson Run:VA, [21680]}
+3570:	{Bearwallow Run:VA, [946]}
+3571:	{Page Run:VA, [20724]}
+3576:	{Beards Mountain:VA, [100042]}
+3577:	{Saw Pit Hollow:VA, [83970]}
+3579:	{Wide Hollow:VA, [29974, 94101]}
+3588:	{Spring Run:VA, [24849, 87987, 88137]}
+3591:	{Claylick Draft:VA, [54244]}
+3592:	{John Bolar Draft:VA, [65127]}
+3596:	{Warm Springs District:VA, [111889]}
+3612:	{Bolar Mountain:VA, [48209]}
+3619:	{Lantz Mountain:VA, [14350]}
+3628:	{Shiloh United Methodist Church:VA, [86139]}
+3629:	{Buck Lick Trail:VA, [50944]}
+3630:	{Trimble Knob:VA, [34860]}
+3631:	{Beards Gap Hollow:VA, [43798]}
+3634:	{Jim Dave Run:VA, [64820]}
+3638:	{Stony Run Church:VA, [31030]}
+3643:	{Bratton Cemetery:VA, [48743]}
+3657:	{Middle Hollow Trail:VA, [72504]}
+3658:	{WBHA-FM (Hot Springs):VA, [103394]}
+3661:	{Lick Run:VA, [67705]}
+3665:	{Locust Spring Run:VA, [16198]}
+3666:	{Hupman Valley:VA, [12561]}
+3667:	{Poplar Hollow:VA, [79128, 79286]}
+3694:	{Hiner Hollow:VA, [11921]}
+3695:	{Stuart Run:VA, [89195]}
+3704:	{Big Pond:VA, [45405]}
+3716:	{Buck Lick Run:VA, [50788]}
+3717:	{Jones Run:VA, [13287]}
+3726:	{Big Ridge:VA, [1891, 45528, 45648]}
+3727:	{Bath Alum Airport:VA, [102997]}
+3728:	{Starr Chapel United Methodist Church:VA, [88442]}
+3729:	{Gum Tree Mountain:VA, [61901]}
+3732:	{Big Spring:VA, [45927, 46052]}
+3733:	{Falls Hollow:VA, [8940]}
+3739:	{Green Valley United Methodist Church:VA, [61346]}
+3751:	{Lake Bacova Dam:VA, [98414]}
+3755:	{Pole Run:VA, [78662]}
+3756:	{Sively Cemetery:VA, [86844]}
+3757:	{Salt Pond Ridge:VA, [82722]}
+3760:	{Byrd Point:VA, [51710]}
+3762:	{Cowardin (historical):VA, [110094]}
+3767:	{Mountain Side Trail:VA, [74825]}
+3769:	{Homestead Trail:VA, [63033]}
+3770:	{Central Church:VA, [5810]}
+3771:	{Hupman Valley Trail:VA, [30899]}
+3773:	{Lick Block Run:VA, [67429]}
+3776:	{Clover Creek:VA, [33123]}
+3777:	{Hot Springs Post Office:VA, [110661]}
+3782:	{Bible Camp:VA, [44365]}
+3792:	{Warm Springs Run:VA, [92719]}
+3800:	{Camp Kannata:VA, [52211, 107229]}
+3801:	{Left Prong Benson Run:VA, [15053]}
+3808:	{Cleek Cemetery:VA, [54565]}
+3809:	{Guys Run:VA, [62025]}
+3810:	{Schoolhouse Hollow:VA, [84274, 84439]}
+3811:	{Bear Hollow:VA, [668]}
+3816:	{Black Gum Draft:VA, [2259]}
+3818:	{Bolar Mountain Campground:VA, [95935]}
+3822:	{Clark Ridge:VA, [53967]}
+3823:	{Little Brushy Mountain:VA, [104505]}
+3824:	{Bath Community Hospital:VA, [112163]}
+3827:	{Homested Hotel:VA, [96334]}
+3832:	{Switch Back:VA, [105378]}
+3833:	{Douthat State Park:VA, [57651]}
+3848:	{Panther Run:VA, [77794]}
+3866:	{Morris Run:VA, [18997]}
+3871:	{Porters Mill Creek:VA, [79752]}
+3872:	{Bear Rock Trail:VA, [43442]}
+3878:	{Flood School (historical):VA, [37041]}
+3881:	{Valley High School:VA, [91578]}
+3884:	{Pine Tree Trail:VA, [78418]}
+3887:	{Shiloh:VA, [108996]}
+3908:	{Ross Camp Trail:VA, [81735]}
+3909:	{Lockridge Memorial Church:VA, [15903]}
+3912:	{Buck Hollow:VA, [50149]}
+3917:	{Mountain Grove Cemetery:VA, [112727]}
+3919:	{Singleton Airport:VA, [113149]}
+3922:	{Headwaters Brethren Church (historical):VA, [37441]}
+3924:	{Orchard Hollow:VA, [76932]}
+3933:	{Millboro Elementary School:VA, [112444]}
+3948:	{Sugar Hollow:VA, [89348, 89507]}
+3949:	{Dixon Hills:VA, [7932]}
+3954:	{Phillips Spring:VA, [21184]}
+3963:	{Grose Spring:VA, [61622]}
+3968:	{Mustoe:VA, [35225]}
+3970:	{Lemon Hollow:VA, [67270]}
+3976:	{Mount Olive Baptist Church:VA, [74387]}
+3983:	{Southall Chapel:VA, [24722]}
+3984:	{Ryder Run:VA, [82410]}
+3990:	{Saint Luke Episcopal Church:VA, [110944]}
+3992:	{Warm Springs Mountain Trail:VA, [92586]}
+3993:	{Slim Ridge:VA, [87127]}
+3995:	{Ginseng Mountain:VA, [9771]}
+3998:	{Ned Hollow:VA, [75960]}
+3999:	{Doyle Cemetery:VA, [57779]}
+4002:	{John L Lawrence Dam:VA, [98028]}
+4003:	{Burnsville United Methodist Church:VA, [107088]}
+4008:	{Town of Monterey:VA, [40602]}
+4009:	{Cowardin Run:VA, [55643]}
+4013:	{Pine Hollow:VA, [78260]}
+4016:	{Seybert Hills:VA, [34367]}
+4020:	{Blights Run:VA, [2419]}
+4025:	{Lightner Cemetery:VA, [67976]}
+4026:	{Lick Points:VA, [15533]}
+4027:	{Mudlick Draft:VA, [19564]}
+4036:	{Sugar Tree Draft:VA, [26053]}
+4041:	{WWES-AM (Hot Springs):VA, [103127]}
+4051:	{Campground Hollow:VA, [5369]}
+4057:	{John Wesley United Methodist Church:VA, [65452]}
+4070:	{Back Draft:VA, [513, 41939]}
+4072:	{Tancroft Hollow:VA, [90073]}
+
+
+-----------------------------------------------------------------
+
+Executing command 8: what_is_in	-l	381257N	0794039W	60	60
+
+The features found in the rectangle (-286899, 137517), (-286779, 137637) are:
+	offset:               48096
+	feature ID:           1481912
+	feature name:         Bolar Gap
+	classification:       Gap
+	state:                VA
+	county:               Bath
+	latitude:             0381308 North
+	longitude:            0794053 West
+	elevation (m):        704
+	quadrangle:           Burnsville
+	date created:         09/28/1979
+
+	offset:               69439
+	feature ID:           1484995
+	feature name:         Little Valley
+	classification:       Valley
+	state:                VA
+	county:               Bath
+	latitude:             0381303 North
+	longitude:            0794040 West
+	Source lat:           0381031 North
+	Source long:          0794200 West
+	elevation (m):        679
+	quadrangle:           Burnsville
+	date created:         09/28/1979
+
+	offset:               69589
+	feature ID:           1484999
+	feature name:         Little Valley Run
+	classification:       Stream
+	state:                VA
+	county:               Bath
+	latitude:             0381303 North
+	longitude:            0794040 West
+	Source lat:           0381031 North
+	Source long:          0794200 West
+	elevation (m):        679
+	quadrangle:           Burnsville
+	date created:         09/28/1979
+
+	offset:               99041
+	feature ID:           1492604
+	feature name:         Bolar
+	classification:       Populated Place
+	state:                VA
+	county:               Bath
+	latitude:             0381302 North
+	longitude:            0794035 West
+	elevation (m):        682
+	quadrangle:           Burnsville
+	date created:         09/28/1979
+	date edited:          05/11/2011
+
+	offset:               106798
+	feature ID:           1673640
+	feature name:         Bolar Methodist Church (historical)
+	classification:       Church
+	state:                VA
+	county:               Bath
+	latitude:             0381257 North
+	longitude:            0794039 West
+	elevation (m):        677
+	quadrangle:           Burnsville
+	date created:         11/13/1995
+
+	offset:               108854
+	feature ID:           1673655
+	feature name:         Set Free Christian Fellowship Church
+	classification:       Church
+	state:                VA
+	county:               Bath
+	latitude:             0381257 North
+	longitude:            0794039 West
+	elevation (m):        677
+	quadrangle:           Burnsville
+	date created:         11/13/1995
+
+	offset:               3166
+	feature ID:           1481915
+	feature name:         Bolar Spring
+	classification:       Spring
+	state:                VA
+	county:               Highland
+	latitude:             0381259 North
+	longitude:            0794025 West
+	elevation (m):        686
+	quadrangle:           Burnsville
+	date created:         09/28/1979
+	date edited:          04/19/2011
+
+
+
+-----------------------------------------------------------------
+
+Executing command 9: what_is_in	-l	381257N	0794039W	120	60
+
+The features found in the rectangle (-286899, 137457), (-286779, 137697) are:
+	offset:               48096
+	feature ID:           1481912
+	feature name:         Bolar Gap
+	classification:       Gap
+	state:                VA
+	county:               Bath
+	latitude:             0381308 North
+	longitude:            0794053 West
+	elevation (m):        704
+	quadrangle:           Burnsville
+	date created:         09/28/1979
+
+	offset:               69439
+	feature ID:           1484995
+	feature name:         Little Valley
+	classification:       Valley
+	state:                VA
+	county:               Bath
+	latitude:             0381303 North
+	longitude:            0794040 West
+	Source lat:           0381031 North
+	Source long:          0794200 West
+	elevation (m):        679
+	quadrangle:           Burnsville
+	date created:         09/28/1979
+
+	offset:               69589
+	feature ID:           1484999
+	feature name:         Little Valley Run
+	classification:       Stream
+	state:                VA
+	county:               Bath
+	latitude:             0381303 North
+	longitude:            0794040 West
+	Source lat:           0381031 North
+	Source long:          0794200 West
+	elevation (m):        679
+	quadrangle:           Burnsville
+	date created:         09/28/1979
+
+	offset:               99041
+	feature ID:           1492604
+	feature name:         Bolar
+	classification:       Populated Place
+	state:                VA
+	county:               Bath
+	latitude:             0381302 North
+	longitude:            0794035 West
+	elevation (m):        682
+	quadrangle:           Burnsville
+	date created:         09/28/1979
+	date edited:          05/11/2011
+
+	offset:               106798
+	feature ID:           1673640
+	feature name:         Bolar Methodist Church (historical)
+	classification:       Church
+	state:                VA
+	county:               Bath
+	latitude:             0381257 North
+	longitude:            0794039 West
+	elevation (m):        677
+	quadrangle:           Burnsville
+	date created:         11/13/1995
+
+	offset:               108854
+	feature ID:           1673655
+	feature name:         Set Free Christian Fellowship Church
+	classification:       Church
+	state:                VA
+	county:               Bath
+	latitude:             0381257 North
+	longitude:            0794039 West
+	elevation (m):        677
+	quadrangle:           Burnsville
+	date created:         11/13/1995
+
+	offset:               3166
+	feature ID:           1481915
+	feature name:         Bolar Spring
+	classification:       Spring
+	state:                VA
+	county:               Highland
+	latitude:             0381259 North
+	longitude:            0794025 West
+	elevation (m):        686
+	quadrangle:           Burnsville
+	date created:         09/28/1979
+	date edited:          04/19/2011
+
+	offset:               99417
+	feature ID:           1493798
+	feature name:         White Rock Mountain
+	classification:       Summit
+	state:                VA
+	county:               Bath
+	latitude:             0381126 North
+	longitude:            0793939 West
+	elevation (m):        971
+	quadrangle:           Burnsville
+	date created:         09/28/1979
+
+
+
+-----------------------------------------------------------------
+
+Command sequence quit. Exiting now.

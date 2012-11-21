@@ -65,7 +65,7 @@ public class WhatIsAtCommand implements ICommand {
 		controller.getLogger().writeToLog( "Found at " + this.rawLongitude + ", " + this.rawLatitude + ":\n" );
 		
 		// if offsets contains nothing, then there is nothing at that coordinate. Else, loop through all the offsets found.
-		if( offsets.isEmpty() ) {
+		if( offsets == null ) {
 			controller.getLogger().writeToLog( "\tnothing at specified coordinates\n" );
 		} else {
 			for( Long offset : offsets ) {

@@ -6,8 +6,8 @@ import gissystem.interfaces.ICommand;
 import gissystem.interfaces.ICommandFactory;
 
 /**
- * Factory method which produces the appropriate Debug command.
- * @author John
+ * Factory method which produces the appropriate {@link DebugCommand}.
+ * @author John Ruffer
  *
  */
 public class DebugCommandFactory implements ICommandFactory {
