@@ -2,7 +2,7 @@ GIS System
 database: databases/database01.txt
 commands: commands/Script01.txt
 captain's log: logs/log01.txt
-star date:
+star date: 11/21/2012 19:10:26
 
 
 Executing command 1: world	0794130W	0792630W	381500N	383000N
@@ -179,18 +179,15 @@ The number of features found with name "Trimble Knob" and state "VA" is: 1
 
 Executing command 6: what_is	Trimble Knob	VA
 
-The features found with name "Trimble Knob" and state "VA" are:
-	offset:		7562
-	county:		Highland
-	latitude:	0382417 North
-	longitude:	0793517 West
+The following 1 features were found with name "Trimble Knob" and state "VA":
+	7562:		Highland  0382417 North  0793517 West
 
 
 -----------------------------------------------------------------
 
 Executing command 7: what_is	-l	Trimble Knob	VA
 
-The features found with name "Trimble Knob" and state "VA" are:
+The following 1 features were found with name "Trimble Knob" and state "VA":
 	offset:               7562
 	feature ID:           1496326
 	feature name:         Trimble Knob
@@ -202,6 +199,7 @@ The features found with name "Trimble Knob" and state "VA" are:
 	elevation (m):        952
 	quadrangle:           Monterey
 	date created:         09/28/1979
+
 
 
 -----------------------------------------------------------------
@@ -241,19 +239,15 @@ The number of offsets found at 0793156W, 382812N is: 1
 
 Executing command 10: what_is_at	382812N	0793156W
 
-Found at 0793156W, 382812N:
-	offset: 6940
-	feature name: Possum Trot
-	feature county: Highland
-	feature state: VA
-
+The following 1 records are found at 0793156W, 382812N:
+	6940		Possum Trot  Highland  VA
 
 
 -----------------------------------------------------------------
 
 Executing command 11: what_is_at	-l	382812N	0793156W
 
-Found at 0793156W, 382812N:
+The following 1 records are found at 0793156W, 382812N:
 	offset:               6940
 	feature ID:           1496110
 	feature name:         Possum Trot
@@ -299,7 +293,7 @@ LRU
 
 Executing command 13: what_is	-l	Swope Hollow	VA
 
-The features found with name "Swope Hollow" and state "VA" are:
+The following 1 features were found with name "Swope Hollow" and state "VA":
 	offset:               5259
 	feature ID:           1487758
 	feature name:         Swope Hollow
@@ -315,11 +309,12 @@ The features found with name "Swope Hollow" and state "VA" are:
 	date created:         09/28/1979
 
 
+
 -----------------------------------------------------------------
 
 Executing command 14: what_is	-l	Possum Trot	VA
 
-The features found with name "Possum Trot" and state "VA" are:
+The following 1 features were found with name "Possum Trot" and state "VA":
 	offset:               6940
 	feature ID:           1496110
 	feature name:         Possum Trot
@@ -333,11 +328,12 @@ The features found with name "Possum Trot" and state "VA" are:
 	date created:         09/28/1979
 
 
+
 -----------------------------------------------------------------
 
 Executing command 15: what_is	-l	Blue Grass	VA
 
-The features found with name "Blue Grass" and state "VA" are:
+The following 1 features were found with name "Blue Grass" and state "VA":
 	offset:               387
 	feature ID:           1481852
 	feature name:         Blue Grass
@@ -349,6 +345,7 @@ The features found with name "Blue Grass" and state "VA" are:
 	elevation (m):        777
 	quadrangle:           Monterey
 	date created:         09/28/1979
+
 
 
 -----------------------------------------------------------------
@@ -382,7 +379,7 @@ LRU
 
 Executing command 17: what_is_at	-l	382145N	0793031W
 
-Found at 0793031W, 382145N:
+The following 1 records are found at 0793031W, 382145N:
 	offset:               4530
 	feature ID:           1486995
 	feature name:         Seldom Seen Hollow
@@ -403,7 +400,7 @@ Found at 0793031W, 382145N:
 
 Executing command 18: what_is_at	-l	382442N	0793451W
 
-Found at 0793451W, 382442N:
+The following 1 records are found at 0793451W, 382442N:
 	offset:               8792
 	feature ID:           2391311
 	feature name:         Town of Monterey
@@ -422,7 +419,7 @@ Found at 0793451W, 382442N:
 
 Executing command 19: what_is_at	-l	382607N	0793312W
 
-Found at 0793312W, 382607N:
+The following 1 records are found at 0793312W, 382607N:
 	offset:               265
 	feature ID:           1481345
 	feature name:         Asbury Church
@@ -468,17 +465,9 @@ LRU
 
 Executing command 21: what_is_at	382856N	0793031W
 
-Found at 0793031W, 382856N:
-	offset: 1822
-	feature name: Forks of Waters
-	feature county: Highland
-	feature state: VA
-
-	offset: 5102
-	feature name: Strait Creek
-	feature county: Highland
-	feature state: VA
-
+The following 2 records are found at 0793031W, 382856N:
+	1822		Forks of Waters  Highland  VA
+	5102		Strait Creek  Highland  VA
 
 
 -----------------------------------------------------------------

@@ -2,7 +2,7 @@ GIS System
 database: databases/database02.txt
 commands: commands/Script02.txt
 captain's log: logs/log02.txt
-star date:
+star date: 11/21/2012 19:10:28
 
 
 Executing command 1: world	0794130W	0792630W	381500N	383000N
@@ -179,20 +179,15 @@ The number of offsets within the rectangle (-286284, 138093), (-286254, 138123) 
 
 Executing command 6: what_is_in	382148N	0793109W	15	15
 
-The features found in the rectangle (-286284, 138093), (-286254, 138123) are:
-
-	offset:		3593
-	name:		Little Doe Hill
-	state:		VA
-	latitude:	0382148 North
-	longitude:	0793109 West
+The following 1 features are found in the rectangle (-286284, 138093), (-286254, 138123):
+	3593:		Little Doe Hill  VA  0382148 North  0793109 West
 
 
 -----------------------------------------------------------------
 
 Executing command 7: what_is_in	-l	382148N	0793109W	15	15
 
-The features found in the rectangle (-286284, 138093), (-286254, 138123) are:
+The following 1 features are found in the rectangle (-286284, 138093), (-286254, 138123):
 	offset:               3593
 	feature ID:           1484896
 	feature name:         Little Doe Hill
@@ -204,6 +199,7 @@ The features found in the rectangle (-286284, 138093), (-286254, 138123) are:
 	elevation (m):        988
 	quadrangle:           Monterey SE
 	date created:         09/28/1979
+
 
 
 -----------------------------------------------------------------
@@ -237,93 +233,33 @@ LRU
 
 Executing command 9: what_is_in	382148N	0793109W	60	60
 
-The features found in the rectangle (-286329, 138048), (-286209, 138168) are:
-
-	offset:		3593
-	name:		Little Doe Hill
-	state:		VA
-	latitude:	0382148 North
-	longitude:	0793109 West
-
-	offset:		4530
-	name:		Seldom Seen Hollow
-	state:		VA
-	latitude:	0382145 North
-	longitude:	0793031 West
+The following 2 features are found in the rectangle (-286329, 138048), (-286209, 138168):
+	3593:		Little Doe Hill  VA  0382148 North  0793109 West
+	4530:		Seldom Seen Hollow  VA  0382145 North  0793031 West
 
 
 -----------------------------------------------------------------
 
 Executing command 10: what_is_in	382148N	0793109W	120	120
 
-The features found in the rectangle (-286389, 137988), (-286149, 138228) are:
-
-	offset:		3593
-	name:		Little Doe Hill
-	state:		VA
-	latitude:	0382148 North
-	longitude:	0793109 West
-
-	offset:		4530
-	name:		Seldom Seen Hollow
-	state:		VA
-	latitude:	0382145 North
-	longitude:	0793031 West
-
-	offset:		6434
-	name:		Bear Mountain
-	state:		VA
-	latitude:	0382012 North
-	longitude:	0793254 West
-
-	offset:		6693
-	name:		Doe Hill
-	state:		VA
-	latitude:	0382313 North
-	longitude:	0793113 West
+The following 4 features are found in the rectangle (-286389, 137988), (-286149, 138228):
+	3593:		Little Doe Hill  VA  0382148 North  0793109 West
+	4530:		Seldom Seen Hollow  VA  0382145 North  0793031 West
+	6434:		Bear Mountain  VA  0382012 North  0793254 West
+	6693:		Doe Hill  VA  0382313 North  0793113 West
 
 
 -----------------------------------------------------------------
 
 Executing command 11: what_is_in	382148N	0793109W	180	180
 
-The features found in the rectangle (-286449, 137928), (-286089, 138288) are:
-
-	offset:		675
-	name:		Buck Hill
-	state:		VA
-	latitude:	0381902 North
-	longitude:	0793358 West
-
-	offset:		3593
-	name:		Little Doe Hill
-	state:		VA
-	latitude:	0382148 North
-	longitude:	0793109 West
-
-	offset:		4530
-	name:		Seldom Seen Hollow
-	state:		VA
-	latitude:	0382145 North
-	longitude:	0793031 West
-
-	offset:		6434
-	name:		Bear Mountain
-	state:		VA
-	latitude:	0382012 North
-	longitude:	0793254 West
-
-	offset:		6693
-	name:		Doe Hill
-	state:		VA
-	latitude:	0382313 North
-	longitude:	0793113 West
-
-	offset:		8513
-	name:		Strait Creek School (historical)
-	state:		VA
-	latitude:	0382447 North
-	longitude:	0793217 West
+The following 6 features are found in the rectangle (-286449, 137928), (-286089, 138288):
+	675:		Buck Hill  VA  0381902 North  0793358 West
+	3593:		Little Doe Hill  VA  0382148 North  0793109 West
+	4530:		Seldom Seen Hollow  VA  0382145 North  0793031 West
+	6434:		Bear Mountain  VA  0382012 North  0793254 West
+	6693:		Doe Hill  VA  0382313 North  0793113 West
+	8513:		Strait Creek School (historical)  VA  0382447 North  0793217 West
 
 
 -----------------------------------------------------------------
@@ -357,134 +293,34 @@ LRU
 
 Executing command 13: what_is_in	382957N	0793303W	240	60
 
-The features found in the rectangle (-286443, 138357), (-286323, 138837) are:
-
-	offset:		265
-	name:		Asbury Church
-	state:		VA
-	latitude:	0382607 North
-	longitude:	0793312 West
-
-	offset:		5991
-	name:		White Run
-	state:		VA
-	latitude:	0382610 North
-	longitude:	0793313 West
-
-	offset:		4819
-	name:		Simmons Run
-	state:		VA
-	latitude:	0382654 North
-	longitude:	0793209 West
-
-	offset:		5829
-	name:		West Strait Creek
-	state:		VA
-	latitude:	0382653 North
-	longitude:	0793204 West
-
-	offset:		1078
-	name:		Central Church
-	state:		VA
-	latitude:	0382953 North
-	longitude:	0793323 West
-
-	offset:		1946
-	name:		Frank Run
-	state:		VA
-	latitude:	0382953 North
-	longitude:	0793310 West
-
-	offset:		6811
-	name:		New Hampden
-	state:		VA
-	latitude:	0382934 North
-	longitude:	0793348 West
-
-	offset:		387
-	name:		Blue Grass
-	state:		VA
-	latitude:	0383000 North
-	longitude:	0793259 West
-
-	offset:		515
-	name:		Bluegrass Valley
-	state:		VA
-	latitude:	0382953 North
-	longitude:	0793222 West
-
-	offset:		3162
-	name:		Key Run
-	state:		VA
-	latitude:	0382951 North
-	longitude:	0793238 West
-
-	offset:		7942
-	name:		Blue Grass School (historical)
-	state:		VA
-	latitude:	0382957 North
-	longitude:	0793303 West
+The following 11 features are found in the rectangle (-286443, 138357), (-286323, 138837):
+	265:		Asbury Church  VA  0382607 North  0793312 West
+	5991:		White Run  VA  0382610 North  0793313 West
+	4819:		Simmons Run  VA  0382654 North  0793209 West
+	5829:		West Strait Creek  VA  0382653 North  0793204 West
+	1078:		Central Church  VA  0382953 North  0793323 West
+	1946:		Frank Run  VA  0382953 North  0793310 West
+	6811:		New Hampden  VA  0382934 North  0793348 West
+	387:		Blue Grass  VA  0383000 North  0793259 West
+	515:		Bluegrass Valley  VA  0382953 North  0793222 West
+	3162:		Key Run  VA  0382951 North  0793238 West
+	7942:		Blue Grass School (historical)  VA  0382957 North  0793303 West
 
 
 -----------------------------------------------------------------
 
 Executing command 14: what_is_in	382957N	0793303W	60	240
 
-The features found in the rectangle (-286623, 138537), (-286143, 138657) are:
-
-	offset:		1078
-	name:		Central Church
-	state:		VA
-	latitude:	0382953 North
-	longitude:	0793323 West
-
-	offset:		1946
-	name:		Frank Run
-	state:		VA
-	latitude:	0382953 North
-	longitude:	0793310 West
-
-	offset:		6811
-	name:		New Hampden
-	state:		VA
-	latitude:	0382934 North
-	longitude:	0793348 West
-
-	offset:		387
-	name:		Blue Grass
-	state:		VA
-	latitude:	0383000 North
-	longitude:	0793259 West
-
-	offset:		515
-	name:		Bluegrass Valley
-	state:		VA
-	latitude:	0382953 North
-	longitude:	0793222 West
-
-	offset:		3162
-	name:		Key Run
-	state:		VA
-	latitude:	0382951 North
-	longitude:	0793238 West
-
-	offset:		7942
-	name:		Blue Grass School (historical)
-	state:		VA
-	latitude:	0382957 North
-	longitude:	0793303 West
-
-	offset:		1670
-	name:		Elk Run
-	state:		VA
-	latitude:	0382936 North
-	longitude:	0793153 West
-
-	offset:		2223
-	name:		Gulf Mountain
-	state:		VA
-	latitude:	0382940 North
-	longitude:	0793103 West
+The following 9 features are found in the rectangle (-286623, 138537), (-286143, 138657):
+	1078:		Central Church  VA  0382953 North  0793323 West
+	1946:		Frank Run  VA  0382953 North  0793310 West
+	6811:		New Hampden  VA  0382934 North  0793348 West
+	387:		Blue Grass  VA  0383000 North  0793259 West
+	515:		Bluegrass Valley  VA  0382953 North  0793222 West
+	3162:		Key Run  VA  0382951 North  0793238 West
+	7942:		Blue Grass School (historical)  VA  0382957 North  0793303 West
+	1670:		Elk Run  VA  0382936 North  0793153 West
+	2223:		Gulf Mountain  VA  0382940 North  0793103 West
 
 
 -----------------------------------------------------------------

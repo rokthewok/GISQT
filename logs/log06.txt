@@ -2,7 +2,7 @@ GIS System
 database: databases/database06.txt
 commands: commands/Script06.txt
 captain's log: logs/log06.txt
-star date:
+star date: 11/21/2012 19:10:37
 
 
 Executing command 1: world	0860000W	0750000W	320000N	430000N
@@ -18,14 +18,14 @@ Map boundaries:
 Executing command 2: import	VA_All.txt
 
 	number of entries added: 59546
-	longest hashtable probe sequence: 15
+	longest hashtable probe sequence: 23
 
 
 -----------------------------------------------------------------
 
 Executing command 3: what_is	-l	Blacksburg	VA
 
-The features found with name "Blacksburg" and state "VA" are:
+The following 3 features were found with name "Blacksburg" and state "VA":
 	offset:               2531589
 	feature ID:           1481840
 	feature name:         Blacksburg
@@ -37,6 +37,7 @@ The features found with name "Blacksburg" and state "VA" are:
 	elevation (m):        438
 	quadrangle:           Cornwall
 	date created:         09/28/1979
+
 	offset:               4247050
 	feature ID:           1494842
 	feature name:         Blacksburg
@@ -48,6 +49,7 @@ The features found with name "Blacksburg" and state "VA" are:
 	elevation (m):        645
 	quadrangle:           Glade Spring
 	date created:         09/28/1979
+
 	offset:               4713992
 	feature ID:           1498405
 	feature name:         Blacksburg
@@ -62,539 +64,160 @@ The features found with name "Blacksburg" and state "VA" are:
 	date edited:          03/17/2008
 
 
+
 -----------------------------------------------------------------
 
 Executing command 4: what_is	Mount Pleasant	VA
 
-The features found with name "Mount Pleasant" and state "VA" are:
-	offset:		1192549
-	county:		Spotsylvania
-	latitude:	0380654 North
-	longitude:	0773839 West
-	offset:		2134495
-	county:		Essex
-	latitude:	0380608 North
-	longitude:	0770307 West
-	offset:		3148846
-	county:		Amherst
-	latitude:	0374423 North
-	longitude:	0791010 West
-	offset:		4053033
-	county:		Fairfax
-	latitude:	0384958 North
-	longitude:	0770945 West
-	offset:		4276466
-	county:		Chesapeake (city)
-	latitude:	0364237 North
-	longitude:	0760809 West
-	offset:		4392532
-	county:		Frederick
-	latitude:	0391019 North
-	longitude:	0781742 West
-	offset:		4892565
-	county:		Surry
-	latitude:	0371217 North
-	longitude:	0764930 West
-	offset:		5573914
-	county:		Clarke
-	latitude:	0391023 North
-	longitude:	0780114 West
-	offset:		5659110
-	county:		Roanoke
-	latitude:	0371358 North
-	longitude:	0795449 West
-	offset:		5774950
-	county:		Amherst
-	latitude:	0374152 North
-	longitude:	0791000 West
+The following 10 features were found with name "Mount Pleasant" and state "VA":
+	1192549:		Spotsylvania  0380654 North  0773839 West
+	2134495:		Essex  0380608 North  0770307 West
+	3148846:		Amherst  0374423 North  0791010 West
+	4053033:		Fairfax  0384958 North  0770945 West
+	4276466:		Chesapeake (city)  0364237 North  0760809 West
+	4392532:		Frederick  0391019 North  0781742 West
+	4892565:		Surry  0371217 North  0764930 West
+	5573914:		Clarke  0391023 North  0780114 West
+	5659110:		Roanoke  0371358 North  0795449 West
+	5774950:		Amherst  0374152 North  0791000 West
 
 
 -----------------------------------------------------------------
 
 Executing command 5: what_is	Dry Run	VA
 
-The features found with name "Dry Run" and state "VA" are:
-	offset:		507532
-	county:		Russell
-	latitude:	0365452 North
-	longitude:	0821417 West
-	offset:		507675
-	county:		Culpeper
-	latitude:	0382438 North
-	longitude:	0775817 West
-	offset:		507830
-	county:		Warren
-	latitude:	0385930 North
-	longitude:	0780413 West
-	offset:		507972
-	county:		Rockingham
-	latitude:	0382557 North
-	longitude:	0783727 West
-	offset:		508137
-	county:		Patrick
-	latitude:	0363618 North
-	longitude:	0803210 West
-	offset:		508296
-	county:		Warren
-	latitude:	0385308 North
-	longitude:	0781451 West
-	offset:		508448
-	county:		Warren
-	latitude:	0390009 North
-	longitude:	0781317 West
-	offset:		2709030
-	county:		Washington
-	latitude:	0363655 North
-	longitude:	0815723 West
-	offset:		2709187
-	county:		Wythe
-	latitude:	0364904 North
-	longitude:	0811020 West
-	offset:		2709337
-	county:		Smyth
-	latitude:	0365015 North
-	longitude:	0812715 West
-	offset:		2709484
-	county:		Smyth
-	latitude:	0365312 North
-	longitude:	0812227 West
-	offset:		2709633
-	county:		Botetourt
-	latitude:	0373812 North
-	longitude:	0794345 West
-	offset:		2709796
-	county:		Covington (city)
-	latitude:	0374837 North
-	longitude:	0795920 West
-	offset:		2709956
-	county:		Alleghany
-	latitude:	0374908 North
-	longitude:	0794751 West
-	offset:		2710111
-	county:		Alleghany
-	latitude:	0375414 North
-	longitude:	0795850 West
-	offset:		2710266
-	county:		Bath
-	latitude:	0375553 North
-	longitude:	0794648 West
-	offset:		2710418
-	county:		Bath
-	latitude:	0381341 North
-	longitude:	0794709 West
-	offset:		2710564
-	county:		Page
-	latitude:	0384702 North
-	longitude:	0782220 West
-	offset:		2710714
-	county:		Shenandoah
-	latitude:	0385139 North
-	longitude:	0782350 West
-	offset:		2710866
-	county:		Montgomery
-	latitude:	0371619 North
-	longitude:	0801830 West
-	offset:		2711021
-	county:		Botetourt
-	latitude:	0373121 North
-	longitude:	0794121 West
-	offset:		2711173
-	county:		Rockingham
-	latitude:	0383323 North
-	longitude:	0790438 West
-	offset:		2711333
-	county:		Warren
-	latitude:	0385224 North
-	longitude:	0781718 West
-	offset:		2711485
-	county:		Frederick
-	latitude:	0391541 North
-	longitude:	0781942 West
-	offset:		2711633
-	county:		Bath
-	latitude:	0380345 North
-	longitude:	0794001 West
-	offset:		2711782
-	county:		Highland
-	latitude:	0381634 North
-	longitude:	0794456 West
-	offset:		2711932
-	county:		Page
-	latitude:	0384112 North
-	longitude:	0782717 West
+The following 27 features were found with name "Dry Run" and state "VA":
+	507532:		Russell  0365452 North  0821417 West
+	507675:		Culpeper  0382438 North  0775817 West
+	507830:		Warren  0385930 North  0780413 West
+	507972:		Rockingham  0382557 North  0783727 West
+	508137:		Patrick  0363618 North  0803210 West
+	508296:		Warren  0385308 North  0781451 West
+	508448:		Warren  0390009 North  0781317 West
+	2709030:		Washington  0363655 North  0815723 West
+	2709187:		Wythe  0364904 North  0811020 West
+	2709337:		Smyth  0365015 North  0812715 West
+	2709484:		Smyth  0365312 North  0812227 West
+	2709633:		Botetourt  0373812 North  0794345 West
+	2709796:		Covington (city)  0374837 North  0795920 West
+	2709956:		Alleghany  0374908 North  0794751 West
+	2710111:		Alleghany  0375414 North  0795850 West
+	2710266:		Bath  0375553 North  0794648 West
+	2710418:		Bath  0381341 North  0794709 West
+	2710564:		Page  0384702 North  0782220 West
+	2710714:		Shenandoah  0385139 North  0782350 West
+	2710866:		Montgomery  0371619 North  0801830 West
+	2711021:		Botetourt  0373121 North  0794121 West
+	2711173:		Rockingham  0383323 North  0790438 West
+	2711333:		Warren  0385224 North  0781718 West
+	2711485:		Frederick  0391541 North  0781942 West
+	2711633:		Bath  0380345 North  0794001 West
+	2711782:		Highland  0381634 North  0794456 West
+	2711932:		Page  0384112 North  0782717 West
 
 
 -----------------------------------------------------------------
 
 Executing command 6: what_is	Grundy	VA
 
-The features found with name "Grundy" and state "VA" are:
-	offset:		4723637
-	county:		Buchanan
-	latitude:	0371640 North
-	longitude:	0820556 West
+The following 1 features were found with name "Grundy" and state "VA":
+	4723637:		Buchanan  0371640 North  0820556 West
 
 
 -----------------------------------------------------------------
 
 Executing command 7: what_is_at	383341N	0793423W
 
-Found at 0793423W, 383341N:
-	offset: 4860489
-	feature name: Hardscrabble
-	feature county: Highland
-	feature state: VA
-
+The following 1 records are found at 0793423W, 383341N:
+	4860489		Hardscrabble  Highland  VA
 
 
 -----------------------------------------------------------------
 
 Executing command 8: what_is_at	363801N	0814701W
 
-Found at 0814701W, 363801N:
-	offset: 2678310
-	feature name: Damascus
-	feature county: Washington
-	feature state: VA
-
+The following 1 records are found at 0814701W, 363801N:
+	2678310		Damascus  Washington  VA
 
 
 -----------------------------------------------------------------
 
 Executing command 9: what_is_at	371321N	0802509W
 
-Found at 0802509W, 371321N:
-	offset: 5369786
-	feature name: Cassel Coliseum
-	feature county: Montgomery
-	feature state: VA
-
-	offset: 7460580
-	feature name: Cassell Coliseum
-	feature county: Montgomery
-	feature state: VA
-
+The following 2 records are found at 0802509W, 371321N:
+	5369786		Cassel Coliseum  Montgomery  VA
+	7460580		Cassell Coliseum  Montgomery  VA
 
 
 -----------------------------------------------------------------
 
 Executing command 10: what_is_in	363202N	0804759W	60	60
 
-The features found in the rectangle (-290939, 131462), (-290819, 131582) are:
-
-	offset:		5837632
-	name:		Auberry Creek
-	state:		VA
-	latitude:	0363202 North
-	longitude:	0804759 West
+The following 1 features are found in the rectangle (-290939, 131462), (-290819, 131582):
+	5837632:		Auberry Creek  VA  0363202 North  0804759 West
 
 
 -----------------------------------------------------------------
 
 Executing command 11: what_is_in	382622N	0785220W	15	15
 
-The features found in the rectangle (-283955, 138367), (-283925, 138397) are:
-
-	offset:		6714761
-	name:		Gifford Hall
-	state:		VA
-	latitude:	0382616 North
-	longitude:	0785233 West
-
-	offset:		6718386
-	name:		Wayland Hall
-	state:		VA
-	latitude:	0382614 North
-	longitude:	0785233 West
-
-	offset:		6713255
-	name:		Converse Hall
-	state:		VA
-	latitude:	0382617 North
-	longitude:	0785233 West
-
-	offset:		6714898
-	name:		Harrison Hall
-	state:		VA
-	latitude:	0382617 North
-	longitude:	0785230 West
-
-	offset:		7383514
-	name:		Harrison Hall Annex
-	state:		VA
-	latitude:	0382617 North
-	longitude:	0785230 West
-
-	offset:		6715763
-	name:		Logan Hall
-	state:		VA
-	latitude:	0382614 North
-	longitude:	0785230 West
-
-	offset:		7385486
-	name:		Roop Hall
-	state:		VA
-	latitude:	0382615 North
-	longitude:	0785229 West
-
-	offset:		6716046
-	name:		Maury Hall
-	state:		VA
-	latitude:	0382616 North
-	longitude:	0785225 West
-
-	offset:		7382814
-	name:		Frye Building
-	state:		VA
-	latitude:	0382612 North
-	longitude:	0785228 West
-
-	offset:		7386589
-	name:		Varner House
-	state:		VA
-	latitude:	0382614 North
-	longitude:	0785228 West
-
-	offset:		6711794
-	name:		Ashby Hall
-	state:		VA
-	latitude:	0382618 North
-	longitude:	0785231 West
-
-	offset:		7386727
-	name:		Wampler Hall
-	state:		VA
-	latitude:	0382620 North
-	longitude:	0785232 West
-
-	offset:		6715187
-	name:		Jackson Hall
-	state:		VA
-	latitude:	0382617 North
-	longitude:	0785227 West
-
-	offset:		7387138
-	name:		Wlson Hall
-	state:		VA
-	latitude:	0382617 North
-	longitude:	0785224 West
-
-	offset:		6717954
-	name:		Spottswood Hall
-	state:		VA
-	latitude:	0382622 North
-	longitude:	0785227 West
-
-	offset:		6711502
-	name:		Alumnae Hall
-	state:		VA
-	latitude:	0382619 North
-	longitude:	0785224 West
-
-	offset:		6715325
-	name:		Johnson Hall
-	state:		VA
-	latitude:	0382622 North
-	longitude:	0785225 West
-
-	offset:		6717816
-	name:		Sheldon Hall
-	state:		VA
-	latitude:	0382621 North
-	longitude:	0785225 West
-
-	offset:		7381110
-	name:		Alumnae Hall-James Madison University
-	state:		VA
-	latitude:	0382620 North
-	longitude:	0785224 West
-
-	offset:		7381552
-	name:		Bridgeforth Stadium
-	state:		VA
-	latitude:	0382607 North
-	longitude:	0785222 West
-
-	offset:		7382109
-	name:		Chappelear Hall
-	state:		VA
-	latitude:	0382607 North
-	longitude:	0785207 West
-
-	offset:		7382672
-	name:		Frederikson Hall
-	state:		VA
-	latitude:	0382609 North
-	longitude:	0785211 West
-
-	offset:		2991336
-	name:		James Madison University
-	state:		VA
-	latitude:	0382617 North
-	longitude:	0785223 West
-
-	offset:		6718522
-	name:		Wilson Hall
-	state:		VA
-	latitude:	0382617 North
-	longitude:	0785223 West
-
-	offset:		6715897
-	name:		Madison Memorial Library
-	state:		VA
-	latitude:	0382620 North
-	longitude:	0785220 West
-
-	offset:		6718245
-	name:		Walter Reed Hall
-	state:		VA
-	latitude:	0382618 North
-	longitude:	0785222 West
-
-	offset:		7381968
-	name:		Carrier Library
-	state:		VA
-	latitude:	0382619 North
-	longitude:	0785218 West
-
-	offset:		7384087
-	name:		Keezell Hall
-	state:		VA
-	latitude:	0382619 North
-	longitude:	0785222 West
-
-	offset:		6715463
-	name:		Keezel Infirmary
-	state:		VA
-	latitude:	0382621 North
-	longitude:	0785217 West
-
-	offset:		7383233
-	name:		Grafton-Stovall Theatre
-	state:		VA
-	latitude:	0382618 North
-	longitude:	0785214 West
-
-	offset:		7384372
-	name:		Lincoln House
-	state:		VA
-	latitude:	0382624 North
-	longitude:	0785234 West
-
-	offset:		7385618
-	name:		Shenandoah Hall
-	state:		VA
-	latitude:	0382624 North
-	longitude:	0785234 West
-
-	offset:		7386998
-	name:		Wellington Hall
-	state:		VA
-	latitude:	0382623 North
-	longitude:	0785235 West
-
-	offset:		7385067
-	name:		Nicholas House
-	state:		VA
-	latitude:	0382626 North
-	longitude:	0785232 West
-
-	offset:		6713115
-	name:		Cleveland Hall
-	state:		VA
-	latitude:	0382624 North
-	longitude:	0785226 West
-
-	offset:		7386165
-	name:		Spotwood Hall
-	state:		VA
-	latitude:	0382623 North
-	longitude:	0785227 West
-
-	offset:		7381273
-	name:		Anthony Seeger Hall
-	state:		VA
-	latitude:	0382628 North
-	longitude:	0785231 West
-
-	offset:		7383090
-	name:		Grace Street House
-	state:		VA
-	latitude:	0382630 North
-	longitude:	0785231 West
-
-	offset:		5233704
-	name:		WXJM-FM (Harrisonburg)
-	state:		VA
-	latitude:	0382622 North
-	longitude:	0785220 West
-
-	offset:		6712392
-	name:		Burrus Hall
-	state:		VA
-	latitude:	0382622 North
-	longitude:	0785220 West
-
-	offset:		7381693
-	name:		Burruss Hall
-	state:		VA
-	latitude:	0382622 North
-	longitude:	0785220 West
+The following 41 features are found in the rectangle (-283955, 138367), (-283925, 138397):
+	6714761:		Gifford Hall  VA  0382616 North  0785233 West
+	6718386:		Wayland Hall  VA  0382614 North  0785233 West
+	6713255:		Converse Hall  VA  0382617 North  0785233 West
+	6714898:		Harrison Hall  VA  0382617 North  0785230 West
+	7383514:		Harrison Hall Annex  VA  0382617 North  0785230 West
+	6715763:		Logan Hall  VA  0382614 North  0785230 West
+	7385486:		Roop Hall  VA  0382615 North  0785229 West
+	6716046:		Maury Hall  VA  0382616 North  0785225 West
+	7382814:		Frye Building  VA  0382612 North  0785228 West
+	7386589:		Varner House  VA  0382614 North  0785228 West
+	6711794:		Ashby Hall  VA  0382618 North  0785231 West
+	7386727:		Wampler Hall  VA  0382620 North  0785232 West
+	6715187:		Jackson Hall  VA  0382617 North  0785227 West
+	7387138:		Wlson Hall  VA  0382617 North  0785224 West
+	6717954:		Spottswood Hall  VA  0382622 North  0785227 West
+	6711502:		Alumnae Hall  VA  0382619 North  0785224 West
+	6715325:		Johnson Hall  VA  0382622 North  0785225 West
+	6717816:		Sheldon Hall  VA  0382621 North  0785225 West
+	7381110:		Alumnae Hall-James Madison University  VA  0382620 North  0785224 West
+	7381552:		Bridgeforth Stadium  VA  0382607 North  0785222 West
+	7382109:		Chappelear Hall  VA  0382607 North  0785207 West
+	7382672:		Frederikson Hall  VA  0382609 North  0785211 West
+	2991336:		James Madison University  VA  0382617 North  0785223 West
+	6718522:		Wilson Hall  VA  0382617 North  0785223 West
+	6715897:		Madison Memorial Library  VA  0382620 North  0785220 West
+	6718245:		Walter Reed Hall  VA  0382618 North  0785222 West
+	7381968:		Carrier Library  VA  0382619 North  0785218 West
+	7384087:		Keezell Hall  VA  0382619 North  0785222 West
+	6715463:		Keezel Infirmary  VA  0382621 North  0785217 West
+	7383233:		Grafton-Stovall Theatre  VA  0382618 North  0785214 West
+	7384372:		Lincoln House  VA  0382624 North  0785234 West
+	7385618:		Shenandoah Hall  VA  0382624 North  0785234 West
+	7386998:		Wellington Hall  VA  0382623 North  0785235 West
+	7385067:		Nicholas House  VA  0382626 North  0785232 West
+	6713115:		Cleveland Hall  VA  0382624 North  0785226 West
+	7386165:		Spotwood Hall  VA  0382623 North  0785227 West
+	7381273:		Anthony Seeger Hall  VA  0382628 North  0785231 West
+	7383090:		Grace Street House  VA  0382630 North  0785231 West
+	5233704:		WXJM-FM (Harrisonburg)  VA  0382622 North  0785220 West
+	6712392:		Burrus Hall  VA  0382622 North  0785220 West
+	7381693:		Burruss Hall  VA  0382622 North  0785220 West
 
 
 -----------------------------------------------------------------
 
 Executing command 12: what_is_in	382453N	0785619W	30	30
 
-The features found in the rectangle (-284209, 138263), (-284149, 138323) are:
-
-	offset:		7837003
-	name:		Wilbur S Pence Middle School
-	state:		VA
-	latitude:	0382507 North
-	longitude:	0785636 West
-
-	offset:		3806308
-	name:		Dayton Elementary School
-	state:		VA
-	latitude:	0382500 North
-	longitude:	0785629 West
-
-	offset:		3991308
-	name:		Dayton
-	state:		VA
-	latitude:	0382453 North
-	longitude:	0785619 West
-
-	offset:		6506854
-	name:		Dayton Historic District
-	state:		VA
-	latitude:	0382457 North
-	longitude:	0785630 West
-
-	offset:		6506990
-	name:		Dayton Post Office
-	state:		VA
-	latitude:	0382451 North
-	longitude:	0785619 West
-
-	offset:		3743745
-	name:		Silver Lake Dam
-	state:		VA
-	latitude:	0382520 North
-	longitude:	0785623 West
-
-	offset:		3804340
-	name:		Dayton Cemetery
-	state:		VA
-	latitude:	0382509 North
-	longitude:	0785629 West
-
-	offset:		7600130
-	name:		Town of Dayton
-	state:		VA
-	latitude:	0382505 North
-	longitude:	0785624 West
+The following 8 features are found in the rectangle (-284209, 138263), (-284149, 138323):
+	7837003:		Wilbur S Pence Middle School  VA  0382507 North  0785636 West
+	3806308:		Dayton Elementary School  VA  0382500 North  0785629 West
+	3991308:		Dayton  VA  0382453 North  0785619 West
+	6506854:		Dayton Historic District  VA  0382457 North  0785630 West
+	6506990:		Dayton Post Office  VA  0382451 North  0785619 West
+	3743745:		Silver Lake Dam  VA  0382520 North  0785623 West
+	3804340:		Dayton Cemetery  VA  0382509 North  0785629 West
+	7600130:		Town of Dayton  VA  0382505 North  0785624 West
 
 
 -----------------------------------------------------------------

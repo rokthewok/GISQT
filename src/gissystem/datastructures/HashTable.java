@@ -46,6 +46,7 @@ public class HashTable<T> {
 				inserted = true;
 				break;
 			}
+			// get the next probing value
 			index = nextProbe( i, hashValue );
 			i++;
 		}
@@ -149,8 +150,12 @@ public class HashTable<T> {
 			}
 		}
 		
+		// reset population size; store the current table temporarily
+		this.currentPopulation = 0;
 		Object [] tempTable = this.elements;
+		// allocate a new table
 		this.elements = new Object[this.tableSize];
+		// reinsert stuffs
 		for( int i = 0; i < tempTable.length; i++ ) {
 			if( tempTable[i] != null ) {
 				Pair<T> pair = (Pair<T>) tempTable[i];
@@ -164,9 +169,21 @@ public class HashTable<T> {
 	/*
 	 * Get the next value of in the probe sequence
 	 */
-	private int nextProbe( int sequenceNumber, int hashValue ) {
-		return ( hashValue + ( sequenceNumber * sequenceNumber + sequenceNumber ) / 2 ) % this.tableSize;
+	private int nextProbe( int k, int hashValue ) {
+		return ( hashValue + ( ( k * k ) + k ) / 2 ) % this.tableSize;
 	}
+	
+//	private int elfHash(String toHash) {
+//		int hashValue = 0;
+//		for (int Pos = 0; Pos < toHash.length(); Pos++) {      // use all elements
+//		hashValue = (hashValue << 4) + toHash.charAt(Pos);  // shift/mix
+//		int hiBits = hashValue & 0xF0000000;                // get high nybble
+//		if (hiBits != 0)
+//		hashValue ^= hiBits >> 24;    // xor high nybble with second nybble
+//		hashValue &= ~hiBits;            // clear high nybble
+//		}
+//		return hashValue;
+//		}
 	
 	private int elfHash( String key ) {
 		int hash = 0;

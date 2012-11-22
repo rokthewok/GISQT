@@ -2,7 +2,7 @@ GIS System
 database: databases/database04.txt
 commands: commands/Script04.txt
 captain's log: logs/log04.txt
-star date:
+star date: 11/21/2012 19:10:32
 
 
 Executing command 1: world	0804500W	0800000W	370000N	374500N
@@ -25,7 +25,7 @@ Executing command 2: import	VA_Montgomery.txt
 
 Executing command 3: what_is	-l	Paul Derring Hall	VA
 
-The features found with name "Paul Derring Hall" and state "VA" are:
+The following 1 features were found with name "Paul Derring Hall" and state "VA":
 	offset:               92227
 	feature ID:           2110546
 	feature name:         Paul Derring Hall
@@ -39,11 +39,12 @@ The features found with name "Paul Derring Hall" and state "VA" are:
 	date created:         03/28/2007
 
 
+
 -----------------------------------------------------------------
 
 Executing command 4: what_is	-l	Holden Hall	VA
 
-The features found with name "Holden Hall" and state "VA" are:
+The following 1 features were found with name "Holden Hall" and state "VA":
 	offset:               60465
 	feature ID:           1674568
 	feature name:         Holden Hall
@@ -57,11 +58,12 @@ The features found with name "Holden Hall" and state "VA" are:
 	date created:         11/13/1995
 
 
+
 -----------------------------------------------------------------
 
 Executing command 5: what_is	-l	Sugar Bottom Hollow	VA
 
-The features found with name "Sugar Bottom Hollow" and state "VA" are:
+The following 1 features were found with name "Sugar Bottom Hollow" and state "VA":
 	offset:               32304
 	feature ID:           1487685
 	feature name:         Sugar Bottom Hollow
@@ -77,11 +79,12 @@ The features found with name "Sugar Bottom Hollow" and state "VA" are:
 	date created:         09/28/1979
 
 
+
 -----------------------------------------------------------------
 
 Executing command 6: what_is	-l	Blacksburg Quarry	VA
 
-The features found with name "Blacksburg Quarry" and state "VA" are:
+The following 1 features were found with name "Blacksburg Quarry" and state "VA":
 	offset:               105190
 	feature ID:           2724890
 	feature name:         Blacksburg Quarry
@@ -95,206 +98,99 @@ The features found with name "Blacksburg Quarry" and state "VA" are:
 	date created:         05/08/2012
 
 
+
 -----------------------------------------------------------------
 
 Executing command 7: what_is_at	371347N	0802514W
 
-Found at 0802514W, 371347N:
-	offset: 93317
-	feature name: Torgersen Hall
-	feature county: Montgomery
-	feature state: VA
-
+The following 1 records are found at 0802514W, 371347N:
+	93317		Torgersen Hall  Montgomery  VA
 
 
 -----------------------------------------------------------------
 
 Executing command 8: what_is_at	370817N	0802808W
 
-Found at 0802808W, 370817N:
-	offset: 18623
-	feature name: Barringer Mountain
-	feature county: Montgomery
-	feature state: VA
-
+The following 1 records are found at 0802808W, 370817N:
+	18623		Barringer Mountain  Montgomery  VA
 
 
 -----------------------------------------------------------------
 
 Executing command 9: what_is_at	371105N	0803133W
 
-Found at 0803133W, 371105N:
-	offset: 41632
-	feature name: Radford AAP Heliport
-	feature county: Montgomery
-	feature state: VA
-
+The following 1 records are found at 0803133W, 371105N:
+	41632		Radford AAP Heliport  Montgomery  VA
 
 
 -----------------------------------------------------------------
 
 Executing command 10: what_is_in	371347N	0802514W	5	5
 
-The features found in the rectangle (-289519, 134022), (-289509, 134032) are:
-
-	offset:		93626
-	name:		War Memorial Chapel
-	state:		VA
-	latitude:	0371343 North
-	longitude:	0802515 West
-
-	offset:		71827
-	name:		Newman Library
-	state:		VA
-	latitude:	0371344 North
-	longitude:	0802510 West
-
-	offset:		58561
-	name:		Femoyer Hall
-	state:		VA
-	latitude:	0371352 North
-	longitude:	0802517 West
-
-	offset:		92754
-	name:		Robert Femoyer Hall
-	state:		VA
-	latitude:	0371352 North
-	longitude:	0802517 West
-
-	offset:		66868
-	name:		Major Williams Dormitory
-	state:		VA
-	latitude:	0371351 North
-	longitude:	0802515 West
-
-	offset:		67006
-	name:		McBryde Hall
-	state:		VA
-	latitude:	0371349 North
-	longitude:	0802519 West
-
-	offset:		98990
-	name:		Major Lloyd W Williams Hall
-	state:		VA
-	latitude:	0371352 North
-	longitude:	0802516 West
-
-	offset:		93317
-	name:		Torgersen Hall
-	state:		VA
-	latitude:	0371347 North
-	longitude:	0802514 West
-
-	offset:		49514
-	name:		Brodie Hall
-	state:		VA
-	latitude:	0371348 North
-	longitude:	0802512 West
-
-	offset:		94855
-	name:		Arts and Science Administration Building
-	state:		VA
-	latitude:	0371352 North
-	longitude:	0802513 West
-
-	offset:		98020
-	name:		James H Lane Hall
-	state:		VA
-	latitude:	0371351 North
-	longitude:	0802512 West
-
-	offset:		64863
-	name:		Lane Hall
-	state:		VA
-	latitude:	0371351 North
-	longitude:	0802511 West
-
-	offset:		78022
-	name:		Rasche Hall
-	state:		VA
-	latitude:	0371351 North
-	longitude:	0802509 West
-
-	offset:		93907
-	name:		William H "Bosco" Rasche Hall
-	state:		VA
-	latitude:	0371350 North
-	longitude:	0802509 West
+The following 14 features are found in the rectangle (-289519, 134022), (-289509, 134032):
+	93626:		War Memorial Chapel  VA  0371343 North  0802515 West
+	71827:		Newman Library  VA  0371344 North  0802510 West
+	58561:		Femoyer Hall  VA  0371352 North  0802517 West
+	92754:		Robert Femoyer Hall  VA  0371352 North  0802517 West
+	66868:		Major Williams Dormitory  VA  0371351 North  0802515 West
+	67006:		McBryde Hall  VA  0371349 North  0802519 West
+	98990:		Major Lloyd W Williams Hall  VA  0371352 North  0802516 West
+	93317:		Torgersen Hall  VA  0371347 North  0802514 West
+	49514:		Brodie Hall  VA  0371348 North  0802512 West
+	94855:		Arts and Science Administration Building  VA  0371352 North  0802513 West
+	98020:		James H Lane Hall  VA  0371351 North  0802512 West
+	64863:		Lane Hall  VA  0371351 North  0802511 West
+	78022:		Rasche Hall  VA  0371351 North  0802509 West
+	93907:		William H "Bosco" Rasche Hall  VA  0371350 North  0802509 West
 
 
 -----------------------------------------------------------------
 
 Executing command 11: what_is_in	371105N	0803133W	5	5
 
-The features found in the rectangle (-289898, 133860), (-289888, 133870) are:
-
-	offset:		41632
-	name:		Radford AAP Heliport
-	state:		VA
-	latitude:	0371105 North
-	longitude:	0803133 West
+The following 1 features are found in the rectangle (-289898, 133860), (-289888, 133870):
+	41632:		Radford AAP Heliport  VA  0371105 North  0803133 West
 
 
 -----------------------------------------------------------------
 
 Executing command 12: what_is_in	370822N	0802430W	10	10
 
-The features found in the rectangle (-289480, 133692), (-289460, 133712) are:
-
-	offset:		103165
-	name:		Tekoa Community School
-	state:		VA
-	latitude:	0370821 North
-	longitude:	0802438 West
-
-	offset:		54011
-	name:		Church of God in Christ
-	state:		VA
-	latitude:	0370812 North
-	longitude:	0802426 West
-
-	offset:		20960
-	name:		Christiansburg Institute
-	state:		VA
-	latitude:	0370822 North
-	longitude:	0802430 West
+The following 3 features are found in the rectangle (-289480, 133692), (-289460, 133712):
+	103165:		Tekoa Community School  VA  0370821 North  0802438 West
+	54011:		Church of God in Christ  VA  0370812 North  0802426 West
+	20960:		Christiansburg Institute  VA  0370822 North  0802430 West
 
 
 -----------------------------------------------------------------
 
 Executing command 13: what_is_in	372230N	0802230W	120	120	
 
-The features found in the rectangle (-289470, 134430), (-289230, 134670) are:
-
-	offset:		20385
-	name:		Bruisers Knob
-	state:		VA
-	latitude:	0372111 North
-	longitude:	0802037 West
+The following 1 features are found in the rectangle (-289470, 134430), (-289230, 134670):
+	20385:		Bruisers Knob  VA  0372111 North  0802037 West
 
 
 -----------------------------------------------------------------
 
 Executing command 14: what_is	Monterey	VA
 
-The features found with name "Monterey" and state "VA" are:
-	no results.
+	no results with name "Monterey" and state "VA" were found.
+
 
 -----------------------------------------------------------------
 
 Executing command 15: what_is_at	371347N	0804505W
 
-Found at 0804505W, 371347N:
-	nothing at specified coordinates
+	nothing at coordinates 371347N, 0804505W
 
 
 -----------------------------------------------------------------
 
 Executing command 16: what_is_in	372230N	0802230W	10	10	
 
-The features found in the rectangle (-289360, 134540), (-289340, 134560) are:
-	no results.
+	no results were found in the rectangle (-289360, 134540), (-289340, 134560):
+
 
 -----------------------------------------------------------------
 
-Command sequence quit. Exiting now.now.
+Command sequence quit. Exiting now.

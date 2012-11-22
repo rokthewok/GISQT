@@ -62,12 +62,11 @@ public class WhatIsAtCommand implements ICommand {
 		
 		List<Long> offsets = controller.getQuadTreeController().findInQuadTree( point );
 		
-		controller.getLogger().writeToLog( "Found at " + this.rawLongitude + ", " + this.rawLatitude + ":\n" );
-		
 		// if offsets contains nothing, then there is nothing at that coordinate. Else, loop through all the offsets found.
 		if( offsets == null ) {
-			controller.getLogger().writeToLog( "\tnothing at specified coordinates\n" );
+			controller.getLogger().writeToLog( "\tnothing at coordinates " + this.rawLatitude + ", " + this.rawLongitude + "\n" );
 		} else {
+			controller.getLogger().writeToLog( "The following " + offsets.size() + " records are found at " + this.rawLongitude + ", " + this.rawLatitude + ":\n" );
 			for( Long offset : offsets ) {
 				String record = controller.getDatabaseController().get( offset );
 				

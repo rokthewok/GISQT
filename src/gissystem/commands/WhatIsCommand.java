@@ -41,7 +41,7 @@ public class WhatIsCommand implements ICommand {
 	}
 	
 	/**
-	 * Executes the "what_is" commaned, possibly with the "-l" option.
+	 * Executes the "what_is" command, possibly with the "-l" option.
 	 */
 	/*
 	 * 1. get a list of offsets using the feature name and state abbreviation from the hashtable.
@@ -55,15 +55,17 @@ public class WhatIsCommand implements ICommand {
 	public void execute( IDataAccessController controller ) {
 		List<Long> offsets = controller.getHashTableController().findFeature( this.featureName, this.stateAbbreviation );
 		
-		controller.getLogger().writeToLog( "The features found with name \"" + this.featureName + "\" and state \"" + this.stateAbbreviation +"\" are:\n" );
 		if( offsets == null ) {
-			controller.getLogger().writeToLog( "\tno results." );
+			controller.getLogger().writeToLog( "\tno results with name \"" + this.featureName + "\" and state \"" + this.stateAbbreviation + "\" were found.\n" );
 		} else {
+			controller.getLogger().writeToLog( "The following " + offsets.size() + " features were found with name \"" + 
+								this.featureName + "\" and state \"" + this.stateAbbreviation +"\":\n" );
 			for( Long offset : offsets ) {
 				String record = controller.getDatabaseController().get( offset );
 				GeographicFeature feature = GeographicFeatureFactory.createGeographicFeature( record );
 				
 				controller.getLogger().writeToLog( this.formatter.formatFeatureOutput( offset, feature ) );
+				controller.getLogger().writeToLog( "\n" );
 			}
 		}
 	}

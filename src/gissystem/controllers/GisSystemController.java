@@ -3,6 +3,9 @@ package gissystem.controllers;
 import java.io.File;
 import java.io.FileNotFoundException;
 import java.io.RandomAccessFile;
+import java.text.SimpleDateFormat;
+import java.util.Calendar;
+
 import gissystem.helpers.RawCommandParser;
 import gissystem.helpers.io.FileLogger;
 import gissystem.interfaces.ICommand;
@@ -66,26 +69,29 @@ public class GisSystemController {
 	public void doSetup( String [] args ) {
 		parseArguments( args );
 		
-		RandomAccessFile commandFile = null;
-		RandomAccessFile logFile = null;
+		File logFile = new File( this.logFilename );
+		File databaseFile = new File( this.databaseFilename );
+		// be certain the log files and database files are truncated
+		logFile.delete();
+		databaseFile.delete();
+		
+		RandomAccessFile commandRaf = null;
+		RandomAccessFile logRaf = null;
 		try {
 			// create RAF's for the command and log files.
-			commandFile = new RandomAccessFile( this.commandFilename, "r" );
-			logFile = new RandomAccessFile( this.logFilename, "rw" );
+			commandRaf = new RandomAccessFile( this.commandFilename, "r" );
+			logRaf = new RandomAccessFile( logFile, "rw" );
 		} catch (FileNotFoundException e) {
 			e.printStackTrace();
 		}
-		
-		// create an object representation of the database file.
-		File databaseFile = new File( this.databaseFilename );
 
-		if( commandFile == null || logFile == null ) {
+		if( commandRaf == null || logRaf == null ) {
 			System.out.println( "Something went wrong with the command file or log file... please try again. Exiting now." );
 			System.exit( -1 );
 		}
 		
 		// create the data access controller using the three files.
-		this.dataAccessController = new DataAccessController( databaseFile, commandFile, new FileLogger( logFile ) );
+		this.dataAccessController = new DataAccessController( databaseFile, commandRaf, new FileLogger( logRaf ) );
 	}
 	
 	/*
@@ -113,6 +119,8 @@ public class GisSystemController {
 		this.dataAccessController.getLogger().writeToLog( this.commandFilename );
 		this.dataAccessController.getLogger().writeToLog( "\ncaptain's log: " );
 		this.dataAccessController.getLogger().writeToLog( this.logFilename );
-		this.dataAccessController.getLogger().writeToLog( "\nstar date:\n\n\n" ); //TODO add current datetime
+		this.dataAccessController.getLogger().writeToLog( "\nstar date: " );
+		this.dataAccessController.getLogger().writeToLog( ( new SimpleDateFormat("MM/dd/yyyy HH:mm:ss") ).format( Calendar.getInstance().getTime() ) );
+		this.dataAccessController.getLogger().writeToLog( "\n\n\n" );
 	}
 }

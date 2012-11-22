@@ -63,10 +63,12 @@ public class WhatIsInCommand implements ICommand {
 	public void execute( IDataAccessController controller ) {
 		List<Long> offsets = controller.getQuadTreeController().findInQuadTree( this.xMin, this.xMax, this.yMin, this.yMax );
 		
-		controller.getLogger().writeToLog( "The features found in the rectangle (" + this.xMin + ", " + this.yMin + "), (" + this.xMax + ", " + this.yMax + ") are:\n" );
 		if( offsets.isEmpty() ) {
-			controller.getLogger().writeToLog( "\tno results." );
+			controller.getLogger().writeToLog( "\tno results were found in the rectangle (" + 
+								this.xMin + ", " + this.yMin + "), (" + this.xMax + ", " + this.yMax + "):\n" );
 		} else {
+			controller.getLogger().writeToLog( "The following " + offsets.size() + " features are found in the rectangle (" + 
+								this.xMin + ", " + this.yMin + "), (" + this.xMax + ", " + this.yMax + "):\n" );
 			for( Long offset : offsets ) {
 				String record = controller.getDatabaseController().get( offset );
 				GeographicFeature feature = GeographicFeatureFactory.createGeographicFeature( record );
