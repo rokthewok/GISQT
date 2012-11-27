@@ -173,18 +173,6 @@ public class HashTable<T> {
 		return ( hashValue + ( ( k * k ) + k ) / 2 ) % this.tableSize;
 	}
 	
-//	private int elfHash(String toHash) {
-//		int hashValue = 0;
-//		for (int Pos = 0; Pos < toHash.length(); Pos++) {      // use all elements
-//		hashValue = (hashValue << 4) + toHash.charAt(Pos);  // shift/mix
-//		int hiBits = hashValue & 0xF0000000;                // get high nybble
-//		if (hiBits != 0)
-//		hashValue ^= hiBits >> 24;    // xor high nybble with second nybble
-//		hashValue &= ~hiBits;            // clear high nybble
-//		}
-//		return hashValue;
-//		}
-	
 	private long elfHash( String key ) {
 		long hash = 0;
 		for( int i = 0; i < key.length(); i++ ) {
