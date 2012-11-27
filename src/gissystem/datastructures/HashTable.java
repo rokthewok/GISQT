@@ -27,7 +27,7 @@ public class HashTable<T> {
 	 */
 	@SuppressWarnings("unchecked")
 	public int insert( String key, T element ) {
-		int hashValue = elfHash( key ) % this.tableSize;
+		int hashValue = (int) ( elfHash( key ) % this.tableSize );
 		
 		boolean inserted = false;
 		int i = 1;
@@ -75,7 +75,7 @@ public class HashTable<T> {
 	 */
 	@SuppressWarnings("unchecked")
 	public Vector<T> remove( String key ) {
-		int hashValue = elfHash( key ) % this.tableSize;
+		int hashValue = (int) ( elfHash( key ) % this.tableSize );
 		
 		Pair<T> temp = null;
 		int i = 1;
@@ -106,7 +106,7 @@ public class HashTable<T> {
 	 */
 	@SuppressWarnings("unchecked")
 	public Vector<T> get( String key ) {
-		int hashValue = elfHash( key ) % this.tableSize;
+		int hashValue = (int) ( elfHash( key ) % this.tableSize );
 		int i = 1;
 		int index = hashValue;
 		
@@ -185,11 +185,11 @@ public class HashTable<T> {
 //		return hashValue;
 //		}
 	
-	private int elfHash( String key ) {
-		int hash = 0;
+	private long elfHash( String key ) {
+		long hash = 0;
 		for( int i = 0; i < key.length(); i++ ) {
-			hash = ( hash << 4 ) + key.charAt( i );
-			int highBits = hash & 0xF0000000;
+			hash = ( hash << 4 ) + (long) key.charAt( i );
+			long highBits = hash & 0xF0000000;
 			
 			if( highBits != 0 ) {
 				hash ^= highBits >> 24;

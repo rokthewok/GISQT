@@ -2,7 +2,7 @@ GIS System
 database: databases/database01.txt
 commands: commands/Script01.txt
 captain's log: logs/log01.txt
-star date: 11/21/2012 19:10:26
+star date: 11/27/2012 15:04:46
 
 
 Executing command 1: world	0794130W	0792630W	381500N	383000N
@@ -103,69 +103,69 @@ Display format is: <table slot #>: {<record key>, <record offsets>}
 Table size: 1019
 Current population: 63
 
-3:	{Doe Hill:VA, [6693]}
 4:	{Asbury Church:VA, [265]}
-6:	{Bluegrass Valley:VA, [515]}
-48:	{Seldom Seen Hollow:VA, [4530]}
-95:	{Laurel Run:VA, [3438]}
-100:	{Mount Carlyle:VA, [953]}
-113:	{Town of Monterey:VA, [8792]}
-161:	{Hannah Field Airport:VA, [6294]}
-187:	{Monterey:VA, [7682]}
-196:	{Smith Field:VA, [7818]}
-206:	{Blue Grass School (historical):VA, [7942]}
-234:	{Frank Run:VA, [1946]}
-238:	{Jack Mountain:VA, [3037]}
-267:	{New Hampden:VA, [6811]}
-273:	{Ginseng Mountain:VA, [2100]}
-281:	{Strait Creek:VA, [5102]}
-297:	{Central Church:VA, [1078]}
-301:	{Strait Creek School (historical):VA, [8513]}
-331:	{Highland High School:VA, [2473]}
-332:	{Burners Run:VA, [797]}
-336:	{Possum Trot:VA, [6940]}
-339:	{Simmons Run:VA, [4819]}
-345:	{Hightown Church:VA, [2754]}
-348:	{Key Run:VA, [3162]}
-376:	{Little Doe Hill:VA, [3593]}
-398:	{Swope Hollow:VA, [5259]}
-412:	{Highland Wildlife Management Area:VA, [2612]}
-413:	{Blue Grass:VA, [387]}
-427:	{Trimble:VA, [7435]}
-435:	{New Salem Church:VA, [4128]}
-445:	{Lantz Mountain:VA, [3314]}
-482:	{Bear Mountain:VA, [6434]}
-504:	{Hamilton Chapel:VA, [2346]}
-505:	{Claylick Hollow:VA, [1201]}
-527:	{Wooden Run:VA, [6142]}
-529:	{Clover Creek Presbyterian Church:VA, [8081]}
-530:	{Crab Run:VA, [1361]}
-531:	{Forks of Waters:VA, [1822]}
-532:	{Union Chapel:VA, [5548]}
-556:	{Vance Hollow:VA, [5669]}
-569:	{Monterey District:VA, [8654]}
-628:	{Clover Creek:VA, [6560]}
-683:	{Trimble Knob:VA, [7562]}
-706:	{Southall Chapel:VA, [4975]}
-708:	{Miracle Ridge:VA, [3879]}
-715:	{Thorny Bottom Church:VA, [5419]}
-721:	{Buck Hill:VA, [675]}
-728:	{Barren Rock:VA, [4409]}
-760:	{Rich Hills:VA, [7069]}
-772:	{Highland Elementary School:VA, [8225]}
-802:	{Davis Run:VA, [1513]}
-836:	{Monterey Methodist Episcopal Church:VA, [8369]}
-905:	{Sounding Knob:VA, [7309]}
-914:	{Peck Run:VA, [4256]}
-933:	{Seybert Hills:VA, [7188]}
-937:	{Monterey Mountain:VA, [4001]}
-943:	{Seybert Chapel:VA, [4696]}
-960:	{Meadow Draft:VA, [3720]}
-965:	{West Strait Creek:VA, [5829]}
-970:	{Elk Run:VA, [1670]}
-976:	{Hupman Valley:VA, [2877]}
-987:	{Gulf Mountain:VA, [2223]}
-1015:	{White Run:VA, [5991]}
+18:	{Seldom Seen Hollow:VA, [4530]}
+21:	{Meadow Draft:VA, [3720]}
+37:	{Thorny Bottom Church:VA, [5419]}
+44:	{Doe Hill:VA, [6693]}
+65:	{New Salem Church:VA, [4128]}
+88:	{Smith Field:VA, [7818]}
+93:	{Monterey Mountain:VA, [4001]}
+127:	{Blue Grass School (historical):VA, [7942]}
+131:	{Mount Carlyle:VA, [953]}
+132:	{Monterey District:VA, [8654]}
+139:	{Forks of Waters:VA, [1822]}
+152:	{White Run:VA, [5991]}
+170:	{Miracle Ridge:VA, [3879]}
+199:	{Hightown Church:VA, [2754]}
+212:	{Strait Creek:VA, [5102]}
+227:	{Swope Hollow:VA, [5259]}
+228:	{Hannah Field Airport:VA, [6294]}
+237:	{Lantz Mountain:VA, [3314]}
+253:	{Ginseng Mountain:VA, [2100]}
+254:	{Town of Monterey:VA, [8792]}
+256:	{Monterey:VA, [7682]}
+275:	{Central Church:VA, [1078]}
+276:	{West Strait Creek:VA, [5829]}
+297:	{Simmons Run:VA, [4819]}
+323:	{Crab Run:VA, [1361]}
+325:	{Highland High School:VA, [2473]}
+327:	{Trimble:VA, [7435]}
+333:	{Clover Creek Presbyterian Church:VA, [8081]}
+334:	{Seybert Hills:VA, [7188]}
+365:	{Jack Mountain:VA, [3037]}
+391:	{Sounding Knob:VA, [7309]}
+406:	{Union Chapel:VA, [5548]}
+418:	{Burners Run:VA, [797]}
+448:	{Clover Creek:VA, [6560]}
+477:	{Peck Run:VA, [4256]}
+492:	{Laurel Run:VA, [3438]}
+496:	{Gulf Mountain:VA, [2223]}
+500:	{New Hampden:VA, [6811]}
+546:	{Highland Elementary School:VA, [8225]}
+574:	{Possum Trot:VA, [6940]}
+590:	{Highland Wildlife Management Area:VA, [2612]}
+614:	{Hupman Valley:VA, [2877]}
+615:	{Wooden Run:VA, [6142]}
+618:	{Trimble Knob:VA, [7562]}
+652:	{Rich Hills:VA, [7069]}
+663:	{Vance Hollow:VA, [5669]}
+670:	{Monterey Methodist Episcopal Church:VA, [8369]}
+672:	{Seybert Chapel:VA, [4696]}
+677:	{Key Run:VA, [3162]}
+734:	{Little Doe Hill:VA, [3593]}
+775:	{Blue Grass:VA, [387]}
+779:	{Buck Hill:VA, [675]}
+813:	{Frank Run:VA, [1946]}
+856:	{Elk Run:VA, [1670]}
+864:	{Hamilton Chapel:VA, [2346]}
+885:	{Bluegrass Valley:VA, [515]}
+931:	{Southall Chapel:VA, [4975]}
+932:	{Barren Rock:VA, [4409]}
+956:	{Strait Creek School (historical):VA, [8513]}
+981:	{Davis Run:VA, [1513]}
+989:	{Claylick Hollow:VA, [1201]}
+998:	{Bear Mountain:VA, [6434]}
 
 
 -----------------------------------------------------------------
