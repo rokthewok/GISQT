@@ -1,0 +1,61 @@
+GIS System
+database: databases/database09.txt
+commands: commands/Script09.txt
+captain's log: logs/log09.txt
+star date: 11/27/2012 21:48:47
+
+
+Executing command 1: world	0860000W	0750000W	320000N	430000N
+
+Map boundaries:
+                        154800
+        -309600                       -270000
+                        115200
+
+
+-----------------------------------------------------------------
+
+Executing command 2: import	VA_All.txt
+
+	number of entries added: 59546
+	longest hashtable probe sequence: 30
+
+
+-----------------------------------------------------------------
+
+Executing command 3: what_is	-l	Bleaksburg	VA
+
+	no results with name "Bleaksburg" and state "VA" were found.
+
+
+-----------------------------------------------------------------
+
+Executing command 4: what_is	-c Nova	VA
+
+	no results with name "-c Nova" and state "VA" were found.
+
+
+-----------------------------------------------------------------
+
+Executing command 5: what_is	Wet Run	VA
+
+	no results with name "Wet Run" and state "VA" were found.
+
+
+-----------------------------------------------------------------
+
+Executing command 6: what_is_at	383340N	0793423W
+
+	nothing at coordinates 383340N, 0793423W
+
+
+-----------------------------------------------------------------
+
+Executing command 7: what_is_in	363206N	0804752W	6	6
+
+	no results were found in the rectangle (-290878, 131520), (-290866, 131532):
+
+
+-----------------------------------------------------------------
+
+Command sequence quit. Exiting now.

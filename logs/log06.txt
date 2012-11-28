@@ -2,7 +2,7 @@ GIS System
 database: databases/database06.txt
 commands: commands/Script06.txt
 captain's log: logs/log06.txt
-star date: 11/21/2012 19:10:37
+star date: 11/27/2012 21:46:25
 
 
 Executing command 1: world	0860000W	0750000W	320000N	430000N
@@ -18,7 +18,7 @@ Map boundaries:
 Executing command 2: import	VA_All.txt
 
 	number of entries added: 59546
-	longest hashtable probe sequence: 23
+	longest hashtable probe sequence: 30
 
 
 -----------------------------------------------------------------
