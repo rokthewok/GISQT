@@ -2,7 +2,7 @@ GIS System
 database: databases/database06.txt
 commands: commands/Script06.txt
 captain's log: logs/log06.txt
-star date: 11/27/2012 21:46:25
+star date: 11/28/2012 21:08:36
 
 
 Executing command 1: world	0860000W	0750000W	320000N	430000N

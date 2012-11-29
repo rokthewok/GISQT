@@ -55,10 +55,12 @@ public class GeographicCoordinateFactory {
 	 * @return
 	 */
 	private static GeographicCoordinate createLatitudeCoordinate( String coordinateToParse, String decimalValueString ) {
-		Integer degrees = Integer.parseInt( coordinateToParse.substring( 0, 2) );
-		Integer minutes = Integer.parseInt( coordinateToParse.substring( 2, 4) );
-		Integer seconds = Integer.parseInt( coordinateToParse.substring( 4, 6) );
-		String cardinalDirection = coordinateToParse.substring( 6 );
+		String substring = coordinateToParse.substring( 0, coordinateToParse.length() - 1 );
+		
+		Integer degrees = Integer.parseInt( substring.substring( 0, substring.length() - 4 ) );
+		Integer minutes = Integer.parseInt( substring.substring( substring.length() - 4, substring.length() - 2 ) );
+		Integer seconds = Integer.parseInt( substring.substring( substring.length() - 2, substring.length() ) );
+		String cardinalDirection = coordinateToParse.substring( coordinateToParse.length() - 1 );
 
 		if( cardinalDirection.equals( "N" ) ) {
 			cardinalDirection = "North";
@@ -78,10 +80,12 @@ public class GeographicCoordinateFactory {
 	 * @return
 	 */
 	private static GeographicCoordinate createLongitudeCoordinate( String coordinateToParse, String decimalValueString ) {
-		Integer degrees = Integer.parseInt( coordinateToParse.substring( 0, 3) );
-		Integer minutes = Integer.parseInt( coordinateToParse.substring( 3, 5) );
-		Integer seconds = Integer.parseInt( coordinateToParse.substring( 5, 7) );
-		String cardinalDirection = coordinateToParse.substring( 7 );
+		String substring = coordinateToParse.substring( 0, coordinateToParse.length() - 1 );
+		
+		Integer degrees = Integer.parseInt( substring.substring( 0, substring.length() - 4 ) );
+		Integer minutes = Integer.parseInt( substring.substring( substring.length() - 4, substring.length() - 2 ) );
+		Integer seconds = Integer.parseInt( substring.substring( substring.length() - 2, substring.length() ) );
+		String cardinalDirection = coordinateToParse.substring( coordinateToParse.length() - 1 );
 		
 		if( cardinalDirection.equals( "E" ) ) {
 			cardinalDirection = "East";
